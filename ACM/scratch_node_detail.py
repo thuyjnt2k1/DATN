@@ -17,6 +17,13 @@ import threading
 import time
 from webdriver_manager.chrome import ChromeDriverManager
 import threading
+import sys, signal
+
+def signal_handler(signal, frame):
+    print("\nprogram exiting gracefully")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
 
 nodeType = {
   "paper": 1,
@@ -168,7 +175,7 @@ def scratch_list_data(driver, url):
 			# has_next_page = False
 		except Exception as e:
 		    # Error handling and logging
-		    print(f"An error occurred: {str(e)}")
+		    print(f"An error occurred: {str(e)}")tytd
 		    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 		    df_ner.to_csv('new_node.csv', index=True)
 		    df_links.to_csv('new_link.csv', index=True)
@@ -194,6 +201,31 @@ current_url = base_filter_url + f"&queryText={search_query_string}"
 df_links = pd.read_csv('final_link.csv')
 df_queue = pd.read_csv('final_queue.csv')
 df_ner = pd.read_csv('final_node.csv')
+
+try:
+	for content in content_types:
+		scratch_list_data(driver, current_url+'&ContentItemType='+content)
+except KeyboardInterrupt:
+
+	file.write('Stop from terminal')
+finally:
+	file.write(df_ner.to_string())
+	file.write(df_links.to_string())
+	# file.write(matches.to_string)
+	# file.write(df_queue.to_string)
+	file.write(df_paper.to_string())
+	file.write(df_author.to_string())
+	file.write(df_error.to_string())
+
+	df_ner.to_csv('after_node.csv', index=True)
+	df_links.to_csv('after_link.csv', index=True)
+	df_queue.to_csv('after_queue.csv', index=True)
+	df_paper.to_csv('after_paper.csv', index=True)
+	df_author.to_csv('after_author.csv', index=True)
+	df_error.to_csv('after_error.csv', index=True)
+	driver.quit()
+	file.close()
+
 id = len(df_queue)
 author_count = 0
 for index, row in df_queue.iterrows():
