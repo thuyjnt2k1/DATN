@@ -37,13 +37,11 @@ import json
 
 def scrape_researchgate_publications(query: str):
     with sync_playwright() as p:
-
-        browser = p.chromium.launch(headless=False, slow_mo=50)
-        page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36")
         
         publications = []
         page_num = 1
-
+        browser = p.chromium.launch(headless=False, slow_mo=50)
+        page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36")
         while True:
             page.goto(f"https://www.researchgate.net/search/publication?q={query}&page={page_num}", timeout=80000)
             selector = Selector(text=page.content())
@@ -72,7 +70,7 @@ def scrape_researchgate_publications(query: str):
             print(f"page number: {page_num}")
 
             # checks if next page arrow key is greyed out `attr(rel)` (inactive) and breaks out of the loop
-            if page_num == 100:
+            if page_num == 10:
                 break
             else:
                 page_num += 1

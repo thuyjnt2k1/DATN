@@ -26,12 +26,49 @@ cookie = False;
 df_ner = pd.DataFrame(columns=['id', 'type', 'name', 'link', 'count'])
 df_links = pd.DataFrame(columns=['from', 'to', 'count'])
 df_queue = pd.DataFrame(columns=['id', 'type', 'link']) #Để lưu trữ link tạm thời
-df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid']) 
+df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid', 'email', 'affiliation'])  
 df_paper = pd.DataFrame(columns=['ner_id', 'link', 'title', 'doi'])
-base_url = 'https://ieeexplore.ieee.org'
+base_url = 'https://dl.acm.org'
 df_error = pd.DataFrame(columns=['id', 'url'])
-content_types = ['research-article', 'short-paper', 'abstract', 'extended-abstract', 'demonstration', 'section', 'opinion', 'introduction', 'wip', 'column','poster']
+content_types = ['research-article', 'short-paper', 'demonstration', 'section', 'wip', 'column','poster']
 file = open("log.txt", "w", encoding="utf-8")
+
+# use to scratch author
+options2 = Options()
+options2.headless = True
+driver2 = webdriver.Chrome(options=options2)
+
+# use to scratch affiliation
+options3 = Options()
+options3.headless = True
+driver3 = webdriver.Chrome(options=options3)
+
+def scratch_author_data(ner_id, url):
+	global df_author,df_error
+	file.write(f"\nstart scratching {url}")
+	try:
+		driver2.get(base_url+url)
+		element = WebDriverWait(driver2, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "list-of-institutions")))
+		author_soup = BeautifulSoup(driver2.page_source,'lxml')
+		author_profile = author_soup.find("div", class_="item-meta__info")
+		author_name = author_profile.find("h2").text
+		author_orcid = author_profile.find('a', attrs={"aria-label": "ORCID"}).get("href") if author_profile.find('a', attrs={"aria-label": "ORCID"}) else ''
+		author_email = author_profile.find('a', attrs={"aria-label": "Author’s Email"}).get("href") if author_profile.find('a', attrs={"aria-label": "Author’s Email"}) else ''
+		affiliation = []
+		for item in author_profile.find('ul', class_="list-of-institutions").find_all('a'):
+			# affiliation.insert(0, item.text)
+			driver3.get(base_url+item.get('href'))
+			addressSoup = BeautifulSoup(driver3.page_source,'lxml').find('div', class_='item-meta__info')
+			affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
+		author_affiliation = '; '.join(affiliation)
+		print(author_name, author_orcid, author_affiliation, '=====\n')
+		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'orcid': author_orcid, 'email': author_email, 'affiliation': author_affiliation}, ignore_index=True)
+		file.write(f"{ner_id}, {url}, {author_name}, {author_orcid}, {author_affiliation}, {author_email}")
+		file.write(f"\nsuccess scratching {url}")
+	except Exception as e:
+	    # Error handling and logging
+	    print(f"An error occurred: {str(e)}")
+	    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
 def insert_author_node(authors, node_ids):
 	global id, df_queue, df_ner, df_links
@@ -48,10 +85,11 @@ def insert_author_node(authors, node_ids):
 				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
 				file.write(f"\ninsert author {author_name}")
 				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
+				scratch_author_data(id, author_link)
 	return df_ner, node_ids
 
-def insert_paper_node(paper, node_ids):
-	global id, df_queue, df_ner, df_links
+def insert_paper_node(paper, node_ids, doi):
+	global id, df_queue, df_ner, df_links, df_paper
 	paper_link = paper.find("a").get("href")
 	paper_name = paper.text
 	if paper_link in df_ner['link'].values:
@@ -64,6 +102,9 @@ def insert_paper_node(paper, node_ids):
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		file.write(f"\ninsert paper {paper_name}")
 		df_queue = df_queue._append({'id': id, 'type': 1, 'link': paper_link}, ignore_index=True)
+		df_paper = df_paper._append({'ner_id':id, 'link': paper_link, 'title': paper_name, 'doi': doi}, ignore_index=True)
+		print(doi, 'dsdasd\n')
+		print(paper_name, 'dsdasd\n')
 	return df_ner, node_ids
 
 def insert_link(node_ids):
@@ -92,7 +133,7 @@ def scratch_list_data(driver, url):
 		try:
 			driver.get(current_url)
 			time.sleep(entry_time) # Sleep for 6 seconds
-			element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "pb-page-content")))
+			element = WebDriverWait(driver, entry_time).until(EC.presence_of_element_located((By.ID, "pb-page-content")))
 			if cookie == False: 
 				driver.find_element(By.CSS_SELECTOR, '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection').click()
 				cookie = True;
@@ -106,16 +147,18 @@ def scratch_list_data(driver, url):
 			for match in matches:
 				node_ids = []
 				#get paper
-				paper = match.find("span", class_="hlFld-Title")
-				df_ner, node_ids = insert_paper_node(paper, node_ids)
-
+				paper = match.find("h5", class_="issue-item__title")
+				doi = match.find("a", class_="issue-item__doi")
+				if(doi is None):
+					continue
+				df_ner, node_ids = insert_paper_node(paper, node_ids, doi.get('href'))
 				#get author list
 				authors = match.find_all("span", class_="hlFld-ContribAuthor")
 				df_ner, node_ids = insert_author_node( authors, node_ids)
 
 				df_links = insert_link(node_ids)
 
-			pagination = soup.find(class_="pagination-bar")
+			pagination = soup.find(class_="pagination")
 			has_next_page = soup.find("a", class_="pagination__btn--next")
 			if(matches and has_next_page is None):
 				break;
@@ -139,7 +182,6 @@ def scratch_list_data(driver, url):
 				df_error = df_error._append({id: page, "url": url}, ignore_index=True)
 		finally:
 			if( (has_next_page is None or not has_next_page) and retry > 3):
-				print("\n++++++++to here",has_next_page, retry)
 				break;
 
 
@@ -151,7 +193,6 @@ driver.implicitly_wait(10)
 # search_query = ['haha']
 search_query_string = '&field1=AllField&text1=Big+Data'
 
-base_url = 'https://dl.acm.org/'
 base_filter_url = "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AfterYear=2010&BeforeYear=2024&pageSize=50"
 current_url = base_filter_url + search_query_string
 
@@ -159,9 +200,10 @@ try:
 	for content in content_types:
 		scratch_list_data(driver, current_url+'&ContentItemType='+content)
 except KeyboardInterrupt:
-
 	file.write('Stop from terminal')
+	print('Stop from terminal')
 finally:
+	print('Stop from terminal')
 	file.write(df_ner.to_string())
 	file.write(df_links.to_string())
 	# file.write(matches.to_string)
@@ -169,14 +211,17 @@ finally:
 	file.write(df_paper.to_string())
 	file.write(df_author.to_string())
 	file.write(df_error.to_string())
-
 	df_ner.to_csv('new_node.csv', index=True)
 	df_links.to_csv('new_link.csv', index=True)
 	df_queue.to_csv('new_queue.csv', index=True)
 	df_paper.to_csv('new_paper.csv', index=True)
 	df_author.to_csv('new_author.csv', index=True)
 	df_error.to_csv('error.csv', index=True)
+	print('/n close driver')
 	driver.quit()
+	driver2.quit()
+	driver3.quit()
+	print('/n close file')
 	file.close()
 
 # author_count = 0

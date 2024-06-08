@@ -127,7 +127,7 @@ def scratch_list_data(driver, browser2, url):
 				#get author list
 				df_ner, node_ids = insert_author_node(new_page, match, node_ids)
 				df_links = insert_link(node_ids)
-			if(page == 10):
+			if(page == 100):
 				retry = 5
 			else:
 				page += 1

@@ -25,10 +25,13 @@ id = 0
 df_ner = pd.DataFrame(columns=['id', 'type', 'name', 'link', 'count'])
 df_links = pd.DataFrame(columns=['from', 'to', 'count'])
 df_queue = pd.DataFrame(columns=['id', 'type', 'link']) #Để lưu trữ link tạm thời
-df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid']) 
+df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid', 'email', 'affiliation']) 
 df_paper = pd.DataFrame(columns=['ner_id', 'link', 'title', 'doi'])
 base_url = 'https://ieeexplore.ieee.org'
 df_error = pd.DataFrame(columns=['id', 'url'])
+options2 = Options()
+options2.headless = True
+driver2 = webdriver.Chrome(options=options2) # Setting up the Chrome driver
 
 def insert_author_node(authors, node_ids):
 	global id, df_queue, df_ner, df_links
@@ -39,12 +42,14 @@ def insert_author_node(authors, node_ids):
 				df_ner.loc[df_ner['link'] == author_link, 'count'] += 1
 				print("author", author_name, "existed")
 				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
+				# scratch_author_data(df_ner.loc[df_ner['link'] == author_link]['id'].values[0], driver2, author_link)
 			else:
 				node_ids.append(id)
 				id = id + 1
 				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
 				print("insert author", author_name)
 				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
+				scratch_author_data(id, driver2, author_link)
 	return df_ner, node_ids
 
 def insert_paper_node(paper, node_ids):
@@ -55,12 +60,14 @@ def insert_paper_node(paper, node_ids):
 		df_ner.loc[df_ner['link'] == paper_link, 'count'] += 1
 		print("paper", paper_name, "existed")
 		node_ids.append(df_ner.loc[df_ner['link'] == paper_link]['id'].values[0])
+		# scratch_paper_data(df_ner.loc[df_ner['link'] == paper_link]['id'], driver2, paper_link)
 	else:
 		node_ids.append(id)
 		id = id + 1
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		print("insert paper", paper_name)
 		df_queue = df_queue._append({'id': id, 'type': 1, 'link': paper_link}, ignore_index=True)
+		scratch_paper_data(id, driver2, paper_link)
 	return df_ner, node_ids
 
 def insert_link(node_ids):
@@ -86,10 +93,20 @@ def scratch_author_data(ner_id, driver, url):
 		author_profile = container.find("div", class_="author-bio")
 		author_name = author_profile.find("h1").find("span").text
 		author_orcid = author_profile.find("xpl-orcid").find("a").get("href") if author_profile.find("xpl-orcid") else ''
-		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'orcid': author_orcid}, ignore_index=True)
-		print(ner_id, url, author_name, author_orcid)
+		affiliations = []
+		for item in author_profile.find('div', class_='current-affiliation').find_all('div', recursive=False):
+			if(len(item.find_all('div')) == 1):
+				affiliations.insert(0, item.text)
+			else:
+				address = []
+				for i, div_element in enumerate(item.find_all('div')):
+					if i>0:
+						address.append(div_element.text)
+				affiliations.insert(0, ' '.join(address))
+		affiliation_text = '; '.join(affiliations)
+		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'orcid': author_orcid, 'affiliation': affiliation_text}, ignore_index=True)
+		print(ner_id, url, author_name, author_orcid, affiliation_text)
 		current_url = base_url + url + f"&returnType?history=no&returnType=SEARCH&sortType=newest"
-		scratch_list_data(driver, current_url)
 		print("\nsuccess scratching ", url)
 	except Exception as e:
 	    # Error handling and logging
@@ -139,7 +156,7 @@ def scratch_list_data(driver, url):
 				# print('\n', authors_list);
 				authors = authors_list.find_all("a")
 				# print('\n', authors);
-				df_ner, node_ids = insert_author_node( authors, node_ids)
+				df_ner, node_ids = insert_author_node(authors, node_ids)
 
 				df_links = insert_link(node_ids)
 
@@ -162,9 +179,6 @@ def scratch_list_data(driver, url):
 		    # Error handling and logging
 		    print(f"An error occurred: {str(e)}")
 		    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
-		    df_ner.to_csv('new_node.csv', index=True)
-		    df_links.to_csv('new_link.csv', index=True)
-		    df_queue.to_csv('new_queue.csv', index=True)
 		if( (has_next_page is None or not has_next_page) and retry > 3):
 		 	break;
 options = Options()
@@ -179,8 +193,11 @@ search_query_string = '%20OR%20'.join(search_query)
 base_url = 'https://ieeexplore.ieee.org'
 base_filter_url = "https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&ranges=2010_2024_Year&refinements=ContentType:Conferences&refinements=ContentType:Journals&refinements=ContentType:Magazines"
 current_url = base_filter_url + f"&queryText={search_query_string}"
-scratch_list_data(driver, current_url)
-
+try:
+	scratch_list_data(driver, current_url)
+except KeyboardInterrupt:
+		print('Stop from terminal')
+finally:
 # author_count = 0
 # for index, row in df_queue.iterrows():
 #     if row["type"] == 2:
@@ -208,18 +225,19 @@ scratch_list_data(driver, current_url)
 # scratch_paper_data(id, driver, '/document/8949228')
 
 
-print(df_ner)
-print(df_links)
-# print(matches)
-# print(df_queue)
-# print(df_paper)
-# print(df_author)
-print(df_error)
+	print(df_ner)
+	print(df_links)
+	# print(matches)
+	# print(df_queue)
+	print(df_paper)
+	print(df_author)
+	print(df_error)
 
-df_ner.to_csv('new_node.csv', index=True)
-df_links.to_csv('new_link.csv', index=True)
-df_queue.to_csv('new_queue.csv', index=True)
-df_paper.to_csv('new_paper.csv', index=True)
-df_author.to_csv('new_author.csv', index=True)
+	df_ner.to_csv('new_node.csv', index=True)
+	df_links.to_csv('new_link.csv', index=True)
+	df_queue.to_csv('new_queue.csv', index=True)
+	df_paper.to_csv('new_paper.csv', index=True)
+	df_author.to_csv('new_author.csv', index=True)
 
-driver.quit()
+	driver.quit()
+	driver2.quit()

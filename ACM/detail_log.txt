@@ -1,0 +1,199 @@
+
+start scratching /profile/996590608652, /profile/99659060865, Zhaohao  Sun, https://orcid.org/0000-0003-0780-3271, Bond University; University of Wollongong; Hebei Normal University; Federation University Australia; University of Technology; Chongqing Normal University; Papua New Guinea University of Technology, mailto:zhaohao.sun@gmail.com
+
+start scratching https://dl.acm.org/profile/99659060865/publications?pageSize=50
+start scratching https://dl.acm.org/profile/99659060865/publications?pageSize=50
+
+Start scratching page https://dl.acm.org/profile/99659060865/publications?pageSize=50&startPage=0
+An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF720261F22+60322]
+	(No symbol) [0x00007FF7201DCE99]
+	(No symbol) [0x00007FF720097EBA]
+	(No symbol) [0x00007FF7200E7676]
+	(No symbol) [0x00007FF7200E773C]
+	(No symbol) [0x00007FF72012E967]
+	(No symbol) [0x00007FF72010C25F]
+	(No symbol) [0x00007FF72012BC80]
+	(No symbol) [0x00007FF72010BFC3]
+	(No symbol) [0x00007FF7200D9617]
+	(No symbol) [0x00007FF7200DA211]
+	GetHandleVerifier [0x00007FF72057946D+3301613]
+	GetHandleVerifier [0x00007FF7205C3693+3605267]
+	GetHandleVerifier [0x00007FF7205B9410+3563664]
+	GetHandleVerifier [0x00007FF7203142F6+790390]
+	(No symbol) [0x00007FF7201E74DF]
+	(No symbol) [0x00007FF7201E33D4]
+	(No symbol) [0x00007FF7201E3562]
+	(No symbol) [0x00007FF7201D2F6F]
+	BaseThreadInitThunk [0x00007FFB7FA2257D+29]
+	RtlUserThreadStart [0x00007FFB7FD4AA48+40]
+
+
+Start scratching page https://dl.acm.org/profile/99659060865/publications?pageSize=50&startPage=0
+An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF720261F22+60322]
+	(No symbol) [0x00007FF7201DCE99]
+	(No symbol) [0x00007FF720097EBA]
+	(No symbol) [0x00007FF7200E7676]
+	(No symbol) [0x00007FF7200E773C]
+	(No symbol) [0x00007FF72012E967]
+	(No symbol) [0x00007FF72010C25F]
+	(No symbol) [0x00007FF72012BC80]
+	(No symbol) [0x00007FF72010BFC3]
+	(No symbol) [0x00007FF7200D9617]
+	(No symbol) [0x00007FF7200DA211]
+	GetHandleVerifier [0x00007FF72057946D+3301613]
+	GetHandleVerifier [0x00007FF7205C3693+3605267]
+	GetHandleVerifier [0x00007FF7205B9410+3563664]
+	GetHandleVerifier [0x00007FF7203142F6+790390]
+	(No symbol) [0x00007FF7201E74DF]
+	(No symbol) [0x00007FF7201E33D4]
+	(No symbol) [0x00007FF7201E3562]
+	(No symbol) [0x00007FF7201D2F6F]
+	BaseThreadInitThunk [0x00007FFB7FA2257D+29]
+	RtlUserThreadStart [0x00007FFB7FD4AA48+40]
+
+
+Start scratching page https://dl.acm.org/profile/99659060865/publications?pageSize=50&startPage=0
+An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF720261F22+60322]
+	(No symbol) [0x00007FF7201DCE99]
+	(No symbol) [0x00007FF720097EBA]
+	(No symbol) [0x00007FF7200E7676]
+	(No symbol) [0x00007FF7200E773C]
+	(No symbol) [0x00007FF72012E967]
+	(No symbol) [0x00007FF72010C25F]
+	(No symbol) [0x00007FF72012BC80]
+	(No symbol) [0x00007FF72010BFC3]
+	(No symbol) [0x00007FF7200D9617]
+	(No symbol) [0x00007FF7200DA211]
+	GetHandleVerifier [0x00007FF72057946D+3301613]
+	GetHandleVerifier [0x00007FF7205C3693+3605267]
+	GetHandleVerifier [0x00007FF7205B9410+3563664]
+	GetHandleVerifier [0x00007FF7203142F6+790390]
+	(No symbol) [0x00007FF7201E74DF]
+	(No symbol) [0x00007FF7201E33D4]
+	(No symbol) [0x00007FF7201E3562]
+	(No symbol) [0x00007FF7201D2F6F]
+	BaseThreadInitThunk [0x00007FFB7FA2257D+29]
+	RtlUserThreadStart [0x00007FFB7FD4AA48+40]
+
+success scratching /profile/99659060865author count: 1
+start scratching /profile/996595238193, /profile/99659523819, Xiaoyang  Liu, , Shanghai Jiao Tong University; Columbia University, 
+
+start scratching https://dl.acm.org/profile/99659523819/publications?pageSize=50
+start scratching https://dl.acm.org/profile/99659523819/publications?pageSize=50
+
+Start scratching page https://dl.acm.org/profile/99659523819/publications?pageSize=50&startPage=0
+An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF720261F22+60322]
+	(No symbol) [0x00007FF7201DCE99]
+	(No symbol) [0x00007FF720097EBA]
+	(No symbol) [0x00007FF7200E7676]
+	(No symbol) [0x00007FF7200E773C]
+	(No symbol) [0x00007FF72012E967]
+	(No symbol) [0x00007FF72010C25F]
+	(No symbol) [0x00007FF72012BC80]
+	(No symbol) [0x00007FF72010BFC3]
+	(No symbol) [0x00007FF7200D9617]
+	(No symbol) [0x00007FF7200DA211]
+	GetHandleVerifier [0x00007FF72057946D+3301613]
+	GetHandleVerifier [0x00007FF7205C3693+3605267]
+	GetHandleVerifier [0x00007FF7205B9410+3563664]
+	GetHandleVerifier [0x00007FF7203142F6+790390]
+	(No symbol) [0x00007FF7201E74DF]
+	(No symbol) [0x00007FF7201E33D4]
+	(No symbol) [0x00007FF7201E3562]
+	(No symbol) [0x00007FF7201D2F6F]
+	BaseThreadInitThunk [0x00007FFB7FA2257D+29]
+	RtlUserThreadStart [0x00007FFB7FD4AA48+40]
+
+
+Start scratching page https://dl.acm.org/profile/99659523819/publications?pageSize=50&startPage=0
+An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF720261F22+60322]
+	(No symbol) [0x00007FF7201DCE99]
+	(No symbol) [0x00007FF720097EBA]
+	(No symbol) [0x00007FF7200E7676]
+	(No symbol) [0x00007FF7200E773C]
+	(No symbol) [0x00007FF72012E967]
+	(No symbol) [0x00007FF72010C25F]
+	(No symbol) [0x00007FF72012BC80]
+	(No symbol) [0x00007FF72010BFC3]
+	(No symbol) [0x00007FF7200D9617]
+	(No symbol) [0x00007FF7200DA211]
+	GetHandleVerifier [0x00007FF72057946D+3301613]
+	GetHandleVerifier [0x00007FF7205C3693+3605267]
+	GetHandleVerifier [0x00007FF7205B9410+3563664]
+	GetHandleVerifier [0x00007FF7203142F6+790390]
+	(No symbol) [0x00007FF7201E74DF]
+	(No symbol) [0x00007FF7201E33D4]
+	(No symbol) [0x00007FF7201E3562]
+	(No symbol) [0x00007FF7201D2F6F]
+	BaseThreadInitThunk [0x00007FFB7FA2257D+29]
+	RtlUserThreadStart [0x00007FFB7FD4AA48+40]
+
+
+Start scratching page https://dl.acm.org/profile/99659523819/publications?pageSize=50&startPage=0
+An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF720261F22+60322]
+	(No symbol) [0x00007FF7201DCE99]
+	(No symbol) [0x00007FF720097EBA]
+	(No symbol) [0x00007FF7200E7676]
+	(No symbol) [0x00007FF7200E773C]
+	(No symbol) [0x00007FF72012E967]
+	(No symbol) [0x00007FF72010C25F]
+	(No symbol) [0x00007FF72012BC80]
+	(No symbol) [0x00007FF72010BFC3]
+	(No symbol) [0x00007FF7200D9617]
+	(No symbol) [0x00007FF7200DA211]
+	GetHandleVerifier [0x00007FF72057946D+3301613]
+	GetHandleVerifier [0x00007FF7205C3693+3605267]
+	GetHandleVerifier [0x00007FF7205B9410+3563664]
+	GetHandleVerifier [0x00007FF7203142F6+790390]
+	(No symbol) [0x00007FF7201E74DF]
+	(No symbol) [0x00007FF7201E33D4]
+	(No symbol) [0x00007FF7201E3562]
+	(No symbol) [0x00007FF7201D2F6F]
+	BaseThreadInitThunk [0x00007FFB7FA2257D+29]
+	RtlUserThreadStart [0x00007FFB7FD4AA48+40]
+
+success scratching /profile/99659523819author count: 2
+start scratching /profile/996599133495, /profile/99659913349, Haiyan  Zhang, , Shandong Women’s University, 
+
+start scratching https://dl.acm.org/profile/99659913349/publications?pageSize=50
+start scratching https://dl.acm.org/profile/99659913349/publications?pageSize=50
+
+Start scratching page https://dl.acm.org/profile/99659913349/publications?pageSize=50&startPage=0
+An error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF720261F22+60322]
+	(No symbol) [0x00007FF7201DCE99]
+	(No symbol) [0x00007FF720097EBA]
+	(No symbol) [0x00007FF7200E7676]
+	(No symbol) [0x00007FF7200E773C]
+	(No symbol) [0x00007FF72012E967]
+	(No symbol) [0x00007FF72010C25F]
+	(No symbol) [0x00007FF72012BC80]
+	(No symbol) [0x00007FF72010BFC3]
+	(No symbol) [0x00007FF7200D9617]
+	(No symbol) [0x00007FF7200DA211]
+	GetHandleVerifier [0x00007FF72057946D+3301613]
+	GetHandleVerifier [0x00007FF7205C3693+3605267]
+	GetHandleVerifier [0x00007FF7205B9410+3563664]
+	GetHandleVerifier [0x00007FF7203142F6+790390]
+	(No symbol) [0x00007FF7201E74DF]
+	(No symbol) [0x00007FF7201E33D4]
+	(No symbol) [0x00007FF7201E3562]
+	(No symbol) [0x00007FF7201D2F6F]
+	BaseThreadInitThunk [0x00007FFB7FA2257D+29]
+	RtlUserThreadStart [0x00007FFB7FD4AA48+40]
+
+
+Start scratching page https://dl.acm.org/profile/99659913349/publications?pageSize=50&startPage=0
