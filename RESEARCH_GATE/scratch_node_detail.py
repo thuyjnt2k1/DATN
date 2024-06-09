@@ -155,7 +155,7 @@ def scratch_list_data(publications, page, browser2, url, current_page):
 			has_show_more = new_page.query_selector_all('.js-show-more-authors')
 			if(has_show_more):
 				new_page.click('.js-show-more-authors')
-				page.wait_for_timeout(2000)
+				new_page.wait_for_timeout(2000)
 			paper_soup = BeautifulSoup(new_page.content(),'lxml')
 			df_ner, node_ids = insert_paper_node(paper_soup, match, node_ids)
 			#get author list

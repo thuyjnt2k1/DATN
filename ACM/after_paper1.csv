@@ -1,600 +1,649 @@
-Unnamed: 0,ner_id,link,title,doi
-0.0,1,/doi/10.1145/3010089.3010090,Defining Big Data,https://doi.org/10.1145/3010089.3010090
-1.0,4,/doi/10.1145/3291801.3291822,Big Data with Ten Big Characteristics,https://doi.org/10.1145/3291801.3291822
-2.0,8,/doi/10.1145/2513591.2527071,Big data: a research agenda,https://doi.org/10.1145/2513591.2527071
-3.0,12,/doi/10.1145/3158352,Big data: big data or big brother? that is the question now.,https://doi.org/10.1145/3158352
-4.0,17,/doi/10.1145/2611040.2611042,Big Data: from Hype to Reality?,https://doi.org/10.1145/2611040.2611042
-5.0,19,/doi/10.1145/3010089.3010143,Healthcare Big Data: Challenges and Opportunities,https://doi.org/10.1145/3010089.3010143
-6.0,21,/doi/10.1145/2640087.2644175,Big Data and Smart Grid,https://doi.org/10.1145/2640087.2644175
-7.0,23,/doi/10.1145/3090354.3090401,From Data to Big Data: Moroccan Public Sector,https://doi.org/10.1145/3090354.3090401
-8.0,27,/doi/10.1145/3647722.3647725,Big Data 4.0 = Meta4 (Big Data) = The Era of Big Intelligence,https://doi.org/10.1145/3647722.3647725
-9.0,29,/doi/10.1145/2351316.2351318,"Big data, big business: bridging the gap",https://doi.org/10.1145/2351316.2351318
-10.0,34,/doi/10.1145/3361758.3361768,"Big Data Infrastructure, Data Visualisation and Challenges",https://doi.org/10.1145/3361758.3361768
-11.0,37,/doi/10.1145/2837060.2837068,Clarifying Big Data: The Concept and Its Applications,https://doi.org/10.1145/2837060.2837068
-12.0,42,/doi/10.1145/2658840.2658845,Taming Big Data: Integrating diverse public data sources for economic competitiveness analytics,https://doi.org/10.1145/2658840.2658845
-13.0,55,/doi/10.1145/3195528.3195533,Big data: deep learning for detecting malware,https://doi.org/10.1145/3195528.3195533
-14.0,58,/doi/10.1145/3141128.3141139,Big Data and New Data Warehousing Approaches,https://doi.org/10.1145/3141128.3141139
-15.0,61,/doi/10.1145/2524248.2524253,"Big data, big questions",https://doi.org/10.1145/2524248.2524253
-16.0,63,/doi/10.1145/3010089.3017606,Integrating Big data paradigm in WSNs,https://doi.org/10.1145/3010089.3017606
-17.0,66,/doi/10.1145/3216122.3216154,Efficient Big Data Clustering,https://doi.org/10.1145/3216122.3216154
-18.0,70,/doi/10.1145/3210284.3214344,"Mosaics in Big Data: Stratosphere, Apache Flink, and Beyond",https://doi.org/10.1145/3210284.3214344
-19.0,72,/doi/10.1145/3090354.3090376,Big Data Technologies to Improve Medical Data Warehousing,https://doi.org/10.1145/3090354.3090376
-20.0,76,/doi/10.1145/3010089.3010127,Big Data Clustering using Data Streams Approach,https://doi.org/10.1145/3010089.3010127
-21.0,80,/doi/10.1145/2609876.2609890,Modeling in Big Data Environments,https://doi.org/10.1145/2609876.2609890
-22.0,84,/doi/10.1145/2609876.2609889,Sensemaking in Big Data Environments,https://doi.org/10.1145/2609876.2609889
-23.0,88,/doi/10.1145/3011286.3011307,Environmental Big Data: a systematic mapping study,https://doi.org/10.1145/3011286.3011307
-24.0,92,/doi/10.1145/2609876.2609887,Support for Big Data's Limiting Resource: Human Attention,https://doi.org/10.1145/2609876.2609887
-25.0,95,/doi/10.1145/2656346.2656358,Big data architecture evolution: 2014 and beyond,https://doi.org/10.1145/2656346.2656358
-26.0,99,/doi/10.1145/3172871.3172886,State-of-the-art Big Data Security Taxonomies,https://doi.org/10.1145/3172871.3172886
-27.0,102,/doi/10.1109/CCGRID.2018.00100,Pedigree-ing your big data: data-driven big data privacy in distributed environments,https://doi.org/10.1109/CCGRID.2018.00100
-28.0,104,/doi/10.1145/2837060.2837076,Big Data Mining Applications and Services,https://doi.org/10.1145/2837060.2837076
-29.0,106,/doi/10.1145/3378904.3378907,Security Challenges for Big Data and IoT,https://doi.org/10.1145/3378904.3378907
-30.0,108,/doi/10.1145/3018896.3025151,Where big data meets 5G?,https://doi.org/10.1145/3018896.3025151
-31.0,111,/doi/10.1145/3289100.3289108,Towards Efficient Big Data: Hadoop Data Placing and Processing,https://doi.org/10.1145/3289100.3289108
-32.0,115,/doi/10.1145/3505745.3505750,Responsible Big Data Analytics for E-Business Services,https://doi.org/10.1145/3505745.3505750
-33.0,117,/doi/10.1145/3603706,BIGQA: Declarative Big Data Quality Assessment,https://doi.org/10.1145/3603706
-34.0,121,/doi/10.1145/3341161.3343512,Flexible compression of big data,https://doi.org/10.1145/3341161.3343512
-35.0,124,/doi/10.1145/3331651.3331659,Co-Designing Learning Materials to Empower Laypersons to Better Understand Big Data and Big Data Methods,https://doi.org/10.1145/3331651.3331659
-36.0,127,/doi/10.1145/3341620.3341629,Big Data Quality Metrics for Sentiment Analysis Approaches,https://doi.org/10.1145/3341620.3341629
-37.0,131,/doi/10.1145/3564665.3564673,Driving Digital Services with Big Data Analytics,https://doi.org/10.1145/3564665.3564673
-38.0,133,/doi/10.1145/3158339,Big Data for Social Science Research: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158339
-39.0,135,/doi/10.1145/3158335,"Big Data, Digitization, and Social Change: Big Data (Ubiquity symposium)",https://doi.org/10.1145/3158335
-40.0,137,/doi/10.1145/2659651.2659655,Big Data Information Security Maintenance,https://doi.org/10.1145/2659651.2659655
-41.0,140,/doi/10.1145/2614512.2629588,Big data,https://doi.org/10.1145/2614512.2629588
-42.0,142,/doi/10.1145/3447879.3447883,Approximate computation for big data analytics,https://doi.org/10.1145/3447879.3447883
-43.0,145,/doi/10.1145/3366650.3366667,Online Updating Algorithms of Statistical Methods for Big Data,https://doi.org/10.1145/3366650.3366667
-44.0,148,/doi/10.1145/3158337,Big Data and the Attention Economy: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158337
-45.0,150,/doi/10.1145/3502300.3502312,US Army Big Data Military Applications and Reflections,https://doi.org/10.1145/3502300.3502312
-46.0,153,/doi/10.1145/2928294.2928297,Semantic big data for tax assessment,https://doi.org/10.1145/2928294.2928297
-47.0,158,/doi/10.1145/3436286.3436291,Hot Topics of Big Data Research in China,https://doi.org/10.1145/3436286.3436291
-48.0,160,/doi/10.1145/2837060.2837116,Big Data Processing Flow,https://doi.org/10.1145/2837060.2837116
-49.0,162,/doi/10.1145/2837060.2837067,Big Data and Internet of Things: An Asset for Urban Planning,https://doi.org/10.1145/2837060.2837067
-50.0,166,/doi/10.1145/2905055.2905215,A Major Threat to Big Data: Data Security,https://doi.org/10.1145/2905055.2905215
-51.0,169,/doi/10.1145/3368691.3368741,Big data analytics tools and applications: survey,https://doi.org/10.1145/3368691.3368741
-52.0,174,/doi/10.1145/3372938.3372939,On the Intersection of Big Data and Privacy,https://doi.org/10.1145/3372938.3372939
-53.0,177,/doi/10.1145/3404687.3404694,A Comprehensive Overview of BIG DATA Technologies: A Survey,https://doi.org/10.1145/3404687.3404694
-54.0,180,/doi/10.1145/3335484.3335534,Green Optical Networking for Big Data Transfer,https://doi.org/10.1145/3335484.3335534
-55.0,182,/doi/10.1145/2905055.2905099,Big data and ICT applications: A study,https://doi.org/10.1145/2905055.2905099
-56.0,186,/doi/10.1145/3373419.3373425,Design Big Data Analysis System - Bigdeepexaminator,https://doi.org/10.1145/3373419.3373425
-57.0,189,/doi/10.1145/3524383.3533249,Accurately Identify Poor Students under Big Data,https://doi.org/10.1145/3524383.3533249
-58.0,193,/doi/10.1145/2896825.2896837,Toward big data value engineering for innovation,https://doi.org/10.1145/2896825.2896837
-59.0,198,/doi/10.1145/3505745.3505751,A Strategic Perspective on Big Data Driven Socioeconomic Development,https://doi.org/10.1145/3505745.3505751
-60.0,199,/doi/10.1145/3102254.3102271,Big-data-driven innovation for enterprises: innovative big value paradigms for next-generation digital ecosystems,https://doi.org/10.1145/3102254.3102271
-61.0,202,/doi/10.1145/3158348,Corporate Security is a Big Data Problem: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158348
-62.0,204,/doi/10.1145/2905055.2905194,Non-Relational Databases in Big Data,https://doi.org/10.1145/2905055.2905194
-63.0,206,/doi/10.1145/3474944.3474950,Anomaly Detection for Big Data Security: A Benchmark,https://doi.org/10.1145/3474944.3474950
-64.0,212,/doi/10.1145/3363459.3363533,Big Data: A Decade of Energy Characteristics of Single-Family Homes in Florida,https://doi.org/10.1145/3363459.3363533
-65.0,215,/doi/10.1145/3627915.3629592,Design and Development of Big Data Platform for Smart University,https://doi.org/10.1145/3627915.3629592
-66.0,220,/doi/10.1145/3158350,"Big Data: Business, Technology, Education, and Science: Big Data (Ubiquity symposium)",https://doi.org/10.1145/3158350
-67.0,229,/doi/10.1145/2534921.2534924,When big data meets big smog: a big spatio-temporal data framework for China severe smog analysis,https://doi.org/10.1145/2534921.2534924
-68.0,236,/doi/10.1145/2874239.2874256,Era of big data: danger of descrimination,https://doi.org/10.1145/2874239.2874256
-69.0,239,/doi/10.1145/3409801,Big Data Processing on Volunteer Computing,https://doi.org/10.1145/3409801
-70.0,243,/doi/10.1145/3328833.3328841,Big Data in Healthcare: Are we getting useful insights from this avalanche of data?,https://doi.org/10.1145/3328833.3328841
-71.0,249,/doi/10.1145/3626252.3630888,Learning Big Data Systems via Emulation,https://doi.org/10.1145/3626252.3630888
-72.0,251,/doi/10.1145/2640087.2644153,"Computing Issues for Big Data: Theory, Systems and Applications",https://doi.org/10.1145/2640087.2644153
-73.0,253,/doi/10.1145/3150919.3150923,Geospatial Big Data Analytics Engine for Spark,https://doi.org/10.1145/3150919.3150923
-74.0,260,/doi/10.1145/2948992.2949024,Data Warehousing in Big Data: From Multidimensional to Tabular Data Models,https://doi.org/10.1145/2948992.2949024
-75.0,263,/doi/10.1145/2781562.2781574,Big Data Applications: Adaptive User Interfaces to Enhance Managerial Decision Making,https://doi.org/10.1145/2781562.2781574
-76.0,265,/doi/10.1145/3410352.3410785,Application of Big Data in Logistics,https://doi.org/10.1145/3410352.3410785
-77.0,269,/doi/10.1145/3386723.3387841,Big Data security and privacy techniques,https://doi.org/10.1145/3386723.3387841
-78.0,273,/doi/10.1145/2723372.2742794,Telco Churn Prediction with Big Data,https://doi.org/10.1145/2723372.2742794
-79.0,283,/doi/10.1145/3010089.3010113,The Role of Sampling in Big Data Analysis,https://doi.org/10.1145/3010089.3010113
-80.0,285,/doi/10.1145/2808580.2808667,Introducing big data topics: a multicourse experience report from Norway,https://doi.org/10.1145/2808580.2808667
-81.0,290,/doi/10.1145/3209281.3209372,Census big data analytics use: international cross case analysis,https://doi.org/10.1145/3209281.3209372
-82.0,295,/doi/10.1145/3132498.3132510,Characterizing big data software architectures: a systematic mapping study,https://doi.org/10.1145/3132498.3132510
-83.0,299,/doi/10.1145/3264560.3264571,Definition and Scope of Big Data Problem,https://doi.org/10.1145/3264560.3264571
-84.0,302,/doi/10.1145/2663715.2669614,Privacy and Security of Big Data: Current Challenges and Future Research Perspectives,https://doi.org/10.1145/2663715.2669614
-85.0,303,/doi/10.1145/3383972.3384075,Sociological Aspects of Big Data Privacy,https://doi.org/10.1145/3383972.3384075
-86.0,307,/doi/10.1145/3312714.3312728,IoT Big Data Value Map: How to Generate Value from IoT Data,https://doi.org/10.1145/3312714.3312728
-87.0,311,/doi/10.1145/2609876.2609891,User Evaluation Methodology Framework in Big Data Environments,https://doi.org/10.1145/2609876.2609891
-88.0,312,/doi/10.1145/3193077.3193079,Interaction Between Big Data and Cognitive Science,https://doi.org/10.1145/3193077.3193079
-89.0,315,/doi/10.1145/2479724.2479730,"Big data and e-government: issues, policies, and recommendations",https://doi.org/10.1145/2479724.2479730
-90.0,318,/doi/10.1145/3501409.3501703,Construction and Innovative Application of Chongqing Ecological Environment Big Data Platform,https://doi.org/10.1145/3501409.3501703
-91.0,326,/doi/10.1145/2658840.2658842,A Paradigm for Learning Queries on Big Data,https://doi.org/10.1145/2658840.2658842
-92.0,331,/doi/10.1145/2640087.2644168,Big Data Analysis with Interactive Visualization using R packages,https://doi.org/10.1145/2640087.2644168
-93.0,338,/doi/10.1145/3206157.3206166,"The 10 Vs, Issues and Challenges of Big Data",https://doi.org/10.1145/3206157.3206166
-94.0,345,/doi/10.1145/2745754.2745771,Querying Big Data by Accessing Small Data,https://doi.org/10.1145/2745754.2745771
-95.0,351,/doi/10.1145/3297730.3297744,The Wisdom City Based on the Big Data Technology,https://doi.org/10.1145/3297730.3297744
-96.0,354,/doi/10.1145/2481244.2481246,"Mining big data: current status, and forecast to the future",https://doi.org/10.1145/2481244.2481246
-97.0,357,/doi/10.1145/2896387.2900335,"Warehousing and Protecting Big Data: State-Of-The-Art-Analysis, Methodologies, Future Challenges",https://doi.org/10.1145/2896387.2900335
-98.0,358,/doi/10.1145/2939672.2939736,Crime Rate Inference with Big Data,https://doi.org/10.1145/2939672.2939736
-99.0,363,/doi/10.1145/2640087.2644173,Fast Mode Regression in Big Data Analysis,https://doi.org/10.1145/2640087.2644173
-100.0,368,/doi/10.1145/3416921.3416943,"Uncertainty and Imprecision in Big Data Management: Models, Issues, Paradigms, and Future Research Directions",https://doi.org/10.1145/3416921.3416943
-101.0,369,/doi/10.1145/3510003.3510619,Big data = big insights?: operationalising brooks' law in a massive GitHub data set,https://doi.org/10.1145/3510003.3510619
-102.0,374,/doi/10.1145/3538950.3538951,A Drug Safety Traceability Model Based on Big Data,https://doi.org/10.1145/3538950.3538951
-103.0,380,/doi/10.1145/3424978.3425010,Research on Scientific Data Management in Big Data Era,https://doi.org/10.1145/3424978.3425010
-104.0,384,/doi/10.1145/3345252.3345282,Conceptual Architecture of GATE Big Data Platform,https://doi.org/10.1145/3345252.3345282
-105.0,389,/doi/10.1145/3291801.3291813,Intellectual Property Risks and Protection Mechanisms of Big Data,https://doi.org/10.1145/3291801.3291813
-106.0,392,/doi/10.1145/2812428.2812441,Big data in electricity-visualization aspect,https://doi.org/10.1145/2812428.2812441
-107.0,395,/doi/10.1145/2447481.2447491,Predictive analytics with surveillance big data,https://doi.org/10.1145/2447481.2447491
-108.0,401,/doi/10.1145/3175684.3175687,A Data-based Method for Industrial Big Data Project Prioritization,https://doi.org/10.1145/3175684.3175687
-109.0,406,/doi/10.1145/3579654.3579686,A method for accelerating relations search over big data scenario,https://doi.org/10.1145/3579654.3579686
-110.0,411,/doi/10.1145/3183713.3183757,Big Data Linkage for Product Specification Pages,https://doi.org/10.1145/3183713.3183757
-111.0,417,/doi/10.1145/3340017.3340032,Big Data Perception & Usage: A Micro-Firm Perspective (The Case of the French Traditional Restaurant Sector),https://doi.org/10.1145/3340017.3340032
-112.0,420,/doi/10.1145/2612733.2612762,Local big data: the role of libraries in building community data infrastructures,https://doi.org/10.1145/2612733.2612762
-113.0,423,/doi/10.1145/2609876.2609884,Multidisciplinary Teamwork and Big Data,https://doi.org/10.1145/2609876.2609884
-114.0,425,/doi/10.1145/2377978.2377984,Application-driven energy-efficient architecture explorations for big data,https://doi.org/10.1145/2377978.2377984
-115.0,431,/doi/10.1145/2609876.2609877,"Big Data and the Invisible, Social Dimensions of Science",https://doi.org/10.1145/2609876.2609877
-116.0,433,/doi/10.1145/2487575.2487588,Beyond myopic inference in big data pipelines,https://doi.org/10.1145/2487575.2487588
-117.0,438,/doi/10.1145/2896825.2896828,A big data framework for cloud monitoring,https://doi.org/10.1145/2896825.2896828
-118.0,444,/doi/10.1145/3368691.3368717,Big data challenges and achievements: applications on smart cities and energy sector,https://doi.org/10.1145/3368691.3368717
-119.0,449,/doi/10.1145/3148055.3148057,Big Data Aware Virtual Machine Placement in Cloud Data Centers,https://doi.org/10.1145/3148055.3148057
-120.0,454,/doi/10.1145/2345316.2345347,"On clusterization of ""big data"" streams",https://doi.org/10.1145/2345316.2345347
-121.0,457,/doi/10.1145/3090354.3090370,Towards Clustering Validation in Big Data Context,https://doi.org/10.1145/3090354.3090370
-122.0,462,/doi/10.1145/3379247.3379294,Malicious SIM Cards Identification Method Based on Telecom Big Data Analytics,https://doi.org/10.1145/3379247.3379294
-123.0,470,/doi/10.1145/3141128.3141149,"Scalable OLAP-Based Big Data Analytics over Cloud Infrastructures: Models, Issues, Algorithms",https://doi.org/10.1145/3141128.3141149
-124.0,471,/doi/10.1145/3627377.3627394,Innovation in the maths classroom with big data for education,https://doi.org/10.1145/3627377.3627394
-125.0,474,/doi/10.1145/3085228.3085319,Can big data improve public policy analysis?,https://doi.org/10.1145/3085228.3085319
-126.0,478,/doi/10.1145/3404687.3404707,Optimization of Clothing Supply Standard Based on Big Data,https://doi.org/10.1145/3404687.3404707
-127.0,482,/doi/10.1145/3579371.3589082,Profiling Hyperscale Big Data Processing,https://doi.org/10.1145/3579371.3589082
-128.0,492,/doi/10.1145/3503928.3503929,Big Data: Finding Frequencies of Faulty Multimedia Data,https://doi.org/10.1145/3503928.3503929
-129.0,496,/doi/10.1145/2890602.2890619,Big Data and Analytics Leaders: the Changing Role of CIO,https://doi.org/10.1145/2890602.2890619
-130.0,500,/doi/10.1145/2331042.2331058,Interactive analysis of big data,https://doi.org/10.1145/2331042.2331058
-131.0,503,/doi/10.1145/3019612.3019700,From IoT big data to IoT big services,https://doi.org/10.1145/3019612.3019700
-132.0,507,/doi/10.1145/3474944.3474951,Big Data Analytics in Association Rule Mining: A Systematic Literature Review,https://doi.org/10.1145/3474944.3474951
-133.0,515,/doi/10.1145/2660168.2660187,Big Data for Musicology,https://doi.org/10.1145/2660168.2660187
-134.0,531,/doi/10.1145/3474944.3474962,Research on University Education Innovation in the Big Data Era,https://doi.org/10.1145/3474944.3474962
-135.0,533,/doi/10.1145/2957276.2997027,Towards Re-Orienting the Big Data Rhetoric,https://doi.org/10.1145/2957276.2997027
-136.0,535,/doi/10.1145/3564665.3564677,Research on Health Management System Based on Big Data Technology,https://doi.org/10.1145/3564665.3564677
-137.0,537,/doi/10.1145/3444757.3485106,Locality-Aware Workflow Orchestration for Big Data,https://doi.org/10.1145/3444757.3485106
-138.0,545,/doi/10.1145/3274250.3275113,Big Data Service Delivery Network,https://doi.org/10.1145/3274250.3275113
-139.0,548,/doi/10.1145/3220199.3220220,SAT-based Important Data Reliability Enhancement Model for Big Data Storage,https://doi.org/10.1145/3220199.3220220
-140.0,552,/doi/10.1145/2676536.2676538,High performance integrated spatial big data analytics,https://doi.org/10.1145/2676536.2676538
-141.0,557,/doi/10.1145/3481646.3481649,Benchmarking Apache Spark and Hadoop MapReduce on Big Data Classification,https://doi.org/10.1145/3481646.3481649
-142.0,560,/doi/10.1145/2699414,Exascale computing and big data,https://doi.org/10.1145/2699414
-143.0,563,/doi/10.1145/2745754.2745782,"Computational Thinking, Inferential Thinking and ""Big Data""",https://doi.org/10.1145/2745754.2745782
-144.0,565,/doi/10.1145/3578339.3578345,Research on Satellite-borne Big-data Storage System,https://doi.org/10.1145/3578339.3578345
-145.0,571,/doi/10.1145/3438872.3439086,Design and Implementation of Componentized Big Data Platform,https://doi.org/10.1145/3438872.3439086
-146.0,575,/doi/10.1145/2247596.2247598,"Inside ""Big Data management"": ogres, onions, or parfaits?",https://doi.org/10.1145/2247596.2247598
-147.0,579,/doi/10.1145/3437075.3437078,"Implementation of Big Data Analytics: Customers Analyzing using an Association Rule Modeling in a Gold, Silver, and Precious Metal Trading Company in Indonesia",https://doi.org/10.1145/3437075.3437078
-148.0,583,/doi/10.1145/3404555.3404630,Efficient Optimized Strategy of Big Data Retrieval,https://doi.org/10.1145/3404555.3404630
-149.0,589,/doi/10.1145/3507524.3507534,Enterprise big data management based on Knowledge Graph,https://doi.org/10.1145/3507524.3507534
-150.0,593,/doi/10.1145/3322134.3322137,Implementation Practice of Big Data Technology in a Sharing Economy,https://doi.org/10.1145/3322134.3322137
-151.0,595,/doi/10.1145/2837060.2837112,Safe-Return-Home Service based on Big Data Analytics,https://doi.org/10.1145/2837060.2837112
-152.0,600,/doi/10.1145/2839509.2844651,Teaching Big Data with a Virtual Cluster,https://doi.org/10.1145/2839509.2844651
-153.0,602,/doi/10.1145/3127942.3127961,Determinants of Big Data Adoption and Success,https://doi.org/10.1145/3127942.3127961
-154.0,606,/doi/10.1145/3264560.3266429,Scalable Privacy-Preserving Big Data Management and Analytics: Where We Are and Where We Are Going,https://doi.org/10.1145/3264560.3266429
-155.0,607,/doi/10.1145/3006299.3006311,Towards a comprehensive data lifecycle model for big data environments,https://doi.org/10.1145/3006299.3006311
-156.0,612,/doi/10.1145/2345316.2345328,Cloud computing & big data computing,https://doi.org/10.1145/2345316.2345328
-157.0,614,/doi/10.1145/2538862.2538877,Integrating big data into the computing curricula,https://doi.org/10.1145/2538862.2538877
-158.0,619,/doi/10.1145/3323878.3325802,Parallel RDF generation from heterogeneous big data,https://doi.org/10.1145/3323878.3325802
-159.0,625,/doi/10.1145/3010089.3016031,A mixture model approach to big data clustering and classification,https://doi.org/10.1145/3010089.3016031
-160.0,627,/doi/10.1145/2479724.2479764,"The complexities of ""big data"": the opportunities and challenges for e-government",https://doi.org/10.1145/2479724.2479764
-161.0,630,/doi/10.1145/2379436.2379440,Workload diversity and dynamics in big data analytics: implications to system designers,https://doi.org/10.1145/2379436.2379440
-162.0,634,/doi/10.1145/2331042.2331057,Big data platforms: What's next?,https://doi.org/10.1145/2331042.2331057
-163.0,635,/doi/10.1145/2693561.2693563,Runtime Performance Challenges in Big Data Systems,https://doi.org/10.1145/2693561.2693563
-164.0,638,/doi/10.1145/3419604.3419803,Towards a Data Quality Assessment in Big Data,https://doi.org/10.1145/3419604.3419803
-165.0,643,/doi/10.1145/2588555.2610512,Opportunistic physical design for big data analytics,https://doi.org/10.1145/2588555.2610512
-166.0,649,/doi/10.1145/3423603.3424056,Recent applications of big data in finance,https://doi.org/10.1145/3423603.3424056
-167.0,654,/doi/10.1145/3090354.3090363,Big Data Analytics Techniques in Virtual Screening for Drug Discovery,https://doi.org/10.1145/3090354.3090363
-168.0,657,/doi/10.1145/3264560.3264572,From Big Data to Better Behavior in Self-Driving Cars,https://doi.org/10.1145/3264560.3264572
-169.0,661,/doi/10.1145/3141128.3141138,A Systematic Review of Big Data Analytics Using Model Driven Engineering,https://doi.org/10.1145/3141128.3141138
-170.0,666,/doi/10.1145/3239438.3239485,Disease Trajectory Visualization System Based on Big Data Analytics,https://doi.org/10.1145/3239438.3239485
-171.0,671,/doi/10.1145/2911975,What happens when big data blunders?,https://doi.org/10.1145/2911975
-172.0,673,/doi/10.1145/2983323.2983345,City-Scale Localization with Telco Big Data,https://doi.org/10.1145/2983323.2983345
-173.0,679,/doi/10.1145/2666310.2666481,Efficient spatial query processing for big data,https://doi.org/10.1145/2666310.2666481
-174.0,684,/doi/10.1145/2612733.2612779,Building government's capacity for big data analysis,https://doi.org/10.1145/2612733.2612779
-175.0,685,/doi/10.1145/3456389.3456390,Opportunities and Challenges of Marketing in the Context of Big Data,https://doi.org/10.1145/3456389.3456390
-176.0,687,/doi/10.1145/3341042.3341056,Ethics Education of Information and Big Data,https://doi.org/10.1145/3341042.3341056
-177.0,692,/doi/10.1145/3312614.3312623,"The 51 V's Of Big Data: Survey, Technologies, Characteristics, Opportunities, Issues and Challenges",https://doi.org/10.1145/3312614.3312623
-178.0,699,/doi/10.1145/3006386.3006387,Analytics on public transport delays with spatial big data,https://doi.org/10.1145/3006386.3006387
-179.0,703,/doi/10.1145/3239283.3239322,Study on big data framework for product design,https://doi.org/10.1145/3239283.3239322
-180.0,706,/doi/10.1109/CCGrid.2016.107,Management of distributed big data for social networks,https://doi.org/10.1109/CCGrid.2016.107
-181.0,708,/doi/10.1145/3134302.3134335,Modelling of Educational Data Following Big Data Value Chain,https://doi.org/10.1145/3134302.3134335
-182.0,710,/doi/10.1145/3242840.3242842,Load Forecasting Research Based on High Performance Intelligent Data Processing of Power Big Data,https://doi.org/10.1145/3242840.3242842
-183.0,716,/doi/10.1145/3335484.3335545,Evaluation of Large-scale Complex Systems Effectiveness Based on Big Data,https://doi.org/10.1145/3335484.3335545
-184.0,720,/doi/10.1145/3290420.3290466,Big data prototype practice for unmanned surface vehicle,https://doi.org/10.1145/3290420.3290466
-185.0,724,/doi/10.1145/3195106.3195172,Big Data and Open Government Data in Public Services,https://doi.org/10.1145/3195106.3195172
-186.0,728,/doi/10.1145/3129757.3129762,Official statistics embrace big data: a review of current and developing international practice,https://doi.org/10.1145/3129757.3129762
-187.0,730,/doi/10.1145/3512731.3534211,Towards Intellectual Property Rights Protection in Big Data,https://doi.org/10.1145/3512731.3534211
-188.0,735,/doi/10.14778/2367502.2367563,MapReduce algorithms for big data analysis,https://doi.org/10.14778/2367502.2367563
-189.0,737,/doi/10.1145/2351316.2351322,Incrementally optimized decision tree for noisy big data,https://doi.org/10.1145/2351316.2351322
-190.0,740,/doi/10.1145/3106237.3117774,Static analysis for optimizing big data queries,https://doi.org/10.1145/3106237.3117774
-191.0,747,/doi/10.1145/3437075.3437083,Data Privacy of Enterprises in the Era of Big data: Evidence from China,https://doi.org/10.1145/3437075.3437083
-192.0,752,/doi/10.1145/3063955.3063968,The design of course architecture for big data,https://doi.org/10.1145/3063955.3063968
-193.0,757,/doi/10.1145/3148055.3148068,Characterization of Big Data Stream Processing Pipeline: A Case Study using Flink and Kafka,https://doi.org/10.1145/3148055.3148068
-194.0,761,/doi/10.1145/3322134.3322149,Big Data and Higher Vocational and Technical Education: Green Tourism Curriculum,https://doi.org/10.1145/3322134.3322149
-195.0,765,/doi/10.1145/2513190.2513198,Can we analyze big data inside a DBMS?,https://doi.org/10.1145/2513190.2513198
-196.0,767,/doi/10.1145/2611567,Big data and its technical challenges,https://doi.org/10.1145/2611567
-197.0,774,/doi/10.1145/3322134.3323932,New Approach of Big Data and Education: Any Term Must Be in the Characters Chessboard as a Super Matrix,https://doi.org/10.1145/3322134.3323932
-198.0,777,/doi/10.1145/3560107.3560310,ADACOP: A Big Data Platform for Open Government Data,https://doi.org/10.1145/3560107.3560310
-199.0,782,/doi/10.1145/2691195.2691196,Towards big data analytics framework: ICT professionals salary profile compilation perspective,https://doi.org/10.1145/2691195.2691196
-200.0,784,/doi/10.1145/2463676.2463707,The big data ecosystem at LinkedIn,https://doi.org/10.1145/2463676.2463707
-201.0,788,/doi/10.1145/3305160.3305211,A Managerial Framework for Intelligent Big Data Analytics,https://doi.org/10.1145/3305160.3305211
-202.0,790,/doi/10.14778/2824032.2824141,Big plateaus of big data on the big island,https://doi.org/10.14778/2824032.2824141
-203.0,792,/doi/10.1145/2928294.2928302,Semantic question answering on big data,https://doi.org/10.1145/2928294.2928302
-204.0,798,/doi/10.1145/3090354.3090388,Secure confidential big data sharing in cloud computing using KP-ABE,https://doi.org/10.1145/3090354.3090388
-205.0,802,/doi/10.1145/3175684.3175688,Big Data Educational Portal for Small and Medium Sized Enterprises (SMEs),https://doi.org/10.1145/3175684.3175688
-206.0,805,/doi/10.1145/3220199.3220200,Application research of big data experimental teaching platform based on OpenStack,https://doi.org/10.1145/3220199.3220200
-207.0,808,/doi/10.1145/3419634,"A Survey on IoT Big Data: Current Status, 13 V’s Challenges, and Future Directions",https://doi.org/10.1145/3419634
-208.0,812,/doi/10.1145/3291801.3291820,Research on Security and Privacy of Big Data under Cloud Computing Environment,https://doi.org/10.1145/3291801.3291820
-209.0,816,/doi/10.1145/3010089.3010144,Mixture Model Approaches to Big Data Clustering and Classification,https://doi.org/10.1145/3010089.3010144
-210.0,817,/doi/10.1145/2361999.2362038,Unified analytics platform for big data,https://doi.org/10.1145/2361999.2362038
-211.0,819,/doi/10.1145/3436286.3436404,Application of Artificial Intelligence and Big Data Technology in Digital Marketing,https://doi.org/10.1145/3436286.3436404
-212.0,822,/doi/10.1145/2640087.2644159,Creating a Chemistry of Sciences with Big Data: Building the Data Science Institute at Imperial College London,https://doi.org/10.1145/2640087.2644159
-213.0,825,/doi/10.14778/2733004.2733015,Big data small footprint: the design of a low-power classifier for detecting transportation modes,https://doi.org/10.14778/2733004.2733015
-214.0,831,/doi/10.1145/3006299.3006306,Empirical analysis of asymptotic ensemble learning for big data,https://doi.org/10.1145/3006299.3006306
-215.0,835,/doi/10.1145/3230348.3230368,Twitter Data Classification Using Big Data Technologies,https://doi.org/10.1145/3230348.3230368
-216.0,839,/doi/10.1145/2481244.2481247,Scaling big data mining infrastructure: the twitter experience,https://doi.org/10.1145/2481244.2481247
-217.0,842,/doi/10.1145/2609876.2609878,Cognitive and Organizational Challenges of Big Data in Cyber Defense,https://doi.org/10.1145/2609876.2609878
-218.0,844,/doi/10.1145/3010089.3010100,"Opportunities, Threats and Future Directions in Big Data for Medical Wearables",https://doi.org/10.1145/3010089.3010100
-219.0,847,/doi/10.1145/2612733.2612780,Using big data for digital government research,https://doi.org/10.1145/2612733.2612780
-220.0,848,/doi/10.1145/3389250,Big Data Analysis of Internet of Things System,https://doi.org/10.1145/3389250
-221.0,849,/doi/10.1145/2896825.2896834,A reference architecture for big data systems in the national security domain,https://doi.org/10.1145/2896825.2896834
-222.0,854,/doi/10.1145/3322134.3322150,Big Data and Higher Vocational and Technical Education: Green Food and Its Industry Orientation,https://doi.org/10.1145/3322134.3322150
-223.0,855,/doi/10.1145/3341620.3341630,"The Role of Big Data, Data Science and Data Analytics in Financial Engineering",https://doi.org/10.1145/3341620.3341630
-224.0,860,/doi/10.14778/2367502.2367572,Challenges and opportunities with big data,https://doi.org/10.14778/2367502.2367572
-225.0,861,/doi/10.1145/3627377.3627400,Research on Crime Prevention and Control Based on Big Data Method,https://doi.org/10.1145/3627377.3627400
-226.0,863,/doi/10.1145/3206157.3206177,Language E-learning based on Learning Analytics in Big Data Era,https://doi.org/10.1145/3206157.3206177
-227.0,865,/doi/10.1145/3379247.3379298,Application Analysis of Big Data Technology in Feeding Industry,https://doi.org/10.1145/3379247.3379298
-228.0,868,/doi/10.1145/3565291.3565298,Research and Application of Grey Factor Analysis in Big Data Analytics,https://doi.org/10.1145/3565291.3565298
-229.0,870,/doi/10.1145/3588921,Runtime Variation in Big Data Analytics,https://doi.org/10.1145/3588921
-230.0,875,/doi/10.1145/3456887.3457461,English Education Innovation Model Based on Big Data,https://doi.org/10.1145/3456887.3457461
-231.0,878,/doi/10.1145/2331042.2331054,Big data and internships at Cloudera,https://doi.org/10.1145/2331042.2331054
-232.0,884,/doi/10.1145/3474944.3474952,Privacy Security Status and Countermeasures in the Era of Big Data,https://doi.org/10.1145/3474944.3474952
-233.0,886,/doi/10.1145/3386415.3386964,Study on Clustering Computing Methods of Big Data,https://doi.org/10.1145/3386415.3386964
-234.0,890,/doi/10.1145/2896825.2896838,Understanding quality requirements in the context of big data systems,https://doi.org/10.1145/2896825.2896838
-235.0,894,/doi/10.1145/3168390.3168425,Measurement Metric Proposed For Big Data Analytics System,https://doi.org/10.1145/3168390.3168425
-236.0,900,/doi/10.1145/2743065.2743099,"Perspectives, Motivations and Implications Of Big Data Analytics",https://doi.org/10.1145/2743065.2743099
-237.0,904,/doi/10.1145/3277104.3277107,Content-Based Textual Big Data Analysis and Compression,https://doi.org/10.1145/3277104.3277107
-238.0,908,/doi/10.1145/3003733.3003767,Signal Processing Techniques Restructure The Big Data Era,https://doi.org/10.1145/3003733.3003767
-239.0,911,/doi/10.1145/3130218.3130236,Adaptive Manycore Architectures for Big Data Computing,https://doi.org/10.1145/3130218.3130236
-240.0,918,/doi/10.1145/3265689.3265706,Impacts of Big Data on Data Mining Research: An Empirical Study of Chinese Journals,https://doi.org/10.1145/3265689.3265706
-241.0,920,/doi/10.1145/3348400.3348414,The Impact of Big Data on Health Care Services in Australia: Using Big Data Analytics to Categorise and Deal with Patients,https://doi.org/10.1145/3348400.3348414
-242.0,924,/doi/10.1145/2351316.2351329,Online feature selection for mining big data,https://doi.org/10.1145/2351316.2351329
-243.0,929,/doi/10.1145/2486227.2486231,A big data confession,https://doi.org/10.1145/2486227.2486231
-244.0,931,/doi/10.1145/3209281.3209360,"Big data on cloud for government agencies: benefits, challenges, and solutions",https://doi.org/10.1145/3209281.3209360
-245.0,935,/doi/10.1145/2448917.2448925,Visual rhetoric and big data: design of future communication,https://doi.org/10.1145/2448917.2448925
-246.0,937,/doi/10.1145/3396956.3398253,"Big Data, Anonymisation and Governance to Personal Data Protection",https://doi.org/10.1145/3396956.3398253
-247.0,942,/doi/10.1145/2378975.2378987,Federated cloud-based big data platform in telecommunications,https://doi.org/10.1145/2378975.2378987
-248.0,949,/doi/10.1145/3361525.3361545,Self-adaptive Executors for Big Data Processing,https://doi.org/10.1145/3361525.3361545
-249.0,953,/doi/10.1145/2905055.2905202,Agent based Security Model for Cloud Big Data,https://doi.org/10.1145/2905055.2905202
-250.0,957,/doi/10.1145/3645279.3645293,Application of Internet Big Data in Network Security Situation Assessment,https://doi.org/10.1145/3645279.3645293
-251.0,961,/doi/10.1145/2896825.2896835,Towards a model-driven design tool for big data architectures,https://doi.org/10.1145/2896825.2896835
-252.0,966,/doi/10.1145/2791347.2791380,Privacy-preserving big data publishing,https://doi.org/10.1145/2791347.2791380
-253.0,970,/doi/10.1145/3301551.3301566,The Implications of Big Data Analytics Orientation upon Deployment,https://doi.org/10.1145/3301551.3301566
-254.0,974,/doi/10.1145/3387168.3387220,Integrated Retrieval System Based on Medical Big Data,https://doi.org/10.1145/3387168.3387220
-255.0,976,/doi/10.1145/2680821.2680824,Performance and Fairness Issues in Big Data Transfers,https://doi.org/10.1145/2680821.2680824
-256.0,980,/doi/10.1145/3105831.3105841,The SusCity Big Data Warehousing Approach for Smart Cities,https://doi.org/10.1145/3105831.3105841
-257.0,981,/doi/10.1145/3264560.3266428,A Scalable Streaming Big Data Architecture for Real-Time Sentiment Analysis,https://doi.org/10.1145/3264560.3266428
-258.0,984,/doi/10.1145/3041021.3053063,Top-K Entity Units Retrieval Over Big Data,https://doi.org/10.1145/3041021.3053063
-259.0,987,/doi/10.1145/3338906.3338939,Going big: a large-scale study on what big data developers ask,https://doi.org/10.1145/3338906.3338939
-260.0,990,/doi/10.1145/2389686.2389688,When big data leads to lost data,https://doi.org/10.1145/2389686.2389688
-261.0,993,/doi/10.1145/3443467.3443749,Optimized Privacy Protection Method for Big Data Traffic,https://doi.org/10.1145/3443467.3443749
-262.0,997,/doi/10.1145/2351316.2351323,Compression-aware I/O performance analysis for big data clustering,https://doi.org/10.1145/2351316.2351323
-263.0,1004,/doi/10.14778/2735461.2735465,In-memory performance for big data,https://doi.org/10.14778/2735461.2735465
-264.0,1012,/doi/10.1109/CCGrid.2015.85,Big data provenance analysis and visualization,https://doi.org/10.1109/CCGrid.2015.85
-265.0,1015,/doi/10.1145/2612733.2619954,"Informetric mapping of ""big data"" in FI-WARE",https://doi.org/10.1145/2612733.2619954
-266.0,1018,/doi/10.1145/3291801.3291827,Research on the effectiveness evaluation of big data in combat simulation,https://doi.org/10.1145/3291801.3291827
-267.0,1024,/doi/10.1145/3372454.3372469,Big data scalability based on Spark Machine Learning Libraries,https://doi.org/10.1145/3372454.3372469
-268.0,1028,/doi/10.1145/3148055.3148060,Managing Variant Calling Files the Big Data Way: Using HDFS and Apache Parquet,https://doi.org/10.1145/3148055.3148060
-269.0,1034,/doi/10.1145/2812428.2812429,Database technologies in the world of big data,https://doi.org/10.1145/2812428.2812429
-270.0,1036,/doi/10.1145/3338840.3355683,Traffic big data assisted broadcast in vehicular networks,https://doi.org/10.1145/3338840.3355683
-271.0,1041,/doi/10.1145/3352700.3352709,Big Data Network Flow Processing Using Apache Spark,https://doi.org/10.1145/3352700.3352709
-272.0,1044,/doi/10.1145/2594538.2594551,On scale independence for querying big data,https://doi.org/10.1145/2594538.2594551
-273.0,1046,/doi/10.1145/3358528.3359551,Application of Recommender System in Intelligent Community under Big Data Scenario,https://doi.org/10.1145/3358528.3359551
-274.0,1051,/doi/10.1145/3158341,Technology and Business Challenges of Big Data in the Digital Economy: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158341
-275.0,1053,/doi/10.1145/3265689.3265721,Big Data Management and Analytics for Disability Datasets,https://doi.org/10.1145/3265689.3265721
-276.0,1059,/doi/10.1145/3656766.3656946,Privacy Protection and Data Security for Big Data Encryption: A Review,https://doi.org/10.1145/3656766.3656946
-277.0,1063,/doi/10.1145/2351316.2351320,Parallel rough set based knowledge acquisition using MapReduce from big data,https://doi.org/10.1145/2351316.2351320
-278.0,1067,/doi/10.1145/3297730.3297743,Big Data Platform Architecture under The Background of Financial Technology: In The Insurance Industry As An Example,https://doi.org/10.1145/3297730.3297743
-279.0,1071,/doi/10.1145/2903150.2908078,Heterogeneous chip multiprocessor architectures for big data applications,https://doi.org/10.1145/2903150.2908078
-280.0,1073,/doi/10.1145/3369555.3369573,IoT-based big data analytics issues in healthcare,https://doi.org/10.1145/3369555.3369573
-281.0,1078,/doi/10.1145/3492324.3494169,Evaluating Serverless Architecture for Big Data Enterprise Applications,https://doi.org/10.1145/3492324.3494169
-282.0,1082,/doi/10.1145/3565387.3565402,Implementation of Cloud-based Urban Rail Big Data Platform,https://doi.org/10.1145/3565387.3565402
-283.0,1086,/doi/10.1145/2970276.2970325,Applying combinatorial test data generation to big data applications,https://doi.org/10.1145/2970276.2970325
-284.0,1092,/doi/10.1145/3341620.3341622,Review and Investigate the Mapping Knowledge Domain of Financial Big Data Research,https://doi.org/10.1145/3341620.3341622
-285.0,1096,/doi/10.1145/2644866.2644870,Humanist-centric tools for big data: berkeley prosopography services,https://doi.org/10.1145/2644866.2644870
-286.0,1099,/doi/10.1145/3538950.3538954,Information Intelligence System Solution Based on Big Data Flink Technology,https://doi.org/10.1145/3538950.3538954
-287.0,1103,/doi/10.1145/3450287,Event Prediction in the Big Data Era: A Systematic Survey,https://doi.org/10.1145/3450287
-288.0,1105,/doi/10.1145/3206157.3206167,Optimized Label Propagation Community Detection on Big Data Networks,https://doi.org/10.1145/3206157.3206167
-289.0,1108,/doi/10.1145/3358505.3358512,Big Data Platforms and Tools for Data Analytics in the Data Science Engineering Curriculum,https://doi.org/10.1145/3358505.3358512
-290.0,1110,/doi/10.1145/3372454.3372478,Assessing Reliability of Big Data Stream for Smart City,https://doi.org/10.1145/3372454.3372478
-291.0,1113,/doi/10.1145/3281022.3281026,From big data to smart data: a data quality perspective,https://doi.org/10.1145/3281022.3281026
-292.0,1119,/doi/10.1145/2968219.2968282,Enhancing location prediction with big data: evidence from dhaka,https://doi.org/10.1145/2968219.2968282
-293.0,1124,/doi/10.1145/3006386.3006391,Big data as a service from an urban information system,https://doi.org/10.1145/3006386.3006391
-294.0,1129,/doi/10.1145/3231830.3231840,Information Management Technologies for Big Data: A Case of Oracle,https://doi.org/10.1145/3231830.3231840
-295.0,1134,/doi/10.1145/2345316.2345320,"On clusterization of ""big data"" streams",https://doi.org/10.1145/2345316.2345320
-296.0,1136,/doi/10.1145/3154943.3154946,Big data analysis of local business and reviews,https://doi.org/10.1145/3154943.3154946
-297.0,1140,/doi/10.1145/3341620.3341635,Application of Online/Offline Sales Big Data in Household Medical Device Industry,https://doi.org/10.1145/3341620.3341635
-298.0,1145,/doi/10.1145/3299869.3320240,"Cost-Effective, Workload-Adaptive Migration of Big Data Applications to the Cloud",https://doi.org/10.1145/3299869.3320240
-299.0,1150,/doi/10.1145/3627377.3627395,Big Data Processing and Visualization of Offshore Current Based on Python,https://doi.org/10.1145/3627377.3627395
-300.0,1158,/doi/10.1145/3490322.3490346,Research Hotspots and Trends Visualization Analysis of Chinese E-commerce Big Data,https://doi.org/10.1145/3490322.3490346
-301.0,1164,/doi/10.1145/2640087.2644170,Identity Tracking in Big Data: Preliminary Research Using In-Memory Data Graph Models for Record Linkage and Probabilistic Signature Hashing for Approximate String Matching in Big Health and Human Services Databases,https://doi.org/10.1145/2640087.2644170
-302.0,1167,/doi/10.1145/3415958.3433082,Scalable Execution of Big Data Workflows using Software Containers,https://doi.org/10.1145/3415958.3433082
-303.0,1169,/doi/10.1145/3175684.3175730,Big Data Mining Algorithms for Fog Computing,https://doi.org/10.1145/3175684.3175730
-304.0,1170,/doi/10.1145/2491894.2466485,A bloat-aware design for big data applications,https://doi.org/10.1145/2491894.2466485
-305.0,1173,/doi/10.1145/3097983.3098179,Distributed Local Outlier Detection in Big Data,https://doi.org/10.1145/3097983.3098179
-306.0,1177,/doi/10.1145/3421537.3421542,"Study of iPhone's Big Data, Market Share, Usage and Their Relationships",https://doi.org/10.1145/3421537.3421542
-307.0,1179,/doi/10.1145/3209415.3209479,Bridging Big Data and Policy Making: A case study of failure,https://doi.org/10.1145/3209415.3209479
-308.0,1181,/doi/10.14778/2367502.2367562,Efficient big data processing in Hadoop MapReduce,https://doi.org/10.14778/2367502.2367562
-309.0,1184,/doi/10.1145/3528114.3528119,Research on the Impact of Big Data Technology on Management Accounting,https://doi.org/10.1145/3528114.3528119
-310.0,1188,/doi/10.1145/3178315.3178323,Requirements Engineering in the Context of Big Data Applications,https://doi.org/10.1145/3178315.3178323
-311.0,1189,/doi/10.1145/3404687.3404708,Research on Wartime Oil Consumption Based on Big Data,https://doi.org/10.1145/3404687.3404708
-312.0,1192,/doi/10.1145/2464157.2466485,A bloat-aware design for big data applications,https://doi.org/10.1145/2464157.2466485
-313.0,1193,/doi/10.1145/3132747.3132773,Optimizing Big-Data Queries Using Program Synthesis,https://doi.org/10.1145/3132747.3132773
-314.0,1198,/doi/10.1145/2623330.2623615,Scaling out big data missing value imputations: pythia vs. godzilla,https://doi.org/10.1145/2623330.2623615
-315.0,1201,/doi/10.1145/2345316.2345322,Big data and advanced spatial analytics,https://doi.org/10.1145/2345316.2345322
-316.0,1203,/doi/10.1145/3447568.3448553,Exploitation of ontological approaches in Big Data: A State of the Art,https://doi.org/10.1145/3447568.3448553
-317.0,1206,/doi/10.1145/3221269.3221294,Point pattern search in big data,https://doi.org/10.1145/3221269.3221294
-318.0,1213,/doi/10.1145/3402569.3409038,Research on Big Data Mining Method of Bioinformatics,https://doi.org/10.1145/3402569.3409038
-319.0,1216,/doi/10.1145/3422713.3422738,Design and Application of Digital Platform for Big Data Eco-system,https://doi.org/10.1145/3422713.3422738
-320.0,1221,/doi/10.1145/3299819.3299841,"Risk Assessment for Big Data in Cloud: Security, Privacy and Trust",https://doi.org/10.1145/3299819.3299841
-321.0,1226,/doi/10.1145/2664591.2664619,"Intrinsic Relations between Data Science, Big Data, Business Analytics and Datafication",https://doi.org/10.1145/2664591.2664619
-322.0,1230,/doi/10.1145/3220228.3220236,A new data science framework for analysing and mining geospatial big data,https://doi.org/10.1145/3220228.3220236
-323.0,1233,/doi/10.1145/3206157.3206160,Big Data Opportunities for Disease Outbreaks Detection in Global Mass Gatherings,https://doi.org/10.1145/3206157.3206160
-324.0,1236,/doi/10.1145/2345316.2345329,Cloud/big data computing for defense,https://doi.org/10.1145/2345316.2345329
-325.0,1238,/doi/10.1145/3368691.3368713,Call data record based big data analytics for smart cities,https://doi.org/10.1145/3368691.3368713
-326.0,1244,/doi/10.1145/3141128.3141143,"From Big data platforms to smarter solution, with intelligent learning: [PAV] 4 - Pave the way for Intelligence",https://doi.org/10.1145/3141128.3141143
-327.0,1248,/doi/10.1145/3546632.3546889,Research on Security Mechanism of Hadoop Big Data Platform,https://doi.org/10.1145/3546632.3546889
-328.0,1251,/doi/10.1145/3472163.3472195,Customized Eager-Lazy Data Cleansing for Satisfactory Big Data Veracity,https://doi.org/10.1145/3472163.3472195
-329.0,1254,/doi/10.1145/3406601.3406628,Health Data Analytics with an Opportunistic Big Data Algorithm,https://doi.org/10.1145/3406601.3406628
-330.0,1256,/doi/10.1145/3440084.3441210,Analysis of Data Ownership Rights in the Big Data Era,https://doi.org/10.1145/3440084.3441210
-331.0,1262,/doi/10.1145/3507524.3507533,Analysis on Big Data Based Intelligence Processing Method of Electronic Reconnaissance Satellites,https://doi.org/10.1145/3507524.3507533
-332.0,1266,/doi/10.1145/3341620.3341637,Application Strategy of Big Data in the Development of Complex Industrial Products (CIPs),https://doi.org/10.1145/3341620.3341637
-333.0,1270,/doi/10.1145/3297730.3297731,Target Data Optimization based on Big Data-streaming for Two-stage Fuzzy Extraction System,https://doi.org/10.1145/3297730.3297731
-334.0,1272,/doi/10.1145/3423603.3424049,Decisional architectures from business intelligence to big data: challenges and opportunities,https://doi.org/10.1145/3423603.3424049
-335.0,1276,/doi/10.1145/2783258.2783372,Efficient Online Evaluation of Big Data Stream Classifiers,https://doi.org/10.1145/2783258.2783372
-336.0,1281,/doi/10.1145/2025528.2025537,Big data from the built environment,https://doi.org/10.1145/2025528.2025537
-337.0,1284,/doi/10.1145/3220199.3220221,Network Traffic Monitoring System Based on Big Data Technology,https://doi.org/10.1145/3220199.3220221
-338.0,1290,/doi/10.1145/3378904.3378923,The Role of Big Data for Interactive Online Learning: A Case Study in Students' Participations and Perceptions,https://doi.org/10.1145/3378904.3378923
-339.0,1294,/doi/10.1145/3651623.3651625,Leveraging Big Data and Data-Mining Techniques for Specialized Translation,https://doi.org/10.1145/3651623.3651625
-340.0,1296,/doi/10.1145/3358528.3358581,Improved Constructions for Optimal Multi-erasure Locally Recoverable Codes for Big Data Storage,https://doi.org/10.1145/3358528.3358581
-341.0,1299,/doi/10.1145/3396452.3396464,Innovation and Application of College Students' Education and Management Based on Big Data,https://doi.org/10.1145/3396452.3396464
-342.0,1302,/doi/10.1145/3436829.3436838,Performance Analysis of Twofish Cryptography Algorithm in Big Data,https://doi.org/10.1145/3436829.3436838
-343.0,1306,/doi/10.1145/3564665.3564674,Driving Sustainable Airport Business with Big Data Analytics Services: A Multichannel Approach,https://doi.org/10.1145/3564665.3564674
-344.0,1308,/doi/10.1145/2258056.2258058,Spatial big-data challenges intersecting mobility and cloud computing,https://doi.org/10.1145/2258056.2258058
-345.0,1313,/doi/10.1145/3412497,The Transnational Happiness Study with Big Data Technology,https://doi.org/10.1145/3412497
-346.0,1320,/doi/10.1145/3656766.3656925,Exploring the Role of Big Data Analytics on Engineering Costs,https://doi.org/10.1145/3656766.3656925
-347.0,1322,/doi/10.1145/3603955.3603960,Big Data Analytics In Indonesia : Literature Study,https://doi.org/10.1145/3603955.3603960
-348.0,1328,/doi/10.1145/3206157.3206184,The Study of Learner Autonomy in Foreign Language Learning in Big Data Era,https://doi.org/10.1145/3206157.3206184
-349.0,1330,/doi/10.1145/3569966.3571271,System of Research Suppliers on Big Data Technology: Design and Research on Management System of Scientific Research Suppliers in Colleges and Universities Based on Big Data Technology,https://doi.org/10.1145/3569966.3571271
-350.0,1334,/doi/10.14778/2824032.2824067,Differential privacy in telco big data platform,https://doi.org/10.14778/2824032.2824067
-351.0,1340,/doi/10.1145/3374587.3374650,Construction and Application of Big Data Analysis Platform for Enterprise,https://doi.org/10.1145/3374587.3374650
-352.0,1344,/doi/10.1145/3501409.3501593,Tourism Prediction based on Multi-source Big Data Fusion Technology,https://doi.org/10.1145/3501409.3501593
-353.0,1346,/doi/10.1145/3206157.3206163,A Theoretical Credit Reporting System based on Big Data Concept: A Case study of Humen Textile Garment Enterprises,https://doi.org/10.1145/3206157.3206163
-354.0,1351,/doi/10.1145/3645279.3645297,Construction of International Talents Training System in Vocational Colleges Integrating Big Data Analysis,https://doi.org/10.1145/3645279.3645297
-355.0,1354,/doi/10.1145/3565291.3565294,Research on Teaching Evaluation Enabled by Big Data and Artificial Intelligence in Classroom,https://doi.org/10.1145/3565291.3565294
-356.0,1358,/doi/10.1145/3335656.3335688,Innovation of Data Mining & Screening System under Big Data: Take a case as NIMBY,https://doi.org/10.1145/3335656.3335688
-357.0,1360,/doi/10.1145/2935753,Veracity of Big Data: Challenges of Cross-Modal Truth Discovery,https://doi.org/10.1145/2935753
-358.0,1363,/doi/10.1145/3411681.3412951,Online Teaching Platform Based on Big Data Recommendation System,https://doi.org/10.1145/3411681.3412951
-359.0,1370,/doi/10.1145/2744700.2744705,Big data spatial analytics for enterprise applications,https://doi.org/10.1145/2744700.2744705
-360.0,1372,/doi/10.1145/3451400.3451411,Literature Research on Patriotism Education in Colleges and Universities Based on Big Data,https://doi.org/10.1145/3451400.3451411
-361.0,1374,/doi/10.1145/3451400.3451412,An Intelligence Probe of College Student Management in the Big Data Era,https://doi.org/10.1145/3451400.3451412
-362.0,1376,/doi/10.1145/3590837.3590938,A Review on Big Data Utilization in Metaverse World,https://doi.org/10.1145/3590837.3590938
-363.0,1379,/doi/10.1145/2168931.2168932,WELCOMEInteracting with big data,https://doi.org/10.1145/2168931.2168932
-364.0,1382,/doi/10.1145/3358505.3358519,Big data execution time based on Spark Machine Learning Libraries,https://doi.org/10.1145/3358505.3358519
-365.0,1383,/doi/10.1145/2429376.2429382,Streaming big data with self-adjusting computation,https://doi.org/10.1145/2429376.2429382
-366.0,1386,/doi/10.1145/3555962.3555969,"Unstructured Over Structured, Big Data Analytics and Applications In Accounting and Management",https://doi.org/10.1145/3555962.3555969
-367.0,1391,/doi/10.1145/3314074.3314097,Challenges and Benefits of Deploying Big Data Storage Solution,https://doi.org/10.1145/3314074.3314097
-368.0,1394,/doi/10.1145/3448734.3450838,Computer Network Security Problems and Solutions Based on Big Data,https://doi.org/10.1145/3448734.3450838
-369.0,1396,/doi/10.1145/3659211.3659290,Design of the Smart Contract for “Blockchain + Government Big Data” Sharing,https://doi.org/10.1145/3659211.3659290
-370.0,1399,/doi/10.1145/2976744,Scalable and Accurate Online Feature Selection for Big Data,https://doi.org/10.1145/2976744
-371.0,1404,/doi/10.1109/CCGrid.2015.138,Understanding unsuccessful executions in big-data systems,https://doi.org/10.1109/CCGrid.2015.138
-372.0,1408,/doi/10.1145/3289402.3289525,Big Data Processing using Machine Learning algorithms: MLlib and Mahout Use Case,https://doi.org/10.1145/3289402.3289525
-373.0,1412,/doi/10.1145/3564665.3564668,Construction and Analysis of Power Grid Monitoring Data Processing System under the Background of Big Data,https://doi.org/10.1145/3564665.3564668
-374.0,1416,/doi/10.1145/3656766.3656938,The Innovative Application of Big Data in Chinese Media Industry,https://doi.org/10.1145/3656766.3656938
-375.0,1419,/doi/10.1145/3158344,Developing an Open Source 'Big Data' Cognitive Computing Platform: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158344
-376.0,1422,/doi/10.1145/2641398,In big data we trust?,https://doi.org/10.1145/2641398
-377.0,1425,/doi/10.1145/3565291.3565292,Analysis and Prediction of Diabetes Incidence Based on Big Data,https://doi.org/10.1145/3565291.3565292
-378.0,1431,/doi/10.1145/3291801.3291837,The Visualized Analysis System for Big Data of Movies' Box Office in China,https://doi.org/10.1145/3291801.3291837
-379.0,1437,/doi/10.14778/2733004.2733045,Interactive outlier exploration in big data streams,https://doi.org/10.14778/2733004.2733045
-380.0,1439,/doi/10.1145/2818869.2818884,Cost-Effective and Reliable Cloud Storage for Big Data,https://doi.org/10.1145/2818869.2818884
-381.0,1442,/doi/10.1145/3220199.3220205,Meta Learning for Imbalanced Big Data Analysis by using Generative Adversarial Networks,https://doi.org/10.1145/3220199.3220205
-382.0,1446,/doi/10.1109/CCGrid.2013.53,Towards an optimized big data processing system,https://doi.org/10.1109/CCGrid.2013.53
-383.0,1449,/doi/10.1145/3608218.3608236,Innovation and Application of University Research Management in the Context of Big Data,https://doi.org/10.1145/3608218.3608236
-384.0,1452,/doi/10.1145/3085228.3085275,Enterprise Architectures for Supporting the Adoption of Big Data,https://doi.org/10.1145/3085228.3085275
-385.0,1455,/doi/10.1145/3220228.3220238,An innovative methodology for big data visualization in oceanographic domain,https://doi.org/10.1145/3220228.3220238
-386.0,1462,/doi/10.1145/3299869.3319898,Speculative Distributed CSV Data Parsing for Big Data Analytics,https://doi.org/10.1145/3299869.3319898
-387.0,1466,/doi/10.1145/3224207.3224220,Blockchain and Big Data to Transform the Healthcare,https://doi.org/10.1145/3224207.3224220
-388.0,1473,/doi/10.1145/3424978.3425001,Research on University Security Big Data and Emergency Collaborative Disposal,https://doi.org/10.1145/3424978.3425001
-389.0,1476,/doi/10.1145/3468920.3468923,A Retrospective Analysis of Social Media Bibliometrics in the era of Big Data,https://doi.org/10.1145/3468920.3468923
-390.0,1479,/doi/10.1145/3274005.3274015,Using Big Data Value Chain to Create Government Education Policies,https://doi.org/10.1145/3274005.3274015
-391.0,1480,/doi/10.1145/3378936.3378957,Big Data and its Effect on the Music Industry,https://doi.org/10.1145/3378936.3378957
-392.0,1485,/doi/10.1145/2640087.2644194,The Value of Using Big Data Technologies in Computational Social Science,https://doi.org/10.1145/2640087.2644194
-393.0,1487,/doi/10.1145/3207677.3278000,Research and Application of Enterprise Big Data Governance,https://doi.org/10.1145/3207677.3278000
-394.0,1490,/doi/10.1145/3386723.3387826,Big Data Solutions Proposed for Cluster Computing Systems Challenges: A survey,https://doi.org/10.1145/3386723.3387826
-395.0,1493,/doi/10.1145/3624288.3624293,Big Data Analysis and Mining For People's Livelihood Appeal,https://doi.org/10.1145/3624288.3624293
-396.0,1500,/doi/10.1145/3407947.3407977,A Survey of System Scheduling for HPC and Big Data,https://doi.org/10.1145/3407947.3407977
-397.0,1504,/doi/10.1145/2743065.2743110,"Demystifying Challenges, Opportunities and Issues of Big Data Frameworks",https://doi.org/10.1145/2743065.2743110
-398.0,1508,/doi/10.1145/3399205.3399225,Big Data Analytic Architecture for Water Resources Management: A Systematic Review,https://doi.org/10.1145/3399205.3399225
-399.0,1512,/doi/10.1145/3587716.3587752,Problems and Countermeasures Facing Accounting Informatization in the Era of Big Data,https://doi.org/10.1145/3587716.3587752
-400.0,1518,/doi/10.1145/3448734.3450843,A Network Load Balancing Algorithm Design Based on Big Data,https://doi.org/10.1145/3448734.3450843
-401.0,1521,/doi/10.1145/2694730.2694732,Analysis of Memory Sensitive SPEC CPU2006 Integer Benchmarks for Big Data Benchmarking,https://doi.org/10.1145/2694730.2694732
-402.0,1524,/doi/10.1145/2771299,Bringing big data to the big tent,https://doi.org/10.1145/2771299
-403.0,1526,/doi/10.1145/2331042.2331061,Big data in computational biology,https://doi.org/10.1145/2331042.2331061
-404.0,1528,/doi/10.1145/3130983,Predicting Commercial Activeness over Urban Big Data,https://doi.org/10.1145/3130983
-405.0,1536,/doi/10.1145/3299887.3299892,Stream Processing Languages in the Big Data Era,https://doi.org/10.1145/3299887.3299892
-406.0,1542,/doi/10.1145/3289430.3289469,Research on Green Development of Shaanxi Industry Under The Background of Big Data,https://doi.org/10.1145/3289430.3289469
-407.0,1546,/doi/10.1145/2168931.2168943,Interactions with big data analytics,https://doi.org/10.1145/2168931.2168943
-408.0,1551,/doi/10.1145/3448748.3448749,The application and influence of big data in medicine,https://doi.org/10.1145/3448748.3448749
-409.0,1553,/doi/10.1145/2640087.2644162,The Value of Using Big Data Technologies in Computational Social Science,https://doi.org/10.1145/2640087.2644162
-410.0,1554,/doi/10.14778/3007263.3007324,Trends and challenges in big data processing,https://doi.org/10.14778/3007263.3007324
-411.0,1556,/doi/10.1145/3371158.3371161,Concealed Multidimensional Data Aggregation in Big Data Wireless Sensor Networks,https://doi.org/10.1145/3371158.3371161
-412.0,1559,/doi/10.1145/3524383.3524423,The Current Situation and Future Trend of Big Data: Visualization Analysis of literature Based on Citespace,https://doi.org/10.1145/3524383.3524423
-413.0,1564,/doi/10.1145/3386723.3387886,Real-time Prediction of Accident using Big Data System,https://doi.org/10.1145/3386723.3387886
-414.0,1568,/doi/10.1145/3481646.3481647,"SeDaSOMA: A Framework for Supporting Serendipitous, Data-As-A-Service-Oriented, Open Big Data Management and Analytics",https://doi.org/10.1145/3481646.3481647
-415.0,1570,/doi/10.1145/3508259.3508284,Research on Influencing Factors of Government Audit Big Data Capability,https://doi.org/10.1145/3508259.3508284
-416.0,1574,/doi/10.1145/3022227.3022232,Big data analysis on secure VoIP services,https://doi.org/10.1145/3022227.3022232
-417.0,1579,/doi/10.1145/3582935.3583052,Design of Geospatial Big Data Cloud Platform for Land Resources,https://doi.org/10.1145/3582935.3583052
-418.0,1584,/doi/10.1145/3318464.3389770,Qd-tree: Learning Data Layouts for Big Data Analytics,https://doi.org/10.1145/3318464.3389770
-419.0,1592,/doi/10.1145/2642937.2643006,Program analysis for secure big data processing,https://doi.org/10.1145/2642937.2643006
-420.0,1595,/doi/10.1145/2647908.2655958,Resource-optimizing adaptation for big data applications,https://doi.org/10.1145/2647908.2655958
-421.0,1598,/doi/10.1145/3076113.3076115,Big data causing big (TLB) problems: taming random memory accesses on the GPU,https://doi.org/10.1145/3076113.3076115
-422.0,1604,/doi/10.1145/2524224.2524227,Using big data for more dependability: a cellular network tale,https://doi.org/10.1145/2524224.2524227
-423.0,1609,/doi/10.1145/3341161.3343518,Multivariate motif detection in local weather big data,https://doi.org/10.1145/3341161.3343518
-424.0,1611,/doi/10.1145/3573428.3573647,Construction of financial big data framework based on management accounting,https://doi.org/10.1145/3573428.3573647
-425.0,1613,/doi/10.1145/3056662.3056667,"Performance and energy efficiency of big data systems: characterization, implication and improvement",https://doi.org/10.1145/3056662.3056667
-426.0,1617,/doi/10.1145/3589860.3589880,The Impact of Big Data on Financial Reporting,https://doi.org/10.1145/3589860.3589880
-427.0,1623,/doi/10.1145/3234664.3234677,Research on Clothing and Accouterment Security Based on Big Data,https://doi.org/10.1145/3234664.3234677
-428.0,1626,/doi/10.1145/3151759.3151780,A new knowledge capitalization framework in big data context,https://doi.org/10.1145/3151759.3151780
-429.0,1630,/doi/10.1145/3331453.3361308,Construction and Implementation of Big Data Framework for Crop Germplasm Resources,https://doi.org/10.1145/3331453.3361308
-430.0,1635,/doi/10.1145/3014812.3014869,A big data analytic framework for investigating streaming educational data,https://doi.org/10.1145/3014812.3014869
-431.0,1641,/doi/10.1145/2967938.2967957,Auto-tuning Spark Big Data Workloads on POWER8: Prediction-Based Dynamic SMT Threading,https://doi.org/10.1145/2967938.2967957
-432.0,1648,/doi/10.1145/3368756.3369080,Towards an efficient vehicle traffic management using big data,https://doi.org/10.1145/3368756.3369080
-433.0,1649,/doi/10.1145/3551708.3551726,Research on Employment Guidance for Graduates in Big Data Era,https://doi.org/10.1145/3551708.3551726
-434.0,1651,/doi/10.1145/2675743.2771878,Reliable event messaging in big data enterprises: looking for the balance between producers and consumers,https://doi.org/10.1145/2675743.2771878
-435.0,1653,/doi/10.1145/3089251.3089252,Evolutionary feature manipulation in data mining/big data,https://doi.org/10.1145/3089251.3089252
-436.0,1656,/doi/10.1145/2968456.2976765,Big data analytics on heterogeneous accelerator architectures,https://doi.org/10.1145/2968456.2976765
-437.0,1659,/doi/10.1145/3524383.3524442,Research on the Application of Big Data in University's Public Opinion Monitoring and Processing,https://doi.org/10.1145/3524383.3524442
-438.0,1663,/doi/10.1145/3377571.3377600,"Research on Motivation and Regulation of Big Data ""Slaughter"" Behavior",https://doi.org/10.1145/3377571.3377600
-439.0,1665,/doi/10.1145/2611286.2611311,Mobile CEP in real-time big data processing: challenges and opportunities,https://doi.org/10.1145/2611286.2611311
-440.0,1670,/doi/10.1145/2851141.2851187,Preemption-aware planning on big-data systems,https://doi.org/10.1145/2851141.2851187
-441.0,1676,/doi/10.1145/2939502.2939518,Big data exploration requires collaboration between visualization and data infrastructures,https://doi.org/10.1145/2939502.2939518
-442.0,1677,/doi/10.1145/2783258.2788563,Big Data System for Analyzing Risky Procurement Entities,https://doi.org/10.1145/2783258.2788563
-443.0,1683,/doi/10.1109/SEAMS.2017.20,Self-adaptation based on big data analytics: a model problem and tool,https://doi.org/10.1109/SEAMS.2017.20
-444.0,1688,/doi/10.14778/2733004.2733037,Redoop infrastructure for recurring big data queries,https://doi.org/10.14778/2733004.2733037
-445.0,1692,/doi/10.1145/3416921.3416944,OLAPing Big Social Data: Multidimensional Big Data Analytics over Big Social Data Repositories,https://doi.org/10.1145/3416921.3416944
-446.0,1693,/doi/10.1145/3617184.3618036,Data Visualization Analysis for Job Recruitment Based on Big Data,https://doi.org/10.1145/3617184.3618036
-447.0,1697,/doi/10.1145/3433996.3434027,The Planning and Construction of Healthcare Big Data Platform,https://doi.org/10.1145/3433996.3434027
-448.0,1704,/doi/10.1145/2659532.2659593,"Big data, high-performance computing, and MapReduce",https://doi.org/10.1145/2659532.2659593
-449.0,1706,/doi/10.1145/3297156.3297249,Methodology of Big Data Integration from A Priori Unknown Heterogeneous Data Sources,https://doi.org/10.1145/3297156.3297249
-450.0,1711,/doi/10.1145/3453187.3453340,Research on Smart Education Service Platform Based on Big Data,https://doi.org/10.1145/3453187.3453340
-451.0,1715,/doi/10.1145/3358528.3358584,Big Data Service Request Prediction Based on Historical Behavior Time Series,https://doi.org/10.1145/3358528.3358584
-452.0,1722,/doi/10.1145/3510858.3510975,Application Analysis of Hadoop in Big Data Processing,https://doi.org/10.1145/3510858.3510975
-453.0,1724,/doi/10.1145/2912845.2912869,Development of a knowledge system for Big Data: Case study to plant phenotyping data,https://doi.org/10.1145/2912845.2912869
-454.0,1730,/doi/10.1145/3437075.3437086,Tackling Big Data and Black Swans through Fractal Approach and Quantum Technology,https://doi.org/10.1145/3437075.3437086
-455.0,1734,/doi/10.1145/3297663.3310302,Characterization of a Big Data Storage Workload in the Cloud,https://doi.org/10.1145/3297663.3310302
-456.0,1738,/doi/10.1145/3402569.3409041,Research on Foreign Exchange Management Model Based on Big Data,https://doi.org/10.1145/3402569.3409041
-457.0,1740,/doi/10.1145/3377170.3377180,How Big Data Analytics Impacts Agility: The Moderation Effect of Orientation of Interactive Team Cognition,https://doi.org/10.1145/3377170.3377180
-458.0,1742,/doi/10.1145/2448917.2448923,"Big data, situated people: humane approaches to communication design",https://doi.org/10.1145/2448917.2448923
-459.0,1744,/doi/10.1145/3230348.3230425,Application Research of Big Data E-commerce in Closed Community,https://doi.org/10.1145/3230348.3230425
-460.0,1749,/doi/10.1145/3372454.3372462,Improvement of Big Data Stream Mining Technique for Automatic Bone Age Assessment,https://doi.org/10.1145/3372454.3372462
-461.0,1754,/doi/10.1109/CCGrid.2016.85,Towards memory-optimized data shuffling patterns for big data analytics,https://doi.org/10.1109/CCGrid.2016.85
-462.0,1760,/doi/10.1145/3090354.3090386,Toward Efficient Ranked-key Algorithm for the Web notification of Big Data Systems,https://doi.org/10.1145/3090354.3090386
-,1762,/doi/10.4018/JDM.2020100101,Investigating the Effects of Object-Relational Impedance Mismatch on the Efficiency of Object-Relational Mapping Frameworks,https://doi.org/10.4018/JDM.2020100101
-,1765,/doi/10.1145/3018896.3025156,Cloud computing adoption readiness assessment in saudi healthcare organisations: a strategic view,https://doi.org/10.1145/3018896.3025156
-,1768,/doi/10.1016/j.procs.2017.11.036,Identifying New Directions in Database Performance Tuning,https://doi.org/10.1016/j.procs.2017.11.036
-,1769,/doi/10.1016/j.procs.2016.09.050,Strategic Value of Cloud Computing in Healthcare Organisations Using the Balanced Scorecard Approach,https://doi.org/10.1016/j.procs.2016.09.050
-,1770,/doi/10.1007/978-3-319-24315-3_31,Incorporating Big Data Analytics into Enterprise Information Systems,https://doi.org/10.1007/978-3-319-24315-3_31
-,1773,/doi/10.4018/IJSSOE.2016010103,A Framework for Developing Management Intelligent Systems,https://doi.org/10.4018/IJSSOE.2016010103
-,1774,/doi/10.1007/978-3-319-25013-7_16,Big Data Analytics as a Service for Business Intelligence,https://doi.org/10.1007/978-3-319-25013-7_16
-,1776,/doi/10.1145/2684200.2684358,Analytics Service Oriented Architecture for Enterprise Information Systems,https://doi.org/10.1145/2684200.2684358
-,1778,/doi/10.4018/IJITPM.304059,How Bias Impacted the Project Manager Decision to Not Terminate a Failing Project,https://doi.org/10.4018/IJITPM.304059
-,1779,/doi/10.4018/IJOPCD.292026,Impact of Information Communication Technology Strategies on Learning Effectiveness,https://doi.org/10.4018/IJOPCD.292026
-,1781,/doi/10.1007/978-3-031-40725-3_41,Supporting Emotion Recognition in Human-Robot Interactions: An Experimental Italian Textual Dataset,https://doi.org/10.1007/978-3-031-40725-3_41
-,1784,/doi/10.4018/IJDST.296248,"Towards a Grid-Based Framework for Supporting Range Aggregate Queries Over Big Sensor Network Readings: Overview, Management, and Applications",https://doi.org/10.4018/IJDST.296248
-,1786,/doi/10.1145/3465481.3469195,PUF-based Smart Tags for Supply Chain Management,https://doi.org/10.1145/3465481.3469195
-,1790,/doi/10.1145/3490685,"Abstractions, their algorithms, and their compilers",https://doi.org/10.1145/3490685
-,1792,/doi/10.1145/3397521,PANDA: Partitioned Data Security on Outsourced Sensitive and Non-sensitive Data,https://doi.org/10.1145/3397521
-,1795,/doi/10.1145/3581762,A Map for Innovation,https://doi.org/10.1145/3581762
-,1796,/doi/10.1145/3567605,The context problem in artificial intelligence,https://doi.org/10.1145/3567605
-,1798,/doi/10.1145/3548781,The Atlas milestone,https://doi.org/10.1145/3548781
-,1800,/doi/10.1145/3488042.3488053,CT 2.0,https://doi.org/10.1145/3488042.3488053
-,1803,/doi/10.1145/3399709,Working Set Analytics,https://doi.org/10.1145/3399709
-,1804,/doi/10.1145/3427634,COVID-19 and computation for policy,https://doi.org/10.1145/3427634
-,1805,/doi/10.1016/j.ijhcs.2012.10.005,"Information is not knowledge, knowledge is not wisdom, wisdom is not truth",https://doi.org/10.1016/j.ijhcs.2012.10.005
-,1806,/doi/10.1109/MIS.2008.10,Near-Term Prospects for Semantic Technologies,https://doi.org/10.1109/MIS.2008.10
-,1808,/doi/10.4018/IJSSCI.2021010104,Using Clustering for Forensics Analysis on Internet of Things,https://doi.org/10.4018/IJSSCI.2021010104
-,1811,/doi/10.4018/IJCAC.2021040103,Using E-Reputation for Sentiment Analysis: Twitter as a Case Study,https://doi.org/10.4018/IJCAC.2021040103
-,1812,/doi/10.1007/s10994-023-06455-1,A neural meta model for predicting winter wheat crop yield,https://doi.org/10.1007/s10994-023-06455-1
-,1815,/doi/10.1145/3628797.3628971,Fuzzy Deep Hybrid Network for Fake News Detection,https://doi.org/10.1145/3628797.3628971
-,1817,/doi/10.1016/j.cmpb.2021.106398,Code-free cloud computing service to facilitate rapid biomedical digital signal processing and algorithm development,https://doi.org/10.1016/j.cmpb.2021.106398
-,1820,/doi/10.1145/3647722.3647732,"Data, analytics, and Intelligence: A Unified Approach",https://doi.org/10.1145/3647722.3647732
-,1821,/doi/10.1145/2541268.2541273,Classification in P2P networks with cascade support vector machines,https://doi.org/10.1145/2541268.2541273
-,1823,/doi/10.1007/s10639-021-10741-7,"Application of machine learning in higher education to assess student academic performance, at-risk, and attrition: A meta-analysis of literature",https://doi.org/10.1007/s10639-021-10741-7
-,1825,/doi/10.1016/j.procs.2019.11.266,Applications of Blockchain to Improve Supply Chain Traceability,https://doi.org/10.1016/j.procs.2019.11.266
-,1828,/doi/10.1145/3534516,BrainEx: Interactive Visual Exploration and Discovery of Sequence Similarity in Brain Signals,https://doi.org/10.1145/3534516
-,1831,/doi/10.1145/3035918.3058729,Interactive Time Series Analytics Powered by ONEX,https://doi.org/10.1145/3035918.3058729
-,1833,/doi/10.1145/2791060.2791076,Towards migrating object-oriented frameworks to enable synthesis of product line members,https://doi.org/10.1145/2791060.2791076
-,1836,/doi/10.1145/3395351.3399356,Truncate after preamble: PHY-based starvation attacks on IoT networks,https://doi.org/10.1145/3395351.3399356
-,1838,/doi/10.14778/3648160.3648182,MetaStore: Analyzing Deep Learning Meta-Data at Scale,https://doi.org/10.14778/3648160.3648182
-,1841,/doi/10.1145/3606180.3606187,Geospatial and multivariate analysis of under-five stunting children in Rwanda using DHS 2020,https://doi.org/10.1145/3606180.3606187
-,1844,/doi/10.1007/s42979-019-0017-9,Improvement of Malware Classification Using Hybrid Feature Engineering,https://doi.org/10.1007/s42979-019-0017-9
-,1845,/doi/10.1155/2016/8178417,Beyond the Internet of Things,https://doi.org/10.1155/2016/8178417
-,1848,/doi/10.1145/3513130.3558977,Technical Communication and Geoengineering Standards: The Case of ISO 14082,https://doi.org/10.1145/3513130.3558977
-,1849,/doi/10.1145/3331558.3331565,Risk selfies and nonrational environmental communication,https://doi.org/10.1145/3331558.3331565
-,1850,/doi/10.1007/s11277-021-08082-2,An Efficient Approach for Big Data Aggregation Mechanism in Heterogeneous Wireless Connected Sensor Networks,https://doi.org/10.1007/s11277-021-08082-2
-,1852,/doi/10.1007/978-3-031-54129-2_15,SigIL: A Signature-Based Approach of Malware Detection on Intermediate Language,https://doi.org/10.1007/978-3-031-54129-2_15
-,1856,/doi/10.1016/j.cose.2023.103355,SCOUT: Security by computing OUTliers on activity logs,https://doi.org/10.1016/j.cose.2023.103355
-,1857,/doi/10.1007/978-3-031-39841-4_6,Evolving Justice Sector: An Innovative Proposal for Introducing AI-Based Techniques in Court Offices,https://doi.org/10.1007/978-3-031-39841-4_6
-,1861,/doi/10.1016/j.future.2019.07.077,Fast and effective Big Data exploration by clustering,https://doi.org/10.1016/j.future.2019.07.077
-,1862,/doi/10.14778/3648160.3648186,Efficient Placement of Decomposable Aggregation Functions for Stream Processing over Large Geo-Distributed Topologies,https://doi.org/10.14778/3648160.3648186
-,1865,/doi/10.1016/j.eswa.2023.120123,Electricity consumption forecasting with outliers handling based on clustering and deep learning with application to the Algerian market,https://doi.org/10.1016/j.eswa.2023.120123
-,1868,/doi/10.1504/ijbis.2019.099305,Impact of technology evolution on the materialised views: current issues and future trends,https://doi.org/10.1504/ijbis.2019.099305
-,1869,/doi/10.1007/s10916-018-0894-9,"Medical Big Data Warehouse: Architecture and System Design, a Case Study: Improving Healthcare Resources Distribution",https://doi.org/10.1007/s10916-018-0894-9
-,1870,/doi/10.1007/978-3-030-67667-4_27,Interpretable Dimensionally-Consistent Feature Extraction from Electrical Network Sensors,https://doi.org/10.1007/978-3-030-67667-4_27
-,1872,/doi/10.1007/978-3-031-43815-8_24,Championing Electromobility with Co-engineered Services Based on Artificial Intelligence and Interdisciplinarity,https://doi.org/10.1007/978-3-031-43815-8_24
-,1874,/doi/10.1145/3613905.3651064,BiasBuzz: Combining Visual Guidance with Haptic Feedback to Increase Awareness of Analytic Behavior during Visual Data Analysis,https://doi.org/10.1145/3613905.3651064
-,1877,/doi/10.1145/3613904.3642001,DeepSee: Multidimensional Visualizations of Seabed Ecosystems,https://doi.org/10.1145/3613904.3642001
-,1894,/doi/10.1145/2808783.2808784,Detecting Insider Threat from Enterprise Social and Online Activity Data,https://doi.org/10.1145/2808783.2808784
-,1897,/doi/10.5220/0005707701410148,Multi-Agent Plan Recognition as Planning (MAPRAP),https://doi.org/10.5220/0005707701410148
-,1899,/doi/10.1109/SMC.2015.201,Support for Salience: IT to Assist Burn ICU Clinician Decision Making and Communication,https://doi.org/10.1109/SMC.2015.201
-,1902,/doi/10.1145/2693208.2693228,Modern Enterprises in the Bubble: Why Big Data Matters,https://doi.org/10.1145/2693208.2693228
-,1904,/doi/10.1109/IRI.2017.70,Modelling Multimedia Social Networks Using Semantically Labelled Graphs,https://doi.org/10.1109/IRI.2017.70
-,1906,/doi/10.5220/0006484102960305,Big Data Visualization Tools: A Survey,https://doi.org/10.5220/0006484102960305
-,1907,/doi/10.5220/0006046802570264,Exploration and Visualization of Big Graphs,https://doi.org/10.5220/0006046802570264
-,1908,/doi/10.5220/0005470305020508,Tracking Project Progress with Earned Value Management Metrics,https://doi.org/10.5220/0005470305020508
-,1910,/doi/10.1109/MIS.2008.15,The Procurement Woes Revisited,https://doi.org/10.1109/MIS.2008.15
-,1914,/doi/10.1109/EMS.2009.113,Use of SOA 3.0 in Strategic Information System Planning,https://doi.org/10.1109/EMS.2009.113
-,1916,/doi/10.1007/s11276-022-03053-2,Machine learning-based approaches for user association and access point selection in heterogeneous fixed wireless networks,https://doi.org/10.1007/s11276-022-03053-2
-,1919,/doi/10.1007/978-3-031-09593-1_11,Design COVID-19 Ontology: A Healthcare and Safety Perspective,https://doi.org/10.1007/978-3-031-09593-1_11
-,1921,/doi/10.1145/3546157.3546171,Towards Simplifying and Formalizing UML Class Diagram Generalization/Specialization Relationship with Mathematical Set Theory,https://doi.org/10.1145/3546157.3546171
-,1923,/doi/10.1145/3388142.3388175,A Review of Applications of Formal Specification in Safety-Critical System Development,https://doi.org/10.1145/3388142.3388175
-,1925,/doi/10.1109/MDM.2013.95,eCloudIDS Tier-1 iCloudIDM Layer-I (iCloudIDM-LI) Subsystem Design and Implementation through User-centric Identity Management Approach for Secure Cloud Computing Environment,https://doi.org/10.1109/MDM.2013.95
-,1928,/doi/10.1109/MDM.2013.91,A Roadmap on Improved Performance-centric Cloud Storage Estimation Approach for Database System Deployment in Cloud Environment,https://doi.org/10.1109/MDM.2013.91
-,1931,/doi/10.1145/2345396.2345474,State-of-the-art cloud computing security taxonomies: a classification of security challenges in the present cloud computing environment,https://doi.org/10.1145/2345396.2345474
-,1932,/doi/10.1007/s10207-023-00802-y,Cybersecurity training and healthcare: the AERAS approach,https://doi.org/10.1007/s10207-023-00802-y
-,1936,/doi/10.1016/j.eswa.2023.122754,A new tree-based approach to mine sequential patterns▪,https://doi.org/10.1016/j.eswa.2023.122754
-,1939,/doi/10.1007/s00521-022-07419-7,R2U++: a multiscale recurrent residual U-Net with dense skip connections for medical image segmentation,https://doi.org/10.1007/s00521-022-07419-7
-,1942,/doi/10.1145/3394788.3394790,Impact of Psycho-Demographic Factors on Smartphone Purchase Decisions,https://doi.org/10.1145/3394788.3394790
-,1943,/doi/10.4018/IJESMA.2020010103,Predictors of e-service Consumption in a Highly Productive Brazil-Russia-India-China-South Africa Region Sample,https://doi.org/10.4018/IJESMA.2020010103
-,1944,/doi/10.4018/IJEA.2019070103,Examining e-Adoption of Agricultural Systems by Farmers in Central Nigeria,https://doi.org/10.4018/IJEA.2019070103
-,1945,/doi/10.1007/978-3-031-10450-3_9,Effectively and Efficiently Supporting Visual Big Data Analytics over Big Sequential Data: An Innovative Data Science Approach,https://doi.org/10.1007/978-3-031-10450-3_9
-,1947,/doi/10.1109/ASONAM49781.2020.9381370,Compression for very sparse big social data,https://doi.org/10.1109/ASONAM49781.2020.9381370
-,1948,/doi/10.1016/j.cose.2020.101939,Efficient determination of equivalence for encrypted data,https://doi.org/10.1016/j.cose.2020.101939
-,1952,/doi/10.1016/j.procs.2019.11.007,The Impact of Big Data Quality on Sentiment Analysis Approaches,https://doi.org/10.1016/j.procs.2019.11.007
-,1953,/doi/10.1016/j.procs.2019.11.006,A Secure Multi-User Database-as-a-Service Approach for Cloud Computing Privacy,https://doi.org/10.1016/j.procs.2019.11.006
-,1954,/doi/10.1145/3607720.3607744,A private cloud-based Datalab for scalable DSML pipelines,https://doi.org/10.1145/3607720.3607744
-,1956,/doi/10.1109/SITIS.2014.61,Private Video Streaming Service Using Leveled Somewhat Homomorphic Encryption,https://doi.org/10.1109/SITIS.2014.61
-,1959,/doi/10.1007/978-3-031-44137-0_2,Dedicated Encoding-Streams Based Spatio-Temporal Framework for Dynamic Person-Independent Facial Expression Recognition,https://doi.org/10.1007/978-3-031-44137-0_2
-,1962,/doi/10.1007/s10957-023-02173-9,Privacy-Preserving Dual Stochastic Push-Sum Algorithm for Distributed Constrained Optimization,https://doi.org/10.1007/s10957-023-02173-9
-,1966,/doi/10.1016/j.ins.2021.10.003,Online distributed dual averaging algorithm for multi-agent bandit optimization over time-varying general directed networks,https://doi.org/10.1016/j.ins.2021.10.003
-,1969,/doi/10.1007/s11075-019-00746-2,Regularized dual gradient distributed method for constrained convex optimization over unbalanced directed graphs,https://doi.org/10.1007/s11075-019-00746-2
-,1970,/doi/10.1155/2017/3610283,Distributed Optimization Methods for Nonconvex Problems with Inequality Constraints over Time-Varying Networks,https://doi.org/10.1155/2017/3610283
-,1972,/doi/10.1109/TITS.2022.3233422,Fleet Rebalancing for Expanding Shared e-Mobility Systems: A Multi-Agent Deep Reinforcement Learning Approach,https://doi.org/10.1109/TITS.2022.3233422
-,1976,/doi/10.1016/j.procs.2022.11.060,The Use of Virtual Reality Technologies in the Specialists’ Training in the Field of Information Security,https://doi.org/10.1016/j.procs.2022.11.060
-,1979,/doi/10.1145/2674558,Coding and K-12 computer science,https://doi.org/10.1145/2674558
-,1980,/doi/10.1145/2659002,The internet of things,https://doi.org/10.1145/2659002
-,1981,/doi/10.1145/2577048,Girls and STEM,https://doi.org/10.1145/2577048
-,1982,/doi/10.1145/3583780.3614959,MATA*: Combining Learnable Node Matching with A* Algorithm for Approximate Graph Edit Distance Computation,https://doi.org/10.1145/3583780.3614959
-,1986,/doi/10.1109/TKDE.2023.3248780,Effective and Efficient Lexicographical Order Dependency Discovery,https://doi.org/10.1109/TKDE.2023.3248780
-,1991,/doi/10.1145/3637989.3638014,Addressing Academic Misconduct in the Age of ChatGPT: Strategies and Solutions,https://doi.org/10.1145/3637989.3638014
-,1993,/doi/10.1145/3366650.3366668,Applied Linear Algebra Methods for Data Science,https://doi.org/10.1145/3366650.3366668
-,1995,/doi/10.1145/3277104.3277119,An Overview of the Julia Programming Language,https://doi.org/10.1145/3277104.3277119
-,1999,/doi/10.1109/MIC.2016.128,Stringer: Balancing Latency and Resource Usage in Service Function Chain Provisioning,https://doi.org/10.1109/MIC.2016.128
-,2003,/doi/10.1016/j.websem.2021.100687,The Smart Musical Instruments Ontology,https://doi.org/10.1016/j.websem.2021.100687
-,2005,/doi/10.1145/3511047.3537663,Single User Group Recommendations,https://doi.org/10.1145/3511047.3537663
-,2008,/doi/10.1007/978-981-97-2242-6_27,A Model for Retrieving High-Utility Itemsets with Complementary and Substitute Goods,https://doi.org/10.1007/978-981-97-2242-6_27
-,2012,/doi/10.1145/3341105.3373996,Trustworthy intelligent industrial monitoring architecture for early event detection by exploiting social IoT,https://doi.org/10.1145/3341105.3373996
-,2014,/doi/10.1016/j.compeleceng.2022.108195,A social qualitative trust framework for Fog computing,https://doi.org/10.1016/j.compeleceng.2022.108195
-,2017,/doi/10.1016/j.cie.2022.108313,UzADL: Anomaly detection and localization using graph Laplacian matrix-based unsupervised learning method,https://doi.org/10.1016/j.cie.2022.108313
-,2020,/doi/10.1145/3647444.3647868,An investigation of Malware Detection System using Deep Learning on computing Systems,https://doi.org/10.1145/3647444.3647868
-,2022,/doi/10.1145/3368691.3368742,Facebook effect on customers' purchasing behaviors in Jordan,https://doi.org/10.1145/3368691.3368742
-,2023,/doi/10.1145/3528137.3528159,On Security Implications of Emerging Technologies,https://doi.org/10.1145/3528137.3528159
-,2025,/doi/10.1145/3423390.3423394,On Malware Detection in the Android Operating System,https://doi.org/10.1145/3423390.3423394
-,2027,/doi/10.1145/3404663.3406874,Analysis of Fuel Pump Skimming Devices,https://doi.org/10.1145/3404663.3406874
-,2029,/doi/10.1145/3404663.3404664,An Inventory of Existing Neuroprivacy Controls,https://doi.org/10.1145/3404663.3404664
-,2031,/doi/10.1145/3394788.3394791,Privacy Concerns on Expungement Laws in the Digital World,https://doi.org/10.1145/3394788.3394791
-,2033,/doi/10.1145/3394788.3394789,On Data Protection Using Multi-Factor Authentication,https://doi.org/10.1145/3394788.3394789
-,2035,/doi/10.1145/3372938.3372940,On Data Privacy in Modern Personal Vehicles,https://doi.org/10.1145/3372938.3372940
-,2037,/doi/10.1145/3325917.3325927,PhAttApp: A Phishing Attack Detection Application,https://doi.org/10.1145/3325917.3325927
-,2039,/doi/10.1145/3314545.3314562,An Analysis of Botnet Models,https://doi.org/10.1145/3314545.3314562
-,2041,/doi/10.1145/3289100.3289130,On Cyber Threats to Smart Digital Environments,https://doi.org/10.1145/3289100.3289130
-,2043,/doi/10.1145/3128128.3128163,Advances in high performance computing and their impact on smart cities,https://doi.org/10.1145/3128128.3128163
-,2044,/doi/10.1109/ICCRD.2010.137,MIMO Ad Hoc Network Performance in the Presence of Co-channel Interference,https://doi.org/10.1109/ICCRD.2010.137
-,2046,/doi/10.1109/ICCSN.2010.105,Exploration of High-Dimensional Nuclei Data,https://doi.org/10.1109/ICCSN.2010.105
-,2048,/doi/10.1007/s10586-019-02919-z,Flow-aware explicit congestion notification for datacenter networks,https://doi.org/10.1007/s10586-019-02919-z
-,2053,/doi/10.1016/j.websem.2021.100700,A hybrid E-learning recommendation integrating adaptive profiling and sentiment analysis,https://doi.org/10.1016/j.websem.2021.100700
-,2055,/doi/10.4018/IJKDB.2016070103,Impact of Swarm Intelligence Techniques in Diabetes Disease Risk Prediction,https://doi.org/10.4018/IJKDB.2016070103
-,2058,/doi/10.1109/TNSM.2019.2953621,Improving End-Users Utility in Software-Defined Wide Area Network Systems,https://doi.org/10.1109/TNSM.2019.2953621
-,2061,/doi/10.1145/3449365.3449368,Data Model For Bigdata System For Multimedia,https://doi.org/10.1145/3449365.3449368
-,2062,/doi/10.1155/2021/6626948,Deep Learning for Plastic Waste Classification System,https://doi.org/10.1155/2021/6626948
-,2064,/doi/10.1007/978-3-642-29347-4_62,Lip tracking method for the system of audio-visual polish speech recognition,https://doi.org/10.1007/978-3-642-29347-4_62
-,2066,/doi/10.1007/978-3-642-31464-3_36,GPU accelerated image processing for lip segmentation,https://doi.org/10.1007/978-3-642-31464-3_36
-,2068,/doi/10.1145/2884781.2896829,Predicting and fixing vulnerabilities before they occur: a big data approach,https://doi.org/10.1145/2884781.2896829
-,2070,/doi/10.1016/j.infsof.2023.107322,Software design analysis and technical debt management based on design rule theory,https://doi.org/10.1016/j.infsof.2023.107322
-,2072,/doi/10.1109/ICSE-Companion58688.2023.00095,SAIN: A Community-Wide Software Architecture Infrastructure,https://doi.org/10.1109/ICSE-Companion58688.2023.00095
-,2076,/doi/10.1007/978-3-030-64148-1_15,A Systematic-Oriented Process for Tool Selection: The Case of Green and Technical Debt Tools in Architecture Reconstruction,https://doi.org/10.1007/978-3-030-64148-1_15
-,2079,/doi/10.1016/j.csi.2016.06.002,An exploratory study in communication in Agile Global Software Development,https://doi.org/10.1016/j.csi.2016.06.002
-,2082,/doi/10.1016/j.asoc.2023.111173,Using fuzzy transform for sustainable fake news detection,https://doi.org/10.1016/j.asoc.2023.111173
+,Unnamed: 0,ner_id,link,title,doi
+0,0.0,1,/doi/10.1145/3010089.3010090,Defining Big Data,https://doi.org/10.1145/3010089.3010090
+1,1.0,4,/doi/10.1145/3291801.3291822,Big Data with Ten Big Characteristics,https://doi.org/10.1145/3291801.3291822
+2,2.0,8,/doi/10.1145/2513591.2527071,Big data: a research agenda,https://doi.org/10.1145/2513591.2527071
+3,3.0,12,/doi/10.1145/3158352,Big data: big data or big brother? that is the question now.,https://doi.org/10.1145/3158352
+4,4.0,17,/doi/10.1145/2611040.2611042,Big Data: from Hype to Reality?,https://doi.org/10.1145/2611040.2611042
+5,5.0,19,/doi/10.1145/3010089.3010143,Healthcare Big Data: Challenges and Opportunities,https://doi.org/10.1145/3010089.3010143
+6,6.0,21,/doi/10.1145/2640087.2644175,Big Data and Smart Grid,https://doi.org/10.1145/2640087.2644175
+7,7.0,23,/doi/10.1145/3090354.3090401,From Data to Big Data: Moroccan Public Sector,https://doi.org/10.1145/3090354.3090401
+8,8.0,27,/doi/10.1145/3647722.3647725,Big Data 4.0 = Meta4 (Big Data) = The Era of Big Intelligence,https://doi.org/10.1145/3647722.3647725
+9,9.0,29,/doi/10.1145/2351316.2351318,"Big data, big business: bridging the gap",https://doi.org/10.1145/2351316.2351318
+10,10.0,34,/doi/10.1145/3361758.3361768,"Big Data Infrastructure, Data Visualisation and Challenges",https://doi.org/10.1145/3361758.3361768
+11,11.0,37,/doi/10.1145/2837060.2837068,Clarifying Big Data: The Concept and Its Applications,https://doi.org/10.1145/2837060.2837068
+12,12.0,42,/doi/10.1145/2658840.2658845,Taming Big Data: Integrating diverse public data sources for economic competitiveness analytics,https://doi.org/10.1145/2658840.2658845
+13,13.0,55,/doi/10.1145/3195528.3195533,Big data: deep learning for detecting malware,https://doi.org/10.1145/3195528.3195533
+14,14.0,58,/doi/10.1145/3141128.3141139,Big Data and New Data Warehousing Approaches,https://doi.org/10.1145/3141128.3141139
+15,15.0,61,/doi/10.1145/2524248.2524253,"Big data, big questions",https://doi.org/10.1145/2524248.2524253
+16,16.0,63,/doi/10.1145/3010089.3017606,Integrating Big data paradigm in WSNs,https://doi.org/10.1145/3010089.3017606
+17,17.0,66,/doi/10.1145/3216122.3216154,Efficient Big Data Clustering,https://doi.org/10.1145/3216122.3216154
+18,18.0,70,/doi/10.1145/3210284.3214344,"Mosaics in Big Data: Stratosphere, Apache Flink, and Beyond",https://doi.org/10.1145/3210284.3214344
+19,19.0,72,/doi/10.1145/3090354.3090376,Big Data Technologies to Improve Medical Data Warehousing,https://doi.org/10.1145/3090354.3090376
+20,20.0,76,/doi/10.1145/3010089.3010127,Big Data Clustering using Data Streams Approach,https://doi.org/10.1145/3010089.3010127
+21,21.0,80,/doi/10.1145/2609876.2609890,Modeling in Big Data Environments,https://doi.org/10.1145/2609876.2609890
+22,22.0,84,/doi/10.1145/2609876.2609889,Sensemaking in Big Data Environments,https://doi.org/10.1145/2609876.2609889
+23,23.0,88,/doi/10.1145/3011286.3011307,Environmental Big Data: a systematic mapping study,https://doi.org/10.1145/3011286.3011307
+24,24.0,92,/doi/10.1145/2609876.2609887,Support for Big Data's Limiting Resource: Human Attention,https://doi.org/10.1145/2609876.2609887
+25,25.0,95,/doi/10.1145/2656346.2656358,Big data architecture evolution: 2014 and beyond,https://doi.org/10.1145/2656346.2656358
+26,26.0,99,/doi/10.1145/3172871.3172886,State-of-the-art Big Data Security Taxonomies,https://doi.org/10.1145/3172871.3172886
+27,27.0,102,/doi/10.1109/CCGRID.2018.00100,Pedigree-ing your big data: data-driven big data privacy in distributed environments,https://doi.org/10.1109/CCGRID.2018.00100
+28,28.0,104,/doi/10.1145/2837060.2837076,Big Data Mining Applications and Services,https://doi.org/10.1145/2837060.2837076
+29,29.0,106,/doi/10.1145/3378904.3378907,Security Challenges for Big Data and IoT,https://doi.org/10.1145/3378904.3378907
+30,30.0,108,/doi/10.1145/3018896.3025151,Where big data meets 5G?,https://doi.org/10.1145/3018896.3025151
+31,31.0,111,/doi/10.1145/3289100.3289108,Towards Efficient Big Data: Hadoop Data Placing and Processing,https://doi.org/10.1145/3289100.3289108
+32,32.0,115,/doi/10.1145/3505745.3505750,Responsible Big Data Analytics for E-Business Services,https://doi.org/10.1145/3505745.3505750
+33,33.0,117,/doi/10.1145/3603706,BIGQA: Declarative Big Data Quality Assessment,https://doi.org/10.1145/3603706
+34,34.0,121,/doi/10.1145/3341161.3343512,Flexible compression of big data,https://doi.org/10.1145/3341161.3343512
+35,35.0,124,/doi/10.1145/3331651.3331659,Co-Designing Learning Materials to Empower Laypersons to Better Understand Big Data and Big Data Methods,https://doi.org/10.1145/3331651.3331659
+36,36.0,127,/doi/10.1145/3341620.3341629,Big Data Quality Metrics for Sentiment Analysis Approaches,https://doi.org/10.1145/3341620.3341629
+37,37.0,131,/doi/10.1145/3564665.3564673,Driving Digital Services with Big Data Analytics,https://doi.org/10.1145/3564665.3564673
+38,38.0,133,/doi/10.1145/3158339,Big Data for Social Science Research: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158339
+39,39.0,135,/doi/10.1145/3158335,"Big Data, Digitization, and Social Change: Big Data (Ubiquity symposium)",https://doi.org/10.1145/3158335
+40,40.0,137,/doi/10.1145/2659651.2659655,Big Data Information Security Maintenance,https://doi.org/10.1145/2659651.2659655
+41,41.0,140,/doi/10.1145/2614512.2629588,Big data,https://doi.org/10.1145/2614512.2629588
+42,42.0,142,/doi/10.1145/3447879.3447883,Approximate computation for big data analytics,https://doi.org/10.1145/3447879.3447883
+43,43.0,145,/doi/10.1145/3366650.3366667,Online Updating Algorithms of Statistical Methods for Big Data,https://doi.org/10.1145/3366650.3366667
+44,44.0,148,/doi/10.1145/3158337,Big Data and the Attention Economy: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158337
+45,45.0,150,/doi/10.1145/3502300.3502312,US Army Big Data Military Applications and Reflections,https://doi.org/10.1145/3502300.3502312
+46,46.0,153,/doi/10.1145/2928294.2928297,Semantic big data for tax assessment,https://doi.org/10.1145/2928294.2928297
+47,47.0,158,/doi/10.1145/3436286.3436291,Hot Topics of Big Data Research in China,https://doi.org/10.1145/3436286.3436291
+48,48.0,160,/doi/10.1145/2837060.2837116,Big Data Processing Flow,https://doi.org/10.1145/2837060.2837116
+49,49.0,162,/doi/10.1145/2837060.2837067,Big Data and Internet of Things: An Asset for Urban Planning,https://doi.org/10.1145/2837060.2837067
+50,50.0,166,/doi/10.1145/2905055.2905215,A Major Threat to Big Data: Data Security,https://doi.org/10.1145/2905055.2905215
+51,51.0,169,/doi/10.1145/3368691.3368741,Big data analytics tools and applications: survey,https://doi.org/10.1145/3368691.3368741
+52,52.0,174,/doi/10.1145/3372938.3372939,On the Intersection of Big Data and Privacy,https://doi.org/10.1145/3372938.3372939
+53,53.0,177,/doi/10.1145/3404687.3404694,A Comprehensive Overview of BIG DATA Technologies: A Survey,https://doi.org/10.1145/3404687.3404694
+54,54.0,180,/doi/10.1145/3335484.3335534,Green Optical Networking for Big Data Transfer,https://doi.org/10.1145/3335484.3335534
+55,55.0,182,/doi/10.1145/2905055.2905099,Big data and ICT applications: A study,https://doi.org/10.1145/2905055.2905099
+56,56.0,186,/doi/10.1145/3373419.3373425,Design Big Data Analysis System - Bigdeepexaminator,https://doi.org/10.1145/3373419.3373425
+57,57.0,189,/doi/10.1145/3524383.3533249,Accurately Identify Poor Students under Big Data,https://doi.org/10.1145/3524383.3533249
+58,58.0,193,/doi/10.1145/2896825.2896837,Toward big data value engineering for innovation,https://doi.org/10.1145/2896825.2896837
+59,59.0,198,/doi/10.1145/3505745.3505751,A Strategic Perspective on Big Data Driven Socioeconomic Development,https://doi.org/10.1145/3505745.3505751
+60,60.0,199,/doi/10.1145/3102254.3102271,Big-data-driven innovation for enterprises: innovative big value paradigms for next-generation digital ecosystems,https://doi.org/10.1145/3102254.3102271
+61,61.0,202,/doi/10.1145/3158348,Corporate Security is a Big Data Problem: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158348
+62,62.0,204,/doi/10.1145/2905055.2905194,Non-Relational Databases in Big Data,https://doi.org/10.1145/2905055.2905194
+63,63.0,206,/doi/10.1145/3474944.3474950,Anomaly Detection for Big Data Security: A Benchmark,https://doi.org/10.1145/3474944.3474950
+64,64.0,212,/doi/10.1145/3363459.3363533,Big Data: A Decade of Energy Characteristics of Single-Family Homes in Florida,https://doi.org/10.1145/3363459.3363533
+65,65.0,215,/doi/10.1145/3627915.3629592,Design and Development of Big Data Platform for Smart University,https://doi.org/10.1145/3627915.3629592
+66,66.0,220,/doi/10.1145/3158350,"Big Data: Business, Technology, Education, and Science: Big Data (Ubiquity symposium)",https://doi.org/10.1145/3158350
+67,67.0,229,/doi/10.1145/2534921.2534924,When big data meets big smog: a big spatio-temporal data framework for China severe smog analysis,https://doi.org/10.1145/2534921.2534924
+68,68.0,236,/doi/10.1145/2874239.2874256,Era of big data: danger of descrimination,https://doi.org/10.1145/2874239.2874256
+69,69.0,239,/doi/10.1145/3409801,Big Data Processing on Volunteer Computing,https://doi.org/10.1145/3409801
+70,70.0,243,/doi/10.1145/3328833.3328841,Big Data in Healthcare: Are we getting useful insights from this avalanche of data?,https://doi.org/10.1145/3328833.3328841
+71,71.0,249,/doi/10.1145/3626252.3630888,Learning Big Data Systems via Emulation,https://doi.org/10.1145/3626252.3630888
+72,72.0,251,/doi/10.1145/2640087.2644153,"Computing Issues for Big Data: Theory, Systems and Applications",https://doi.org/10.1145/2640087.2644153
+73,73.0,253,/doi/10.1145/3150919.3150923,Geospatial Big Data Analytics Engine for Spark,https://doi.org/10.1145/3150919.3150923
+74,74.0,260,/doi/10.1145/2948992.2949024,Data Warehousing in Big Data: From Multidimensional to Tabular Data Models,https://doi.org/10.1145/2948992.2949024
+75,75.0,263,/doi/10.1145/2781562.2781574,Big Data Applications: Adaptive User Interfaces to Enhance Managerial Decision Making,https://doi.org/10.1145/2781562.2781574
+76,76.0,265,/doi/10.1145/3410352.3410785,Application of Big Data in Logistics,https://doi.org/10.1145/3410352.3410785
+77,77.0,269,/doi/10.1145/3386723.3387841,Big Data security and privacy techniques,https://doi.org/10.1145/3386723.3387841
+78,78.0,273,/doi/10.1145/2723372.2742794,Telco Churn Prediction with Big Data,https://doi.org/10.1145/2723372.2742794
+79,79.0,283,/doi/10.1145/3010089.3010113,The Role of Sampling in Big Data Analysis,https://doi.org/10.1145/3010089.3010113
+80,80.0,285,/doi/10.1145/2808580.2808667,Introducing big data topics: a multicourse experience report from Norway,https://doi.org/10.1145/2808580.2808667
+81,81.0,290,/doi/10.1145/3209281.3209372,Census big data analytics use: international cross case analysis,https://doi.org/10.1145/3209281.3209372
+82,82.0,295,/doi/10.1145/3132498.3132510,Characterizing big data software architectures: a systematic mapping study,https://doi.org/10.1145/3132498.3132510
+83,83.0,299,/doi/10.1145/3264560.3264571,Definition and Scope of Big Data Problem,https://doi.org/10.1145/3264560.3264571
+84,84.0,302,/doi/10.1145/2663715.2669614,Privacy and Security of Big Data: Current Challenges and Future Research Perspectives,https://doi.org/10.1145/2663715.2669614
+85,85.0,303,/doi/10.1145/3383972.3384075,Sociological Aspects of Big Data Privacy,https://doi.org/10.1145/3383972.3384075
+86,86.0,307,/doi/10.1145/3312714.3312728,IoT Big Data Value Map: How to Generate Value from IoT Data,https://doi.org/10.1145/3312714.3312728
+87,87.0,311,/doi/10.1145/2609876.2609891,User Evaluation Methodology Framework in Big Data Environments,https://doi.org/10.1145/2609876.2609891
+88,88.0,312,/doi/10.1145/3193077.3193079,Interaction Between Big Data and Cognitive Science,https://doi.org/10.1145/3193077.3193079
+89,89.0,315,/doi/10.1145/2479724.2479730,"Big data and e-government: issues, policies, and recommendations",https://doi.org/10.1145/2479724.2479730
+90,90.0,318,/doi/10.1145/3501409.3501703,Construction and Innovative Application of Chongqing Ecological Environment Big Data Platform,https://doi.org/10.1145/3501409.3501703
+91,91.0,326,/doi/10.1145/2658840.2658842,A Paradigm for Learning Queries on Big Data,https://doi.org/10.1145/2658840.2658842
+92,92.0,331,/doi/10.1145/2640087.2644168,Big Data Analysis with Interactive Visualization using R packages,https://doi.org/10.1145/2640087.2644168
+93,93.0,338,/doi/10.1145/3206157.3206166,"The 10 Vs, Issues and Challenges of Big Data",https://doi.org/10.1145/3206157.3206166
+94,94.0,345,/doi/10.1145/2745754.2745771,Querying Big Data by Accessing Small Data,https://doi.org/10.1145/2745754.2745771
+95,95.0,351,/doi/10.1145/3297730.3297744,The Wisdom City Based on the Big Data Technology,https://doi.org/10.1145/3297730.3297744
+96,96.0,354,/doi/10.1145/2481244.2481246,"Mining big data: current status, and forecast to the future",https://doi.org/10.1145/2481244.2481246
+97,97.0,357,/doi/10.1145/2896387.2900335,"Warehousing and Protecting Big Data: State-Of-The-Art-Analysis, Methodologies, Future Challenges",https://doi.org/10.1145/2896387.2900335
+98,98.0,358,/doi/10.1145/2939672.2939736,Crime Rate Inference with Big Data,https://doi.org/10.1145/2939672.2939736
+99,99.0,363,/doi/10.1145/2640087.2644173,Fast Mode Regression in Big Data Analysis,https://doi.org/10.1145/2640087.2644173
+100,100.0,368,/doi/10.1145/3416921.3416943,"Uncertainty and Imprecision in Big Data Management: Models, Issues, Paradigms, and Future Research Directions",https://doi.org/10.1145/3416921.3416943
+101,101.0,369,/doi/10.1145/3510003.3510619,Big data = big insights?: operationalising brooks' law in a massive GitHub data set,https://doi.org/10.1145/3510003.3510619
+102,102.0,374,/doi/10.1145/3538950.3538951,A Drug Safety Traceability Model Based on Big Data,https://doi.org/10.1145/3538950.3538951
+103,103.0,380,/doi/10.1145/3424978.3425010,Research on Scientific Data Management in Big Data Era,https://doi.org/10.1145/3424978.3425010
+104,104.0,384,/doi/10.1145/3345252.3345282,Conceptual Architecture of GATE Big Data Platform,https://doi.org/10.1145/3345252.3345282
+105,105.0,389,/doi/10.1145/3291801.3291813,Intellectual Property Risks and Protection Mechanisms of Big Data,https://doi.org/10.1145/3291801.3291813
+106,106.0,392,/doi/10.1145/2812428.2812441,Big data in electricity-visualization aspect,https://doi.org/10.1145/2812428.2812441
+107,107.0,395,/doi/10.1145/2447481.2447491,Predictive analytics with surveillance big data,https://doi.org/10.1145/2447481.2447491
+108,108.0,401,/doi/10.1145/3175684.3175687,A Data-based Method for Industrial Big Data Project Prioritization,https://doi.org/10.1145/3175684.3175687
+109,109.0,406,/doi/10.1145/3579654.3579686,A method for accelerating relations search over big data scenario,https://doi.org/10.1145/3579654.3579686
+110,110.0,411,/doi/10.1145/3183713.3183757,Big Data Linkage for Product Specification Pages,https://doi.org/10.1145/3183713.3183757
+111,111.0,417,/doi/10.1145/3340017.3340032,Big Data Perception & Usage: A Micro-Firm Perspective (The Case of the French Traditional Restaurant Sector),https://doi.org/10.1145/3340017.3340032
+112,112.0,420,/doi/10.1145/2612733.2612762,Local big data: the role of libraries in building community data infrastructures,https://doi.org/10.1145/2612733.2612762
+113,113.0,423,/doi/10.1145/2609876.2609884,Multidisciplinary Teamwork and Big Data,https://doi.org/10.1145/2609876.2609884
+114,114.0,425,/doi/10.1145/2377978.2377984,Application-driven energy-efficient architecture explorations for big data,https://doi.org/10.1145/2377978.2377984
+115,115.0,431,/doi/10.1145/2609876.2609877,"Big Data and the Invisible, Social Dimensions of Science",https://doi.org/10.1145/2609876.2609877
+116,116.0,433,/doi/10.1145/2487575.2487588,Beyond myopic inference in big data pipelines,https://doi.org/10.1145/2487575.2487588
+117,117.0,438,/doi/10.1145/2896825.2896828,A big data framework for cloud monitoring,https://doi.org/10.1145/2896825.2896828
+118,118.0,444,/doi/10.1145/3368691.3368717,Big data challenges and achievements: applications on smart cities and energy sector,https://doi.org/10.1145/3368691.3368717
+119,119.0,449,/doi/10.1145/3148055.3148057,Big Data Aware Virtual Machine Placement in Cloud Data Centers,https://doi.org/10.1145/3148055.3148057
+120,120.0,454,/doi/10.1145/2345316.2345347,"On clusterization of ""big data"" streams",https://doi.org/10.1145/2345316.2345347
+121,121.0,457,/doi/10.1145/3090354.3090370,Towards Clustering Validation in Big Data Context,https://doi.org/10.1145/3090354.3090370
+122,122.0,462,/doi/10.1145/3379247.3379294,Malicious SIM Cards Identification Method Based on Telecom Big Data Analytics,https://doi.org/10.1145/3379247.3379294
+123,123.0,470,/doi/10.1145/3141128.3141149,"Scalable OLAP-Based Big Data Analytics over Cloud Infrastructures: Models, Issues, Algorithms",https://doi.org/10.1145/3141128.3141149
+124,124.0,471,/doi/10.1145/3627377.3627394,Innovation in the maths classroom with big data for education,https://doi.org/10.1145/3627377.3627394
+125,125.0,474,/doi/10.1145/3085228.3085319,Can big data improve public policy analysis?,https://doi.org/10.1145/3085228.3085319
+126,126.0,478,/doi/10.1145/3404687.3404707,Optimization of Clothing Supply Standard Based on Big Data,https://doi.org/10.1145/3404687.3404707
+127,127.0,482,/doi/10.1145/3579371.3589082,Profiling Hyperscale Big Data Processing,https://doi.org/10.1145/3579371.3589082
+128,128.0,492,/doi/10.1145/3503928.3503929,Big Data: Finding Frequencies of Faulty Multimedia Data,https://doi.org/10.1145/3503928.3503929
+129,129.0,496,/doi/10.1145/2890602.2890619,Big Data and Analytics Leaders: the Changing Role of CIO,https://doi.org/10.1145/2890602.2890619
+130,130.0,500,/doi/10.1145/2331042.2331058,Interactive analysis of big data,https://doi.org/10.1145/2331042.2331058
+131,131.0,503,/doi/10.1145/3019612.3019700,From IoT big data to IoT big services,https://doi.org/10.1145/3019612.3019700
+132,132.0,507,/doi/10.1145/3474944.3474951,Big Data Analytics in Association Rule Mining: A Systematic Literature Review,https://doi.org/10.1145/3474944.3474951
+133,133.0,515,/doi/10.1145/2660168.2660187,Big Data for Musicology,https://doi.org/10.1145/2660168.2660187
+134,134.0,531,/doi/10.1145/3474944.3474962,Research on University Education Innovation in the Big Data Era,https://doi.org/10.1145/3474944.3474962
+135,135.0,533,/doi/10.1145/2957276.2997027,Towards Re-Orienting the Big Data Rhetoric,https://doi.org/10.1145/2957276.2997027
+136,136.0,535,/doi/10.1145/3564665.3564677,Research on Health Management System Based on Big Data Technology,https://doi.org/10.1145/3564665.3564677
+137,137.0,537,/doi/10.1145/3444757.3485106,Locality-Aware Workflow Orchestration for Big Data,https://doi.org/10.1145/3444757.3485106
+138,138.0,545,/doi/10.1145/3274250.3275113,Big Data Service Delivery Network,https://doi.org/10.1145/3274250.3275113
+139,139.0,548,/doi/10.1145/3220199.3220220,SAT-based Important Data Reliability Enhancement Model for Big Data Storage,https://doi.org/10.1145/3220199.3220220
+140,140.0,552,/doi/10.1145/2676536.2676538,High performance integrated spatial big data analytics,https://doi.org/10.1145/2676536.2676538
+141,141.0,557,/doi/10.1145/3481646.3481649,Benchmarking Apache Spark and Hadoop MapReduce on Big Data Classification,https://doi.org/10.1145/3481646.3481649
+142,142.0,560,/doi/10.1145/2699414,Exascale computing and big data,https://doi.org/10.1145/2699414
+143,143.0,563,/doi/10.1145/2745754.2745782,"Computational Thinking, Inferential Thinking and ""Big Data""",https://doi.org/10.1145/2745754.2745782
+144,144.0,565,/doi/10.1145/3578339.3578345,Research on Satellite-borne Big-data Storage System,https://doi.org/10.1145/3578339.3578345
+145,145.0,571,/doi/10.1145/3438872.3439086,Design and Implementation of Componentized Big Data Platform,https://doi.org/10.1145/3438872.3439086
+146,146.0,575,/doi/10.1145/2247596.2247598,"Inside ""Big Data management"": ogres, onions, or parfaits?",https://doi.org/10.1145/2247596.2247598
+147,147.0,579,/doi/10.1145/3437075.3437078,"Implementation of Big Data Analytics: Customers Analyzing using an Association Rule Modeling in a Gold, Silver, and Precious Metal Trading Company in Indonesia",https://doi.org/10.1145/3437075.3437078
+148,148.0,583,/doi/10.1145/3404555.3404630,Efficient Optimized Strategy of Big Data Retrieval,https://doi.org/10.1145/3404555.3404630
+149,149.0,589,/doi/10.1145/3507524.3507534,Enterprise big data management based on Knowledge Graph,https://doi.org/10.1145/3507524.3507534
+150,150.0,593,/doi/10.1145/3322134.3322137,Implementation Practice of Big Data Technology in a Sharing Economy,https://doi.org/10.1145/3322134.3322137
+151,151.0,595,/doi/10.1145/2837060.2837112,Safe-Return-Home Service based on Big Data Analytics,https://doi.org/10.1145/2837060.2837112
+152,152.0,600,/doi/10.1145/2839509.2844651,Teaching Big Data with a Virtual Cluster,https://doi.org/10.1145/2839509.2844651
+153,153.0,602,/doi/10.1145/3127942.3127961,Determinants of Big Data Adoption and Success,https://doi.org/10.1145/3127942.3127961
+154,154.0,606,/doi/10.1145/3264560.3266429,Scalable Privacy-Preserving Big Data Management and Analytics: Where We Are and Where We Are Going,https://doi.org/10.1145/3264560.3266429
+155,155.0,607,/doi/10.1145/3006299.3006311,Towards a comprehensive data lifecycle model for big data environments,https://doi.org/10.1145/3006299.3006311
+156,156.0,612,/doi/10.1145/2345316.2345328,Cloud computing & big data computing,https://doi.org/10.1145/2345316.2345328
+157,157.0,614,/doi/10.1145/2538862.2538877,Integrating big data into the computing curricula,https://doi.org/10.1145/2538862.2538877
+158,158.0,619,/doi/10.1145/3323878.3325802,Parallel RDF generation from heterogeneous big data,https://doi.org/10.1145/3323878.3325802
+159,159.0,625,/doi/10.1145/3010089.3016031,A mixture model approach to big data clustering and classification,https://doi.org/10.1145/3010089.3016031
+160,160.0,627,/doi/10.1145/2479724.2479764,"The complexities of ""big data"": the opportunities and challenges for e-government",https://doi.org/10.1145/2479724.2479764
+161,161.0,630,/doi/10.1145/2379436.2379440,Workload diversity and dynamics in big data analytics: implications to system designers,https://doi.org/10.1145/2379436.2379440
+162,162.0,634,/doi/10.1145/2331042.2331057,Big data platforms: What's next?,https://doi.org/10.1145/2331042.2331057
+163,163.0,635,/doi/10.1145/2693561.2693563,Runtime Performance Challenges in Big Data Systems,https://doi.org/10.1145/2693561.2693563
+164,164.0,638,/doi/10.1145/3419604.3419803,Towards a Data Quality Assessment in Big Data,https://doi.org/10.1145/3419604.3419803
+165,165.0,643,/doi/10.1145/2588555.2610512,Opportunistic physical design for big data analytics,https://doi.org/10.1145/2588555.2610512
+166,166.0,649,/doi/10.1145/3423603.3424056,Recent applications of big data in finance,https://doi.org/10.1145/3423603.3424056
+167,167.0,654,/doi/10.1145/3090354.3090363,Big Data Analytics Techniques in Virtual Screening for Drug Discovery,https://doi.org/10.1145/3090354.3090363
+168,168.0,657,/doi/10.1145/3264560.3264572,From Big Data to Better Behavior in Self-Driving Cars,https://doi.org/10.1145/3264560.3264572
+169,169.0,661,/doi/10.1145/3141128.3141138,A Systematic Review of Big Data Analytics Using Model Driven Engineering,https://doi.org/10.1145/3141128.3141138
+170,170.0,666,/doi/10.1145/3239438.3239485,Disease Trajectory Visualization System Based on Big Data Analytics,https://doi.org/10.1145/3239438.3239485
+171,171.0,671,/doi/10.1145/2911975,What happens when big data blunders?,https://doi.org/10.1145/2911975
+172,172.0,673,/doi/10.1145/2983323.2983345,City-Scale Localization with Telco Big Data,https://doi.org/10.1145/2983323.2983345
+173,173.0,679,/doi/10.1145/2666310.2666481,Efficient spatial query processing for big data,https://doi.org/10.1145/2666310.2666481
+174,174.0,684,/doi/10.1145/2612733.2612779,Building government's capacity for big data analysis,https://doi.org/10.1145/2612733.2612779
+175,175.0,685,/doi/10.1145/3456389.3456390,Opportunities and Challenges of Marketing in the Context of Big Data,https://doi.org/10.1145/3456389.3456390
+176,176.0,687,/doi/10.1145/3341042.3341056,Ethics Education of Information and Big Data,https://doi.org/10.1145/3341042.3341056
+177,177.0,692,/doi/10.1145/3312614.3312623,"The 51 V's Of Big Data: Survey, Technologies, Characteristics, Opportunities, Issues and Challenges",https://doi.org/10.1145/3312614.3312623
+178,178.0,699,/doi/10.1145/3006386.3006387,Analytics on public transport delays with spatial big data,https://doi.org/10.1145/3006386.3006387
+179,179.0,703,/doi/10.1145/3239283.3239322,Study on big data framework for product design,https://doi.org/10.1145/3239283.3239322
+180,180.0,706,/doi/10.1109/CCGrid.2016.107,Management of distributed big data for social networks,https://doi.org/10.1109/CCGrid.2016.107
+181,181.0,708,/doi/10.1145/3134302.3134335,Modelling of Educational Data Following Big Data Value Chain,https://doi.org/10.1145/3134302.3134335
+182,182.0,710,/doi/10.1145/3242840.3242842,Load Forecasting Research Based on High Performance Intelligent Data Processing of Power Big Data,https://doi.org/10.1145/3242840.3242842
+183,183.0,716,/doi/10.1145/3335484.3335545,Evaluation of Large-scale Complex Systems Effectiveness Based on Big Data,https://doi.org/10.1145/3335484.3335545
+184,184.0,720,/doi/10.1145/3290420.3290466,Big data prototype practice for unmanned surface vehicle,https://doi.org/10.1145/3290420.3290466
+185,185.0,724,/doi/10.1145/3195106.3195172,Big Data and Open Government Data in Public Services,https://doi.org/10.1145/3195106.3195172
+186,186.0,728,/doi/10.1145/3129757.3129762,Official statistics embrace big data: a review of current and developing international practice,https://doi.org/10.1145/3129757.3129762
+187,187.0,730,/doi/10.1145/3512731.3534211,Towards Intellectual Property Rights Protection in Big Data,https://doi.org/10.1145/3512731.3534211
+188,188.0,735,/doi/10.14778/2367502.2367563,MapReduce algorithms for big data analysis,https://doi.org/10.14778/2367502.2367563
+189,189.0,737,/doi/10.1145/2351316.2351322,Incrementally optimized decision tree for noisy big data,https://doi.org/10.1145/2351316.2351322
+190,190.0,740,/doi/10.1145/3106237.3117774,Static analysis for optimizing big data queries,https://doi.org/10.1145/3106237.3117774
+191,191.0,747,/doi/10.1145/3437075.3437083,Data Privacy of Enterprises in the Era of Big data: Evidence from China,https://doi.org/10.1145/3437075.3437083
+192,192.0,752,/doi/10.1145/3063955.3063968,The design of course architecture for big data,https://doi.org/10.1145/3063955.3063968
+193,193.0,757,/doi/10.1145/3148055.3148068,Characterization of Big Data Stream Processing Pipeline: A Case Study using Flink and Kafka,https://doi.org/10.1145/3148055.3148068
+194,194.0,761,/doi/10.1145/3322134.3322149,Big Data and Higher Vocational and Technical Education: Green Tourism Curriculum,https://doi.org/10.1145/3322134.3322149
+195,195.0,765,/doi/10.1145/2513190.2513198,Can we analyze big data inside a DBMS?,https://doi.org/10.1145/2513190.2513198
+196,196.0,767,/doi/10.1145/2611567,Big data and its technical challenges,https://doi.org/10.1145/2611567
+197,197.0,774,/doi/10.1145/3322134.3323932,New Approach of Big Data and Education: Any Term Must Be in the Characters Chessboard as a Super Matrix,https://doi.org/10.1145/3322134.3323932
+198,198.0,777,/doi/10.1145/3560107.3560310,ADACOP: A Big Data Platform for Open Government Data,https://doi.org/10.1145/3560107.3560310
+199,199.0,782,/doi/10.1145/2691195.2691196,Towards big data analytics framework: ICT professionals salary profile compilation perspective,https://doi.org/10.1145/2691195.2691196
+200,200.0,784,/doi/10.1145/2463676.2463707,The big data ecosystem at LinkedIn,https://doi.org/10.1145/2463676.2463707
+201,201.0,788,/doi/10.1145/3305160.3305211,A Managerial Framework for Intelligent Big Data Analytics,https://doi.org/10.1145/3305160.3305211
+202,202.0,790,/doi/10.14778/2824032.2824141,Big plateaus of big data on the big island,https://doi.org/10.14778/2824032.2824141
+203,203.0,792,/doi/10.1145/2928294.2928302,Semantic question answering on big data,https://doi.org/10.1145/2928294.2928302
+204,204.0,798,/doi/10.1145/3090354.3090388,Secure confidential big data sharing in cloud computing using KP-ABE,https://doi.org/10.1145/3090354.3090388
+205,205.0,802,/doi/10.1145/3175684.3175688,Big Data Educational Portal for Small and Medium Sized Enterprises (SMEs),https://doi.org/10.1145/3175684.3175688
+206,206.0,805,/doi/10.1145/3220199.3220200,Application research of big data experimental teaching platform based on OpenStack,https://doi.org/10.1145/3220199.3220200
+207,207.0,808,/doi/10.1145/3419634,"A Survey on IoT Big Data: Current Status, 13 V’s Challenges, and Future Directions",https://doi.org/10.1145/3419634
+208,208.0,812,/doi/10.1145/3291801.3291820,Research on Security and Privacy of Big Data under Cloud Computing Environment,https://doi.org/10.1145/3291801.3291820
+209,209.0,816,/doi/10.1145/3010089.3010144,Mixture Model Approaches to Big Data Clustering and Classification,https://doi.org/10.1145/3010089.3010144
+210,210.0,817,/doi/10.1145/2361999.2362038,Unified analytics platform for big data,https://doi.org/10.1145/2361999.2362038
+211,211.0,819,/doi/10.1145/3436286.3436404,Application of Artificial Intelligence and Big Data Technology in Digital Marketing,https://doi.org/10.1145/3436286.3436404
+212,212.0,822,/doi/10.1145/2640087.2644159,Creating a Chemistry of Sciences with Big Data: Building the Data Science Institute at Imperial College London,https://doi.org/10.1145/2640087.2644159
+213,213.0,825,/doi/10.14778/2733004.2733015,Big data small footprint: the design of a low-power classifier for detecting transportation modes,https://doi.org/10.14778/2733004.2733015
+214,214.0,831,/doi/10.1145/3006299.3006306,Empirical analysis of asymptotic ensemble learning for big data,https://doi.org/10.1145/3006299.3006306
+215,215.0,835,/doi/10.1145/3230348.3230368,Twitter Data Classification Using Big Data Technologies,https://doi.org/10.1145/3230348.3230368
+216,216.0,839,/doi/10.1145/2481244.2481247,Scaling big data mining infrastructure: the twitter experience,https://doi.org/10.1145/2481244.2481247
+217,217.0,842,/doi/10.1145/2609876.2609878,Cognitive and Organizational Challenges of Big Data in Cyber Defense,https://doi.org/10.1145/2609876.2609878
+218,218.0,844,/doi/10.1145/3010089.3010100,"Opportunities, Threats and Future Directions in Big Data for Medical Wearables",https://doi.org/10.1145/3010089.3010100
+219,219.0,847,/doi/10.1145/2612733.2612780,Using big data for digital government research,https://doi.org/10.1145/2612733.2612780
+220,220.0,848,/doi/10.1145/3389250,Big Data Analysis of Internet of Things System,https://doi.org/10.1145/3389250
+221,221.0,849,/doi/10.1145/2896825.2896834,A reference architecture for big data systems in the national security domain,https://doi.org/10.1145/2896825.2896834
+222,222.0,854,/doi/10.1145/3322134.3322150,Big Data and Higher Vocational and Technical Education: Green Food and Its Industry Orientation,https://doi.org/10.1145/3322134.3322150
+223,223.0,855,/doi/10.1145/3341620.3341630,"The Role of Big Data, Data Science and Data Analytics in Financial Engineering",https://doi.org/10.1145/3341620.3341630
+224,224.0,860,/doi/10.14778/2367502.2367572,Challenges and opportunities with big data,https://doi.org/10.14778/2367502.2367572
+225,225.0,861,/doi/10.1145/3627377.3627400,Research on Crime Prevention and Control Based on Big Data Method,https://doi.org/10.1145/3627377.3627400
+226,226.0,863,/doi/10.1145/3206157.3206177,Language E-learning based on Learning Analytics in Big Data Era,https://doi.org/10.1145/3206157.3206177
+227,227.0,865,/doi/10.1145/3379247.3379298,Application Analysis of Big Data Technology in Feeding Industry,https://doi.org/10.1145/3379247.3379298
+228,228.0,868,/doi/10.1145/3565291.3565298,Research and Application of Grey Factor Analysis in Big Data Analytics,https://doi.org/10.1145/3565291.3565298
+229,229.0,870,/doi/10.1145/3588921,Runtime Variation in Big Data Analytics,https://doi.org/10.1145/3588921
+230,230.0,875,/doi/10.1145/3456887.3457461,English Education Innovation Model Based on Big Data,https://doi.org/10.1145/3456887.3457461
+231,231.0,878,/doi/10.1145/2331042.2331054,Big data and internships at Cloudera,https://doi.org/10.1145/2331042.2331054
+232,232.0,884,/doi/10.1145/3474944.3474952,Privacy Security Status and Countermeasures in the Era of Big Data,https://doi.org/10.1145/3474944.3474952
+233,233.0,886,/doi/10.1145/3386415.3386964,Study on Clustering Computing Methods of Big Data,https://doi.org/10.1145/3386415.3386964
+234,234.0,890,/doi/10.1145/2896825.2896838,Understanding quality requirements in the context of big data systems,https://doi.org/10.1145/2896825.2896838
+235,235.0,894,/doi/10.1145/3168390.3168425,Measurement Metric Proposed For Big Data Analytics System,https://doi.org/10.1145/3168390.3168425
+236,236.0,900,/doi/10.1145/2743065.2743099,"Perspectives, Motivations and Implications Of Big Data Analytics",https://doi.org/10.1145/2743065.2743099
+237,237.0,904,/doi/10.1145/3277104.3277107,Content-Based Textual Big Data Analysis and Compression,https://doi.org/10.1145/3277104.3277107
+238,238.0,908,/doi/10.1145/3003733.3003767,Signal Processing Techniques Restructure The Big Data Era,https://doi.org/10.1145/3003733.3003767
+239,239.0,911,/doi/10.1145/3130218.3130236,Adaptive Manycore Architectures for Big Data Computing,https://doi.org/10.1145/3130218.3130236
+240,240.0,918,/doi/10.1145/3265689.3265706,Impacts of Big Data on Data Mining Research: An Empirical Study of Chinese Journals,https://doi.org/10.1145/3265689.3265706
+241,241.0,920,/doi/10.1145/3348400.3348414,The Impact of Big Data on Health Care Services in Australia: Using Big Data Analytics to Categorise and Deal with Patients,https://doi.org/10.1145/3348400.3348414
+242,242.0,924,/doi/10.1145/2351316.2351329,Online feature selection for mining big data,https://doi.org/10.1145/2351316.2351329
+243,243.0,929,/doi/10.1145/2486227.2486231,A big data confession,https://doi.org/10.1145/2486227.2486231
+244,244.0,931,/doi/10.1145/3209281.3209360,"Big data on cloud for government agencies: benefits, challenges, and solutions",https://doi.org/10.1145/3209281.3209360
+245,245.0,935,/doi/10.1145/2448917.2448925,Visual rhetoric and big data: design of future communication,https://doi.org/10.1145/2448917.2448925
+246,246.0,937,/doi/10.1145/3396956.3398253,"Big Data, Anonymisation and Governance to Personal Data Protection",https://doi.org/10.1145/3396956.3398253
+247,247.0,942,/doi/10.1145/2378975.2378987,Federated cloud-based big data platform in telecommunications,https://doi.org/10.1145/2378975.2378987
+248,248.0,949,/doi/10.1145/3361525.3361545,Self-adaptive Executors for Big Data Processing,https://doi.org/10.1145/3361525.3361545
+249,249.0,953,/doi/10.1145/2905055.2905202,Agent based Security Model for Cloud Big Data,https://doi.org/10.1145/2905055.2905202
+250,250.0,957,/doi/10.1145/3645279.3645293,Application of Internet Big Data in Network Security Situation Assessment,https://doi.org/10.1145/3645279.3645293
+251,251.0,961,/doi/10.1145/2896825.2896835,Towards a model-driven design tool for big data architectures,https://doi.org/10.1145/2896825.2896835
+252,252.0,966,/doi/10.1145/2791347.2791380,Privacy-preserving big data publishing,https://doi.org/10.1145/2791347.2791380
+253,253.0,970,/doi/10.1145/3301551.3301566,The Implications of Big Data Analytics Orientation upon Deployment,https://doi.org/10.1145/3301551.3301566
+254,254.0,974,/doi/10.1145/3387168.3387220,Integrated Retrieval System Based on Medical Big Data,https://doi.org/10.1145/3387168.3387220
+255,255.0,976,/doi/10.1145/2680821.2680824,Performance and Fairness Issues in Big Data Transfers,https://doi.org/10.1145/2680821.2680824
+256,256.0,980,/doi/10.1145/3105831.3105841,The SusCity Big Data Warehousing Approach for Smart Cities,https://doi.org/10.1145/3105831.3105841
+257,257.0,981,/doi/10.1145/3264560.3266428,A Scalable Streaming Big Data Architecture for Real-Time Sentiment Analysis,https://doi.org/10.1145/3264560.3266428
+258,258.0,984,/doi/10.1145/3041021.3053063,Top-K Entity Units Retrieval Over Big Data,https://doi.org/10.1145/3041021.3053063
+259,259.0,987,/doi/10.1145/3338906.3338939,Going big: a large-scale study on what big data developers ask,https://doi.org/10.1145/3338906.3338939
+260,260.0,990,/doi/10.1145/2389686.2389688,When big data leads to lost data,https://doi.org/10.1145/2389686.2389688
+261,261.0,993,/doi/10.1145/3443467.3443749,Optimized Privacy Protection Method for Big Data Traffic,https://doi.org/10.1145/3443467.3443749
+262,262.0,997,/doi/10.1145/2351316.2351323,Compression-aware I/O performance analysis for big data clustering,https://doi.org/10.1145/2351316.2351323
+263,263.0,1004,/doi/10.14778/2735461.2735465,In-memory performance for big data,https://doi.org/10.14778/2735461.2735465
+264,264.0,1012,/doi/10.1109/CCGrid.2015.85,Big data provenance analysis and visualization,https://doi.org/10.1109/CCGrid.2015.85
+265,265.0,1015,/doi/10.1145/2612733.2619954,"Informetric mapping of ""big data"" in FI-WARE",https://doi.org/10.1145/2612733.2619954
+266,266.0,1018,/doi/10.1145/3291801.3291827,Research on the effectiveness evaluation of big data in combat simulation,https://doi.org/10.1145/3291801.3291827
+267,267.0,1024,/doi/10.1145/3372454.3372469,Big data scalability based on Spark Machine Learning Libraries,https://doi.org/10.1145/3372454.3372469
+268,268.0,1028,/doi/10.1145/3148055.3148060,Managing Variant Calling Files the Big Data Way: Using HDFS and Apache Parquet,https://doi.org/10.1145/3148055.3148060
+269,269.0,1034,/doi/10.1145/2812428.2812429,Database technologies in the world of big data,https://doi.org/10.1145/2812428.2812429
+270,270.0,1036,/doi/10.1145/3338840.3355683,Traffic big data assisted broadcast in vehicular networks,https://doi.org/10.1145/3338840.3355683
+271,271.0,1041,/doi/10.1145/3352700.3352709,Big Data Network Flow Processing Using Apache Spark,https://doi.org/10.1145/3352700.3352709
+272,272.0,1044,/doi/10.1145/2594538.2594551,On scale independence for querying big data,https://doi.org/10.1145/2594538.2594551
+273,273.0,1046,/doi/10.1145/3358528.3359551,Application of Recommender System in Intelligent Community under Big Data Scenario,https://doi.org/10.1145/3358528.3359551
+274,274.0,1051,/doi/10.1145/3158341,Technology and Business Challenges of Big Data in the Digital Economy: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158341
+275,275.0,1053,/doi/10.1145/3265689.3265721,Big Data Management and Analytics for Disability Datasets,https://doi.org/10.1145/3265689.3265721
+276,276.0,1059,/doi/10.1145/3656766.3656946,Privacy Protection and Data Security for Big Data Encryption: A Review,https://doi.org/10.1145/3656766.3656946
+277,277.0,1063,/doi/10.1145/2351316.2351320,Parallel rough set based knowledge acquisition using MapReduce from big data,https://doi.org/10.1145/2351316.2351320
+278,278.0,1067,/doi/10.1145/3297730.3297743,Big Data Platform Architecture under The Background of Financial Technology: In The Insurance Industry As An Example,https://doi.org/10.1145/3297730.3297743
+279,279.0,1071,/doi/10.1145/2903150.2908078,Heterogeneous chip multiprocessor architectures for big data applications,https://doi.org/10.1145/2903150.2908078
+280,280.0,1073,/doi/10.1145/3369555.3369573,IoT-based big data analytics issues in healthcare,https://doi.org/10.1145/3369555.3369573
+281,281.0,1078,/doi/10.1145/3492324.3494169,Evaluating Serverless Architecture for Big Data Enterprise Applications,https://doi.org/10.1145/3492324.3494169
+282,282.0,1082,/doi/10.1145/3565387.3565402,Implementation of Cloud-based Urban Rail Big Data Platform,https://doi.org/10.1145/3565387.3565402
+283,283.0,1086,/doi/10.1145/2970276.2970325,Applying combinatorial test data generation to big data applications,https://doi.org/10.1145/2970276.2970325
+284,284.0,1092,/doi/10.1145/3341620.3341622,Review and Investigate the Mapping Knowledge Domain of Financial Big Data Research,https://doi.org/10.1145/3341620.3341622
+285,285.0,1096,/doi/10.1145/2644866.2644870,Humanist-centric tools for big data: berkeley prosopography services,https://doi.org/10.1145/2644866.2644870
+286,286.0,1099,/doi/10.1145/3538950.3538954,Information Intelligence System Solution Based on Big Data Flink Technology,https://doi.org/10.1145/3538950.3538954
+287,287.0,1103,/doi/10.1145/3450287,Event Prediction in the Big Data Era: A Systematic Survey,https://doi.org/10.1145/3450287
+288,288.0,1105,/doi/10.1145/3206157.3206167,Optimized Label Propagation Community Detection on Big Data Networks,https://doi.org/10.1145/3206157.3206167
+289,289.0,1108,/doi/10.1145/3358505.3358512,Big Data Platforms and Tools for Data Analytics in the Data Science Engineering Curriculum,https://doi.org/10.1145/3358505.3358512
+290,290.0,1110,/doi/10.1145/3372454.3372478,Assessing Reliability of Big Data Stream for Smart City,https://doi.org/10.1145/3372454.3372478
+291,291.0,1113,/doi/10.1145/3281022.3281026,From big data to smart data: a data quality perspective,https://doi.org/10.1145/3281022.3281026
+292,292.0,1119,/doi/10.1145/2968219.2968282,Enhancing location prediction with big data: evidence from dhaka,https://doi.org/10.1145/2968219.2968282
+293,293.0,1124,/doi/10.1145/3006386.3006391,Big data as a service from an urban information system,https://doi.org/10.1145/3006386.3006391
+294,294.0,1129,/doi/10.1145/3231830.3231840,Information Management Technologies for Big Data: A Case of Oracle,https://doi.org/10.1145/3231830.3231840
+295,295.0,1134,/doi/10.1145/2345316.2345320,"On clusterization of ""big data"" streams",https://doi.org/10.1145/2345316.2345320
+296,296.0,1136,/doi/10.1145/3154943.3154946,Big data analysis of local business and reviews,https://doi.org/10.1145/3154943.3154946
+297,297.0,1140,/doi/10.1145/3341620.3341635,Application of Online/Offline Sales Big Data in Household Medical Device Industry,https://doi.org/10.1145/3341620.3341635
+298,298.0,1145,/doi/10.1145/3299869.3320240,"Cost-Effective, Workload-Adaptive Migration of Big Data Applications to the Cloud",https://doi.org/10.1145/3299869.3320240
+299,299.0,1150,/doi/10.1145/3627377.3627395,Big Data Processing and Visualization of Offshore Current Based on Python,https://doi.org/10.1145/3627377.3627395
+300,300.0,1158,/doi/10.1145/3490322.3490346,Research Hotspots and Trends Visualization Analysis of Chinese E-commerce Big Data,https://doi.org/10.1145/3490322.3490346
+301,301.0,1164,/doi/10.1145/2640087.2644170,Identity Tracking in Big Data: Preliminary Research Using In-Memory Data Graph Models for Record Linkage and Probabilistic Signature Hashing for Approximate String Matching in Big Health and Human Services Databases,https://doi.org/10.1145/2640087.2644170
+302,302.0,1167,/doi/10.1145/3415958.3433082,Scalable Execution of Big Data Workflows using Software Containers,https://doi.org/10.1145/3415958.3433082
+303,303.0,1169,/doi/10.1145/3175684.3175730,Big Data Mining Algorithms for Fog Computing,https://doi.org/10.1145/3175684.3175730
+304,304.0,1170,/doi/10.1145/2491894.2466485,A bloat-aware design for big data applications,https://doi.org/10.1145/2491894.2466485
+305,305.0,1173,/doi/10.1145/3097983.3098179,Distributed Local Outlier Detection in Big Data,https://doi.org/10.1145/3097983.3098179
+306,306.0,1177,/doi/10.1145/3421537.3421542,"Study of iPhone's Big Data, Market Share, Usage and Their Relationships",https://doi.org/10.1145/3421537.3421542
+307,307.0,1179,/doi/10.1145/3209415.3209479,Bridging Big Data and Policy Making: A case study of failure,https://doi.org/10.1145/3209415.3209479
+308,308.0,1181,/doi/10.14778/2367502.2367562,Efficient big data processing in Hadoop MapReduce,https://doi.org/10.14778/2367502.2367562
+309,309.0,1184,/doi/10.1145/3528114.3528119,Research on the Impact of Big Data Technology on Management Accounting,https://doi.org/10.1145/3528114.3528119
+310,310.0,1188,/doi/10.1145/3178315.3178323,Requirements Engineering in the Context of Big Data Applications,https://doi.org/10.1145/3178315.3178323
+311,311.0,1189,/doi/10.1145/3404687.3404708,Research on Wartime Oil Consumption Based on Big Data,https://doi.org/10.1145/3404687.3404708
+312,312.0,1192,/doi/10.1145/2464157.2466485,A bloat-aware design for big data applications,https://doi.org/10.1145/2464157.2466485
+313,313.0,1193,/doi/10.1145/3132747.3132773,Optimizing Big-Data Queries Using Program Synthesis,https://doi.org/10.1145/3132747.3132773
+314,314.0,1198,/doi/10.1145/2623330.2623615,Scaling out big data missing value imputations: pythia vs. godzilla,https://doi.org/10.1145/2623330.2623615
+315,315.0,1201,/doi/10.1145/2345316.2345322,Big data and advanced spatial analytics,https://doi.org/10.1145/2345316.2345322
+316,316.0,1203,/doi/10.1145/3447568.3448553,Exploitation of ontological approaches in Big Data: A State of the Art,https://doi.org/10.1145/3447568.3448553
+317,317.0,1206,/doi/10.1145/3221269.3221294,Point pattern search in big data,https://doi.org/10.1145/3221269.3221294
+318,318.0,1213,/doi/10.1145/3402569.3409038,Research on Big Data Mining Method of Bioinformatics,https://doi.org/10.1145/3402569.3409038
+319,319.0,1216,/doi/10.1145/3422713.3422738,Design and Application of Digital Platform for Big Data Eco-system,https://doi.org/10.1145/3422713.3422738
+320,320.0,1221,/doi/10.1145/3299819.3299841,"Risk Assessment for Big Data in Cloud: Security, Privacy and Trust",https://doi.org/10.1145/3299819.3299841
+321,321.0,1226,/doi/10.1145/2664591.2664619,"Intrinsic Relations between Data Science, Big Data, Business Analytics and Datafication",https://doi.org/10.1145/2664591.2664619
+322,322.0,1230,/doi/10.1145/3220228.3220236,A new data science framework for analysing and mining geospatial big data,https://doi.org/10.1145/3220228.3220236
+323,323.0,1233,/doi/10.1145/3206157.3206160,Big Data Opportunities for Disease Outbreaks Detection in Global Mass Gatherings,https://doi.org/10.1145/3206157.3206160
+324,324.0,1236,/doi/10.1145/2345316.2345329,Cloud/big data computing for defense,https://doi.org/10.1145/2345316.2345329
+325,325.0,1238,/doi/10.1145/3368691.3368713,Call data record based big data analytics for smart cities,https://doi.org/10.1145/3368691.3368713
+326,326.0,1244,/doi/10.1145/3141128.3141143,"From Big data platforms to smarter solution, with intelligent learning: [PAV] 4 - Pave the way for Intelligence",https://doi.org/10.1145/3141128.3141143
+327,327.0,1248,/doi/10.1145/3546632.3546889,Research on Security Mechanism of Hadoop Big Data Platform,https://doi.org/10.1145/3546632.3546889
+328,328.0,1251,/doi/10.1145/3472163.3472195,Customized Eager-Lazy Data Cleansing for Satisfactory Big Data Veracity,https://doi.org/10.1145/3472163.3472195
+329,329.0,1254,/doi/10.1145/3406601.3406628,Health Data Analytics with an Opportunistic Big Data Algorithm,https://doi.org/10.1145/3406601.3406628
+330,330.0,1256,/doi/10.1145/3440084.3441210,Analysis of Data Ownership Rights in the Big Data Era,https://doi.org/10.1145/3440084.3441210
+331,331.0,1262,/doi/10.1145/3507524.3507533,Analysis on Big Data Based Intelligence Processing Method of Electronic Reconnaissance Satellites,https://doi.org/10.1145/3507524.3507533
+332,332.0,1266,/doi/10.1145/3341620.3341637,Application Strategy of Big Data in the Development of Complex Industrial Products (CIPs),https://doi.org/10.1145/3341620.3341637
+333,333.0,1270,/doi/10.1145/3297730.3297731,Target Data Optimization based on Big Data-streaming for Two-stage Fuzzy Extraction System,https://doi.org/10.1145/3297730.3297731
+334,334.0,1272,/doi/10.1145/3423603.3424049,Decisional architectures from business intelligence to big data: challenges and opportunities,https://doi.org/10.1145/3423603.3424049
+335,335.0,1276,/doi/10.1145/2783258.2783372,Efficient Online Evaluation of Big Data Stream Classifiers,https://doi.org/10.1145/2783258.2783372
+336,336.0,1281,/doi/10.1145/2025528.2025537,Big data from the built environment,https://doi.org/10.1145/2025528.2025537
+337,337.0,1284,/doi/10.1145/3220199.3220221,Network Traffic Monitoring System Based on Big Data Technology,https://doi.org/10.1145/3220199.3220221
+338,338.0,1290,/doi/10.1145/3378904.3378923,The Role of Big Data for Interactive Online Learning: A Case Study in Students' Participations and Perceptions,https://doi.org/10.1145/3378904.3378923
+339,339.0,1294,/doi/10.1145/3651623.3651625,Leveraging Big Data and Data-Mining Techniques for Specialized Translation,https://doi.org/10.1145/3651623.3651625
+340,340.0,1296,/doi/10.1145/3358528.3358581,Improved Constructions for Optimal Multi-erasure Locally Recoverable Codes for Big Data Storage,https://doi.org/10.1145/3358528.3358581
+341,341.0,1299,/doi/10.1145/3396452.3396464,Innovation and Application of College Students' Education and Management Based on Big Data,https://doi.org/10.1145/3396452.3396464
+342,342.0,1302,/doi/10.1145/3436829.3436838,Performance Analysis of Twofish Cryptography Algorithm in Big Data,https://doi.org/10.1145/3436829.3436838
+343,343.0,1306,/doi/10.1145/3564665.3564674,Driving Sustainable Airport Business with Big Data Analytics Services: A Multichannel Approach,https://doi.org/10.1145/3564665.3564674
+344,344.0,1308,/doi/10.1145/2258056.2258058,Spatial big-data challenges intersecting mobility and cloud computing,https://doi.org/10.1145/2258056.2258058
+345,345.0,1313,/doi/10.1145/3412497,The Transnational Happiness Study with Big Data Technology,https://doi.org/10.1145/3412497
+346,346.0,1320,/doi/10.1145/3656766.3656925,Exploring the Role of Big Data Analytics on Engineering Costs,https://doi.org/10.1145/3656766.3656925
+347,347.0,1322,/doi/10.1145/3603955.3603960,Big Data Analytics In Indonesia : Literature Study,https://doi.org/10.1145/3603955.3603960
+348,348.0,1328,/doi/10.1145/3206157.3206184,The Study of Learner Autonomy in Foreign Language Learning in Big Data Era,https://doi.org/10.1145/3206157.3206184
+349,349.0,1330,/doi/10.1145/3569966.3571271,System of Research Suppliers on Big Data Technology: Design and Research on Management System of Scientific Research Suppliers in Colleges and Universities Based on Big Data Technology,https://doi.org/10.1145/3569966.3571271
+350,350.0,1334,/doi/10.14778/2824032.2824067,Differential privacy in telco big data platform,https://doi.org/10.14778/2824032.2824067
+351,351.0,1340,/doi/10.1145/3374587.3374650,Construction and Application of Big Data Analysis Platform for Enterprise,https://doi.org/10.1145/3374587.3374650
+352,352.0,1344,/doi/10.1145/3501409.3501593,Tourism Prediction based on Multi-source Big Data Fusion Technology,https://doi.org/10.1145/3501409.3501593
+353,353.0,1346,/doi/10.1145/3206157.3206163,A Theoretical Credit Reporting System based on Big Data Concept: A Case study of Humen Textile Garment Enterprises,https://doi.org/10.1145/3206157.3206163
+354,354.0,1351,/doi/10.1145/3645279.3645297,Construction of International Talents Training System in Vocational Colleges Integrating Big Data Analysis,https://doi.org/10.1145/3645279.3645297
+355,355.0,1354,/doi/10.1145/3565291.3565294,Research on Teaching Evaluation Enabled by Big Data and Artificial Intelligence in Classroom,https://doi.org/10.1145/3565291.3565294
+356,356.0,1358,/doi/10.1145/3335656.3335688,Innovation of Data Mining & Screening System under Big Data: Take a case as NIMBY,https://doi.org/10.1145/3335656.3335688
+357,357.0,1360,/doi/10.1145/2935753,Veracity of Big Data: Challenges of Cross-Modal Truth Discovery,https://doi.org/10.1145/2935753
+358,358.0,1363,/doi/10.1145/3411681.3412951,Online Teaching Platform Based on Big Data Recommendation System,https://doi.org/10.1145/3411681.3412951
+359,359.0,1370,/doi/10.1145/2744700.2744705,Big data spatial analytics for enterprise applications,https://doi.org/10.1145/2744700.2744705
+360,360.0,1372,/doi/10.1145/3451400.3451411,Literature Research on Patriotism Education in Colleges and Universities Based on Big Data,https://doi.org/10.1145/3451400.3451411
+361,361.0,1374,/doi/10.1145/3451400.3451412,An Intelligence Probe of College Student Management in the Big Data Era,https://doi.org/10.1145/3451400.3451412
+362,362.0,1376,/doi/10.1145/3590837.3590938,A Review on Big Data Utilization in Metaverse World,https://doi.org/10.1145/3590837.3590938
+363,363.0,1379,/doi/10.1145/2168931.2168932,WELCOMEInteracting with big data,https://doi.org/10.1145/2168931.2168932
+364,364.0,1382,/doi/10.1145/3358505.3358519,Big data execution time based on Spark Machine Learning Libraries,https://doi.org/10.1145/3358505.3358519
+365,365.0,1383,/doi/10.1145/2429376.2429382,Streaming big data with self-adjusting computation,https://doi.org/10.1145/2429376.2429382
+366,366.0,1386,/doi/10.1145/3555962.3555969,"Unstructured Over Structured, Big Data Analytics and Applications In Accounting and Management",https://doi.org/10.1145/3555962.3555969
+367,367.0,1391,/doi/10.1145/3314074.3314097,Challenges and Benefits of Deploying Big Data Storage Solution,https://doi.org/10.1145/3314074.3314097
+368,368.0,1394,/doi/10.1145/3448734.3450838,Computer Network Security Problems and Solutions Based on Big Data,https://doi.org/10.1145/3448734.3450838
+369,369.0,1396,/doi/10.1145/3659211.3659290,Design of the Smart Contract for “Blockchain + Government Big Data” Sharing,https://doi.org/10.1145/3659211.3659290
+370,370.0,1399,/doi/10.1145/2976744,Scalable and Accurate Online Feature Selection for Big Data,https://doi.org/10.1145/2976744
+371,371.0,1404,/doi/10.1109/CCGrid.2015.138,Understanding unsuccessful executions in big-data systems,https://doi.org/10.1109/CCGrid.2015.138
+372,372.0,1408,/doi/10.1145/3289402.3289525,Big Data Processing using Machine Learning algorithms: MLlib and Mahout Use Case,https://doi.org/10.1145/3289402.3289525
+373,373.0,1412,/doi/10.1145/3564665.3564668,Construction and Analysis of Power Grid Monitoring Data Processing System under the Background of Big Data,https://doi.org/10.1145/3564665.3564668
+374,374.0,1416,/doi/10.1145/3656766.3656938,The Innovative Application of Big Data in Chinese Media Industry,https://doi.org/10.1145/3656766.3656938
+375,375.0,1419,/doi/10.1145/3158344,Developing an Open Source 'Big Data' Cognitive Computing Platform: Big Data (Ubiquity symposium),https://doi.org/10.1145/3158344
+376,376.0,1422,/doi/10.1145/2641398,In big data we trust?,https://doi.org/10.1145/2641398
+377,377.0,1425,/doi/10.1145/3565291.3565292,Analysis and Prediction of Diabetes Incidence Based on Big Data,https://doi.org/10.1145/3565291.3565292
+378,378.0,1431,/doi/10.1145/3291801.3291837,The Visualized Analysis System for Big Data of Movies' Box Office in China,https://doi.org/10.1145/3291801.3291837
+379,379.0,1437,/doi/10.14778/2733004.2733045,Interactive outlier exploration in big data streams,https://doi.org/10.14778/2733004.2733045
+380,380.0,1439,/doi/10.1145/2818869.2818884,Cost-Effective and Reliable Cloud Storage for Big Data,https://doi.org/10.1145/2818869.2818884
+381,381.0,1442,/doi/10.1145/3220199.3220205,Meta Learning for Imbalanced Big Data Analysis by using Generative Adversarial Networks,https://doi.org/10.1145/3220199.3220205
+382,382.0,1446,/doi/10.1109/CCGrid.2013.53,Towards an optimized big data processing system,https://doi.org/10.1109/CCGrid.2013.53
+383,383.0,1449,/doi/10.1145/3608218.3608236,Innovation and Application of University Research Management in the Context of Big Data,https://doi.org/10.1145/3608218.3608236
+384,384.0,1452,/doi/10.1145/3085228.3085275,Enterprise Architectures for Supporting the Adoption of Big Data,https://doi.org/10.1145/3085228.3085275
+385,385.0,1455,/doi/10.1145/3220228.3220238,An innovative methodology for big data visualization in oceanographic domain,https://doi.org/10.1145/3220228.3220238
+386,386.0,1462,/doi/10.1145/3299869.3319898,Speculative Distributed CSV Data Parsing for Big Data Analytics,https://doi.org/10.1145/3299869.3319898
+387,387.0,1466,/doi/10.1145/3224207.3224220,Blockchain and Big Data to Transform the Healthcare,https://doi.org/10.1145/3224207.3224220
+388,388.0,1473,/doi/10.1145/3424978.3425001,Research on University Security Big Data and Emergency Collaborative Disposal,https://doi.org/10.1145/3424978.3425001
+389,389.0,1476,/doi/10.1145/3468920.3468923,A Retrospective Analysis of Social Media Bibliometrics in the era of Big Data,https://doi.org/10.1145/3468920.3468923
+390,390.0,1479,/doi/10.1145/3274005.3274015,Using Big Data Value Chain to Create Government Education Policies,https://doi.org/10.1145/3274005.3274015
+391,391.0,1480,/doi/10.1145/3378936.3378957,Big Data and its Effect on the Music Industry,https://doi.org/10.1145/3378936.3378957
+392,392.0,1485,/doi/10.1145/2640087.2644194,The Value of Using Big Data Technologies in Computational Social Science,https://doi.org/10.1145/2640087.2644194
+393,393.0,1487,/doi/10.1145/3207677.3278000,Research and Application of Enterprise Big Data Governance,https://doi.org/10.1145/3207677.3278000
+394,394.0,1490,/doi/10.1145/3386723.3387826,Big Data Solutions Proposed for Cluster Computing Systems Challenges: A survey,https://doi.org/10.1145/3386723.3387826
+395,395.0,1493,/doi/10.1145/3624288.3624293,Big Data Analysis and Mining For People's Livelihood Appeal,https://doi.org/10.1145/3624288.3624293
+396,396.0,1500,/doi/10.1145/3407947.3407977,A Survey of System Scheduling for HPC and Big Data,https://doi.org/10.1145/3407947.3407977
+397,397.0,1504,/doi/10.1145/2743065.2743110,"Demystifying Challenges, Opportunities and Issues of Big Data Frameworks",https://doi.org/10.1145/2743065.2743110
+398,398.0,1508,/doi/10.1145/3399205.3399225,Big Data Analytic Architecture for Water Resources Management: A Systematic Review,https://doi.org/10.1145/3399205.3399225
+399,399.0,1512,/doi/10.1145/3587716.3587752,Problems and Countermeasures Facing Accounting Informatization in the Era of Big Data,https://doi.org/10.1145/3587716.3587752
+400,400.0,1518,/doi/10.1145/3448734.3450843,A Network Load Balancing Algorithm Design Based on Big Data,https://doi.org/10.1145/3448734.3450843
+401,401.0,1521,/doi/10.1145/2694730.2694732,Analysis of Memory Sensitive SPEC CPU2006 Integer Benchmarks for Big Data Benchmarking,https://doi.org/10.1145/2694730.2694732
+402,402.0,1524,/doi/10.1145/2771299,Bringing big data to the big tent,https://doi.org/10.1145/2771299
+403,403.0,1526,/doi/10.1145/2331042.2331061,Big data in computational biology,https://doi.org/10.1145/2331042.2331061
+404,404.0,1528,/doi/10.1145/3130983,Predicting Commercial Activeness over Urban Big Data,https://doi.org/10.1145/3130983
+405,405.0,1536,/doi/10.1145/3299887.3299892,Stream Processing Languages in the Big Data Era,https://doi.org/10.1145/3299887.3299892
+406,406.0,1542,/doi/10.1145/3289430.3289469,Research on Green Development of Shaanxi Industry Under The Background of Big Data,https://doi.org/10.1145/3289430.3289469
+407,407.0,1546,/doi/10.1145/2168931.2168943,Interactions with big data analytics,https://doi.org/10.1145/2168931.2168943
+408,408.0,1551,/doi/10.1145/3448748.3448749,The application and influence of big data in medicine,https://doi.org/10.1145/3448748.3448749
+409,409.0,1553,/doi/10.1145/2640087.2644162,The Value of Using Big Data Technologies in Computational Social Science,https://doi.org/10.1145/2640087.2644162
+410,410.0,1554,/doi/10.14778/3007263.3007324,Trends and challenges in big data processing,https://doi.org/10.14778/3007263.3007324
+411,411.0,1556,/doi/10.1145/3371158.3371161,Concealed Multidimensional Data Aggregation in Big Data Wireless Sensor Networks,https://doi.org/10.1145/3371158.3371161
+412,412.0,1559,/doi/10.1145/3524383.3524423,The Current Situation and Future Trend of Big Data: Visualization Analysis of literature Based on Citespace,https://doi.org/10.1145/3524383.3524423
+413,413.0,1564,/doi/10.1145/3386723.3387886,Real-time Prediction of Accident using Big Data System,https://doi.org/10.1145/3386723.3387886
+414,414.0,1568,/doi/10.1145/3481646.3481647,"SeDaSOMA: A Framework for Supporting Serendipitous, Data-As-A-Service-Oriented, Open Big Data Management and Analytics",https://doi.org/10.1145/3481646.3481647
+415,415.0,1570,/doi/10.1145/3508259.3508284,Research on Influencing Factors of Government Audit Big Data Capability,https://doi.org/10.1145/3508259.3508284
+416,416.0,1574,/doi/10.1145/3022227.3022232,Big data analysis on secure VoIP services,https://doi.org/10.1145/3022227.3022232
+417,417.0,1579,/doi/10.1145/3582935.3583052,Design of Geospatial Big Data Cloud Platform for Land Resources,https://doi.org/10.1145/3582935.3583052
+418,418.0,1584,/doi/10.1145/3318464.3389770,Qd-tree: Learning Data Layouts for Big Data Analytics,https://doi.org/10.1145/3318464.3389770
+419,419.0,1592,/doi/10.1145/2642937.2643006,Program analysis for secure big data processing,https://doi.org/10.1145/2642937.2643006
+420,420.0,1595,/doi/10.1145/2647908.2655958,Resource-optimizing adaptation for big data applications,https://doi.org/10.1145/2647908.2655958
+421,421.0,1598,/doi/10.1145/3076113.3076115,Big data causing big (TLB) problems: taming random memory accesses on the GPU,https://doi.org/10.1145/3076113.3076115
+422,422.0,1604,/doi/10.1145/2524224.2524227,Using big data for more dependability: a cellular network tale,https://doi.org/10.1145/2524224.2524227
+423,423.0,1609,/doi/10.1145/3341161.3343518,Multivariate motif detection in local weather big data,https://doi.org/10.1145/3341161.3343518
+424,424.0,1611,/doi/10.1145/3573428.3573647,Construction of financial big data framework based on management accounting,https://doi.org/10.1145/3573428.3573647
+425,425.0,1613,/doi/10.1145/3056662.3056667,"Performance and energy efficiency of big data systems: characterization, implication and improvement",https://doi.org/10.1145/3056662.3056667
+426,426.0,1617,/doi/10.1145/3589860.3589880,The Impact of Big Data on Financial Reporting,https://doi.org/10.1145/3589860.3589880
+427,427.0,1623,/doi/10.1145/3234664.3234677,Research on Clothing and Accouterment Security Based on Big Data,https://doi.org/10.1145/3234664.3234677
+428,428.0,1626,/doi/10.1145/3151759.3151780,A new knowledge capitalization framework in big data context,https://doi.org/10.1145/3151759.3151780
+429,429.0,1630,/doi/10.1145/3331453.3361308,Construction and Implementation of Big Data Framework for Crop Germplasm Resources,https://doi.org/10.1145/3331453.3361308
+430,430.0,1635,/doi/10.1145/3014812.3014869,A big data analytic framework for investigating streaming educational data,https://doi.org/10.1145/3014812.3014869
+431,431.0,1641,/doi/10.1145/2967938.2967957,Auto-tuning Spark Big Data Workloads on POWER8: Prediction-Based Dynamic SMT Threading,https://doi.org/10.1145/2967938.2967957
+432,432.0,1648,/doi/10.1145/3368756.3369080,Towards an efficient vehicle traffic management using big data,https://doi.org/10.1145/3368756.3369080
+433,433.0,1649,/doi/10.1145/3551708.3551726,Research on Employment Guidance for Graduates in Big Data Era,https://doi.org/10.1145/3551708.3551726
+434,434.0,1651,/doi/10.1145/2675743.2771878,Reliable event messaging in big data enterprises: looking for the balance between producers and consumers,https://doi.org/10.1145/2675743.2771878
+435,435.0,1653,/doi/10.1145/3089251.3089252,Evolutionary feature manipulation in data mining/big data,https://doi.org/10.1145/3089251.3089252
+436,436.0,1656,/doi/10.1145/2968456.2976765,Big data analytics on heterogeneous accelerator architectures,https://doi.org/10.1145/2968456.2976765
+437,437.0,1659,/doi/10.1145/3524383.3524442,Research on the Application of Big Data in University's Public Opinion Monitoring and Processing,https://doi.org/10.1145/3524383.3524442
+438,438.0,1663,/doi/10.1145/3377571.3377600,"Research on Motivation and Regulation of Big Data ""Slaughter"" Behavior",https://doi.org/10.1145/3377571.3377600
+439,439.0,1665,/doi/10.1145/2611286.2611311,Mobile CEP in real-time big data processing: challenges and opportunities,https://doi.org/10.1145/2611286.2611311
+440,440.0,1670,/doi/10.1145/2851141.2851187,Preemption-aware planning on big-data systems,https://doi.org/10.1145/2851141.2851187
+441,441.0,1676,/doi/10.1145/2939502.2939518,Big data exploration requires collaboration between visualization and data infrastructures,https://doi.org/10.1145/2939502.2939518
+442,442.0,1677,/doi/10.1145/2783258.2788563,Big Data System for Analyzing Risky Procurement Entities,https://doi.org/10.1145/2783258.2788563
+443,443.0,1683,/doi/10.1109/SEAMS.2017.20,Self-adaptation based on big data analytics: a model problem and tool,https://doi.org/10.1109/SEAMS.2017.20
+444,444.0,1688,/doi/10.14778/2733004.2733037,Redoop infrastructure for recurring big data queries,https://doi.org/10.14778/2733004.2733037
+445,445.0,1692,/doi/10.1145/3416921.3416944,OLAPing Big Social Data: Multidimensional Big Data Analytics over Big Social Data Repositories,https://doi.org/10.1145/3416921.3416944
+446,446.0,1693,/doi/10.1145/3617184.3618036,Data Visualization Analysis for Job Recruitment Based on Big Data,https://doi.org/10.1145/3617184.3618036
+447,447.0,1697,/doi/10.1145/3433996.3434027,The Planning and Construction of Healthcare Big Data Platform,https://doi.org/10.1145/3433996.3434027
+448,448.0,1704,/doi/10.1145/2659532.2659593,"Big data, high-performance computing, and MapReduce",https://doi.org/10.1145/2659532.2659593
+449,449.0,1706,/doi/10.1145/3297156.3297249,Methodology of Big Data Integration from A Priori Unknown Heterogeneous Data Sources,https://doi.org/10.1145/3297156.3297249
+450,450.0,1711,/doi/10.1145/3453187.3453340,Research on Smart Education Service Platform Based on Big Data,https://doi.org/10.1145/3453187.3453340
+451,451.0,1715,/doi/10.1145/3358528.3358584,Big Data Service Request Prediction Based on Historical Behavior Time Series,https://doi.org/10.1145/3358528.3358584
+452,452.0,1722,/doi/10.1145/3510858.3510975,Application Analysis of Hadoop in Big Data Processing,https://doi.org/10.1145/3510858.3510975
+453,453.0,1724,/doi/10.1145/2912845.2912869,Development of a knowledge system for Big Data: Case study to plant phenotyping data,https://doi.org/10.1145/2912845.2912869
+454,454.0,1730,/doi/10.1145/3437075.3437086,Tackling Big Data and Black Swans through Fractal Approach and Quantum Technology,https://doi.org/10.1145/3437075.3437086
+455,455.0,1734,/doi/10.1145/3297663.3310302,Characterization of a Big Data Storage Workload in the Cloud,https://doi.org/10.1145/3297663.3310302
+456,456.0,1738,/doi/10.1145/3402569.3409041,Research on Foreign Exchange Management Model Based on Big Data,https://doi.org/10.1145/3402569.3409041
+457,457.0,1740,/doi/10.1145/3377170.3377180,How Big Data Analytics Impacts Agility: The Moderation Effect of Orientation of Interactive Team Cognition,https://doi.org/10.1145/3377170.3377180
+458,458.0,1742,/doi/10.1145/2448917.2448923,"Big data, situated people: humane approaches to communication design",https://doi.org/10.1145/2448917.2448923
+459,459.0,1744,/doi/10.1145/3230348.3230425,Application Research of Big Data E-commerce in Closed Community,https://doi.org/10.1145/3230348.3230425
+460,460.0,1749,/doi/10.1145/3372454.3372462,Improvement of Big Data Stream Mining Technique for Automatic Bone Age Assessment,https://doi.org/10.1145/3372454.3372462
+461,461.0,1754,/doi/10.1109/CCGrid.2016.85,Towards memory-optimized data shuffling patterns for big data analytics,https://doi.org/10.1109/CCGrid.2016.85
+462,462.0,1760,/doi/10.1145/3090354.3090386,Toward Efficient Ranked-key Algorithm for the Web notification of Big Data Systems,https://doi.org/10.1145/3090354.3090386
+463,,1762,/doi/10.4018/JDM.2020100101,Investigating the Effects of Object-Relational Impedance Mismatch on the Efficiency of Object-Relational Mapping Frameworks,https://doi.org/10.4018/JDM.2020100101
+464,,1765,/doi/10.1145/3018896.3025156,Cloud computing adoption readiness assessment in saudi healthcare organisations: a strategic view,https://doi.org/10.1145/3018896.3025156
+465,,1768,/doi/10.1016/j.procs.2017.11.036,Identifying New Directions in Database Performance Tuning,https://doi.org/10.1016/j.procs.2017.11.036
+466,,1769,/doi/10.1016/j.procs.2016.09.050,Strategic Value of Cloud Computing in Healthcare Organisations Using the Balanced Scorecard Approach,https://doi.org/10.1016/j.procs.2016.09.050
+467,,1771,/doi/10.5220/0005858401960206,An Evaluation of the Challenges of Multilingualism in Data Warehouse Development,https://doi.org/10.5220/0005858401960206
+468,,1773,/doi/10.5220/0005464006370643,A Knowledge based Decision Making Tool to Support Cloud Migration Decision Making,https://doi.org/10.5220/0005464006370643
+469,,1776,/doi/10.1007/978-3-319-24315-3_31,Incorporating Big Data Analytics into Enterprise Information Systems,https://doi.org/10.1007/978-3-319-24315-3_31
+470,,1779,/doi/10.4018/IJSSOE.2016010103,A Framework for Developing Management Intelligent Systems,https://doi.org/10.4018/IJSSOE.2016010103
+471,,1780,/doi/10.1007/978-3-319-25013-7_16,Big Data Analytics as a Service for Business Intelligence,https://doi.org/10.1007/978-3-319-25013-7_16
+472,,1782,/doi/10.1145/2684200.2684358,Analytics Service Oriented Architecture for Enterprise Information Systems,https://doi.org/10.1145/2684200.2684358
+473,,1784,/doi/10.4018/IJITPM.304059,How Bias Impacted the Project Manager Decision to Not Terminate a Failing Project,https://doi.org/10.4018/IJITPM.304059
+474,,1785,/doi/10.4018/IJOPCD.292026,Impact of Information Communication Technology Strategies on Learning Effectiveness,https://doi.org/10.4018/IJOPCD.292026
+475,,1787,/doi/10.1145/3394788.3394790,Impact of Psycho-Demographic Factors on Smartphone Purchase Decisions,https://doi.org/10.1145/3394788.3394790
+476,,1788,/doi/10.4018/IJESMA.2020010103,Predictors of e-service Consumption in a Highly Productive Brazil-Russia-India-China-South Africa Region Sample,https://doi.org/10.4018/IJESMA.2020010103
+477,,1789,/doi/10.4018/IJEA.2019070103,Examining e-Adoption of Agricultural Systems by Farmers in Central Nigeria,https://doi.org/10.4018/IJEA.2019070103
+478,,1791,/doi/10.4018/IJOM.2018040101,Consumer Behavior in Online Risky Purchase Decisions: Exploring Trustworthiness Across Culture,https://doi.org/10.4018/IJOM.2018040101
+479,,1792,/doi/10.4018/IJRCM.2018010101,Comparing the Socio-Political Ethics of Fighting Terrorism with Extreme Self-Defense in USA: An Exploratory Insight,https://doi.org/10.4018/IJRCM.2018010101
+480,,1794,/doi/10.4018/IJRCM.2017100104,Assessing the Risk of Leveraging Technology in Small Businesses Entering the European Union,https://doi.org/10.4018/IJRCM.2017100104
+481,,1796,/doi/10.4018/JOEUC.2017070103,Student Resistance to a Mandatory Learning Management System in Online Supply Chain Courses,https://doi.org/10.4018/JOEUC.2017070103
+482,,1797,/doi/10.1007/s10639-016-9464-2,Beyond engagement analytics: which online mixed-data factors predict student learning outcomes?,https://doi.org/10.1007/s10639-016-9464-2
+483,,1798,/doi/10.1007/978-3-031-40725-3_41,Supporting Emotion Recognition in Human-Robot Interactions: An Experimental Italian Textual Dataset,https://doi.org/10.1007/978-3-031-40725-3_41
+484,,1803,/doi/10.1007/978-3-031-40725-3_12,Probability Density Function for Clustering Validation,https://doi.org/10.1007/978-3-031-40725-3_12
+485,,1806,/doi/10.1007/978-3-031-39847-6_6,Effective and Efficient Heuristic Algorithms for Supporting Optimal Location of Hubs over Networks with Demand Uncertainty,https://doi.org/10.1007/978-3-031-39847-6_6
+486,,1811,/doi/10.4018/IJDST.296248,"Towards a Grid-Based Framework for Supporting Range Aggregate Queries Over Big Sensor Network Readings: Overview, Management, and Applications",https://doi.org/10.4018/IJDST.296248
+487,,1813,/doi/10.1145/3465481.3469195,PUF-based Smart Tags for Supply Chain Management,https://doi.org/10.1145/3465481.3469195
+488,,1818,/doi/10.1007/978-3-030-33223-5_35,HIKE: A Step Beyond Data Exchange,https://doi.org/10.1007/978-3-030-33223-5_35
+489,,1821,/doi/10.1007/s10618-019-00643-1,"Extending inverse frequent itemsets mining to generate realistic datasets: complexity, accuracy and emerging applications",https://doi.org/10.1007/s10618-019-00643-1
+490,,1823,/doi/10.1007/978-3-030-27629-4_33,An Effective System for User Queries Assistance,https://doi.org/10.1007/978-3-030-27629-4_33
+491,,1824,/doi/10.1145/3331076.3331104,Simplified data posting in practice,https://doi.org/10.1145/3331076.3331104
+492,,1825,/doi/10.1016/j.future.2018.07.025,A Cloud-based platform for the emulation of complex cybersecurity scenarios,https://doi.org/10.1016/j.future.2018.07.025
+493,,1830,/doi/10.1145/3216122.3216164,Using CalcuList To MapReduce Jsons,https://doi.org/10.1145/3216122.3216164
+494,,1831,/doi/10.1145/3216122.3216129,"The Inverse Tree-OLAP Problem: Definitions, Models, Complexity Analysis, and a Possible Solution",https://doi.org/10.1145/3216122.3216129
+495,,1832,/doi/10.1145/3098954.3098993,Systemic Risk Modeling and Evaluation through Simulation and Bayesian Networks,https://doi.org/10.1145/3098954.3098993
+496,,1838,/doi/10.1145/3490685,"Abstractions, their algorithms, and their compilers",https://doi.org/10.1145/3490685
+497,,1840,/doi/10.1145/3397521,PANDA: Partitioned Data Security on Outsourced Sensitive and Non-sensitive Data,https://doi.org/10.1145/3397521
+498,,1846,/doi/10.1145/3592981,Can Generative AI Bots Be Trusted?,https://doi.org/10.1145/3592981
+499,,1847,/doi/10.1145/3581762,A Map for Innovation,https://doi.org/10.1145/3581762
+500,,1848,/doi/10.1145/3567605,The context problem in artificial intelligence,https://doi.org/10.1145/3567605
+501,,1850,/doi/10.1145/3548781,The Atlas milestone,https://doi.org/10.1145/3548781
+502,,1852,/doi/10.1145/3488042.3488053,CT 2.0,https://doi.org/10.1145/3488042.3488053
+503,,1855,/doi/10.1145/3399709,Working Set Analytics,https://doi.org/10.1145/3399709
+504,,1856,/doi/10.1145/3427634,COVID-19 and computation for policy,https://doi.org/10.1145/3427634
+505,,1858,/doi/10.1145/3341109,A Relational Theory of Locality,https://doi.org/10.1145/3341109
+506,,1863,/doi/10.1145/3191833,Where to from here?,https://doi.org/10.1145/3191833
+507,,1864,/doi/10.1145/3132087,Computational design,https://doi.org/10.1145/3132087
+508,,1865,/doi/10.1145/2976758,Exponential laws of computing growth,https://doi.org/10.1145/2976758
+509,,1867,/doi/10.1145/2999541.2999542,The long quest for computational thinking,https://doi.org/10.1145/2999541.2999542
+510,,1868,/doi/10.1145/2822889,"IoT promises, perils and perspectives: Closing statement: The Internet of Things (Ubiquity symposium)",https://doi.org/10.1145/2822889
+511,,1869,/doi/10.1145/2822885,On Resilience of IoT Systems: The Internet of Things (Ubiquity symposium),https://doi.org/10.1145/2822885
+512,,1870,/doi/10.1109/ICAT.2015.7340517,SLA: Smart log analytics,https://doi.org/10.1109/ICAT.2015.7340517
+513,,1872,/doi/10.1145/2809563.2809622,On big science: a survey,https://doi.org/10.1145/2809563.2809622
+514,,1873,/doi/10.1145/2822527,The Third Wave: The internet of things: The Internet of Things (Ubiquity symposium),https://doi.org/10.1145/2822527
+515,,1874,/doi/10.1145/2637748.2638430,Trading monitoring cockpit: conceptual architecture,https://doi.org/10.1145/2637748.2638430
+516,,1875,/doi/10.1109/DEXA.2013.10,Emergency Control Cockpit,https://doi.org/10.1109/DEXA.2013.10
+517,,1876,/doi/10.1109/eKNOW.2009.28,Enterprise Knowledge Clouds: Next Generation KM Systems?,https://doi.org/10.1109/eKNOW.2009.28
+518,,1877,/doi/10.1145/1459229.1414664,Emergence of the Academic Computing Clouds,https://doi.org/10.1145/1459229.1414664
+519,,1879,/doi/10.1109/CONIELECOMP.2007.57,Architecting Principles for Self-Managing Enterprise IT Systems,https://doi.org/10.1109/CONIELECOMP.2007.57
+520,,1881,/doi/10.1145/1132512.1132513,Corporate renewal engines,https://doi.org/10.1145/1132512.1132513
+521,,1882,/doi/10.4108/eai.3-12-2015.2262580,Designing Behaviour in Bio-inspired Robots Using Associative Topologies of Spiking-Neural-Networks,https://doi.org/10.4108/eai.3-12-2015.2262580
+522,,1884,/doi/10.1016/j.ijhcs.2012.10.005,"Information is not knowledge, knowledge is not wisdom, wisdom is not truth",https://doi.org/10.1016/j.ijhcs.2012.10.005
+523,,1885,/doi/10.1109/MIS.2008.10,Near-Term Prospects for Semantic Technologies,https://doi.org/10.1109/MIS.2008.10
+524,,1889,/doi/10.4018/IJSSCI.2021010104,Using Clustering for Forensics Analysis on Internet of Things,https://doi.org/10.4018/IJSSCI.2021010104
+525,,1892,/doi/10.4018/IJCAC.2021040103,Using E-Reputation for Sentiment Analysis: Twitter as a Case Study,https://doi.org/10.4018/IJCAC.2021040103
+526,,1893,/doi/10.1007/s10994-023-06455-1,A neural meta model for predicting winter wheat crop yield,https://doi.org/10.1007/s10994-023-06455-1
+527,,1896,/doi/10.1145/3628797.3628971,Fuzzy Deep Hybrid Network for Fake News Detection,https://doi.org/10.1145/3628797.3628971
+528,,1898,/doi/10.1016/j.cmpb.2021.106398,Code-free cloud computing service to facilitate rapid biomedical digital signal processing and algorithm development,https://doi.org/10.1016/j.cmpb.2021.106398
+529,,1907,/doi/10.1007/s10791-020-09384-y,Structural textile pattern recognition and processing based on hypergraphs,https://doi.org/10.1007/s10791-020-09384-y
+530,,1910,/doi/10.1504/ijsn.2021.117865,Encryption key management as a trusted security as a service for cloud computing,https://doi.org/10.1504/ijsn.2021.117865
+531,,1913,/doi/10.1016/j.cose.2020.101835,Lightweight privacy-Preserving data classification,https://doi.org/10.1016/j.cose.2020.101835
+532,,1915,/doi/10.1145/3380688.3380705,Crop Knowledge Discovery Based on Agricultural Big Data Integration,https://doi.org/10.1145/3380688.3380705
+533,,1917,/doi/10.1007/978-3-030-23551-2_1,Designing and Implementing Data Warehouse for Agricultural Big Data,https://doi.org/10.1007/978-3-030-23551-2_1
+534,,1918,/doi/10.1007/s10922-017-9441-0,Green Approach for Joint Management of Geo-Distributed Data Centers and Interconnection Networks,https://doi.org/10.1007/s10922-017-9441-0
+535,,1923,/doi/10.1016/j.neucom.2017.06.011,A multi-act sequential game-based multi-objective clustering approach for categorical data,https://doi.org/10.1016/j.neucom.2017.06.011
+536,,1926,/doi/10.1016/j.eswa.2016.09.008,Automatic multi-objective clustering based on game theory,https://doi.org/10.1016/j.eswa.2016.09.008
+537,,1927,/doi/10.1016/j.eswa.2016.07.041,Dimensionality reduction in data mining,https://doi.org/10.1016/j.eswa.2016.07.041
+538,,1931,/doi/10.1145/3010089.3010101,Retrieval and Clustering of Medicines Within Healthcare Data Records,https://doi.org/10.1145/3010089.3010101
+539,,1933,/doi/10.5220/0005873100590066,Towards Automatic Service Level Agreements Information Extraction,https://doi.org/10.5220/0005873100590066
+540,,1938,/doi/10.1016/j.cose.2015.05.003,Network investigation methodology for BitTorrent Sync,https://doi.org/10.1016/j.cose.2015.05.003
+541,,1941,/doi/10.1007/978-3-662-49175-1_1,A Natural Language Processing Tool for White Collar Crime Investigation,https://doi.org/10.1007/978-3-662-49175-1_1
+542,,1943,/doi/10.1109/ARES.2015.81,Overview of the Forensic Investigation of Cloud Services,https://doi.org/10.1109/ARES.2015.81
+543,,1944,/doi/10.1007/978-3-319-20125-2_16,Forensics Acquisition and Analysis of Instant Messaging and VoIP Applications,https://doi.org/10.1007/978-3-319-20125-2_16
+544,,1946,/doi/10.1145/2695664.2696060,A parallel genetic algorithms framework based on Hadoop MapReduce,https://doi.org/10.1145/2695664.2696060
+545,,1948,/doi/10.1109/ARES.2014.11,BitTorrent Sync: Network Investigation Methodology,https://doi.org/10.1109/ARES.2014.11
+546,,1950,/doi/10.1145/3647722.3647732,"Data, analytics, and Intelligence: A Unified Approach",https://doi.org/10.1145/3647722.3647732
+547,,1951,/doi/10.1145/2541268.2541273,Classification in P2P networks with cascade support vector machines,https://doi.org/10.1145/2541268.2541273
+548,,1954,/doi/10.1109/TKDE.2012.172,Predictive Handling of Asynchronous Concept Drifts in Distributed Environments,https://doi.org/10.1109/TKDE.2012.172
+549,,1957,/doi/10.1109/TKDE.2012.37,Centroid-Based Actionable 3D Subspace Clustering,https://doi.org/10.1109/TKDE.2012.37
+550,,1963,/doi/10.1145/2435209.2435213,Confidence Weighted Mean Reversion Strategy for Online Portfolio Selection,https://doi.org/10.1145/2435209.2435213
+551,,1965,/doi/10.1007/s10618-012-0258-x,A survey on enhanced subspace clustering,https://doi.org/10.1007/s10618-012-0258-x
+552,,1967,/doi/10.1007/s10994-012-5281-z,PAMR: Passive aggressive mean reversion strategy for portfolio selection,https://doi.org/10.1007/s10994-012-5281-z
+553,,1968,/doi/10.1016/j.eswa.2011.01.133,Class description using partial coverage of subspaces,https://doi.org/10.1016/j.eswa.2011.01.133
+554,,1970,/doi/10.1145/1961189.1961193,CORN: Correlation-driven nonparametric learning approach for portfolio selection,https://doi.org/10.1145/1961189.1961193
+555,,1971,/doi/10.1007/s10639-021-10741-7,"Application of machine learning in higher education to assess student academic performance, at-risk, and attrition: A meta-analysis of literature",https://doi.org/10.1007/s10639-021-10741-7
+556,,1975,/doi/10.1007/s10639-021-10442-1,Integrating design science research and design based research frameworks for developing education support systems,https://doi.org/10.1007/s10639-021-10442-1
+557,,1979,/doi/10.1145/3373017.3373059,Towards Smart Online Dispute Resolution for Medical Disputes,https://doi.org/10.1145/3373017.3373059
+558,,1982,/doi/10.1016/j.jisa.2019.06.006,A hybrid deep learning image-based analysis for effective malware detection,https://doi.org/10.1016/j.jisa.2019.06.006
+559,,1985,/doi/10.1145/3167918.3167931,Data analytics to select markers and cut-off values for clinical scoring,https://doi.org/10.1145/3167918.3167931
+560,,1989,/doi/10.1155/2018/1728303,Use of Data Visualisation for Zero-Day Malware Detection,https://doi.org/10.1155/2018/1728303
+561,,1991,/doi/10.1016/j.compbiomed.2016.05.005,Data analytics identify glycated haemoglobin co-markers for type 2 diabetes mellitus diagnosis,https://doi.org/10.1016/j.compbiomed.2016.05.005
+562,,1992,/doi/10.1504/IJCSE.2016.077728,Transforming grid to cloud services for multimodal biometrics,https://doi.org/10.1504/IJCSE.2016.077728
+563,,1993,/doi/10.1504/IJESDF.2013.055047,Detecting malicious behaviour using supervised learning algorithms of the function calls,https://doi.org/10.1504/IJESDF.2013.055047
+564,,1994,/doi/10.4018/jitr.2013010101,Software Engineering Research Gaps in the Cloud,https://doi.org/10.4018/jitr.2013010101
+565,,1995,/doi/10.1109/CTC.2012.15,Malicious Code Detection Using Penalized Splines on OPcode Frequency,https://doi.org/10.1109/CTC.2012.15
+566,,1998,/doi/10.1504/IJESDF.2012.049761,Analysis of firewall log-based detection scenarios for evidence in digital forensics,https://doi.org/10.1504/IJESDF.2012.049761
+567,,2001,/doi/10.4018/jegr.2012040103,Six Sigma Approach to Improve Quality in E-Services: An Empirical Study in Jordan,https://doi.org/10.4018/jegr.2012040103
+568,,2005,/doi/10.1016/j.procs.2019.11.266,Applications of Blockchain to Improve Supply Chain Traceability,https://doi.org/10.1016/j.procs.2019.11.266
+569,,2008,/doi/10.1145/3534516,BrainEx: Interactive Visual Exploration and Discovery of Sequence Similarity in Brain Signals,https://doi.org/10.1145/3534516
+570,,2016,/doi/10.1145/3533406.3533419,Towards Brain Metrics for Improving Multi-Agent Adaptive Human-Robot Collaboration: A Preliminary Study,https://doi.org/10.1145/3533406.3533419
+571,,2023,/doi/10.1145/3035918.3058729,Interactive Time Series Analytics Powered by ONEX,https://doi.org/10.1145/3035918.3058729
+572,,2027,/doi/10.14778/3021924.3021933,Interactive time series exploration powered by the marriage of similarity distances,https://doi.org/10.14778/3021924.3021933
+573,,2028,/doi/10.1145/2851613.2851924,Towards spreadsheet integration using entity identification driven by a spatial-temporal model,https://doi.org/10.1145/2851613.2851924
+574,,2029,/doi/10.1145/2791060.2791076,Towards migrating object-oriented frameworks to enable synthesis of product line members,https://doi.org/10.1145/2791060.2791076
+575,,2033,/doi/10.1145/3395351.3399356,Truncate after preamble: PHY-based starvation attacks on IoT networks,https://doi.org/10.1145/3395351.3399356
+576,,2037,/doi/10.1145/3345768.3355907,Benchmarking the Physical Layer of Wireless Cards using Software-Defined Radios,https://doi.org/10.1145/3345768.3355907
+577,,2039,/doi/10.1145/3319535.3363248,Snout: An Extensible IoT Pen-Testing Tool,https://doi.org/10.1145/3319535.3363248
+578,,2040,/doi/10.1145/3630106.3659018,Balancing Act: Evaluating People’s Perceptions of Fair Ranking Metrics,https://doi.org/10.1145/3630106.3659018
+579,,2045,/doi/10.1145/3606180.3606187,Geospatial and multivariate analysis of under-five stunting children in Rwanda using DHS 2020,https://doi.org/10.1145/3606180.3606187
+580,,2048,/doi/10.1007/s42979-019-0017-9,Improvement of Malware Classification Using Hybrid Feature Engineering,https://doi.org/10.1007/s42979-019-0017-9
+581,,2050,/doi/10.1155/2016/8178417,Beyond the Internet of Things,https://doi.org/10.1155/2016/8178417
+582,,2053,/doi/10.1145/3513130.3558977,Technical Communication and Geoengineering Standards: The Case of ISO 14082,https://doi.org/10.1145/3513130.3558977
+583,,2054,/doi/10.1145/3331558.3331565,Risk selfies and nonrational environmental communication,https://doi.org/10.1145/3331558.3331565
+584,,2055,/doi/10.1007/s11277-021-08082-2,An Efficient Approach for Big Data Aggregation Mechanism in Heterogeneous Wireless Connected Sensor Networks,https://doi.org/10.1007/s11277-021-08082-2
+585,,2057,/doi/10.1007/s11277-020-07213-5,Cybersecurity Issues in Wireless Sensor Networks: Current Challenges and Solutions,https://doi.org/10.1007/s11277-020-07213-5
+586,,2061,/doi/10.1007/s11235-015-0047-0,SDAW: secure data aggregation watermarking-based scheme in homogeneous WSNs,https://doi.org/10.1007/s11235-015-0047-0
+587,,2062,/doi/10.1016/j.future.2017.10.026,EDAK: An Efficient Dynamic Authentication and Key Management Mechanism for heterogeneous WSNs,https://doi.org/10.1016/j.future.2017.10.026
+588,,2063,/doi/10.1007/s11277-017-4963-z,PEAL: Power Efficient and Adaptive Latency Hierarchical Routing Protocol for Cluster-Based WSN,https://doi.org/10.1007/s11277-017-4963-z
+589,,2065,/doi/10.1007/978-3-031-54129-2_15,SigIL: A Signature-Based Approach of Malware Detection on Intermediate Language,https://doi.org/10.1007/978-3-031-54129-2_15
+590,,2069,/doi/10.1016/j.inffus.2023.102004,An advanced data fabric architecture leveraging homomorphic encryption and federated learning,https://doi.org/10.1016/j.inffus.2023.102004
+591,,2076,/doi/10.1016/j.inffus.2023.101836,FL-Enhance: A federated learning framework for balancing non-IID data with augmented and shared compressed samples,https://doi.org/10.1016/j.inffus.2023.101836
+592,,2080,/doi/10.1016/j.cose.2023.103355,SCOUT: Security by computing OUTliers on activity logs,https://doi.org/10.1016/j.cose.2023.103355
+593,,2081,/doi/10.1016/j.compeleceng.2021.107567,Predicting activities of daily living via temporal point processes: Approaches and experimental results,https://doi.org/10.1016/j.compeleceng.2021.107567
+594,,2084,/doi/10.1145/3465413.3488571,"Tarnhelm: Isolated, Transparent & Confidential Execution of Arbitrary Code in ARM's TrustZone",https://doi.org/10.1145/3465413.3488571
+595,,2093,/doi/10.1016/j.future.2019.07.077,Fast and effective Big Data exploration by clustering,https://doi.org/10.1016/j.future.2019.07.077
+596,,2096,/doi/10.1145/3297280.3297386,How to implement a big data clustering algorithm: a brief report on lesson learned,https://doi.org/10.1145/3297280.3297386
+597,,2097,/doi/10.5220/0006858702760282,Clustering Big Data,https://doi.org/10.5220/0006858702760282
+598,,2098,/doi/10.1109/IRI.2018.00083,Trusted Environments for Volunteer Computing,https://doi.org/10.1109/IRI.2018.00083
+599,,2099,/doi/10.1145/2790755.2790762,Big Data Techniques For Supporting Accurate Predictions of Energy Production From Renewable Sources,https://doi.org/10.1145/2790755.2790762
+600,,2107,/doi/10.1007/978-3-031-39841-4_6,Evolving Justice Sector: An Innovative Proposal for Introducing AI-Based Techniques in Court Offices,https://doi.org/10.1007/978-3-031-39841-4_6
+601,,2114,/doi/10.1145/3589462.3589496,How Pandemic Affected the Adoption of e-Health Systems,https://doi.org/10.1145/3589462.3589496
+602,,2116,/doi/10.1007/s11227-023-05319-8,Vaccine sentiment analysis using BERT + NBSVM and geo-spatial approaches,https://doi.org/10.1007/s11227-023-05319-8
+603,,2119,/doi/10.1145/3548785.3548798,Decision making with Clustered Majority Judgment,https://doi.org/10.1145/3548785.3548798
+604,,2125,/doi/10.1145/3548785.3548791,Applications of Majority Judgement for Winner Selection in Eurovision Song Contest,https://doi.org/10.1145/3548785.3548791
+605,,2128,/doi/10.1007/s10844-021-00646-9,A comprehensive Benchmark for fake news detection,https://doi.org/10.1007/s10844-021-00646-9
+606,,2132,/doi/10.1007/s10844-022-00699-4,Sentimental and spatial analysis of COVID-19 vaccines tweets,https://doi.org/10.1007/s10844-022-00699-4
+607,,2133,/doi/10.1016/j.procs.2022.07.112,Human sentiments monitoring during COVID-19 using AI-based modeling,https://doi.org/10.1016/j.procs.2022.07.112
+608,,2134,/doi/10.1145/3472163.3472274,Sentimental Analysis Applications and Approaches during COVID-19: A Survey,https://doi.org/10.1145/3472163.3472274
+609,,2135,/doi/10.1145/3472163.3472165,Exploratory analysis of methods for automated classification of clinical diagnoses in Veterinary Medicine,https://doi.org/10.1145/3472163.3472165
+610,,2138,/doi/10.1155/2021/6654029,Method of Profanity Detection Using Word Embedding and LSTM,https://doi.org/10.1155/2021/6654029
+611,,2143,/doi/10.1007/978-3-030-59491-6_11,A Deep Learning Approach to Fake News Detection,https://doi.org/10.1007/978-3-030-59491-6_11
+612,,2145,/doi/10.1145/3410566.3410599,Detecting fake news by image analysis,https://doi.org/10.1145/3410566.3410599
+613,,2146,/doi/10.1145/3341105.3374128,Some lessons learned using health data literature for smart information retrieval,https://doi.org/10.1145/3341105.3374128
+614,,2150,/doi/10.1155/2019/7028107,Multi-Information Flow CNN and Attribute-Aided Reranking for Person Reidentification,https://doi.org/10.1155/2019/7028107
+615,,2155,/doi/10.1155/2018/9293437,Automated Text Analysis Based on Skip-Gram Model for Food Evaluation in Predicting Consumer Acceptance,https://doi.org/10.1155/2018/9293437
+616,,2160,/doi/10.1155/2018/7525789,Moisture Damage Modeling in Lime and Chemically Modified Asphalt at Nanolevel Using Ensemble Computational Intelligence,https://doi.org/10.1155/2018/7525789
+617,,2165,/doi/10.1155/2018/1404067,An Approach to Linguistic Multiple Attribute Decision-Making Based on Unbalanced Linguistic Generalized Heronian Mean Aggregation Operator,https://doi.org/10.1155/2018/1404067
+618,,2170,/doi/10.1109/IRI.2017.71,Effective Information Spreading in Social Networks,https://doi.org/10.1109/IRI.2017.71
+619,,2172,/doi/10.1016/j.ins.2017.03.002,A fast and accurate algorithm for unsupervised clustering around centroids,https://doi.org/10.1016/j.ins.2017.03.002
+620,,2173,/doi/10.1145/3110025.3120991,Choose The Best!: Ranking Group of Users In Collaborative Networks,https://doi.org/10.1145/3110025.3120991
+621,,2175,/doi/10.1145/2856059,Discovering User Behavioral Features to Enhance Information Search on Big Data,https://doi.org/10.1145/2856059
+622,,2177,/doi/10.5220/0006485703060313,An Open Source System for Big Data Warehousing,https://doi.org/10.5220/0006485703060313
+623,,2178,/doi/10.1145/3105831.3105860,WFinger: a joint-decoder for very short Tardos fingerprinting codes,https://doi.org/10.1145/3105831.3105860
+624,,2180,/doi/10.1145/3626246.3654730,Multi-Backend Zonal Statistics Execution with Raven,https://doi.org/10.1145/3626246.3654730
+625,,2185,/doi/10.1016/j.eswa.2023.120123,Electricity consumption forecasting with outliers handling based on clustering and deep learning with application to the Algerian market,https://doi.org/10.1016/j.eswa.2023.120123
+626,,2189,/doi/10.4018/IJOCI.305209,Parallel Maintenance of Materialized Views in Large-Scale Analytic Platforms,https://doi.org/10.4018/IJOCI.305209
+627,,2190,/doi/10.4018/IJTD.300746,View Materialization for Query Processing in IoT Systems,https://doi.org/10.4018/IJTD.300746
+628,,2191,/doi/10.1007/s11227-021-03914-1,"Containerization technologies: taxonomies, applications and challenges",https://doi.org/10.1007/s11227-021-03914-1
+629,,2195,/doi/10.1007/s11227-019-02806-9,"Query optimization in cloud environments: challenges, taxonomy, and techniques",https://doi.org/10.1007/s11227-019-02806-9
+630,,2196,/doi/10.1504/ijbis.2019.099305,Impact of technology evolution on the materialised views: current issues and future trends,https://doi.org/10.1504/ijbis.2019.099305
+631,,2197,/doi/10.1007/s10916-018-0894-9,"Medical Big Data Warehouse: Architecture and System Design, a Case Study: Improving Healthcare Resources Distribution",https://doi.org/10.1007/s10916-018-0894-9
+632,,2198,/doi/10.1007/978-3-030-67667-4_27,Interpretable Dimensionally-Consistent Feature Extraction from Electrical Network Sensors,https://doi.org/10.1007/978-3-030-67667-4_27
+633,,2201,/doi/10.1007/978-3-030-46133-1_38,Interpreting Atypical Conditions in Systems with Deep Conditional Autoencoders: The Case of Electrical Consumption,https://doi.org/10.1007/978-3-030-46133-1_38
+634,,2205,/doi/10.1007/978-3-031-43815-8_24,Championing Electromobility with Co-engineered Services Based on Artificial Intelligence and Interdisciplinarity,https://doi.org/10.1007/978-3-031-43815-8_24
+635,,2208,/doi/10.1007/978-3-030-88207-5_33,Reproducible Improvement of Images Quality Through Nature Inspired Optimisation,https://doi.org/10.1007/978-3-030-88207-5_33
+636,,2210,/doi/10.1134/S1054661821030202,Tire Surface Segmentation in Infrared Imaging with Convolutional Neural Networks and Transfer Learning,https://doi.org/10.1134/S1054661821030202
+637,,2214,/doi/10.1007/978-3-030-68821-9_5,Tire Surface Segmentation in Infrared Imaging with Convolutional Neural Networks,https://doi.org/10.1007/978-3-030-68821-9_5
+638,,2215,/doi/10.1007/978-3-030-60816-3_38,Visualizing Features on Classified Fauna Images Using Class Activation Maps,https://doi.org/10.1007/978-3-030-60816-3_38
+639,,2218,/doi/10.1007/978-3-030-60816-3_22,Active Learning with Crowdsourcing for the Cold Start of Imbalanced Classifiers,https://doi.org/10.1007/978-3-030-60816-3_22
+640,,2222,/doi/10.1007/978-3-030-60816-3_12,FireBird: A Fire Alert and Live Fire Monitoring System Based on Social Media Contribution,https://doi.org/10.1007/978-3-030-60816-3_12
+641,,2227,/doi/10.1007/978-3-030-30949-7_32,Newtrap: Improving Biodiversity Surveys by Enhanced Handling of Visual Observations,https://doi.org/10.1007/978-3-030-30949-7_32
+642,,2228,/doi/10.14236/ewic/HCI2018.85,Mixed reality collaborative storytelling,https://doi.org/10.14236/ewic/HCI2018.85
+643,,2231,/doi/10.5220/0006422800480055,Storing and Processing Personal Narratives in the Context of Cultural Legacy Preservation,https://doi.org/10.5220/0006422800480055
+644,,2232,/doi/10.5220/0006415801570164,Using Visualisation Techniques to Acquire a Better Understanding of Storytelling for Cultural Heritage,https://doi.org/10.5220/0006415801570164
+645,,2234,/doi/10.1177/1473871615571951,Interactive and iterative visual clustering,https://doi.org/10.1177/1473871615571951
+646,,2237,/doi/10.1145/3630106.3659011,MiMICRI: Towards Domain-centered Counterfactual Explanations of Cardiovascular Image Classification Models,https://doi.org/10.1145/3630106.3659011
+647,,2242,/doi/10.1145/3656650.3656667,Visualizing Intelligent Tutor Interactions for Responsive Pedagogy,https://doi.org/10.1145/3656650.3656667

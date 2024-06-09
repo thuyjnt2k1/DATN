@@ -33,15 +33,15 @@ df_error = pd.DataFrame(columns=['id', 'url'])
 content_types = ['research-article', 'short-paper', 'demonstration', 'section', 'wip', 'column','poster']
 file = open("log.txt", "w", encoding="utf-8")
 
-# use to scratch author
-options2 = Options()
-options2.headless = True
-driver2 = webdriver.Chrome(options=options2)
+# # use to scratch author
+# options2 = Options()
+# options2.headless = True
+# driver2 = webdriver.Chrome(options=options2)
 
-# use to scratch affiliation
-options3 = Options()
-options3.headless = True
-driver3 = webdriver.Chrome(options=options3)
+# # use to scratch affiliation
+# options3 = Options()
+# options3.headless = True
+# driver3 = webdriver.Chrome(options=options3)
 
 def scratch_author_data(ner_id, url):
 	global df_author,df_error

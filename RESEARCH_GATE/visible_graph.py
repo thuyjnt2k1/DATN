@@ -17,13 +17,15 @@ for index,node in df_queue.iterrows():
       document = document.iloc[0]  # Access the first row of the document DataFrame
       G.add_node(node["id"], link = node["link"], type = node["type"], title = document["title"], doi = document["doi"])
     else:
+      print('\nNot have paper?')
       G.add_node(node["id"], link = node["link"], type = node["type"])
     print("\ninsert node", id, "type ", node["type"])
   elif node["type"] == 2:
     author = df_author.loc[df_author['ner_id'] == node["id"]]
     if len(author) > 0:
+      print('\nNot have author?')
       author = author.iloc[0]  # Access the first row of the document DataFrame
-      G.add_node(node["id"], link = node["link"], type = node["type"], name = author["name"], orcid = author["orcid"])
+      G.add_node(node["id"], link = node["link"], type = node["type"], name = author["name"], orcid = author["orcid"], affiliation = author['affiliation'])
     else:
       G.add_node(node["id"], link = node["link"], type = node["type"])
     print("\ninsert node", id, "type ", node["type"])
@@ -31,7 +33,7 @@ for index,node in df_queue.iterrows():
 grouped = df_queue.groupby(['type']).count()
 print(grouped)
 for link in df_links.index:
-  G.add_edge(df_links.iloc[link]['from'],df_links.iloc[link]['to'],weight=df_links.iloc[link]['count'])
+  G.add_edge(df_links.iloc[link]['from']+1,df_links.iloc[link]['to']+1,weight=df_links.iloc[link]['count'])
   print('\n', df_links.iloc[link]['from'], df_links.iloc[link]['to'])
 
 # connected_components = nx.connected_components(G)

@@ -3,14 +3,15 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df_links = pd.read_csv('new_link.csv')
-df_queue = pd.read_csv('new_queue.csv')
-df_nodes = pd.read_csv('new_node.csv')
-df_author = pd.read_csv('new_author.csv')
-df_paper = pd.read_csv('new_paper.csv')
+df_links = pd.read_csv('after_link1.csv')
+df_queue = pd.read_csv('after_queue1.csv')
+df_nodes = pd.read_csv('after_node1.csv')
+df_author = pd.read_csv('after_author1.csv')
+df_paper = pd.read_csv('after_paper1.csv')
 
 G = nx.Graph()
 for index,node in df_queue.iterrows():
+  print(node['id'], '\n', node['type'])
   if node["type"] == 1:
     document = df_paper.loc[df_paper['ner_id'] == node["id"]]
     if len(document) > 0:
@@ -23,7 +24,7 @@ for index,node in df_queue.iterrows():
     author = df_author.loc[df_author['ner_id'] == node["id"]]
     if len(author) > 0:
       author = author.iloc[0]  # Access the first row of the document DataFrame
-      G.add_node(node["id"], link = node["link"], type = node["type"], name = author["name"], orcid = author["orcid"])
+      G.add_node(node["id"], link = node["link"], type = node["type"], name = author["name"], orcid = author["orcid"], affiliation = author['affiliation'], email = author['email'])
     else:
       G.add_node(node["id"], link = node["link"], type = node["type"])
     print("\ninsert node", id, "type ", node["type"])
@@ -31,17 +32,17 @@ for index,node in df_queue.iterrows():
 grouped = df_queue.groupby(['type']).count()
 print(grouped)
 for link in df_links.index:
-  G.add_edge(df_links.iloc[link]['from'],df_links.iloc[link]['to'],weight=df_links.iloc[link]['count'])
+  G.add_edge(int(df_links.iloc[link]['from'])+1,int(df_links.iloc[link]['to'])+1,weight=df_links.iloc[link]['count'])
   print('\n', df_links.iloc[link]['from'], df_links.iloc[link]['to'])
 
-# connected_components = nx.connected_components(G)
+connected_components = nx.connected_components(G)
 
 # # # Find the largest connected component
-# largest_component = max(connected_components, key=len)
+largest_component = max(connected_components, key=len)
 # print(largest_component)
 # # # Create a subgraph of the largest connected component
-# largest_subgraph = G.subgraph(largest_component)
-
+largest_subgraph = G.subgraph(largest_component)
+nx.write_gexf(largest_subgraph, 'subgraph.gexf')
 # degree_centrality = nx.degree_centrality(G)
 
 # # Sort nodes by degree centrality in descending order

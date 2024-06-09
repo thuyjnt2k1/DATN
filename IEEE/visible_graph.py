@@ -3,14 +3,15 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df_links = pd.read_csv('new_link.csv')
-df_queue = pd.read_csv('new_queue.csv')
-df_nodes = pd.read_csv('new_node.csv')
-df_author = pd.read_csv('new_author.csv')
-df_paper = pd.read_csv('new_paper.csv')
+df_links = pd.read_csv('after_link.csv')
+df_queue = pd.read_csv('after_queue.csv')
+df_nodes = pd.read_csv('after_node.csv')
+df_author = pd.read_csv('after_author.csv')
+df_paper = pd.read_csv('after_paper.csv')
 
 G = nx.Graph()
 for index,node in df_queue.iterrows():
+  print(node['id'], '\n', node['type'])
   if node["type"] == 1:
     document = df_paper.loc[df_paper['ner_id'] == node["id"]]
     if len(document) > 0:
@@ -31,7 +32,7 @@ for index,node in df_queue.iterrows():
 grouped = df_queue.groupby(['type']).count()
 print(grouped)
 for link in df_links.index:
-  G.add_edge(df_links.iloc[link]['from'],df_links.iloc[link]['to'],weight=df_links.iloc[link]['count'])
+  G.add_edge(int(df_links.iloc[link]['from'])+1,int(df_links.iloc[link]['to'])+1,weight=df_links.iloc[link]['count'])
   print('\n', df_links.iloc[link]['from'], df_links.iloc[link]['to'])
 
 # connected_components = nx.connected_components(G)

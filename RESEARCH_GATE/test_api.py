@@ -41,9 +41,9 @@
 # plt.ylabel('Arbitrary Y-axis')
 # plt.show()
 
-# from opencage.geocoder import OpenCageGeocode
+from opencage.geocoder import OpenCageGeocode
 
-# api_key = "68020a7f39dd42fd9dc58971638403e6"
-# geocoder = OpenCageGeocode(api_key)
-# result = geocoder.geocode("The Papua New Guinea University of Technology-Department of Business StudiesLae, Papua New Guinea")
-# print(result[0]["formatted"])
+api_key = "68020a7f39dd42fd9dc58971638403e6"
+geocoder = OpenCageGeocode(api_key)
+result = geocoder.geocode("University of Science and Technology - Shanghai, China")
+print(result[0]["formatted"])

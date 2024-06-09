@@ -27,8 +27,8 @@ id = 0
 # df_ner = pd.DataFrame(columns=['id', 'type', 'name', 'link', 'count'])
 # df_links = pd.DataFrame(columns=['from', 'to', 'count'])
 # df_queue = pd.DataFrame(columns=['id', 'type', 'link']) #Để lưu trữ link tạm thời
-df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid', 'email', 'affiliation']) 
-df_paper = pd.DataFrame(columns=['ner_id', 'link', 'title', 'doi'])
+# df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid', 'email', 'affiliation']) 
+# df_paper = pd.DataFrame(columns=['ner_id', 'link', 'title', 'doi'])
 base_url = 'https://ieeexplore.ieee.org'
 df_error = pd.DataFrame(columns=['id', 'url'])
 file = open("log_detail.txt", "w", encoding="utf-8")
