@@ -193,8 +193,9 @@ search_query_string = '%20OR%20'.join(search_query)
 base_url = 'https://ieeexplore.ieee.org'
 base_filter_url = "https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&ranges=2010_2024_Year&refinements=ContentType:Conferences&refinements=ContentType:Journals&refinements=ContentType:Magazines"
 current_url = base_filter_url + f"&queryText={search_query_string}"
+test_url = 'https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=IEEE%2FACM%20Transactions%20on%20Audio,%20Speech%20and%20Language%20Processing&highlight=true&returnFacets=ALL&returnType=SEARCH&matchPubs=true&ranges=2024_2024_Year'
 try:
-	scratch_list_data(driver, current_url)
+	scratch_list_data(driver, test_url)
 except KeyboardInterrupt:
 		print('Stop from terminal')
 finally:

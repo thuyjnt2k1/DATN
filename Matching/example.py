@@ -11,18 +11,18 @@ import copy
 api_key = "68020a7f39dd42fd9dc58971638403e6"
 geocoder = OpenCageGeocode(api_key)
 
-df_acm_links = pd.read_csv('../ACM/after_link1.csv')
-df_acm_nodes = pd.read_csv('../ACM/after_node1.csv')
-df_acm_author = pd.read_csv('../ACM/after_author1.csv')
-df_acm_paper = pd.read_csv('../ACM/after_paper1.csv')
+df_acm_links = pd.read_csv('../ACM/new_link.csv')
+df_acm_nodes = pd.read_csv('../ACM/new_node.csv')
+df_acm_author = pd.read_csv('../ACM/new_author.csv')
+df_acm_paper = pd.read_csv('../ACM/new_paper.csv')
 df_acm_paper = df_acm_paper.set_index('ner_id')
 df_acm_author = df_acm_author.set_index('ner_id')
 base_acm_url = 'https://dl.acm.org'
 
-df_ieee_links = pd.read_csv('../IEEE/after_link.csv')
-df_ieee_nodes = pd.read_csv('../IEEE/after_node.csv')
-df_ieee_author = pd.read_csv('../IEEE/after_author.csv')
-df_ieee_paper = pd.read_csv('../IEEE/after_paper.csv')
+df_ieee_links = pd.read_csv('../IEEE/new_link.csv')
+df_ieee_nodes = pd.read_csv('../IEEE/new_node.csv')
+df_ieee_author = pd.read_csv('../IEEE/new_author.csv')
+df_ieee_paper = pd.read_csv('../IEEE/new_paper.csv')
 df_ieee_paper = df_ieee_paper.set_index('ner_id')
 df_ieee_author = df_ieee_author.set_index('ner_id')
 base_ieee_url = 'https://ieeexplore.ieee.org'
@@ -67,8 +67,6 @@ def insertACM():
 		# print('\n=====', int(link['from']) + current_id + 1, int(link['to']) + current_id + 1)
 
 	for index,node in df_acm_nodes.iterrows():
-		if(node['id'] == 3):
-			break
 		if node["type"] == 1:
 			try:
 				current_id += 1
@@ -92,7 +90,7 @@ def insertACM():
 			except KeyError:
 				print('\n=====error======\n', node['name'], ' not claim yet!')
 				df_links = df_links.loc[~((df_links['from'] == node["id"]) | (df_links['to'] == node["id"]))]
-				break;
+				# break;
 
 def insertIEEE(): 
 	global current_id, df_ner, df_paper, df_author , df_links
@@ -101,8 +99,6 @@ def insertIEEE():
 		print('\n=====', int(link['from']) + current_id + 1, int(link['to']) + current_id + 1)
 
 	for index,node in df_ieee_nodes.iterrows():
-		if(node['id'] == 3):
-			break
 		if node["type"] == 1:
 			try:
 				current_id += 1
@@ -125,11 +121,16 @@ def insertIEEE():
 			except KeyError:
 				print('\n=====error======\n', node['name'], ' not claim yet!')
 				df_links = df_links.loc[~((df_links['from'] == node["id"]) | (df_links['to'] == node["id"]))]
-				break;
+				# break;
 
 # current_id = 0
 # insertACM()
 # insertIEEE()
+
+# df_ner.to_csv('new_node.csv', index=True)
+# df_links.to_csv('new_link.csv', index=True)
+# df_paper.to_csv('new_paper.csv', index=True)
+# df_author.to_csv('new_author.csv', index=True)
 
 # print(df_ner)
 # print(df_links)
@@ -137,6 +138,6 @@ def insertIEEE():
 # print(df_paper)
 
 name_matcher = NameMatcher()
-score = name_matcher.match_names('C. I. Ezeife', 'Christiana Ijeoma Ezeife')
+score = name_matcher.match_names('Mark D. Plumbley', 'M. Plumbley')
 print(score) 
 

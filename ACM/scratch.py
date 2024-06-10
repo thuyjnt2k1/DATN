@@ -33,15 +33,15 @@ df_error = pd.DataFrame(columns=['id', 'url'])
 content_types = ['research-article', 'short-paper', 'demonstration', 'section', 'wip', 'column','poster']
 file = open("log.txt", "w", encoding="utf-8")
 
-# # use to scratch author
-# options2 = Options()
-# options2.headless = True
-# driver2 = webdriver.Chrome(options=options2)
+# use to scratch author
+options2 = Options()
+options2.headless = True
+driver2 = webdriver.Chrome(options=options2)
 
-# # use to scratch affiliation
-# options3 = Options()
-# options3.headless = True
-# driver3 = webdriver.Chrome(options=options3)
+# use to scratch affiliation
+options3 = Options()
+options3.headless = True
+driver3 = webdriver.Chrome(options=options3)
 
 def scratch_author_data(ner_id, url):
 	global df_author,df_error
@@ -195,10 +195,11 @@ search_query_string = '&field1=AllField&text1=Big+Data'
 
 base_filter_url = "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AfterYear=2010&BeforeYear=2024&pageSize=50"
 current_url = base_filter_url + search_query_string
-
+test_url = 'https://dl.acm.org/action/doSearch?AllField=IEEE%2FACM+Transactions+on+Audio%2C+Speech+and+Language+Processing&ContentItemType=research-article&startPage=&EpubDate=%5B20230609%20TO%20202406092359%5D&queryID=24/7034861620'
 try:
 	for content in content_types:
-		scratch_list_data(driver, current_url+'&ContentItemType='+content)
+		# scratch_list_data(driver, current_url+'&ContentItemType='+content)
+		scratch_list_data(driver,test_url)
 except KeyboardInterrupt:
 	file.write('Stop from terminal')
 	print('Stop from terminal')
