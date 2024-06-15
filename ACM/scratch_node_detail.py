@@ -34,11 +34,11 @@ df_error = pd.DataFrame(columns=['id', 'url'])
 file = open("log_detail.txt", "w", encoding="utf-8")
 playwright = sync_playwright().start()
 browser = playwright.chromium.launch(headless=False)
-page = browser.new_page()
+page = browser.new_page(no_viewport=True)
 browser2 = playwright.chromium.launch(headless=False)
-page2 = browser2.new_page()
+page2 = browser2.new_page(no_viewport=True)
 browser3 = playwright.chromium.launch(headless=False)
-page3 = browser3.new_page()
+page3 = browser3.new_page(no_viewport=True)
 
 # # use to scratch author
 # options2 = Options()
@@ -52,24 +52,24 @@ page3 = browser3.new_page()
 
 def insert_author_node(authors, node_ids):
 	global id, df_queue, df_ner, df_links
-	print('\nscratching author')
 	for author_container in authors:
 			author = author_container.find('a')
-			author_link = author.get("href")
-			author_name = author.text
-			if author_link in df_ner['link'].values:
-				df_ner.loc[df_ner['link'] == author_link, 'count'] += 1
-				file.write(f"\nauthor {author_name} existed")
-				print(f"\nauthor {author_name} existed")
-				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
-			else:
-				node_ids.append(id)
-				id = id + 1
-				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
-				file.write(f"\ninsert author {author_name}")
-				print(f"\ninsert author {author_name}")
-				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
-				scratch_author_data(id, author_link)
+			if author:
+				author_link = author.get("href")
+				author_name = author.text
+				if author_link in df_ner['link'].values:
+					df_ner.loc[df_ner['link'] == author_link, 'count'] += 1
+					file.write(f"\nauthor {author_name} existed")
+					print(f"\nauthor {author_name} existed")
+					node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
+				else:
+					node_ids.append(id)
+					id = id + 1
+					df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
+					file.write(f"\ninsert author {author_name}")
+					print(f"\ninsert author {author_name}")
+					df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
+					scratch_author_data(id, author_link)
 	return df_ner, node_ids
 
 def insert_paper_node(paper, node_ids, doi):
@@ -103,41 +103,60 @@ def insert_link(node_ids):
 	return df_links
 
 def scratch_author_data(ner_id, url):
-	global df_author,df_error
+	global df_author,df_error, page2, page3
 	file.write(f"\nstart scratching {url}")
+	print(f"\nstart scratching {url}")
 	try:
-		page2.goto(base_url+url)
+		page2.goto(base_url+url, timeout=10000)
 		# element = WebDriverWait(driver2, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "list-of-institutions")))
-		element = page2.wait_for_selector(".list-of-institutions", timeout=10000)
+		try:
+			element = page2.wait_for_selector(".list-of-institutions", timeout=5000)
+		except Exception:
+		    print("\n not have instuitution")
 		author_soup = BeautifulSoup(page2.content(),'lxml')
 		author_profile = author_soup.find("div", class_="item-meta__info")
 		author_name = author_profile.find("h2").text
 		author_orcid = author_profile.find('a', attrs={"aria-label": "ORCID"}).get("href") if author_profile.find('a', attrs={"aria-label": "ORCID"}) else ''
 		author_email = author_profile.find('a', attrs={"aria-label": "Author’s Email"}).get("href") if author_profile.find('a', attrs={"aria-label": "Author’s Email"}) else ''
 		affiliation = []
-		for item in author_profile.find('ul', class_="list-of-institutions").find_all('a'):
-			# affiliation.insert(0, item.text)
-			page3.goto(base_url+item.get('href'))
-			addressSoup = BeautifulSoup(page3.content(),'lxml').find('div', class_='item-meta__info')
-			affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
+		if author_profile.find('ul', class_="list-of-institutions"):
+			for item in author_profile.find('ul', class_="list-of-institutions").find_all('a'):
+				# affiliation.insert(0, item.text)
+				try:
+					page3.goto(base_url+item.get('href'), timeout=10000)
+					element = page3.wait_for_selector(".institution-profile", timeout=5000)
+					addressSoup = BeautifulSoup(page3.content(),'lxml').find('div', class_='item-meta__info')
+					affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
+				except Exception:
+					element = page3.wait_for_selector(".institution-profile", timeout=5000)
+					addressSoup = BeautifulSoup(page3.content(),'lxml').find('div', class_='item-meta__info')
+					affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
+					page3.close()
+					page3 = browser3.new_page(no_viewport=True)
+					print('\naffiliation timeout')
+					continue;
 		author_affiliation = '; '.join(affiliation)
 		print(author_name, author_orcid, author_affiliation, '=====\n')
 		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'orcid': author_orcid, 'email': author_email, 'affiliation': author_affiliation}, ignore_index=True)
 		file.write(f"{ner_id}, {url}, {author_name}, {author_orcid}, {author_affiliation}, {author_email}")
 		file.write(f"\nsuccess scratching {url}")
+		
 	except Exception as e:
 	    # Error handling and logging
-	    print(f"An error occurred: {str(e)}")
-	    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
+			print('\author timeout')
+			page2.close()
+			page2 = browser2.new_page(no_viewport=True)
+			print(f"An error occurred: {str(e)}")
+			df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
 def scratch_list_data(url):
-	global id, df_queue, df_ner, df_links, df_error, cookie
+	global id, df_queue, df_ner, df_links, df_error, cookie, page
 	print(f"\n\nstart scratching {url}")
 	file.write(f"\nstart scratching {url}")
 	page_number = 0
 	has_next_page = False
 	retry = 1
-	entry_time = 2000
+	entry_time = 8000
 	while True:
 		current_url = url + f"&startPage={page_number}"
 		file.write(f"\n\nStart scratching page {current_url}")
@@ -149,8 +168,13 @@ def scratch_list_data(url):
 				# driver.find_element(By.CSS_SELECTOR, '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection').click()
 				cookie = True;
 			try: 
-				for element in page.query_selector_all('.removed-items-count'):
-					element.click()
+				page.wait_for_timeout(3000)
+				while(1):
+					if page.query_selector('.removed-items-count'):
+						for element in page.query_selector_all('.removed-items-count'):
+							element.click()
+					else:
+						break;
 			except Exception as e:
 				df_error = df_error._append({id: page_number, "url": url}, ignore_index=True)
 			soup = BeautifulSoup(page.content(),'lxml')
@@ -163,10 +187,9 @@ def scratch_list_data(url):
 				if type is None or type not in content_types:
 					print(type)
 					continue;
-				doi = match.find("div", class_="issue-item__detail").find('a').get('href')
-				print(doi)
-				if(doi is None):
+				if(match.find("div", class_="issue-item__detail").find('a') is None):
 					continue
+				doi = match.find("div", class_="issue-item__detail").find('a').get('href')
 				df_ner, node_ids = insert_paper_node(paper, node_ids, doi)
 				#get author list
 				authors = match.find('ul', class_='loa').find_all("li")
@@ -188,14 +211,16 @@ def scratch_list_data(url):
 			if(page_number == 40):
 				has_next_page = None
 				retry = 5
-			# has_next_page = False
+		# has_next_page = False
 		except Exception as e:
 		    # Error handling and logging
-				file.write(f"\nAn error occurred: {str(e)}")
-				print(e)
-				has_next_page = False
-				retry +=1
-				df_error = df_error._append({id: page_number, "url": url}, ignore_index=True)
+		    page.close()
+		    page = browser.new_page(no_viewport=True)
+		    file.write(f"\nAn error occurred: {str(e)}")
+		    print(e)
+		    has_next_page = False
+		    retry +=1
+		    df_error = df_error._append({id: page_number, "url": url}, ignore_index=True)
 		finally:
 			if( (has_next_page is None or not has_next_page) and retry > 3):
 				break;
@@ -208,24 +233,45 @@ def scratch_list_data(url):
 
 base_url = 'https://dl.acm.org'
 
-df_links = pd.read_csv('new_link.csv', index_col=False)
-df_queue = pd.read_csv('new_queue.csv', index_col=False)
-df_ner = pd.read_csv('new_node.csv', index_col=False)
-df_paper = pd.read_csv('new_paper.csv', index_col=False)
-df_author = pd.read_csv('new_author.csv', index_col=False)
-
+df_links = pd.read_csv('new_link.csv', index_col=0)
+df_ner = pd.read_csv('new_node.csv', index_col=0)
+df_paper = pd.read_csv('new_paper.csv', index_col=0)
+df_author = pd.read_csv('new_author.csv', index_col=0)
+# scratch_author_data(1, '/profile/81442610028')
 try:
-	id = len(df_queue)
+	df_queue = df_ner[df_ner['type'] == 2].nlargest(100, 'count')
+	print(df_queue)
+	id = len(df_ner)
 	author_count = 0
-	for index, row in df_queue.iterrows():
-	    if row["type"] == 2:
-	    	# scratch_author_data(row["id"], driver, row["link"])
-	    	current_url = base_url + row["link"] + f"/publications?pageSize=50"
-	    	scratch_list_data(current_url) 
-	    	author_count += 1
-	    	file.write(f"author count: {author_count}")
-	    if row["type"] == 1:
-	    	continue
+	index = 0
+	while True:
+		if(index == len(df_queue)):
+			break;
+		row = df_queue.iloc[index]
+		print('=====================================\n',index, row)
+		index = index + 1
+		if row["type"] == 2:
+			# scratch_author_data(row["id"], driver, row["link"])
+			current_url = base_url + row["link"] + f"/publications?pageSize=50"
+			print(current_url)
+			scratch_list_data(current_url)
+			author_count += 1
+			file.write(f"author count: {author_count}")
+		elif row["type"] == 1:
+			continue;		
+
+# try:
+# 	id = len(df_queue)
+# 	author_count = 0
+# 	for index, row in df_queue.iterrows():
+# 	    if row["type"] == 2:
+# 	    	# scratch_author_data(row["id"], driver, row["link"])
+# 	    	current_url = base_url + row["link"] + f"/publications?pageSize=50"
+# 	    	scratch_list_data(current_url) 
+# 	    	author_count += 1
+# 	    	file.write(f"author count: {author_count}")
+# 	    if row["type"] == 1:
+# 	    	continue
 
 except KeyboardInterrupt:
 	file.write('Stop from terminal')
@@ -240,18 +286,19 @@ finally:
 	file.write(df_author.to_string())
 	file.write(df_error.to_string())
 
-	df_ner.to_csv('after_node1.csv', index=True)
-	df_links.to_csv('after_link1.csv', index=True)
-	df_queue.to_csv('after_queue1.csv', index=True)
-	df_paper.to_csv('after_paper1.csv', index=True)
-	df_author.to_csv('after_author1.csv', index=True)
-	df_error.to_csv('after_error1.csv', index=True)
+	df_ner.to_csv('after_node2.csv', index=True)
+	df_links.to_csv('after_link2.csv', index=True)
+	df_queue.to_csv('after_queue2.csv', index=True)
+	df_paper.to_csv('after_paper2.csv', index=True)
+	df_author.to_csv('after_author2.csv', index=True)
+	df_error.to_csv('after_error2.csv', index=True)
 	print('/n close driver')
 	# driver.quit()
 	# driver2.quit()
 	# driver3.quit()
 	browser.close()
 	browser2.close()
+	browser3.close()
 	print('/n close file')
 	file.close()
 

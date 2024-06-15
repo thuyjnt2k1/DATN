@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 from itertools import combinations
 
 from webdriver_manager.chrome import ChromeDriverManager
+from playwright.sync_api import sync_playwright, expect
+
 
 nodeType = {
   "paper": 1,
@@ -29,9 +31,15 @@ df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid', 'email', 'a
 df_paper = pd.DataFrame(columns=['ner_id', 'link', 'title', 'doi'])
 base_url = 'https://ieeexplore.ieee.org'
 df_error = pd.DataFrame(columns=['id', 'url'])
-options2 = Options()
-options2.headless = True
-driver2 = webdriver.Chrome(options=options2) # Setting up the Chrome driver
+
+playwright = sync_playwright().start()
+browser = playwright.chromium.launch(headless=False)
+page = browser.new_page()
+browser2 = playwright.chromium.launch(headless=False)
+page2 = browser2.new_page()
+browser3 = playwright.chromium.launch(headless=False)
+page3 = browser3.new_page()
+
 
 def insert_author_node(authors, node_ids):
 	global id, df_queue, df_ner, df_links
@@ -44,12 +52,12 @@ def insert_author_node(authors, node_ids):
 				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 				# scratch_author_data(df_ner.loc[df_ner['link'] == author_link]['id'].values[0], driver2, author_link)
 			else:
-				node_ids.append(id)
 				id = id + 1
+				node_ids.append(id)
 				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
 				print("insert author", author_name)
 				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
-				scratch_author_data(id, driver2, author_link)
+				scratch_author_data(id, author_link)
 	return df_ner, node_ids
 
 def insert_paper_node(paper, node_ids):
@@ -62,12 +70,12 @@ def insert_paper_node(paper, node_ids):
 		node_ids.append(df_ner.loc[df_ner['link'] == paper_link]['id'].values[0])
 		# scratch_paper_data(df_ner.loc[df_ner['link'] == paper_link]['id'], driver2, paper_link)
 	else:
-		node_ids.append(id)
 		id = id + 1
+		node_ids.append(id)
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		print("insert paper", paper_name)
 		df_queue = df_queue._append({'id': id, 'type': 1, 'link': paper_link}, ignore_index=True)
-		scratch_paper_data(id, driver2, paper_link)
+		scratch_paper_data(id, paper_link)
 	return df_ner, node_ids
 
 def insert_link(node_ids):
@@ -81,13 +89,14 @@ def insert_link(node_ids):
 		        df_links = df_links._append({'from': author_from, 'to': author_to, 'count': 1}, ignore_index=True)
 	return df_links
 
-def scratch_author_data(ner_id, driver, url):
+def scratch_author_data(ner_id, url):
 	global df_author,df_error
 	print("\nstart scratching ", url)
 	try:
-		driver.get(base_url+url)
-		time.sleep(5) # Sleep for 6 seconds
-		author_soup = BeautifulSoup(driver.page_source,'lxml')
+		page3.goto(base_url+url)
+		# time.sleep(5) # Sleep for 6 seconds
+		waitelement = page3.wait_for_selector("#authorProfile", timeout = 10000)
+		author_soup = BeautifulSoup(page3.content(),'lxml')
 		container = author_soup.find("div",class_="author-profile-container")
 		#get bio
 		author_profile = container.find("div", class_="author-bio")
@@ -113,13 +122,13 @@ def scratch_author_data(ner_id, driver, url):
 	    print(f"An error occurred: {str(e)}")
 	    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
-def scratch_paper_data(ner_id, driver, url):
+def scratch_paper_data(ner_id, url):
 	global id, df_queue, df_ner, df_links, df_paper, df_error
 	print("\nstart scratching ", url)
 	try:
-		driver.get(base_url+url)
-		time.sleep(5) # Sleep for 6 seconds
-		paper_soup = BeautifulSoup(driver.page_source,'lxml')
+		page2.goto(base_url+url)
+		waitelement = page2.wait_for_selector(".document-main", timeout = 10000)
+		paper_soup = BeautifulSoup(page2.content(),'lxml')
 		title = paper_soup.find("h1",class_="document-title").find("span").text
 		doi = paper_soup.find("div", class_ = "stats-document-abstract-doi").find("a").text
 		df_paper = df_paper._append({'ner_id':ner_id, 'link': url, 'title': title, 'doi': doi}, ignore_index=True)
@@ -129,21 +138,22 @@ def scratch_paper_data(ner_id, driver, url):
 	    print(f"An error occurred: {str(e)}")
 	    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
-def scratch_list_data(driver, url):
+def scratch_list_data(url):
 	global id, df_queue, df_ner, df_links
 	print("\nstart scratching ", url)
-	page = 1
+	page_number = 1
 	has_next_page = True
 	retry = 1
-	entry_time = 5
+	entry_time = 80000
 	while True:
-		current_url = url + f"&pageNumber={page}"
+		current_url = url + f"&pageNumber={page_number}"
 		print("\nStart scratching page ", current_url)
 		try:
-			driver.get(current_url)
-			time.sleep(entry_time) # Sleep for 6 seconds
-			element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "xplMainContentLandmark")))
-			soup = BeautifulSoup(driver.page_source,'lxml')
+			page.goto(current_url, timeout = entry_time)
+			# time.sleep(entry_time) # Sleep for 6 seconds
+			waitelement = page.wait_for_selector(".List-results-items", timeout=entry_time)
+			# element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "xplMainContentLandmark")))
+			soup = BeautifulSoup(page.content(),'lxml')
 			matches = soup.find_all("xpl-results-item")
 			for match in matches:
 				node_ids = []
@@ -165,13 +175,13 @@ def scratch_list_data(driver, url):
 			if(matches and has_next_page is None):
 				break;
 			if(has_next_page): 
-				page += 1
+				page_number += 1
 				retry = 0
-				entry_time = 5
+				entry_time = 8000
 			else: 
 				retry +=1
-				entry_time += 3
-			if(page == 120):
+				entry_time += 3000
+			if(page_number == 300):
 				has_next_page = None
 				retry = 5
 			# has_next_page = False
@@ -181,10 +191,6 @@ def scratch_list_data(driver, url):
 		    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 		if( (has_next_page is None or not has_next_page) and retry > 3):
 		 	break;
-options = Options()
-options.headless = True
-driver = webdriver.Chrome(options=options) # Setting up the Chrome driver
-driver.implicitly_wait(10)
 
 # search_query = ['haha']
 search_query = ['("Full%20Text%20.AND.%20Metadata":Big%20Data)']#,'("Full%20Text%20.AND.%20Metadata":Deep%20Learning)'
@@ -195,7 +201,7 @@ base_filter_url = "https://ieeexplore.ieee.org/search/searchresult.jsp?action=se
 current_url = base_filter_url + f"&queryText={search_query_string}"
 test_url = 'https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=IEEE%2FACM%20Transactions%20on%20Audio,%20Speech%20and%20Language%20Processing&highlight=true&returnFacets=ALL&returnType=SEARCH&matchPubs=true&ranges=2024_2024_Year'
 try:
-	scratch_list_data(driver, test_url)
+	scratch_list_data(current_url)
 except KeyboardInterrupt:
 		print('Stop from terminal')
 finally:
@@ -225,7 +231,6 @@ finally:
 # scratch_author_data(id, driver, '/author/37277371500')
 # scratch_paper_data(id, driver, '/document/8949228')
 
-
 	print(df_ner)
 	print(df_links)
 	# print(matches)
@@ -233,12 +238,14 @@ finally:
 	print(df_paper)
 	print(df_author)
 	print(df_error)
-
 	df_ner.to_csv('new_node.csv', index=True)
 	df_links.to_csv('new_link.csv', index=True)
 	df_queue.to_csv('new_queue.csv', index=True)
 	df_paper.to_csv('new_paper.csv', index=True)
 	df_author.to_csv('new_author.csv', index=True)
-
-	driver.quit()
-	driver2.quit()
+	# page.close()
+	# page2.close()
+	# page3.close()
+	browser.close()
+	browser2.close()
+	browser3.close()

@@ -80,8 +80,8 @@ def insert_author_node(authors, node_ids):
 				file.write(f"\nauthor {author_name} existed")
 				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 			else:
-				node_ids.append(id)
 				id = id + 1
+				node_ids.append(id)
 				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
 				file.write(f"\ninsert author {author_name}")
 				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
@@ -97,8 +97,8 @@ def insert_paper_node(paper, node_ids, doi):
 		file.write(f"\npaper {paper_name} existed")
 		node_ids.append(df_ner.loc[df_ner['link'] == paper_link]['id'].values[0])
 	else:
-		node_ids.append(id)
 		id = id + 1
+		node_ids.append(id)
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		file.write(f"\ninsert paper {paper_name}")
 		df_queue = df_queue._append({'id': id, 'type': 1, 'link': paper_link}, ignore_index=True)
@@ -195,11 +195,11 @@ search_query_string = '&field1=AllField&text1=Big+Data'
 
 base_filter_url = "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AfterYear=2010&BeforeYear=2024&pageSize=50"
 current_url = base_filter_url + search_query_string
-test_url = 'https://dl.acm.org/action/doSearch?AllField=IEEE%2FACM+Transactions+on+Audio%2C+Speech+and+Language+Processing&ContentItemType=research-article&startPage=&EpubDate=%5B20230609%20TO%20202406092359%5D&queryID=24/7034861620'
+# test_url = 'https://dl.acm.org/action/doSearch?AllField=IEEE%2FACM+Transactions+on+Audio%2C+Speech+and+Language+Processing&ContentItemType=research-article&startPage=&EpubDate=%5B20230609%20TO%20202406092359%5D&queryID=24/7034861620'
 try:
 	for content in content_types:
-		# scratch_list_data(driver, current_url+'&ContentItemType='+content)
-		scratch_list_data(driver,test_url)
+		scratch_list_data(driver, current_url+'&ContentItemType='+content)
+		# scratch_list_data(driver,test_url)
 except KeyboardInterrupt:
 	file.write('Stop from terminal')
 	print('Stop from terminal')

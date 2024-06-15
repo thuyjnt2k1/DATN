@@ -70,8 +70,8 @@ def insert_author_node(paper, node_ids):
 				print(f"\nauthor {author_name} existed")
 				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 			else:
-				node_ids.append(id)
 				id = id + 1
+				node_ids.append(id)
 				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1},  ignore_index=True)
 				file.write(f"\ninsert author {author_name}")
 				print(f"\ninsert author {author_name}")
@@ -92,7 +92,7 @@ def scratch_author_data(ner_id, url):
 		page3.goto(base_url+url, timeout=80000)
 		author_soup = BeautifulSoup(page3.content(),'lxml')
 		author_profile = author_soup.find("div", class_="profile-header-details-wrapper")
-		author_name = author_profile.find("h1").find(class_='fn').text
+		author_name = author_profile.find("h1").find(class_='nova-legacy-o-pack__item').text
 		affiliation = []
 		if author_profile.find('a', class_='gtm-institution-item'):
 			afitext = author_profile.find('a', class_='gtm-institution-item').find('span').text
@@ -100,7 +100,12 @@ def scratch_author_data(ner_id, url):
 			affiliation.insert(0, afitext)
 		if author_soup.find('div', class_="js-target-affiliations-list"):
 			for item in author_soup.find('div', class_="js-target-affiliations-list").find_all('div', class_='gtm-institution-item'):
-				metadata = ' ' + item.find_all('li', class_='nova-legacy-v-entity-item__meta-data-item')[1].find('span').text.strip() if len(item.find_all('li', class_='nova-legacy-v-entity-item__meta-data-item')) > 1 else item.find('li', class_='nova-legacy-v-entity-item__meta-data-item').text
+				metadata = ''
+				if len(item.find_all('li', class_='nova-legacy-v-entity-item__meta-data-item')) > 1:
+					metadata = ' ' + item.find_all('li', class_='nova-legacy-v-entity-item__meta-data-item')[1].find('span').text.strip() 
+				else:
+					if(item.find('ul', class_='nova-legacy-v-entity-item__meta-data')):
+						metadata = item.find('li', class_='nova-legacy-v-entity-item__meta-data-item').text
 				affiliation.insert(0, item.find('div', class_='nova-legacy-v-entity-item__title').find('b').text + metadata)
 		author_affiliation = '; '.join(affiliation)
 		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'affiliation': author_affiliation}, ignore_index=True)
@@ -130,8 +135,8 @@ def insert_paper_node(paper, node_ids):
 		print(f"\npaper {paper_name} existed")
 		node_ids.append(df_ner.loc[df_ner['link'] == paper_link]['id'].values[0])
 	else:
-		node_ids.append(id)
 		id = id + 1
+		node_ids.append(id)
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		file.write(f"\ninsert paper {paper_name}")
 		print(f"\ninsert paper {paper_name}")
@@ -218,6 +223,7 @@ current_url = base_filter_url + search_query_string
 
 try:
 	scratch_list_data(current_url)
+	# scratch_author_data(1, 'profile/Ayorinde-Oduroye-2')
 except KeyboardInterrupt:
 	file.write('Stop from terminal')
 finally:

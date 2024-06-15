@@ -54,8 +54,8 @@ def insert_author_node(paper_soup, paper, node_ids):
 				file.write(f"\nauthor {author_name} existed")
 				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 			else:
-				node_ids.append(id)
 				id = id + 1
+				node_ids.append(id)
 				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1},  ignore_index=True)
 				file.write(f"\ninsert author {author_name}")
 				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
@@ -77,8 +77,8 @@ def insert_paper_node(paper_soup, match, node_ids):
 		file.write(f"\npaper {paper_name} existed")
 		node_ids.append(df_ner.loc[df_ner['link'] == paper_link]['id'].values[0])
 	else:
-		node_ids.append(id)
 		id = id + 1
+		node_ids.append(id)
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		file.write(f"\ninsert paper {paper_name}")
 		df_queue = df_queue._append({'id': id, 'type': 1, 'link': paper_link}, ignore_index=True)
