@@ -7,8 +7,8 @@
 5,6,2,Kenneth Strang,/profile/81500642456,2
 6,7,2,Rongping Li,/profile/99659342747,1
 7,8,1,Big data: a research agenda,/doi/10.1145/2513591.2527071,1
-8,9,2,Alfredo Cuzzocrea,/profile/81100432224,58
-9,10,2,Domenico Saccà,/profile/81100111213,3
+8,9,2,Alfredo Cuzzocrea,/profile/81100432224,23
+9,10,2,Domenico Saccà,/profile/81100111213,2
 10,11,2,Jeffrey D. Ullman,/profile/81100314798,1
 11,12,1,Big data: big data or big brother? that is the question now.,/doi/10.1145/3158352,1
 12,13,2,Jeffrey Johnson,/profile/81100452038,2
@@ -113,7 +113,7 @@
 111,112,2,Kashif Sultan,/profile/99659245698,1
 112,113,2,Hazrat Ali,/profile/99659245939,1
 113,114,1,Big Data Mining Applications and Services,/doi/10.1145/2837060.2837076,1
-114,115,2,Carson K. Leung,/profile/81339512271,12
+114,115,2,Carson K. Leung,/profile/81339512271,4
 115,116,1,Security Challenges for Big Data and IoT,/doi/10.1145/3378904.3378907,1
 116,117,2,Anthony Overmars,/profile/99659515495,1
 117,118,2,Kiran Fahd,/profile/99659515601,1
@@ -125,7 +125,7 @@
 123,124,2,Mélanie Courtine,/profile/81100420622,1
 124,125,2,Yannick Kergosien,/profile/81100487142,1
 125,126,1,Flexible compression of big data,/doi/10.1145/3341161.3343512,1
-126,127,2,Fan Jiang,/profile/81485649610,2
+126,127,2,Fan Jiang,/profile/81485649610,1
 127,128,2,Yibin Zhang,/profile/99659497194,1
 128,129,1,Responsible Big Data Analytics for E-Business Services,/doi/10.1145/3505745.3505750,1
 129,130,2,Narasimha R. Vajjhala,/profile/81461657509,1
@@ -395,7 +395,7 @@
 393,394,2,Pavlin Mavrodiev,/profile/83058835857,1
 394,395,2,Frank Schweitzer,/profile/81100265774,1
 395,396,2,Ingo Scholtes,/profile/81474644365,1
-396,397,1,"Uncertainty and Imprecision in Big Data Management: Models, Issues, Paradigms, and Future Research Directions",/doi/10.1145/3416921.3416943,2
+396,397,1,"Uncertainty and Imprecision in Big Data Management: Models, Issues, Paradigms, and Future Research Directions",/doi/10.1145/3416921.3416943,1
 397,398,1,Big Data Linkage for Product Specification Pages,/doi/10.1145/3183713.3183757,1
 398,399,2,Disheng Qiu,/profile/83458754857,1
 399,400,2,Luciano Barbosa,/profile/81300212901,1
@@ -1575,7 +1575,7 @@
 1573,1574,2,Mingjun Cai,/profile/99660533330,2
 1574,1575,2,Francis Sam,/profile/99660533075,2
 1575,1576,2,Evans Asante Boadi,/profile/99660487062,2
-1576,1577,1,OLAPing Big Social Data: Multidimensional Big Data Analytics over Big Social Data Repositories,/doi/10.1145/3416921.3416944,4
+1576,1577,1,OLAPing Big Social Data: Multidimensional Big Data Analytics over Big Social Data Repositories,/doi/10.1145/3416921.3416944,3
 1577,1578,1,Big Data System for Analyzing Risky Procurement Entities,/doi/10.1145/2783258.2788563,2
 1578,1579,2,Amit Dhurandhar,/profile/81414621169,2
 1579,1580,2,Bruce Graves,/profile/81492640651,2
@@ -1681,8 +1681,8 @@
 1679,1680,2,Zhujin Tian,/profile/99660757732,1
 1680,1681,1,The Value of Using Big Data Technologies in Computational Social Science,/doi/10.1145/2640087.2644162,1
 1681,1682,2,Eugene Ch'ng,/profile/81317492043,1
-1682,1683,1,"SeDaSOMA: A Framework for Supporting Serendipitous, Data-As-A-Service-Oriented, Open Big Data Management and Analytics",/doi/10.1145/3481646.3481647,2
-1683,1684,2,Paolo Ciancarini,/profile/81100551680,2
+1682,1683,1,"SeDaSOMA: A Framework for Supporting Serendipitous, Data-As-A-Service-Oriented, Open Big Data Management and Analytics",/doi/10.1145/3481646.3481647,1
+1683,1684,2,Paolo Ciancarini,/profile/81100551680,1
 1684,1685,2,Dirk Habich,/profile/81310482402,1
 1685,1686,2,Wolfgang Lehner,/profile/81100335067,1
 1686,1687,1,Multivariate motif detection in local weather big data,/doi/10.1145/3341161.3343518,1
@@ -2517,7 +2517,7 @@
 2515,2516,2,Bang Zhao,/profile/99659371375,1
 2516,2517,1,A Survey on Big Data Processing Frameworks for Mobility Analytics,/doi/10.1145/3484622.3484626,1
 2517,2518,2,Christos Doulkeridis,/profile/81100143389,1
-2518,2519,2,Akrivi Vlachou,/profile/81320496419,2
+2518,2519,2,Akrivi Vlachou,/profile/81320496419,1
 2519,2520,2,Nikos Pelekis,/profile/81100046429,1
 2520,2521,2,Yannis Theodoridis,/profile/81100535035,1
 2521,2522,1,A Study on College Students' Mental Health Education and Early Warning Mechanism Based on Big Data,/doi/10.1145/3396452.3396453,1
@@ -2758,7 +2758,7 @@
 2756,2757,2,Christoph Lofi,/profile/81458657843,1
 2757,2758,2,Geert-Jan Houben,/profile/81336489844,1
 2758,2759,1,Cloud-based machine learning tools for enhanced big data applications,/doi/10.1109/CCGrid.2015.170,1
-2759,2760,2,Enzo Mumolo,/profile/81100408949,4
+2759,2760,2,Enzo Mumolo,/profile/81100408949,1
 2760,2761,2,Pietro Corona,/profile/99659452931,1
 2761,2762,1,Distributed Sensing of Animation Art Style under Big Data Technology,/doi/10.1145/3495018.3495293,1
 2762,2763,2,Bofei Hu,/profile/99660039789,1
@@ -4045,18 +4045,18 @@
 4043,4044,1,Supporting Emotion Recognition in Human-Robot Interactions: An Experimental Italian Textual Dataset,/doi/10.1007/978-3-031-40725-3_41,1
 4044,4045,2,Antonino Asta,/profile/99661010550,1
 4045,4046,2,Alessia Fantini,/profile/99661010300,1
-4046,4047,2,Giovanni Pilato,/profile/81100106451,4
-4047,4048,2,Pablo G. Bringas,/profile/81375615880,5
+4046,4047,2,Giovanni Pilato,/profile/81100106451,1
+4047,4048,2,Pablo G. Bringas,/profile/81375615880,1
 4048,4049,1,Probability Density Function for Clustering Validation,/doi/10.1007/978-3-031-40725-3_12,1
-4049,4050,2,Pau Figuera,/profile/99660124348,2
+4049,4050,2,Pau Figuera,/profile/99660124348,1
 4050,4051,2,Pablo García Bringas,/profile/81500662826,1
 4051,4052,1,Effective and Efficient Heuristic Algorithms for Supporting Optimal Location of Hubs over Networks with Demand Uncertainty,/doi/10.1007/978-3-031-39847-6_6,1
-4052,4053,2,Luigi Canadè,/profile/99660967169,3
+4052,4053,2,Luigi Canadè,/profile/99660967169,1
 4053,4054,2,Giulia Fornari,/profile/99661009568,1
 4054,4055,2,Vittorio Gatto,/profile/99661010029,1
 4055,4056,2,Abderraouf Hafsaoui,/profile/99661002988,1
 4056,4057,1,Supporting Big Healthcare Data Management and Analytics: The Cloud-Based QFLS Framework,/doi/10.1007/978-3-031-39831-5_33,1
-4057,4058,2,Selim Soufargi,/profile/99660587571,2
+4057,4058,2,Selim Soufargi,/profile/99660587571,1
 4058,4059,1,A Machine-Learning Framework for Supporting Content Recommendation via User Feedback Data and Content Profiles in Content Managements Systems,/doi/10.1007/978-3-031-39821-6_37,1
 4059,4060,2,Debashish Roy,/profile/99659916690,1
 4060,4061,2,Chen Ding,/profile/99661010630,1
@@ -4066,104 +4066,3 @@
 4064,4065,2,Justin Carpenter,/profile/99660957655,1
 4065,4066,2,Janet Layne,/profile/99660954611,1
 4066,4067,2,Edoardo Serra,/profile/99659156616,1
-4067,4068,2,Carmine Gallo,/profile/99660963593,1
-4068,4069,1,A Machine Learning Methodology for Optimal Big Data Processing in Advanced Smart City Environments,/doi/10.1007/978-3-031-36805-9_46,1
-4069,4070,2,Riccardo Nicolicchia,/profile/99660960240,2
-4070,4071,2,Luca Roldo,/profile/99660966114,2
-4071,4072,1,Optimal Location of Charging Stations for Electric Vehicles: A Theoretically-Sound Heuristic Model,/doi/10.1145/3555776.3577790,1
-4072,4073,1,Towards a Bayesian-Neural-Networks Framework for Scaling Posterior Distributions over Different-Curation Datasets,/doi/10.1145/3555962.3555974,1
-4073,4074,2,Alessandro Baldo,/profile/99659459804,4
-4074,4075,2,Edoardo Fadda,/profile/99659065948,9
-4075,4076,1,Effective and Efficient Heuristic Approaches for Solving the Capacitated P-Median Clustering Problem,/doi/10.1145/3555962.3555965,1
-4076,4077,2,Emilio Leonardi,/profile/81100395966,1
-4077,4078,1,Scaling Posterior Distributions over Differently-Curated Datasets: A Bayesian-Neural-Networks Methodology,/doi/10.1007/978-3-031-16564-1_19,1
-4078,4079,1,Generalized Fisher Kernel with Bregman Divergence,/doi/10.1007/978-3-031-15471-3_17,1
-4079,4080,1,"CORE-BCD-mAI: A Composite Framework for Representing, Querying, and Analyzing Big Clinical Data by Means of Multidimensional AI Tools",/doi/10.1007/978-3-031-15471-3_16,1
-4080,4081,1,Mahalanobis Distance Based K-Means Clustering,/doi/10.1007/978-3-031-12670-3_23,1
-4081,4082,2,Paul O. Brown,/profile/99660543833,1
-4082,4083,2,Meng Ching Chiang,/profile/99660541068,1
-4083,4084,2,Shiqing Guo,/profile/99660543375,1
-4084,4085,2,Yingzi Jin,/profile/99660543623,1
-4085,4086,2,Evan L. Murray,/profile/99660508979,1
-4086,4087,2,Adam G. M. Pazdor,/profile/99659079341,2
-4087,4088,1,A Fuzzy-Logic Based Multi-Dimensional Analysis of Traffic Incident Data,/doi/10.1109/FUZZ-IEEE55066.2022.9882787,1
-4088,4089,2,Matthew R. Kwiatkowski,/profile/99660596508,1
-4089,4090,2,Benjamin J. Zacharias,/profile/99660599213,1
-4090,4091,2,PokYee Joey Tsu,/profile/99660594598,1
-4091,4092,2,Joshua M. Thomas,/profile/99660596674,1
-4092,4093,2,Michael Kolisnyk,/profile/99660596737,1
-4093,4094,1,Transportation Analytics with Fuzzy Logic and Regression,/doi/10.1109/FUZZ-IEEE55066.2022.9882645,1
-4094,4095,2,Nguyen Duy Thong Jason Tran,/profile/99660599908,1
-4095,4096,2,Tanisha Turner,/profile/99660602394,1
-4096,4097,2,S. Tommy Wu,/profile/99660603499,1
-4097,4098,2,Nurida Karimbaeva,/profile/99660599292,1
-4098,4099,2,Juhee Kim,/profile/99660601153,1
-4099,4100,1,Effectively and Efficiently Supporting Visual Big Data Analytics over Big Sequential Data: An Innovative Data Science Approach,/doi/10.1007/978-3-031-10450-3_9,1
-4100,4101,2,Majid Abbasi Sisara,/profile/99660539157,1
-4101,4102,2,Yan Wen,/profile/99660537405,1
-4102,4103,1,"Towards a Grid-Based Framework for Supporting Range Aggregate Queries Over Big Sensor Network Readings: Overview, Management, and Applications",/doi/10.4018/IJDST.296248,1
-4103,4104,2,Filippo Furfaro,/profile/81100561296,1
-4104,4105,1,Supporting Privacy-Preserving Big Data Analytics on Temporal Open Big Data,/doi/10.1016/j.procs.2021.12.217,1
-4105,4106,2,Anifat M. Olawoyin,/profile/99659992291,1
-4106,4107,1,Predictive Big Data Analytics for Service Requests: A Framework,/doi/10.1016/j.procs.2021.12.216,1
-4107,4108,2,Animesh Singh Chauhan,/profile/99660349535,1
-4108,4109,2,Lihe Fan,/profile/99660274638,1
-4109,4110,2,James D. Harvey,/profile/99660315339,1
-4110,4111,2,Tianlei Wang,/profile/99660306331,1
-4111,4112,1,Effective and efficient skyline query processing over attribute-order-preserving-free encrypted data in cloud-enabled databases,/doi/10.1016/j.future.2021.08.008,1
-4112,4113,2,Panagiotis Karras,/profile/81100001061,1
-4113,4114,1,Cyber-attack detection via non-linear prediction of IP addresses: an innovative big data analytics approach,/doi/10.1007/s11042-021-11390-1,1
-4114,4115,1,Lyapunov Central Limit Theorem: Theoretical Properties and Applications in Big-Data-Populated Smart City Settings,/doi/10.1145/3481646.3481652,1
-4115,4116,1,Enhancing Scan Matching Algorithms via Genetic Programming for Supporting Big Moving Objects Tracking and Analysis in Emerging Environments,/doi/10.1007/978-3-030-86472-9_32,1
-4116,4117,2,Kristijan Lenac,/profile/81361608625,1
-4117,4118,1,Financial Forecasting via Deep-Learning and Machine-Learning Tools over Two-Dimensional Objects Transformed from Time Series,/doi/10.1007/978-3-030-86271-8_46,1
-4118,4119,1,Content-Based Authorship Identification for Short Texts in Social Media Networks,/doi/10.1007/978-3-030-86271-8_3,1
-4119,4120,2,José Gaviria de la Puerta,/profile/99658643275,1
-4120,4121,2,Iker Pastor-López,/profile/81508705317,1
-4121,4122,2,Javier Salcedo Hernández,/profile/99660098893,1
-4122,4123,2,Alberto Tellaeche,/profile/81350571928,1
-4123,4124,2,Borja Sanz,/profile/81488673502,1
-4124,4125,2,Hugo Sanjurjo-González,/profile/99660141036,1
-4125,4126,1,A Novel Approach for Supporting Italian Satire Detection Through Deep Learning,/doi/10.1007/978-3-030-86967-0_13,1
-4126,4127,2,Gabriella Casalino,/profile/81488649445,1
-4127,4128,2,Giosué Lo Bosco,/profile/81324487803,2
-4128,4129,2,Mariano Maiorana,/profile/99660142674,1
-4129,4130,2,Daniele Schicchi,/profile/99659672560,2
-4130,4131,1,A Neural-Network-Based Framework for Supporting Driver Classification and Analysis,/doi/10.1007/978-3-030-86970-0_3,1
-4131,4132,2,Francesco Mercaldo,/profile/82459283157,3
-4132,4133,2,Fabio Martinelli,/profile/81100322555,3
-4133,4134,1,A Machine-Learning-Based Framework for Supporting Malware Detection and Analysis,/doi/10.1007/978-3-030-86970-0_25,1
-4134,4135,1,A Framework for Supporting Ransomware Detection and Prevention Based on Hybrid Analysis,/doi/10.1007/978-3-030-86970-0_2,1
-4135,4136,1,Analysis and Comparison of Deep Learning Networks for Supporting Sentiment Mining in Text Corpora,/doi/10.1145/3428757.3429144,1
-4136,4137,2,Teresa Alcamo,/profile/99659672437,1
-4137,4138,1,Data-Intensive Object-Oriented Adaptive Web Systems: Implementing and Experimenting the OO-XAHM Framework,/doi/10.1145/3415958.3433051,1
-4138,4139,1,Data science for healthcare predictive analytics,/doi/10.1145/3410566.3410598,1
-4139,4140,2,Daryl L. X. Fung,/profile/99659574081,1
-4140,4141,2,Saad B. Mushtaq,/profile/99659574702,1
-4141,4142,2,Owen T. Leduchowski,/profile/99659574339,1
-4142,4143,2,Robert Luc Bouchard,/profile/99659575043,1
-4143,4144,2,Hui Jin,/profile/99659575151,1
-4144,4145,2,Christine Y. Zhang,/profile/99659574424,1
-4145,4146,1,An Innovative Fuzzy Logic-Based Machine Learning Algorithm for Supporting Predictive Analytics on Big Transportation Data,/doi/10.1109/FUZZ48607.2020.9177823,1
-4146,4147,2,Jonathan D. Elias,/profile/99660321634,1
-4147,4148,2,Shael M. Minuk,/profile/99660305923,1
-4148,4149,2,A. Roy R. de Jesus,/profile/99660359921,1
-4149,4150,1,A Big-Data Variational Bayesian Framework for Supporting the Prediction of Functional Outcomes in Wake-Up Stroke Patients,/doi/10.1007/978-3-030-58799-4_71,1
-4150,4151,2,Miloš Ajčević,/profile/99659773381,1
-4151,4152,2,Aleksandar Miladinović,/profile/99658752408,1
-4152,4153,2,Giulia Silveri,/profile/99659984040,1
-4153,4154,2,Giovanni Furlanis,/profile/99659983978,1
-4154,4155,2,Tommaso Cilotto,/profile/99659982012,1
-4155,4156,2,Alex Buoite Stella,/profile/99659983075,1
-4156,4157,2,Paola Caruso,/profile/99659999714,1
-4157,4158,2,Maja Ukmar,/profile/99659996785,1
-4158,4159,2,Marcello Naccarato,/profile/99659980854,1
-4159,4160,2,Paolo Manganotti,/profile/99658696663,1
-4160,4161,2,Agostino Accardo,/profile/81435611237,1
-4161,4162,1,A Novel Big Data Analytics Approach for Supporting Cyber Attack Detection via Non-linear Analytic Prediction of IP Addresses,/doi/10.1007/978-3-030-58799-4_70,1
-4162,4163,2,Marco Tessarotto,/profile/99659983271,1
-4163,4164,1,A Kinect-Based Gesture Acquisition and Reproduction System for Humanoid Robots,/doi/10.1007/978-3-030-58799-4_69,1
-4164,4165,2,Agnese Augello,/profile/81350599511,1
-4165,4166,2,Angelo Ciulla,/profile/99659992284,1
-4166,4167,2,Salvatore Gaglio,/profile/81100030003,1
-4167,4168,2,Filippo Vella,/profile/81310493613,1

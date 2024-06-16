@@ -1032,34 +1032,3 @@
 1030,4059,/doi/10.1007/978-3-031-39821-6_37,A Machine-Learning Framework for Supporting Content Recommendation via User Feedback Data and Content Profiles in Content Managements Systems,https://doi.org/10.1007/978-3-031-39821-6_37
 1031,4063,/doi/10.1145/3603719.3603735,Privacy-Preserving OLAP via Modeling and Analysis of Query Workloads: Innovative Theories and Theorems,https://doi.org/10.1145/3603719.3603735
 1032,4064,/doi/10.1007/978-3-031-36805-9_47,Structural Node Representation Learning for Detecting Botnet Nodes,https://doi.org/10.1007/978-3-031-36805-9_47
-1033,4069,/doi/10.1007/978-3-031-36805-9_46,A Machine Learning Methodology for Optimal Big Data Processing in Advanced Smart City Environments,https://doi.org/10.1007/978-3-031-36805-9_46
-1034,4072,/doi/10.1145/3555776.3577790,Optimal Location of Charging Stations for Electric Vehicles: A Theoretically-Sound Heuristic Model,https://doi.org/10.1145/3555776.3577790
-1035,4073,/doi/10.1145/3555962.3555974,Towards a Bayesian-Neural-Networks Framework for Scaling Posterior Distributions over Different-Curation Datasets,https://doi.org/10.1145/3555962.3555974
-1036,4076,/doi/10.1145/3555962.3555965,Effective and Efficient Heuristic Approaches for Solving the Capacitated P-Median Clustering Problem,https://doi.org/10.1145/3555962.3555965
-1037,4078,/doi/10.1007/978-3-031-16564-1_19,Scaling Posterior Distributions over Differently-Curated Datasets: A Bayesian-Neural-Networks Methodology,https://doi.org/10.1007/978-3-031-16564-1_19
-1038,4079,/doi/10.1007/978-3-031-15471-3_17,Generalized Fisher Kernel with Bregman Divergence,https://doi.org/10.1007/978-3-031-15471-3_17
-1039,4080,/doi/10.1007/978-3-031-15471-3_16,"CORE-BCD-mAI: A Composite Framework for Representing, Querying, and Analyzing Big Clinical Data by Means of Multidimensional AI Tools",https://doi.org/10.1007/978-3-031-15471-3_16
-1040,4081,/doi/10.1007/978-3-031-12670-3_23,Mahalanobis Distance Based K-Means Clustering,https://doi.org/10.1007/978-3-031-12670-3_23
-1041,4088,/doi/10.1109/FUZZ-IEEE55066.2022.9882787,A Fuzzy-Logic Based Multi-Dimensional Analysis of Traffic Incident Data,https://doi.org/10.1109/FUZZ-IEEE55066.2022.9882787
-1042,4094,/doi/10.1109/FUZZ-IEEE55066.2022.9882645,Transportation Analytics with Fuzzy Logic and Regression,https://doi.org/10.1109/FUZZ-IEEE55066.2022.9882645
-1043,4100,/doi/10.1007/978-3-031-10450-3_9,Effectively and Efficiently Supporting Visual Big Data Analytics over Big Sequential Data: An Innovative Data Science Approach,https://doi.org/10.1007/978-3-031-10450-3_9
-1044,4103,/doi/10.4018/IJDST.296248,"Towards a Grid-Based Framework for Supporting Range Aggregate Queries Over Big Sensor Network Readings: Overview, Management, and Applications",https://doi.org/10.4018/IJDST.296248
-1045,4105,/doi/10.1016/j.procs.2021.12.217,Supporting Privacy-Preserving Big Data Analytics on Temporal Open Big Data,https://doi.org/10.1016/j.procs.2021.12.217
-1046,4107,/doi/10.1016/j.procs.2021.12.216,Predictive Big Data Analytics for Service Requests: A Framework,https://doi.org/10.1016/j.procs.2021.12.216
-1047,4112,/doi/10.1016/j.future.2021.08.008,Effective and efficient skyline query processing over attribute-order-preserving-free encrypted data in cloud-enabled databases,https://doi.org/10.1016/j.future.2021.08.008
-1048,4114,/doi/10.1007/s11042-021-11390-1,Cyber-attack detection via non-linear prediction of IP addresses: an innovative big data analytics approach,https://doi.org/10.1007/s11042-021-11390-1
-1049,4115,/doi/10.1145/3481646.3481652,Lyapunov Central Limit Theorem: Theoretical Properties and Applications in Big-Data-Populated Smart City Settings,https://doi.org/10.1145/3481646.3481652
-1050,4116,/doi/10.1007/978-3-030-86472-9_32,Enhancing Scan Matching Algorithms via Genetic Programming for Supporting Big Moving Objects Tracking and Analysis in Emerging Environments,https://doi.org/10.1007/978-3-030-86472-9_32
-1051,4118,/doi/10.1007/978-3-030-86271-8_46,Financial Forecasting via Deep-Learning and Machine-Learning Tools over Two-Dimensional Objects Transformed from Time Series,https://doi.org/10.1007/978-3-030-86271-8_46
-1052,4119,/doi/10.1007/978-3-030-86271-8_3,Content-Based Authorship Identification for Short Texts in Social Media Networks,https://doi.org/10.1007/978-3-030-86271-8_3
-1053,4126,/doi/10.1007/978-3-030-86967-0_13,A Novel Approach for Supporting Italian Satire Detection Through Deep Learning,https://doi.org/10.1007/978-3-030-86967-0_13
-1054,4131,/doi/10.1007/978-3-030-86970-0_3,A Neural-Network-Based Framework for Supporting Driver Classification and Analysis,https://doi.org/10.1007/978-3-030-86970-0_3
-1055,4134,/doi/10.1007/978-3-030-86970-0_25,A Machine-Learning-Based Framework for Supporting Malware Detection and Analysis,https://doi.org/10.1007/978-3-030-86970-0_25
-1056,4135,/doi/10.1007/978-3-030-86970-0_2,A Framework for Supporting Ransomware Detection and Prevention Based on Hybrid Analysis,https://doi.org/10.1007/978-3-030-86970-0_2
-1057,4136,/doi/10.1145/3428757.3429144,Analysis and Comparison of Deep Learning Networks for Supporting Sentiment Mining in Text Corpora,https://doi.org/10.1145/3428757.3429144
-1058,4138,/doi/10.1145/3415958.3433051,Data-Intensive Object-Oriented Adaptive Web Systems: Implementing and Experimenting the OO-XAHM Framework,https://doi.org/10.1145/3415958.3433051
-1059,4139,/doi/10.1145/3410566.3410598,Data science for healthcare predictive analytics,https://doi.org/10.1145/3410566.3410598
-1060,4146,/doi/10.1109/FUZZ48607.2020.9177823,An Innovative Fuzzy Logic-Based Machine Learning Algorithm for Supporting Predictive Analytics on Big Transportation Data,https://doi.org/10.1109/FUZZ48607.2020.9177823
-1061,4150,/doi/10.1007/978-3-030-58799-4_71,A Big-Data Variational Bayesian Framework for Supporting the Prediction of Functional Outcomes in Wake-Up Stroke Patients,https://doi.org/10.1007/978-3-030-58799-4_71
-1062,4162,/doi/10.1007/978-3-030-58799-4_70,A Novel Big Data Analytics Approach for Supporting Cyber Attack Detection via Non-linear Analytic Prediction of IP Addresses,https://doi.org/10.1007/978-3-030-58799-4_70
-1063,4164,/doi/10.1007/978-3-030-58799-4_69,A Kinect-Based Gesture Acquisition and Reproduction System for Humanoid Robots,https://doi.org/10.1007/978-3-030-58799-4_69

@@ -32,6 +32,8 @@ content_types = ['research-article', 'article', 'short-paper', 'demonstration', 
 base_url = 'https://dl.acm.org'
 df_error = pd.DataFrame(columns=['id', 'url'])
 file = open("log_detail.txt", "w", encoding="utf-8")
+new_author_node_list = []
+
 playwright = sync_playwright().start()
 browser = playwright.chromium.launch(headless=False)
 page = browser.new_page(no_viewport=True)
@@ -51,7 +53,7 @@ page3 = browser3.new_page(no_viewport=True)
 # driver3 = webdriver.Chrome(options=options3)
 
 def insert_author_node(authors, node_ids):
-	global id, df_queue, df_ner, df_links
+	global id, df_queue, df_ner, df_links, new_author_node_list
 	for author_container in authors:
 			author = author_container.find('a')
 			if author:
@@ -65,6 +67,8 @@ def insert_author_node(authors, node_ids):
 				else:
 					node_ids.append(id)
 					id = id + 1
+					new_author_node_list.append(id)
+					print(f"****************{id}*****************************")
 					df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
 					file.write(f"\ninsert author {author_name}")
 					print(f"\ninsert author {author_name}")
@@ -83,6 +87,7 @@ def insert_paper_node(paper, node_ids, doi):
 	else:
 		node_ids.append(id)
 		id = id + 1
+		print(f"****************{id}*****************************")
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		file.write(f"\ninsert paper {paper_name}")
 		df_queue = df_queue._append({'id': id, 'type': 1, 'link': paper_link}, ignore_index=True)
@@ -150,18 +155,19 @@ def scratch_author_data(ner_id, url):
 			df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
 def scratch_list_data(url):
-	global id, df_queue, df_ner, df_links, df_error, cookie, page
+	global id, df_queue, df_ner, df_links, df_error, cookie, page, new_author_node_list
 	print(f"\n\nstart scratching {url}")
 	file.write(f"\nstart scratching {url}")
 	page_number = 0
 	has_next_page = False
 	retry = 1
 	entry_time = 8000
+	new_author_node_list = []
 	while True:
 		current_url = url + f"&startPage={page_number}"
 		file.write(f"\n\nStart scratching page {current_url}")
 		try:
-			page.goto(current_url)
+			page.goto(current_url, timeout = entry_time)
 			waitelement = page.wait_for_selector(".search-result__profile-page", timeout=entry_time)
 			if cookie == False: 
 				page.click('#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
@@ -194,9 +200,7 @@ def scratch_list_data(url):
 				#get author list
 				authors = match.find('ul', class_='loa').find_all("li")
 				df_ner, node_ids = insert_author_node(authors, node_ids)
-
 				df_links = insert_link(node_ids)
-
 			pagination = soup.find(class_="pagination")
 			has_next_page = soup.find("a", class_="pagination__btn--next")
 			if(matches and has_next_page is None):
@@ -214,16 +218,22 @@ def scratch_list_data(url):
 		# has_next_page = False
 		except Exception as e:
 		    # Error handling and logging
+		    retry +=1
+				entry_time += 3000
+		    has_next_page = False
 		    page.close()
 		    page = browser.new_page(no_viewport=True)
 		    file.write(f"\nAn error occurred: {str(e)}")
 		    print(e)
-		    has_next_page = False
-		    retry +=1
 		    df_error = df_error._append({id: page_number, "url": url}, ignore_index=True)
 		finally:
 			if( (has_next_page is None or not has_next_page) and retry > 3):
 				break;
+	print('\n**************\n',new_author_node_list)
+	for node in new_author_node_list:
+		new_node = df_ner.loc[df_ner['id'] == node, 'link'].values[0]
+		current_url = base_url + new_node + f"/publications?pageSize=50"
+		scratch_list_data(current_url)
 
 
 # options = Options()
@@ -253,7 +263,6 @@ try:
 		if row["type"] == 2:
 			# scratch_author_data(row["id"], driver, row["link"])
 			current_url = base_url + row["link"] + f"/publications?pageSize=50"
-			print(current_url)
 			scratch_list_data(current_url)
 			author_count += 1
 			file.write(f"author count: {author_count}")

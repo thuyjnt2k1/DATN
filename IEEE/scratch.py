@@ -144,7 +144,7 @@ def scratch_list_data(url):
 	page_number = 1
 	has_next_page = True
 	retry = 1
-	entry_time = 80000
+	entry_time = 10000
 	while True:
 		current_url = url + f"&pageNumber={page_number}"
 		print("\nStart scratching page ", current_url)
@@ -238,11 +238,11 @@ finally:
 	print(df_paper)
 	print(df_author)
 	print(df_error)
-	df_ner.to_csv('new_node.csv', index=True)
-	df_links.to_csv('new_link.csv', index=True)
-	df_queue.to_csv('new_queue.csv', index=True)
-	df_paper.to_csv('new_paper.csv', index=True)
-	df_author.to_csv('new_author.csv', index=True)
+	df_ner.to_csv('test_node.csv', index=True)
+	df_links.to_csv('test_link.csv', index=True)
+	df_queue.to_csv('test_queue.csv', index=True)
+	df_paper.to_csv('test_paper.csv', index=True)
+	df_author.to_csv('test_author.csv', index=True)
 	# page.close()
 	# page2.close()
 	# page3.close()
