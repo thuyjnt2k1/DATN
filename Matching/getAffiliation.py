@@ -1,20 +1,18 @@
 import csv
-import networkx as nx
-import matplotlib.pyplot as plt
 import pandas as pd
-import re
-from namematcher import NameMatcher
 from opencage.geocoder import OpenCageGeocode
-import math
-import copy
 
-api_key = "68020a7f39dd42fd9dc58971638403e6"
+api_key = "5c39d7a78a4b48e0ababc3d0cfb1d3f3"
 geocoder = OpenCageGeocode(api_key)
 
-df_affiliation = pd.DataFrame(columns=['affiliation', 'result'])
-df_affiliation.set_index('affiliation')
-df_acm_author = pd.read_csv('../IEEE/new_author.csv', index_col=0)
-df_affiliation = pd.read_csv('affiliation.csv', index_col='affiliation')
+df_affiliation = pd.read_csv('affiliation.csv')
+print(df_affiliation)
+df_affiliation = df_affiliation.drop_duplicates(subset='affiliation')
+df_affiliation.set_index('affiliation', inplace=True)
+print(df_affiliation)
+# df_affiliation = pd.DataFrame(columns=['affiliation', 'result'])
+# df_affiliation.set_index('affiliation')
+df_acm_author = pd.read_csv('../IEEE/after_author1.csv', index_col=0)
 
 def getAffiliation(affiliation):
 	global df_affiliation
@@ -25,12 +23,14 @@ def getAffiliation(affiliation):
 		result = df_affiliation.loc[formatted_affiliation,'result']
 		print('\nda co')
 	except KeyError:
-		print('\nchua co')
+		print('\nchua co', formatted_affiliation)
 		getGeocode = geocoder.geocode(formatted_affiliation)
 		if(len(getGeocode) == 0):
 			result = formatted_affiliation
+			print('\n============== tim dươc: ', result)
 		else:
 			result = getGeocode[0]['formatted']
+			print('\n============== giu nguyen: ', result)
 		df_affiliation.loc[formatted_affiliation] = result
 	return result
 
@@ -44,11 +44,15 @@ try:
 			print(results)
 			author['affiliation'] = ';'.join(results)
 			print(author['affiliation'])
+	print('\nFinish all')
 except Exception as e:
+	df_affiliation.to_csv('affiliation.csv')
+	print('\nerrror api')
 	print(str(e))
 finally:
 	df_affiliation.to_csv('affiliation.csv')
+	print('\ndone')
 	print(df_affiliation)
-
+	
 df_affiliation.to_csv('affiliation.csv')
 print(df_affiliation)
