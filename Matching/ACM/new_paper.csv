@@ -1,0 +1,24 @@
+,ner_id,link,title,doi
+0,1,/doi/10.1109/TASLP.2024.3361376,Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement,https://doi.org/10.1109/TASLP.2024.3361376
+1,5,/doi/10.1109/TASLP.2024.3363444,METTS: Multilingual Emotional Text-to-Speech by Cross-Speaker and Cross-Lingual Emotion Transfer,https://doi.org/10.1109/TASLP.2024.3363444
+2,13,/doi/10.1109/TASLP.2023.3332542,Decoupling and Interacting Multi-Task Learning Network for Joint Speech and Accent Recognition,https://doi.org/10.1109/TASLP.2023.3332542
+3,18,/doi/10.1109/TASLP.2023.3313424,Pronunciation Dictionary-Free Multilingual Speech Synthesis Using Learned Phonetic Representations,https://doi.org/10.1109/TASLP.2023.3313424
+4,21,/doi/10.1109/TASLP.2024.3375641,Unified Cross-Modal Attention: Robust Audio-Visual Speech Recognition and Beyond,https://doi.org/10.1109/TASLP.2024.3375641
+5,26,/doi/10.1109/TASLP.2023.3294705,"Audio-Visual End-to-End Multi-Channel Speech Separation, Dereverberation and Recognition",https://doi.org/10.1109/TASLP.2023.3294705
+6,36,/doi/10.1109/TASLP.2024.3369537,Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,https://doi.org/10.1109/TASLP.2024.3369537
+7,43,/doi/10.1109/TASLP.2024.3382500,Large-Scale Unsupervised Audio Pre-Training for Video-to-Speech Synthesis,https://doi.org/10.1109/TASLP.2024.3382500
+8,47,/doi/10.1109/TASLP.2023.3349053,Audio Super-Resolution With Robust Speech Representation Learning of Masked Autoencoder,https://doi.org/10.1109/TASLP.2023.3349053
+9,52,/doi/10.1109/TASLP.2023.3328280,Sample-Efficient Unsupervised Domain Adaptation of Speech Recognition Systems: A Case Study for Modern Greek,https://doi.org/10.1109/TASLP.2023.3328280
+10,59,/doi/10.1109/TASLP.2023.3348762,Text-to-Speech for Low-Resource Agglutinative Language With Morphology-Aware Language Model Pre-Training,https://doi.org/10.1109/TASLP.2023.3348762
+11,66,/doi/10.1109/TASLP.2023.3318398,SURT 2.0: Advances in Transducer-Based Multi-Talker Speech Recognition,https://doi.org/10.1109/TASLP.2023.3318398
+12,70,/doi/10.1109/TASLP.2023.3332545,Wav2code: Restore Clean Speech Representations via Codebook Lookup for Noise-Robust ASR,https://doi.org/10.1109/TASLP.2023.3332545
+13,75,/doi/10.1109/TASLP.2023.3313413,DiCLET-TTS: Diffusion Model Based Cross-Lingual Emotion Transfer for Text-to-Speech &#x2014; A Study Between English and Mandarin,https://doi.org/10.1109/TASLP.2023.3313413
+14,81,/doi/10.1109/TASLP.2024.3369536,Time-Domain Speech Super-Resolution With GAN Based Modeling for Telephony Speaker Verification,https://doi.org/10.1109/TASLP.2024.3369536
+15,87,/doi/10.1109/TASLP.2023.3306709,Alternative Pseudo-Labeling for Semi-Supervised Automatic Speech Recognition,https://doi.org/10.1109/TASLP.2023.3306709
+16,93,/doi/10.1109/TASLP.2023.3321964,Data-Driven Non-Intrusive Speech Intelligibility Prediction Using Speech Presence Probability,https://doi.org/10.1109/TASLP.2023.3321964
+17,98,/doi/10.1109/TASLP.2023.3285241,Speech Enhancement and Dereverberation With Diffusion-Based Generative Models,https://doi.org/10.1109/TASLP.2023.3285241
+18,104,/doi/10.1109/TASLP.2024.3379877,SpeechLM: Enhanced Speech Pre-Training With Unpaired Textual Data,https://doi.org/10.1109/TASLP.2024.3379877
+19,116,/doi/10.1109/TASLP.2023.3297954,AmbiSep: Joint Ambisonic-to-Ambisonic Speech Separation and Noise Reduction,https://doi.org/10.1109/TASLP.2023.3297954
+20,120,/doi/10.1109/TASLP.2023.3301230,Boosting Cross-Domain Speech Recognition With Self-Supervision,https://doi.org/10.1109/TASLP.2023.3301230
+21,123,/doi/10.1109/TASLP.2024.3372874,Articulatory Copy Synthesis Based on the Speech Synthesizer VocalTractLab and Convolutional Recurrent Neural Networks,https://doi.org/10.1109/TASLP.2024.3372874
+22,127,/doi/10.1109/TASLP.2023.3328283,End-to-End Speech Recognition: A Survey,https://doi.org/10.1109/TASLP.2023.3328283

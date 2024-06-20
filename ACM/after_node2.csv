@@ -7,8 +7,8 @@
 5,6,2,Kenneth Strang,/profile/81500642456,2
 6,7,2,Rongping Li,/profile/99659342747,1
 7,8,1,Big data: a research agenda,/doi/10.1145/2513591.2527071,1
-8,9,2,Alfredo Cuzzocrea,/profile/81100432224,23
-9,10,2,Domenico Saccà,/profile/81100111213,2
+8,9,2,Alfredo Cuzzocrea,/profile/81100432224,269
+9,10,2,Domenico Saccà,/profile/81100111213,4
 10,11,2,Jeffrey D. Ullman,/profile/81100314798,1
 11,12,1,Big data: big data or big brother? that is the question now.,/doi/10.1145/3158352,1
 12,13,2,Jeffrey Johnson,/profile/81100452038,2
@@ -107,13 +107,13 @@
 105,106,1,Support for Big Data's Limiting Resource: Human Attention,/doi/10.1145/2609876.2609887,1
 106,107,2,Daniel J. Zelik,/profile/99658631746,1
 107,108,2,Wiliam Elm,/profile/81100016251,2
-108,109,1,Pedigree-ing your big data: data-driven big data privacy in distributed environments,/doi/10.1109/CCGRID.2018.00100,1
-109,110,2,Ernesto Damiani,/profile/81100103470,3
+108,109,1,Pedigree-ing your big data: data-driven big data privacy in distributed environments,/doi/10.1109/CCGRID.2018.00100,2
+109,110,2,Ernesto Damiani,/profile/81100103470,5
 110,111,1,Where big data meets 5G?,/doi/10.1145/3018896.3025151,1
 111,112,2,Kashif Sultan,/profile/99659245698,1
 112,113,2,Hazrat Ali,/profile/99659245939,1
 113,114,1,Big Data Mining Applications and Services,/doi/10.1145/2837060.2837076,1
-114,115,2,Carson K. Leung,/profile/81339512271,4
+114,115,2,Carson K. Leung,/profile/81339512271,39
 115,116,1,Security Challenges for Big Data and IoT,/doi/10.1145/3378904.3378907,1
 116,117,2,Anthony Overmars,/profile/99659515495,1
 117,118,2,Kiran Fahd,/profile/99659515601,1
@@ -125,7 +125,7 @@
 123,124,2,Mélanie Courtine,/profile/81100420622,1
 124,125,2,Yannick Kergosien,/profile/81100487142,1
 125,126,1,Flexible compression of big data,/doi/10.1145/3341161.3343512,1
-126,127,2,Fan Jiang,/profile/81485649610,1
+126,127,2,Fan Jiang,/profile/81485649610,3
 127,128,2,Yibin Zhang,/profile/99659497194,1
 128,129,1,Responsible Big Data Analytics for E-Business Services,/doi/10.1145/3505745.3505750,1
 129,130,2,Narasimha R. Vajjhala,/profile/81461657509,1
@@ -224,9 +224,9 @@
 222,223,2,Muhammad J. Solihudeen,/profile/99659434988,1
 223,224,1,Learning Big Data Systems via Emulation,/doi/10.1145/3626252.3630888,1
 224,225,2,Wensheng Wu,/profile/99658746327,1
-225,226,1,Big-data-driven innovation for enterprises: innovative big value paradigms for next-generation digital ecosystems,/doi/10.1145/3102254.3102271,1
-226,227,2,Vincenzo Loia,/profile/81100415437,1
-227,228,2,Aurelio Tommasetti,/profile/99659162314,1
+225,226,1,Big-data-driven innovation for enterprises: innovative big value paradigms for next-generation digital ecosystems,/doi/10.1145/3102254.3102271,2
+226,227,2,Vincenzo Loia,/profile/81100415437,10
+227,228,2,Aurelio Tommasetti,/profile/99659162314,2
 228,229,1,Accurately Identify Poor Students under Big Data,/doi/10.1145/3524383.3533249,1
 229,230,2,Yan Wang,/profile/99660533115,1
 230,231,2,Wei Yang,/profile/99660532615,1
@@ -383,7 +383,7 @@
 381,382,2,Katerina Aristodemou,/profile/99658689164,1
 382,383,2,Frauke Becker,/profile/99658688734,1
 383,384,2,Joann Lord,/profile/99658692272,1
-384,385,1,"Warehousing and Protecting Big Data: State-Of-The-Art-Analysis, Methodologies, Future Challenges",/doi/10.1145/2896387.2900335,1
+384,385,1,"Warehousing and Protecting Big Data: State-Of-The-Art-Analysis, Methodologies, Future Challenges",/doi/10.1145/2896387.2900335,5
 385,386,1,A Drug Safety Traceability Model Based on Big Data,/doi/10.1145/3538950.3538951,1
 386,387,2,Lin Zhang,/profile/99660526290,1
 387,388,2,Rong Jiang,/profile/99659248150,1
@@ -395,7 +395,7 @@
 393,394,2,Pavlin Mavrodiev,/profile/83058835857,1
 394,395,2,Frank Schweitzer,/profile/81100265774,1
 395,396,2,Ingo Scholtes,/profile/81474644365,1
-396,397,1,"Uncertainty and Imprecision in Big Data Management: Models, Issues, Paradigms, and Future Research Directions",/doi/10.1145/3416921.3416943,1
+396,397,1,"Uncertainty and Imprecision in Big Data Management: Models, Issues, Paradigms, and Future Research Directions",/doi/10.1145/3416921.3416943,2
 397,398,1,Big Data Linkage for Product Specification Pages,/doi/10.1145/3183713.3183757,1
 398,399,2,Disheng Qiu,/profile/83458754857,1
 399,400,2,Luciano Barbosa,/profile/81300212901,1
@@ -467,7 +467,7 @@
 465,466,1,"On clusterization of ""big data"" streams",/doi/10.1145/2345316.2345347,1
 466,467,2,Simon Berkovich,/profile/81100126513,2
 467,468,2,Duoduo Liao,/profile/99660242450,1
-468,469,1,"Scalable OLAP-Based Big Data Analytics over Cloud Infrastructures: Models, Issues, Algorithms",/doi/10.1145/3141128.3141149,1
+468,469,1,"Scalable OLAP-Based Big Data Analytics over Cloud Infrastructures: Models, Issues, Algorithms",/doi/10.1145/3141128.3141149,2
 469,470,1,Big data challenges and achievements: applications on smart cities and energy sector,/doi/10.1145/3368691.3368717,1
 470,471,2,Tareq Abed Mohammed,/profile/99659319886,1
 471,472,2,Ahmed Ghareeb,/profile/99659485408,1
@@ -582,7 +582,7 @@
 580,581,1,Benchmarking Apache Spark and Hadoop MapReduce on Big Data Classification,/doi/10.1145/3481646.3481649,1
 581,582,2,Taha Tekdogan,/profile/99659915065,1
 582,583,2,Ali Cakmak,/profile/99659915143,1
-583,584,1,Scalable Privacy-Preserving Big Data Management and Analytics: Where We Are and Where We Are Going,/doi/10.1145/3264560.3266429,1
+583,584,1,Scalable Privacy-Preserving Big Data Management and Analytics: Where We Are and Where We Are Going,/doi/10.1145/3264560.3266429,2
 584,585,1,"Computational Thinking, Inferential Thinking and ""Big Data""",/doi/10.1145/2745754.2745782,1
 585,586,2,Michael I. Jordan,/profile/81339507945,1
 586,587,1,Parallel RDF generation from heterogeneous big data,/doi/10.1145/3323878.3325802,1
@@ -626,7 +626,7 @@
 624,625,2,Jeff LeFevre,/profile/81490642386,3
 625,626,2,Jagan Sankaranarayanan,/profile/81300133501,1
 626,627,2,Hakan Hacigumus,/profile/81501680798,1
-627,628,2,Junichi Tatemura,/profile/81100261108,1
+627,628,2,Junichi Tatemura,/profile/81100261108,3
 628,629,2,Neoklis Polyzotis,/profile/81100273472,1
 629,630,1,Enterprise big data management based on Knowledge Graph,/doi/10.1145/3507524.3507534,1
 630,631,2,Peng Luo,/profile/99660021411,1
@@ -766,7 +766,7 @@
 764,765,2,Yannis Papakonstantinou,/profile/81100109980,2
 765,766,2,Jignesh M. Patel,/profile/81350582809,1
 766,767,2,Raghu Ramakrishnan,/profile/81100290062,1
-767,768,2,Cyrus Shahabi,/profile/81100616904,1
+767,768,2,Cyrus Shahabi,/profile/81100616904,3
 768,769,1,MapReduce algorithms for big data analysis,/doi/10.14778/2367502.2367563,1
 769,770,2,Kyuseok Shim,/profile/81100129390,1
 770,771,1,The design of course architecture for big data,/doi/10.1145/3063955.3063968,1
@@ -1383,7 +1383,7 @@
 1381,1382,1,Driving Sustainable Airport Business with Big Data Analytics Services: A Multichannel Approach,/doi/10.1145/3564665.3564674,1
 1382,1383,2,Desmond Narongou,/profile/99660650358,1
 1383,1384,1,Veracity of Big Data: Challenges of Cross-Modal Truth Discovery,/doi/10.1145/2935753,1
-1384,1385,2,Laure Berti-Equille,/profile/81309487149,1
+1384,1385,2,Laure Berti-Equille,/profile/81309487149,2
 1385,1386,2,Mouhamadou Lamine Ba,/profile/81482652677,1
 1386,1387,1,Research on Teaching Evaluation Enabled by Big Data and Artificial Intelligence in Classroom,/doi/10.1145/3565291.3565294,1
 1387,1388,2,Zhijun An,/profile/99660662820,1
@@ -1399,7 +1399,7 @@
 1397,1398,1,Innovation of Data Mining & Screening System under Big Data: Take a case as NIMBY,/doi/10.1145/3335656.3335688,1
 1398,1399,2,Minxuan Li,/profile/99659441846,1
 1399,1400,1,Big data spatial analytics for enterprise applications,/doi/10.1145/2744700.2744705,1
-1400,1401,2,Siva Ravada,/profile/81418593295,1
+1400,1401,2,Siva Ravada,/profile/81418593295,3
 1401,1402,1,Online Teaching Platform Based on Big Data Recommendation System,/doi/10.1145/3411681.3412951,1
 1402,1403,2,TongXin Liao,/profile/99659575602,1
 1403,1404,2,XinHui Feng,/profile/99659574254,1
@@ -1559,10 +1559,10 @@
 1557,1558,1,Big data analytics with small footprint: squaring the cloud,/doi/10.1145/2487575.2487677,2
 1558,1559,2,John Canny,/profile/81100415489,2
 1559,1560,2,Huasha Zhao,/profile/82658942857,2
-1560,1561,1,Cloud-based OLAP over big data: application scenarios and performance analysis,/doi/10.1109/CCGrid.2015.174,2
-1561,1562,2,Rim Moussa,/profile/81490666253,2
-1562,1563,2,Guandong Xu,/profile/81451595383,2
-1563,1564,2,Giorgio Mario Grasso,/profile/99658680016,2
+1560,1561,1,Cloud-based OLAP over big data: application scenarios and performance analysis,/doi/10.1109/CCGrid.2015.174,6
+1561,1562,2,Rim Moussa,/profile/81490666253,8
+1562,1563,2,Guandong Xu,/profile/81451595383,10
+1563,1564,2,Giorgio Mario Grasso,/profile/99658680016,23
 1564,1565,1,Redoop infrastructure for recurring big data queries,/doi/10.14778/2733004.2733037,2
 1565,1566,2,Chuan Lei,/profile/81553122156,2
 1566,1567,2,Zhongfang Zhuang,/profile/99658685195,2
@@ -1575,7 +1575,7 @@
 1573,1574,2,Mingjun Cai,/profile/99660533330,2
 1574,1575,2,Francis Sam,/profile/99660533075,2
 1575,1576,2,Evans Asante Boadi,/profile/99660487062,2
-1576,1577,1,OLAPing Big Social Data: Multidimensional Big Data Analytics over Big Social Data Repositories,/doi/10.1145/3416921.3416944,3
+1576,1577,1,OLAPing Big Social Data: Multidimensional Big Data Analytics over Big Social Data Repositories,/doi/10.1145/3416921.3416944,4
 1577,1578,1,Big Data System for Analyzing Risky Procurement Entities,/doi/10.1145/2783258.2788563,2
 1578,1579,2,Amit Dhurandhar,/profile/81414621169,2
 1579,1580,2,Bruce Graves,/profile/81492640651,2
@@ -1681,8 +1681,8 @@
 1679,1680,2,Zhujin Tian,/profile/99660757732,1
 1680,1681,1,The Value of Using Big Data Technologies in Computational Social Science,/doi/10.1145/2640087.2644162,1
 1681,1682,2,Eugene Ch'ng,/profile/81317492043,1
-1682,1683,1,"SeDaSOMA: A Framework for Supporting Serendipitous, Data-As-A-Service-Oriented, Open Big Data Management and Analytics",/doi/10.1145/3481646.3481647,1
-1683,1684,2,Paolo Ciancarini,/profile/81100551680,1
+1682,1683,1,"SeDaSOMA: A Framework for Supporting Serendipitous, Data-As-A-Service-Oriented, Open Big Data Management and Analytics",/doi/10.1145/3481646.3481647,2
+1683,1684,2,Paolo Ciancarini,/profile/81100551680,2
 1684,1685,2,Dirk Habich,/profile/81310482402,1
 1685,1686,2,Wolfgang Lehner,/profile/81100335067,1
 1686,1687,1,Multivariate motif detection in local weather big data,/doi/10.1145/3341161.3343518,1
@@ -1828,9 +1828,9 @@
 1826,1827,2,Brygg Ullmer,/author/Ullmer%2C+Brygg,2
 1827,1828,2,Miriam Konkel,/author/Konkel%2C+Miriam,2
 1828,1829,1,"Big Data Meets Digital Cultural Heritage: Design and Implementation of SCRABS, A Smart Context-awaRe Browsing Assistant for Cultural EnvironmentS",/doi/10.1145/3012286,1
-1829,1830,2,Flora Amato,/profile/81351605499,1
-1830,1831,2,Vincenzo Moscato,/profile/81100633518,1
-1831,1832,2,Antonio Picariello,/profile/81375600136,1
+1829,1830,2,Flora Amato,/profile/81351605499,6
+1830,1831,2,Vincenzo Moscato,/profile/81100633518,15
+1831,1832,2,Antonio Picariello,/profile/81375600136,16
 1832,1833,2,Francesco Colace,/profile/81317492474,1
 1833,1834,2,Massimo De Santo,/profile/81100418923,1
 1834,1835,2,Fabio A. Schreiber,/profile/81100087058,1
@@ -1909,7 +1909,7 @@
 1907,1908,2,Constantinos Costa,/profile/81486640881,1
 1908,1909,2,Georgios Chatzimilioudis,/profile/81440618468,1
 1909,1910,2,Demetrios Zeinalipour-Yazti,/profile/81315492866,1
-1910,1911,2,Mohamed F. Mokbel,/profile/81100245315,1
+1910,1911,2,Mohamed F. Mokbel,/profile/81100245315,3
 1911,1912,1,Analysis of Behavioral Characteristics Based on Student's Personal Big Data,/doi/10.1145/3331453.3362052,1
 1912,1913,2,Jiangbo Shu,/profile/99659063101,1
 1913,1914,2,Liyuan Peng,/profile/99659475145,1
@@ -2135,7 +2135,7 @@
 2133,2134,2,Mohammed Erritali,/profile/81490695997,2
 2134,2135,1,BBoxDB - A Scalable Data Store for Multi-Dimensional Big Data,/doi/10.1145/3269206.3269208,1
 2135,2136,2,Jan Kristof Nidzwetzki,/profile/99659219840,1
-2136,2137,2,Ralf Hartmut Güting,/profile/81100178122,1
+2136,2137,2,Ralf Hartmut Güting,/profile/81100178122,5
 2137,2138,1,Secure and Efficient Big Data Gathering in Heterogeneous Wireless Sensor Networks,/doi/10.1145/2896387.2900334,1
 2138,2139,1,Extending search-based software testing techniques to big data applications,/doi/10.1145/2897010.2897014,1
 2139,2140,2,Erik M. Fredericks,/profile/81551972056,1
@@ -2271,7 +2271,7 @@
 2269,2270,2,Michael Yesudas,/profile/99658679582,1
 2270,2271,2,Girish Menon S,/profile/99658685428,1
 2271,2272,2,Satheesh K Nair,/profile/99658677823,1
-2272,2273,1,Big Data Management and Analytics in Intelligent Smart Environments: State-of-the-Art Analysis and Future Research Directions,/doi/10.1145/3366030.3366044,1
+2272,2273,1,Big Data Management and Analytics in Intelligent Smart Environments: State-of-the-Art Analysis and Future Research Directions,/doi/10.1145/3366030.3366044,2
 2273,2274,1,Use Case and Performance Analyses for Missing Data Imputation Methods in Big Data Analytics,/doi/10.1145/3379247.3379270,1
 2274,2275,2,Lan Yang,/profile/81452592878,1
 2275,2276,2,Jason Amaro Chiang,/profile/99659509038,1
@@ -2517,9 +2517,9 @@
 2515,2516,2,Bang Zhao,/profile/99659371375,1
 2516,2517,1,A Survey on Big Data Processing Frameworks for Mobility Analytics,/doi/10.1145/3484622.3484626,1
 2517,2518,2,Christos Doulkeridis,/profile/81100143389,1
-2518,2519,2,Akrivi Vlachou,/profile/81320496419,1
+2518,2519,2,Akrivi Vlachou,/profile/81320496419,2
 2519,2520,2,Nikos Pelekis,/profile/81100046429,1
-2520,2521,2,Yannis Theodoridis,/profile/81100535035,1
+2520,2521,2,Yannis Theodoridis,/profile/81100535035,3
 2521,2522,1,A Study on College Students' Mental Health Education and Early Warning Mechanism Based on Big Data,/doi/10.1145/3396452.3396453,1
 2522,2523,2,Cheng Conglin,/profile/99659531300,1
 2523,2524,2,Li Lin,/profile/99659532526,1
@@ -2729,7 +2729,7 @@
 2727,2728,2,Wenfang Li,/profile/99661233281,1
 2728,2729,1,Change detection in streaming data in the era of big data: models and issues,/doi/10.1145/2674026.2674031,1
 2729,2730,2,Dang-Hoan Tran,/profile/81493640615,1
-2730,2731,2,Mohamed Medhat Gaber,/profile/81100237158,1
+2730,2731,2,Mohamed Medhat Gaber,/profile/81100237158,5
 2731,2732,2,Kai-Uwe Sattler,/profile/81100156412,1
 2732,2733,1,WeChat Rumor Analysis and Governance Based on Big Data,/doi/10.1145/3358331.3358341,1
 2733,2734,2,Lihong Zhang,/profile/99659479404,1
@@ -2756,10 +2756,10 @@
 2754,2755,2,Sepideh Mesbah,/profile/99659170800,1
 2755,2756,2,Alessandro Bozzon,/profile/81314480825,1
 2756,2757,2,Christoph Lofi,/profile/81458657843,1
-2757,2758,2,Geert-Jan Houben,/profile/81336489844,1
-2758,2759,1,Cloud-based machine learning tools for enhanced big data applications,/doi/10.1109/CCGrid.2015.170,1
-2759,2760,2,Enzo Mumolo,/profile/81100408949,1
-2760,2761,2,Pietro Corona,/profile/99659452931,1
+2757,2758,2,Geert-Jan Houben,/profile/81336489844,2
+2758,2759,1,Cloud-based machine learning tools for enhanced big data applications,/doi/10.1109/CCGrid.2015.170,5
+2759,2760,2,Enzo Mumolo,/profile/81100408949,42
+2760,2761,2,Pietro Corona,/profile/99659452931,5
 2761,2762,1,Distributed Sensing of Animation Art Style under Big Data Technology,/doi/10.1145/3495018.3495293,1
 2762,2763,2,Bofei Hu,/profile/99660039789,1
 2763,2764,1,The Real Option Approach for Assessment of Big Data Asset Based on Prospect Theory,/doi/10.1145/3210506.3210514,1
@@ -2869,10 +2869,10 @@
 2867,2868,2,Maria Xekalaki,/profile/99659281708,2
 2868,2869,2,Juan Fumero,/profile/81548008457,2
 2869,2870,2,Athanasios Stratikopoulos,/profile/99659558585,2
-2870,2871,2,Katerina Doka,/profile/81375616251,2
+2870,2871,2,Katerina Doka,/profile/81375616251,6
 2871,2872,2,Christos Katsakioris,/profile/99660428291,2
 2872,2873,2,Constantinos Bitsakos,/profile/99660714392,2
-2873,2874,2,Nectarios Koziris,/profile/81100418819,2
+2873,2874,2,Nectarios Koziris,/profile/81100418819,6
 2874,2875,2,Christos Kotselidis,/profile/81375612768,2
 2875,2876,1,Construction of Guochao Culture Promotion Platform in Big Data Environment,/doi/10.1145/3545897.3545919,1
 2876,2877,2,Hongting Zheng,/profile/99660574020,1
@@ -3373,7 +3373,7 @@
 3371,3372,2,Christopher Leckie,/profile/81100389595,1
 3372,3373,2,Wanchun Dou,/profile/81455605465,1
 3373,3374,2,Jinjun Chen,/profile/81452604018,1
-3374,3375,2,Ramamohanarao Kotagiri,/profile/81100368542,1
+3374,3375,2,Ramamohanarao Kotagiri,/profile/81100368542,3
 3375,3376,2,Zoran Salcic,/profile/81100496432,1
 3376,3377,1,Quantitative Research on Psychological Education Based on Big Data Analysis Technology,/doi/10.1145/3482632.3483101,1
 3377,3378,2,Xiaoying Qi,/profile/99659914230,1
@@ -3445,7 +3445,7 @@
 3443,3444,2,Yao Lu,/profile/99660481460,2
 3444,3445,2,Peter Bailis,/profile/81474694064,2
 3445,3446,2,Philip Levis,/profile/81340490533,2
-3446,3447,1,Big data compression paradigms for supporting efficient and scalable data-intensive IoT frameworks,/doi/10.1145/3007818.3007824,1
+3446,3447,1,Big data compression paradigms for supporting efficient and scalable data-intensive IoT frameworks,/doi/10.1145/3007818.3007824,5
 3447,3448,1,A Comprehensive Survey on Variants And Its Extensions Of Big Data In Cloud Environment,/doi/10.1145/2743065.2743097,1
 3448,3449,2,P. Karthikeyan,/profile/99658711509,1
 3449,3450,2,A. Abraham,/profile/99658711876,1
@@ -3576,7 +3576,7 @@
 3574,3575,2,Ju Bai,/profile/99659318857,1
 3575,3576,1,Spammer detection for real-time big data graphs,/doi/10.1145/3007818.3007838,1
 3576,3577,2,Chris Soo-Hyun Eom,/profile/81496668463,1
-3577,3578,2,Wookey Lee,/profile/81413596384,1
+3577,3578,2,Wookey Lee,/profile/81413596384,6
 3578,3579,2,James Jung-Hun Lee,/profile/99659142560,1
 3579,3580,1,Health Assessment System Based on Big Data Analysis of Meridian Electrical Potential,/doi/10.1145/3278229.3278235,1
 3580,3581,2,Hui Li,/profile/99659323807,1
@@ -4042,21 +4042,21 @@
 4040,4041,2,Jaeyoung Jang,/profile/99659313046,1
 4041,4042,2,Sung Jun Jung,/profile/99659313197,1
 4042,4043,2,Sunmin Jeong,/profile/99659581729,1
-4043,4044,1,Supporting Emotion Recognition in Human-Robot Interactions: An Experimental Italian Textual Dataset,/doi/10.1007/978-3-031-40725-3_41,1
-4044,4045,2,Antonino Asta,/profile/99661010550,1
-4045,4046,2,Alessia Fantini,/profile/99661010300,1
-4046,4047,2,Giovanni Pilato,/profile/81100106451,1
-4047,4048,2,Pablo G. Bringas,/profile/81375615880,1
+4043,4044,1,Supporting Emotion Recognition in Human-Robot Interactions: An Experimental Italian Textual Dataset,/doi/10.1007/978-3-031-40725-3_41,4
+4044,4045,2,Antonino Asta,/profile/99661010550,4
+4045,4046,2,Alessia Fantini,/profile/99661010300,4
+4046,4047,2,Giovanni Pilato,/profile/81100106451,63
+4047,4048,2,Pablo G. Bringas,/profile/81375615880,8
 4048,4049,1,Probability Density Function for Clustering Validation,/doi/10.1007/978-3-031-40725-3_12,1
-4049,4050,2,Pau Figuera,/profile/99660124348,1
+4049,4050,2,Pau Figuera,/profile/99660124348,2
 4050,4051,2,Pablo García Bringas,/profile/81500662826,1
 4051,4052,1,Effective and Efficient Heuristic Algorithms for Supporting Optimal Location of Hubs over Networks with Demand Uncertainty,/doi/10.1007/978-3-031-39847-6_6,1
-4052,4053,2,Luigi Canadè,/profile/99660967169,1
+4052,4053,2,Luigi Canadè,/profile/99660967169,3
 4053,4054,2,Giulia Fornari,/profile/99661009568,1
 4054,4055,2,Vittorio Gatto,/profile/99661010029,1
 4055,4056,2,Abderraouf Hafsaoui,/profile/99661002988,1
 4056,4057,1,Supporting Big Healthcare Data Management and Analytics: The Cloud-Based QFLS Framework,/doi/10.1007/978-3-031-39831-5_33,1
-4057,4058,2,Selim Soufargi,/profile/99660587571,1
+4057,4058,2,Selim Soufargi,/profile/99660587571,2
 4058,4059,1,A Machine-Learning Framework for Supporting Content Recommendation via User Feedback Data and Content Profiles in Content Managements Systems,/doi/10.1007/978-3-031-39821-6_37,1
 4059,4060,2,Debashish Roy,/profile/99659916690,1
 4060,4061,2,Chen Ding,/profile/99661010630,1
@@ -4065,4 +4065,1571 @@
 4063,4064,1,Structural Node Representation Learning for Detecting Botnet Nodes,/doi/10.1007/978-3-031-36805-9_47,1
 4064,4065,2,Justin Carpenter,/profile/99660957655,1
 4065,4066,2,Janet Layne,/profile/99660954611,1
-4066,4067,2,Edoardo Serra,/profile/99659156616,1
+4066,4067,2,Edoardo Serra,/profile/99659156616,2
+4067,4068,2,Carmine Gallo,/profile/99660963593,1
+4068,4069,1,A Machine Learning Methodology for Optimal Big Data Processing in Advanced Smart City Environments,/doi/10.1007/978-3-031-36805-9_46,1
+4069,4070,2,Riccardo Nicolicchia,/profile/99660960240,2
+4070,4071,2,Luca Roldo,/profile/99660966114,2
+4071,4072,1,Optimal Location of Charging Stations for Electric Vehicles: A Theoretically-Sound Heuristic Model,/doi/10.1145/3555776.3577790,1
+4072,4073,1,Towards a Bayesian-Neural-Networks Framework for Scaling Posterior Distributions over Different-Curation Datasets,/doi/10.1145/3555962.3555974,1
+4073,4074,2,Alessandro Baldo,/profile/99659459804,4
+4074,4075,2,Edoardo Fadda,/profile/99659065948,9
+4075,4076,1,Effective and Efficient Heuristic Approaches for Solving the Capacitated P-Median Clustering Problem,/doi/10.1145/3555962.3555965,1
+4076,4077,2,Emilio Leonardi,/profile/81100395966,1
+4077,4078,1,Scaling Posterior Distributions over Differently-Curated Datasets: A Bayesian-Neural-Networks Methodology,/doi/10.1007/978-3-031-16564-1_19,1
+4078,4079,1,Generalized Fisher Kernel with Bregman Divergence,/doi/10.1007/978-3-031-15471-3_17,1
+4079,4080,1,"CORE-BCD-mAI: A Composite Framework for Representing, Querying, and Analyzing Big Clinical Data by Means of Multidimensional AI Tools",/doi/10.1007/978-3-031-15471-3_16,1
+4080,4081,1,Mahalanobis Distance Based K-Means Clustering,/doi/10.1007/978-3-031-12670-3_23,1
+4081,4082,2,Paul O. Brown,/profile/99660543833,1
+4082,4083,2,Meng Ching Chiang,/profile/99660541068,1
+4083,4084,2,Shiqing Guo,/profile/99660543375,1
+4084,4085,2,Yingzi Jin,/profile/99660543623,1
+4085,4086,2,Evan L. Murray,/profile/99660508979,1
+4086,4087,2,Adam G. M. Pazdor,/profile/99659079341,7
+4087,4088,1,A Fuzzy-Logic Based Multi-Dimensional Analysis of Traffic Incident Data,/doi/10.1109/FUZZ-IEEE55066.2022.9882787,1
+4088,4089,2,Matthew R. Kwiatkowski,/profile/99660596508,1
+4089,4090,2,Benjamin J. Zacharias,/profile/99660599213,1
+4090,4091,2,PokYee Joey Tsu,/profile/99660594598,1
+4091,4092,2,Joshua M. Thomas,/profile/99660596674,1
+4092,4093,2,Michael Kolisnyk,/profile/99660596737,1
+4093,4094,1,Transportation Analytics with Fuzzy Logic and Regression,/doi/10.1109/FUZZ-IEEE55066.2022.9882645,1
+4094,4095,2,Nguyen Duy Thong Jason Tran,/profile/99660599908,1
+4095,4096,2,Tanisha Turner,/profile/99660602394,1
+4096,4097,2,S. Tommy Wu,/profile/99660603499,1
+4097,4098,2,Nurida Karimbaeva,/profile/99660599292,1
+4098,4099,2,Juhee Kim,/profile/99660601153,1
+4099,4100,1,Effectively and Efficiently Supporting Visual Big Data Analytics over Big Sequential Data: An Innovative Data Science Approach,/doi/10.1007/978-3-031-10450-3_9,1
+4100,4101,2,Majid Abbasi Sisara,/profile/99660539157,1
+4101,4102,2,Yan Wen,/profile/99660537405,1
+4102,4103,1,"Towards a Grid-Based Framework for Supporting Range Aggregate Queries Over Big Sensor Network Readings: Overview, Management, and Applications",/doi/10.4018/IJDST.296248,1
+4103,4104,2,Filippo Furfaro,/profile/81100561296,1
+4104,4105,1,Supporting Privacy-Preserving Big Data Analytics on Temporal Open Big Data,/doi/10.1016/j.procs.2021.12.217,1
+4105,4106,2,Anifat M. Olawoyin,/profile/99659992291,1
+4106,4107,1,Predictive Big Data Analytics for Service Requests: A Framework,/doi/10.1016/j.procs.2021.12.216,1
+4107,4108,2,Animesh Singh Chauhan,/profile/99660349535,1
+4108,4109,2,Lihe Fan,/profile/99660274638,1
+4109,4110,2,James D. Harvey,/profile/99660315339,1
+4110,4111,2,Tianlei Wang,/profile/99660306331,1
+4111,4112,1,Effective and efficient skyline query processing over attribute-order-preserving-free encrypted data in cloud-enabled databases,/doi/10.1016/j.future.2021.08.008,1
+4112,4113,2,Panagiotis Karras,/profile/81100001061,5
+4113,4114,1,Cyber-attack detection via non-linear prediction of IP addresses: an innovative big data analytics approach,/doi/10.1007/s11042-021-11390-1,1
+4114,4115,1,Lyapunov Central Limit Theorem: Theoretical Properties and Applications in Big-Data-Populated Smart City Settings,/doi/10.1145/3481646.3481652,1
+4115,4116,1,Enhancing Scan Matching Algorithms via Genetic Programming for Supporting Big Moving Objects Tracking and Analysis in Emerging Environments,/doi/10.1007/978-3-030-86472-9_32,1
+4116,4117,2,Kristijan Lenac,/profile/81361608625,2
+4117,4118,1,Financial Forecasting via Deep-Learning and Machine-Learning Tools over Two-Dimensional Objects Transformed from Time Series,/doi/10.1007/978-3-030-86271-8_46,1
+4118,4119,1,Content-Based Authorship Identification for Short Texts in Social Media Networks,/doi/10.1007/978-3-030-86271-8_3,1
+4119,4120,2,José Gaviria de la Puerta,/profile/99658643275,1
+4120,4121,2,Iker Pastor-López,/profile/81508705317,1
+4121,4122,2,Javier Salcedo Hernández,/profile/99660098893,1
+4122,4123,2,Alberto Tellaeche,/profile/81350571928,1
+4123,4124,2,Borja Sanz,/profile/81488673502,1
+4124,4125,2,Hugo Sanjurjo-González,/profile/99660141036,1
+4125,4126,1,A Novel Approach for Supporting Italian Satire Detection Through Deep Learning,/doi/10.1007/978-3-030-86967-0_13,2
+4126,4127,2,Gabriella Casalino,/profile/81488649445,2
+4127,4128,2,Giosué Lo Bosco,/profile/81324487803,7
+4128,4129,2,Mariano Maiorana,/profile/99660142674,2
+4129,4130,2,Daniele Schicchi,/profile/99659672560,7
+4130,4131,1,A Neural-Network-Based Framework for Supporting Driver Classification and Analysis,/doi/10.1007/978-3-030-86970-0_3,1
+4131,4132,2,Francesco Mercaldo,/profile/82459283157,6
+4132,4133,2,Fabio Martinelli,/profile/81100322555,6
+4133,4134,1,A Machine-Learning-Based Framework for Supporting Malware Detection and Analysis,/doi/10.1007/978-3-030-86970-0_25,1
+4134,4135,1,A Framework for Supporting Ransomware Detection and Prevention Based on Hybrid Analysis,/doi/10.1007/978-3-030-86970-0_2,1
+4135,4136,1,Analysis and Comparison of Deep Learning Networks for Supporting Sentiment Mining in Text Corpora,/doi/10.1145/3428757.3429144,2
+4136,4137,2,Teresa Alcamo,/profile/99659672437,2
+4137,4138,1,Data-Intensive Object-Oriented Adaptive Web Systems: Implementing and Experimenting the OO-XAHM Framework,/doi/10.1145/3415958.3433051,1
+4138,4139,1,Data science for healthcare predictive analytics,/doi/10.1145/3410566.3410598,1
+4139,4140,2,Daryl L. X. Fung,/profile/99659574081,1
+4140,4141,2,Saad B. Mushtaq,/profile/99659574702,1
+4141,4142,2,Owen T. Leduchowski,/profile/99659574339,1
+4142,4143,2,Robert Luc Bouchard,/profile/99659575043,1
+4143,4144,2,Hui Jin,/profile/99659575151,1
+4144,4145,2,Christine Y. Zhang,/profile/99659574424,1
+4145,4146,1,An Innovative Fuzzy Logic-Based Machine Learning Algorithm for Supporting Predictive Analytics on Big Transportation Data,/doi/10.1109/FUZZ48607.2020.9177823,1
+4146,4147,2,Jonathan D. Elias,/profile/99660321634,1
+4147,4148,2,Shael M. Minuk,/profile/99660305923,1
+4148,4149,2,A. Roy R. de Jesus,/profile/99660359921,1
+4149,4150,1,A Big-Data Variational Bayesian Framework for Supporting the Prediction of Functional Outcomes in Wake-Up Stroke Patients,/doi/10.1007/978-3-030-58799-4_71,1
+4150,4151,2,Miloš Ajčević,/profile/99659773381,2
+4151,4152,2,Aleksandar Miladinović,/profile/99658752408,1
+4152,4153,2,Giulia Silveri,/profile/99659984040,1
+4153,4154,2,Giovanni Furlanis,/profile/99659983978,1
+4154,4155,2,Tommaso Cilotto,/profile/99659982012,1
+4155,4156,2,Alex Buoite Stella,/profile/99659983075,1
+4156,4157,2,Paola Caruso,/profile/99659999714,1
+4157,4158,2,Maja Ukmar,/profile/99659996785,1
+4158,4159,2,Marcello Naccarato,/profile/99659980854,1
+4159,4160,2,Paolo Manganotti,/profile/99658696663,1
+4160,4161,2,Agostino Accardo,/profile/81435611237,2
+4161,4162,1,A Novel Big Data Analytics Approach for Supporting Cyber Attack Detection via Non-linear Analytic Prediction of IP Addresses,/doi/10.1007/978-3-030-58799-4_70,1
+4162,4163,2,Marco Tessarotto,/profile/99659983271,1
+4163,4164,1,A Kinect-Based Gesture Acquisition and Reproduction System for Humanoid Robots,/doi/10.1007/978-3-030-58799-4_69,2
+4164,4165,2,Agnese Augello,/profile/81350599511,28
+4165,4166,2,Angelo Ciulla,/profile/99659992284,2
+4166,4167,2,Salvatore Gaglio,/profile/81100030003,23
+4167,4168,2,Filippo Vella,/profile/81310493613,11
+4168,4169,1,An innovative user-attentive framework for supporting real-time detection and mining of streaming microblog posts,/doi/10.1007/s00500-019-04478-2,2
+4169,4170,1,A rewrite/merge approach for supporting real-time data warehousing via lightweight data integration,/doi/10.1007/s11227-018-2707-9,1
+4170,4171,2,Nickerson Ferreira,/profile/81416606003,1
+4171,4172,2,Pedro Furtado,/profile/81406595574,1
+4172,4173,1,A composite machine-learning-based framework for supporting low-level event logs to high-level business process model activities mappings enhanced by flexible BPMN model translation,/doi/10.1007/s00500-019-04385-6,1
+4173,4174,2,H. Al-Ali,/profile/99660843420,1
+4174,4175,2,R. Mizouni,/profile/81447599264,1
+4175,4176,2,G. Tello,/profile/99660042616,1
+4176,4177,1,A Theoretical Approach to Discover Mutual Friendships from Social Graph Networks,/doi/10.1145/3366030.3366077,1
+4177,4178,2,Sehaj Pal Singh,/profile/81486648527,1
+4178,4179,1,Cognitive-Based Hybrid Collaborative Filtering with Rating Scaling on Entropy to Defend Shilling Influence,/doi/10.1145/3375998.3376040,1
+4179,4180,2,Deyu Deng,/profile/99659503057,1
+4180,4181,2,Jiaxing Jason Mai,/profile/99659502751,1
+4181,4182,1,Multi-class Text Complexity Evaluation via Deep Neural Networks,/doi/10.1007/978-3-030-33617-2_32,2
+4182,4183,1,An Innovative Deep-Learning Algorithm for Supporting the Approximate Classification of Workloads in Big Data Environments,/doi/10.1007/978-3-030-33617-2_24,1
+4183,4184,1,A novel GPU-aware Histogram-based algorithm for supporting moving object segmentation in big-data-based IoT application scenarios,/doi/10.1016/j.ins.2019.03.029,1
+4184,4185,1,Querying and Learning OSN Graphs for Advanced Viral Marketing Applications,/doi/10.1145/3358505.3358525,1
+4185,4186,2,Giancarlo Sperlí,/profile/81549121456,2
+4186,4187,1,Urban Analytics of Big Transportation Data for Supporting Smart Cities,/doi/10.1007/978-3-030-27520-4_3,1
+4187,4188,2,Peter Braun,/profile/99661068159,12
+4188,4189,2,Calvin S. H. Hoi,/profile/99660045735,1
+4189,4190,2,Joglas Souza,/profile/99659877327,3
+4190,4191,1,Flexible Querying and Analytics for Smart Cities and Smart Societies in the Age of Big Data: Overview of the FQAS 2019 International Conference,/doi/10.1007/978-3-030-27629-4_5,1
+4191,4192,2,Sergio Greco,/profile/81100249636,1
+4192,4193,1,A machine-learning framework for supporting intelligent web-phishing detection and analysis,/doi/10.1145/3331076.3331087,1
+4193,4194,1,A Fuzzy Logic Based Machine Learning Tool for Supporting Big Data Business Analytics in Complex Artificial Intelligence Environments,/doi/10.1109/FUZZ-IEEE.2019.8858791,1
+4194,4195,2,Seokjin Ahn,/profile/99659791897,1
+4195,4196,2,Stéfan V. Couture,/profile/99659788512,1
+4196,4197,2,Kevin Dam,/profile/99659789701,1
+4197,4198,2,Kaleigh L. McCormick,/profile/99659796875,1
+4198,4199,2,Bryan H. Wodi,/profile/99659792996,1
+4199,4200,1,An effective and efficient algorithm for ranking web documents via genetic programming,/doi/10.1145/3297280.3297385,1
+4200,4201,2,Ricardo Baeza-Yates,/profile/81100336335,2
+4201,4202,2,Domenico Crea,/profile/99659365462,2
+4202,4203,2,Giovanni Lo Bianco,/profile/99659365928,1
+4203,4204,1,Predictive monitoring of temporally-aggregated performance indicators of business processes against low-level streaming events,/doi/10.1016/j.is.2018.02.001,1
+4204,4205,2,Francesco Folino,/profile/81309510688,6
+4205,4206,2,Massimo Guarascio,/profile/81442615194,6
+4206,4207,2,Luigi Pontieri,/profile/81100498961,6
+4207,4208,1,A Big-Data-Analytics Framework for Supporting Classification of ADHD and Healthy Children via Principal Component Analysis of EEG Sleep Spindles Power Spectra,/doi/10.1016/j.procs.2019.09.329,1
+4208,4209,2,Federica De Dea,/profile/99659767182,1
+4209,4210,2,Matteo Stecca,/profile/99659766253,1
+4210,4211,2,Caterina Zanus,/profile/99659772010,1
+4211,4212,2,Marco Carrozzi,/profile/99659762088,1
+4212,4213,1,A Big-Data-Analytics Framework for Supporting Logistics Problems in Smart-City Environments,/doi/10.1016/j.procs.2019.09.257,1
+4213,4214,2,Massimiliano Nolich,/profile/81436595608,1
+4214,4215,2,Walter Ukovich,/profile/81100162379,1
+4215,4216,1,Applying Machine Learning Techniques to Detect and Analyze Web Phishing Attacks,/doi/10.1145/3282373.3282422,1
+4216,4217,1,Strategies and systems towards grids and clouds integration: A DBMS-based solution,/doi/10.1016/j.future.2017.02.047,1
+4217,4218,2,Mirko Mariotti,/profile/99659014578,5
+4218,4219,2,Osvaldo Gervasi,/profile/81100282285,9
+4219,4220,2,Flavio Vella,/profile/81464644015,9
+4220,4221,2,Alessandro Costantini,/profile/81339495315,5
+4221,4222,1,An Effective and Efficient Approach for Supporting the Generation of Synthetic Memory Reference Traces via Hierarchical Hidden/Non-Hidden Markov Models,/doi/10.1109/SMC.2018.00502,1
+4222,4223,2,Marwan Hassani,/profile/81442603953,5
+4223,4224,1,Learning Ranking Functions by Genetic Programming Revisited,/doi/10.1007/978-3-319-98812-2_34,1
+4224,4225,2,Giovanni Lo Bianco,/profile/99660480403,1
+4225,4226,1,Set Similarity Joins with Complex Expressions on Distributed Platforms,/doi/10.1007/978-3-319-98398-1_15,1
+4226,4227,2,Diego Junior do Carmo Oliveira,/profile/99661185913,1
+4227,4228,2,Felipe Ferreira Borges,/profile/99661185006,1
+4228,4229,2,Leonardo Andrade Ribeiro,/profile/81407593405,9
+4229,4230,1,A Novel Structural-Entropy-based Classification Technique for Supporting Android Ransomware Detection and Analysis,/doi/10.1109/FUZZ-IEEE.2018.8491637,1
+4230,4231,1,Fuzzy Logic-Based Data Analytics on Predicting the Effect of Hurricanes on the Stock Market,/doi/10.1109/FUZZ-IEEE.2018.8491523,1
+4231,4232,2,Richard C. Camara,/profile/99660356985,1
+4232,4233,2,Steven B. Powell,/profile/99660253506,1
+4233,4234,2,Boyu Tang,/profile/99660358256,1
+4234,4235,1,Advanced pattern recognition from complex environments: a classification-based approach,/doi/10.1007/s00500-017-2661-0,1
+4235,4236,1,An Innovative Lambda-Architecture-Based Data Warehouse Maintenance Framework for Effective and Efficient Near-Real-Time OLAP over Big Data,/doi/10.1007/978-3-319-94301-5_12,1
+4236,4237,2,Gianni Vercelli,/profile/81100466952,6
+4237,4238,1,Taxonomy-Based Detection of User Emotions for Advanced Artificial Intelligent Applications,/doi/10.1007/978-3-319-92639-1_48,2
+4238,4239,1,A Predictive Learning Framework for Monitoring Aggregated Performance Indicators over Business Process Events,/doi/10.1145/3216122.3216143,1
+4239,4240,1,"The Inverse Tree-OLAP Problem: Definitions, Models, Complexity Analysis, and a Possible Solution",/doi/10.1145/3216122.3216129,1
+4240,4241,1,A scalable cloud-edge computing framework for supporting device-adaptive big media provisioning,/doi/10.1109/CCGRID.2018.00099,1
+4241,4242,2,Antonino Galletta,/profile/99659185570,1
+4242,4243,2,Antonio Celesti,/profile/81461658513,1
+4243,4244,2,Maria Fazio,/profile/81312485782,1
+4244,4245,2,Massimo Villari,/profile/81100238147,1
+4245,4246,1,Predicting facebook-users' personality based on status and linguistic features via flexible regression analysis techniques,/doi/10.1145/3167132.3167166,1
+4246,4247,2,Prantik Howlader,/profile/99659281131,1
+4247,4248,2,Kuntal Kumar Pal,/profile/99659281448,1
+4248,4249,2,S. D. Madhu Kumar,/profile/81460641365,2
+4249,4250,1,Detecting Insider Malicious Activities in Cloud Collaboration Systems,/doi/10.3233/FI-2018-1704,1
+4250,4251,2,Smrithy G S,/profile/99660243929,1
+4251,4252,2,Ramadoss Balakrishnan,/profile/99659892005,1
+4252,4253,1,Item-centric mining of frequent patterns from big uncertain data,/doi/10.1016/j.procs.2018.08.075,1
+4253,4254,1,Data analytics on the board game Go for the discovery of interesting sequences of moves in joseki,/doi/10.1016/j.procs.2018.08.017,1
+4254,4255,2,Felix Kanke,/profile/99660843276,1
+4255,4256,1,An effective and efficient approximate two-dimensional dynamic programming algorithm for supporting advanced computer vision applications,/doi/10.1016/j.jvlc.2017.07.002,1
+4256,4257,1,Game Data Mining,/doi/10.1016/j.procs.2017.08.141,1
+4257,4258,2,Timothy D. Keding,/profile/99659202036,1
+4258,4259,2,Adam G.M. Padzor,/profile/99659203125,1
+4259,4260,2,Dell Sayson,/profile/99659202421,1
+4260,4261,1,Enhanced Prediction of User-Preferred YouTube Videos Based on Cleaned Viewing Pattern History,/doi/10.1016/j.procs.2017.08.129,1
+4261,4262,2,Lam M.V. Doan,/profile/99659204154,1
+4262,4263,2,Suyoung Kim,/profile/99659202854,1
+4263,4264,2,Jose Francisco A. Matundan,/profile/99659203055,1
+4264,4265,2,Rashpal Robby Singh,/profile/99659203779,1
+4265,4266,1,An innovative majority voting mechanism in interactive social network clustering,/doi/10.1145/3102254.3102268,1
+4266,4267,2,Rich C. Lee,/profile/99659190051,1
+4267,4268,1,Syntactic and semantic validation of SPARQL queries,/doi/10.1145/3019612.3019915,1
+4268,4269,2,Jesús M. Almendros-Jiménez,/profile/81100182645,1
+4269,4270,2,Antonio Becerra-Terón,/profile/81100104501,1
+4270,4271,1,An effective and efficient hybrid scan matching algorithm for mobile object applications,/doi/10.1145/3019612.3019720,1
+4271,4272,1,Enhancing contact center performance using cloud computing: a case study on telecom contact centers,/doi/10.1145/3018896.3056801,1
+4272,4273,2,Binesh Jose,/profile/99659245742,1
+4273,4274,1,Business scenarios for hierarchical workload management in data centers,/doi/10.1145/3018896.3056799,4
+4274,4275,2,Carmine De Napoli,/profile/99659245369,4
+4275,4276,2,Agostino Forestiero,/profile/81332498809,4
+4276,4277,2,Demetrio Lagana',/profile/99659246171,4
+4277,4278,2,Giovanni Lupi,/profile/99659246194,4
+4278,4279,2,Carlo Mastroianni,/profile/81100481306,4
+4279,4280,2,Leonardo Spataro,/profile/99659246113,4
+4280,4281,1,A semantic-web-technology-based framework for supporting knowledge-driven digital forensics,/doi/10.1145/3012071.3012099,4
+4281,4282,2,Giuseppe Pirrò,/profile/81350598798,8
+4282,4283,1,An efficient CUDA-based approximate two-dimensional dynamic programming algorithm for advanced computer vision applications,/doi/10.1109/SMC.2016.7844899,4
+4283,4284,2,Daniel Pirró,/profile/99660103942,4
+4284,4285,1,Knowledge Discovery from Social Graph Data,/doi/10.1016/j.procs.2016.08.250,4
+4285,4286,2,Kimberly Tran,/profile/99661001071,4
+4286,4287,1,Incorporating Clustering into Set Similarity Join Algorithms: The SjClust Framework,/doi/10.1007/978-3-319-44403-1_12,4
+4287,4288,2,Karen Aline Bezerra,/profile/99659067428,8
+4288,4289,2,Ben Hur Nascimento,/profile/99659068549,8
+4289,4290,1,An Innovative Framework for Effectively and Efficiently Supporting Big Data Analytics over Geo-Located Mobile Social Media,/doi/10.1145/2938503.2938517,4
+4290,4291,2,Giuseppe Psaila,/profile/81100658874,8
+4291,4292,2,Maurizio Toccu,/profile/99659041867,8
+4292,4293,1,I-HASTREAM: density-based hierarchical clustering of big data streams and its application to big graph analytics tools,/doi/10.1109/CCGrid.2016.102,4
+4293,4294,2,Pascal Spaus,/profile/81551140956,4
+4294,4295,2,Thomas Seidl,/profile/81100145971,4
+4295,4296,1,SJClust: Towards a Framework for Integrating Similarity Join Algorithms and Clustering,/doi/10.5220/0005868700750080,4
+4296,4297,1,RECAP: Building Relatedness Explanations on the Web,/doi/10.1145/2872518.2890533,4
+4297,4298,1,Real-time counting of moving objects in complex environments,/doi/10.1145/2851613.2851714,4
+4298,4299,2,Alessandro Moro,/profile/81472650127,16
+4299,4300,1,OLAP analysis of multidimensional tweet streams for supporting advanced analytics,/doi/10.1145/2851613.2851662,4
+4300,4301,2,Carmen De Maio,/profile/81456617392,8
+4301,4302,2,Giuseppe Fenza,/profile/81375596206,8
+4302,4303,2,Mimmo Parente,/profile/81100439567,8
+4303,4304,1,"A DBMS-Based System for Integrating Grids and Clouds: Anatomy, Models, Functionalities",/doi/10.1145/2896387.2900327,4
+4304,4305,1,Clustering-Based Spatio-Temporal Analysis of Big Atmospheric Data,/doi/10.1145/2896387.2900326,4
+4305,4306,2,Staci Lattimer,/profile/99659014638,4
+4306,4307,1,Interactive mining of diverse social entities,/doi/10.3233/KES-160332,4
+4307,4308,2,Syed K. Tanbeer,/profile/81388592766,4
+4308,4309,2,Richard Kyle MacKinnon,/profile/89758807057,4
+4309,4310,1,OLAP-enabled web search of complex objects,/doi/10.1145/2837185.2837243,4
+4310,4311,1,A distributed framework for supporting adaptive ensemble-based intrusion detection,/doi/10.1109/BigData.2015.7363967,4
+4311,4312,2,Gianluigi Folino,/profile/81339499650,4
+4312,4313,2,Pietro Sabatino,/profile/99658974567,4
+4313,4314,1,Heterogeneous k-anonymization with high utility,/doi/10.1109/BigData.2015.7363963,4
+4314,4315,2,Mingqiang Xue,/profile/81436599075,4
+4315,4316,2,Dimitrios Tsoumakos,/profile/81100383045,4
+4316,4317,1,A Multi-view Learning Approach to the Discovery of Deviant Process Instances,/doi/10.1007/978-3-319-26148-5_9,4
+4317,4318,1,Session details: Query Processing,/doi/10.1145/3247586,4
+4318,4319,1,Towards OLAP Analysis of Multidimensional Tweet Streams,/doi/10.1145/2811222.2811233,4
+4319,4320,1,A Simulation Framework for Efficient Resource Management on Hybrid Systems,/doi/10.1109/CSE.2015.51,4
+4320,4321,2,Sergio Tasso,/profile/81100199885,4
+4321,4322,1,Advances in data warehousing and OLAP in the big Data Era,/doi/10.1016/j.is.2015.06.001,4
+4322,4323,2,Ladjel Bellatreche,/profile/81100370329,4
+4323,4324,2,Il-Yeol Song,/profile/81452601137,4
+4324,4325,1,Knowledge Discovery from Geo-Located Tweets for Supporting Advanced Big Data Analytics: A Real-Life Experience,/doi/10.1007/978-3-319-23781-7_23,4
+4325,4326,1,Temporal Aspects of Big Data Management: State-of-the-Art Analysis and Future Research Directions,/doi/10.1109/TIME.2015.31,4
+4326,4327,1,"A GPU-Based Statistical Framework for Moving Object Segmentation: Implementation, Analysis and Applications",/doi/10.1007/978-3-319-23237-9_19,4
+4327,4328,2,Kazunori Umeda,/profile/81100039634,8
+4328,4329,1,Detecting overlapping communities in poly-relational networks,/doi/10.1007/s11280-015-0330-8,4
+4329,4330,2,Zhiang Wu,/profile/81413593614,4
+4330,4331,2,Jie Cao,/profile/81464642194,4
+4331,4332,2,Guixiang Zhu,/profile/99658737584,4
+4332,4333,2,Wenpeng Yin,/profile/81548762856,4
+4333,4334,2,Jin Shi,/profile/99658645998,4
+4334,4335,1,"Design, implementation and validation of AI-inspired information systems",/doi/10.1007/s10844-013-0287-y,4
+4335,4336,1,Frequent Subgraph Mining from Streams of Uncertain Data,/doi/10.1145/2790798.2790799,4
+4336,4337,1,Automatic Learning for Supporting Advanced Human-Machine Interfaces,/doi/10.1109/CISIS.2015.7,4
+4337,4338,1,Effective and Efficient Moving Object Segmentation via an Innovative Statistical Approach,/doi/10.1109/CISIS.2015.23,4
+4338,4339,1,Runtime Anomaly Detection in Embedded Systems by Binary Tracing and Hidden Markov Models,/doi/10.1109/COMPSAC.2015.89,4
+4339,4340,2,Riccardo Cecolin,/profile/99658768334,4
+4340,4341,1,Provenance Research Issues and Challenges in the Big Data Era,/doi/10.1109/COMPSAC.2015.345,4
+4341,4342,1,High-Recall Information Retrieval from Linked Big Data,/doi/10.1109/COMPSAC.2015.152,4
+4342,4343,1,A Classification-Based Algorithm for Building 3D Maps of Environmental Objects,/doi/10.1109/ICCSA.2015.28,4
+4343,4344,1,Effectively and efficiently supporting roll-up and drill-down OLAP operations over continuous dimensions via hierarchical clustering,/doi/10.1007/s10844-013-0268-1,4
+4344,4345,2,Michelangelo Ceci,/profile/81100122078,4
+4345,4346,2,Donato Malerba,/profile/81100483226,4
+4346,4347,1,A Neural Network model for the Evaluation of Text Complexity in Italian Language: a Representation Point of View,/doi/10.1016/j.procs.2018.11.108,1
+4347,4348,1,A Modular Social Sensing System for Personalized Orienteering in the COVID-19 Era,/doi/10.1145/3615359,2
+4348,4349,2,Fabio Persia,/profile/81453660973,27
+4349,4350,2,Mouzhi Ge,/profile/81470648590,3
+4350,4351,2,Theodoros Chondrogiannis,/profile/81502802560,5
+4351,4352,2,Daniela D’Auria,/profile/99660951876,2
+4352,4353,1,Roboception and adaptation in a cognitive robot,/doi/10.1016/j.robot.2023.104400,1
+4353,4354,2,Ignazio Infantino,/profile/81492650617,4
+4354,4355,2,Umberto Maniscalco,/profile/81375615582,2
+4355,4356,1,A Virtual Shopper Customer Assistant in Pervasive Environments,/doi/10.1007/978-3-540-76888-3_67,1
+4356,4357,2,Antonella Santangelo,/profile/81375611583,3
+4357,4358,2,Salvatore Sorce,/profile/81338490962,4
+4358,4359,2,Antonio Gentile,/profile/81100176414,5
+4359,4360,2,Alessandro Genco,/profile/81300157701,3
+4360,4361,1,Quantum planning for swarm robotics,/doi/10.1016/j.robot.2023.104362,1
+4361,4362,2,Antonio Chella,/profile/81100458765,3
+4362,4363,2,Maria Mannone,/profile/99659113220,1
+4363,4364,2,Valeria Seidita,/profile/81351591248,1
+4364,4365,2,Salvatore Zammuto,/profile/99660735683,1
+4365,4366,1,Extending affective capabilities for medical assistive robots,/doi/10.1016/j.cogsys.2021.12.004,1
+4366,4367,2,Gianpaolo Vitale,/profile/99660333819,2
+4367,4368,1,Multimodal Mood Recognition for Assistive Scenarios,/doi/10.1016/j.procs.2022.11.098,1
+4368,4369,2,Giulia Di Bella,/profile/99660707878,1
+4369,4370,1,Exploiting Correlation between Body Gestures and Spoken Sentences for Real-time Emotion Recognition,/doi/10.1145/3125571.3125590,1
+4370,4371,2,Fabrizio Milazzo,/profile/81482655041,2
+4371,4372,2,Vito Gentile,/profile/87059423757,1
+4372,4373,1,"The Good, the Ugly and the Bad Situation Awareness in the Big Data: A Cognitive Architecture for Social Forecasting",/doi/10.4018/IJKSR.2016040102,1
+4373,4374,2,Ernesto D'Avanzo,/profile/81549606056,2
+4374,4375,1,Data-driven Relation Discovery from Unstructured Texts,/doi/10.5220/0005614205970602,1
+4375,4376,2,Marilena Ditta,/profile/99659166991,1
+4376,4377,2,Valentina Ravì,/profile/99659167558,1
+4377,4378,1,Posgram Driven Word Prediction,/doi/10.5220/0005613305890596,1
+4378,4379,2,Carmelo Spiccia,/profile/99659168391,1
+4379,4380,1,Mining social network users opinions' to aid buyers' shopping decisions,/doi/10.1016/j.chb.2014.11.081,1
+4380,4381,1,Facebook Users Relationships Analysis Based on Sentiment Classification,/doi/10.1109/ICSC.2014.59,1
+4381,4382,2,Diego Terrana,/profile/87058941057,3
+4382,4383,1,Robotic Creativity Driven by Motivation and Semantic Analysis,/doi/10.1109/ICSC.2014.58,1
+4383,4384,2,Riccardo Rizzo,/profile/81492641333,2
+4384,4385,1,Automatic Unsupervised Polarity Detection on a Twitter Data Stream,/doi/10.1109/ICSC.2014.17,1
+4385,4386,1,A Study on Classification Methods Applied to Sentiment Analysis,/doi/10.1109/ICSC.2013.82,1
+4386,4387,2,Valentina Mazzonello,/profile/87059443857,1
+4387,4388,1,"Detection, Clustering and Tracking of Life Cycle Events on Twitter Using Electric Fields Analogy",/doi/10.1109/ICSC.2013.46,1
+4388,4389,1,An Unsupervised Data-Driven Cross-Lingual Method for Building High Precision Sentiment Lexicons,/doi/10.1109/ICSC.2013.40,1
+4389,4390,2,Pierluca Sangiorgi,/profile/81384604432,1
+4390,4391,1,An Approach to Enhance Chatbot Semantic Power and Maintainability: Experiences within the FRASI Project,/doi/10.1109/ICSC.2012.26,1
+4391,4392,2,Alberto Machi',/profile/81550376756,1
+4392,4393,1,Integration of Ontologies and Bayesian Networks for Maritime Situation Awareness,/doi/10.1109/ICSC.2012.25,1
+4393,4394,2,Michele Missikoff,/profile/81100593606,1
+4394,4395,2,Francesco Taglino,/profile/81100638772,1
+4395,4396,1,Human-Robot Interaction Based on Introspective Capability,/doi/10.1109/CISIS.2012.184,1
+4396,4397,2,Ignazio Infantino,/profile/81100032871,2
+4397,4398,1,A Modular Architecture for Adaptive ChatBots,/doi/10.1109/ICSC.2011.68,1
+4398,4399,1,An Architecture with a Mobile Phone Interface for the Interaction of a Human with a Humanoid Robot Expressing Emotions and Personality,/doi/10.1007/978-3-642-23954-0_13,1
+4399,4400,2,Rosario Sorbello,/profile/81388591946,2
+4400,4401,2,Giorgio Vassallo,/profile/81100191321,11
+4401,4402,2,Giuseppe Balistreri,/profile/81488668461,1
+4402,4403,2,Marcello Giardina,/profile/81488665456,1
+4403,4404,1,A Modular Framework for Versatile Conversational Agent Building,/doi/10.1109/CISIS.2011.95,1
+4404,4405,2,Mario Scriminaci,/profile/81460656669,1
+4405,4406,1,"A Cyc-based Web System for Semantic Organization, Search and Browsing of Knowledge Items",/doi/10.1109/CISIS.2011.94,1
+4406,4407,2,Riccardo Rizzo,/profile/81100090239,4
+4407,4408,1,A Conceptual Probabilistic Model for the Induction of Image Semantics,/doi/10.1109/ICSC.2010.54,1
+4408,4409,2,Marco La Cascia,/profile/81414621286,1
+4409,4410,1,Interacting with Augmented Environments,/doi/10.1109/MPRV.2010.34,1
+4410,4411,1,An Intelligent Advisor to Suggest Strategies in Economic Policy Decisions,/doi/10.1109/CISIS.2010.75,1
+4411,4412,1,Adaptive Semantics of Complex Information/Services Networks: A Case Study from Cultural Heritage,/doi/10.1109/CISIS.2010.125,1
+4412,4413,2,Giovanni Francesco Mascari,/profile/81461648479,1
+4413,4414,2,Laura Moltedo,/profile/81100167671,1
+4414,4415,2,Paola Moscati,/profile/81461657641,1
+4415,4416,2,Luca Pitolli,/profile/81461657280,1
+4416,4417,2,Paolo Salonia,/profile/81453657835,1
+4417,4418,2,Giovanni Toffoli,/profile/81461642086,1
+4418,4419,1,A Conversational Agent to Support Decisions in SimCity like Games,/doi/10.1109/ICSC.2009.74,1
+4419,4420,1,An Emphatic Humanoid Robot with Emotional Latent Semantic Behavior,/doi/10.1007/978-3-540-89076-8_24,1
+4420,4421,2,Francesco Cinquegrani,/profile/81388591538,1
+4421,4422,2,Salvatore Maria Anzalone,/profile/81388591323,1
+4422,4423,1,"Sentence Induced Transformations in ""Conceptual"" Spaces",/doi/10.1109/ICSC.2008.74,1
+4423,4424,1,EHeBby: An evocative humorist chat-bot,/doi/10.1155/2008/312319,1
+4424,4425,1,A KST-BASED SYSTEM FOR STUDENT TUTORING,/doi/10.1080/08839510801972785,1
+4425,4426,2,Roberto Pirrone,/profile/81100509827,4
+4426,4427,1,A Java3D Talking Head for a Chatbot,/doi/10.1109/CISIS.2008.57,1
+4427,4428,2,Orazio Gambino,/profile/81100049120,1
+4428,4429,2,Alessandro Caronia,/profile/81375617719,1
+4429,4430,1,Humorist Bot: Bringing Computational Humour in a Chat-Bot System,/doi/10.1109/CISIS.2008.117,1
+4430,4431,2,Gaetano Saccone,/profile/81375620517,1
+4431,4432,1,A multimodal guide for the augmented campus,/doi/10.1145/1294046.1294123,1
+4432,4433,1,Sub-Symbolic Semantic Layer in Cyc for Intuitive Chat-Bots,/doi/10.1109/ICSC.2007.95,1
+4433,4434,1,Latent semantic description of iconic scenes,/doi/10.1007/11565123_52,1
+4434,4435,1,A conversational agent based on a conceptual interpretation of a data driven semantic space,/doi/10.1007/11558590_39,1
+4435,4436,2,Francesco Agostaro,/profile/81100181265,2
+4436,4437,1,Learning path generation by domain ontology transformation,/doi/10.1007/11558590_37,1
+4437,4438,2,Giuseppe Russo,/profile/81310490306,2
+4438,4439,1,A Sub-Symbolic Approach to Word Modelling for Domain Specific Speech Recognition,/doi/10.1109/CAMP.2005.8,1
+4439,4440,1,A geometric approach to automatic description of iconic scenes,/doi/10.1007/11504894_43,1
+4440,4441,1,Discovering learning paths on a domain ontology using natural language interaction,/doi/10.1007/11504894_42,1
+4441,4442,2,Massimo Cossentino,/profile/81100062415,1
+4442,4443,1,Application of Eαnets to feature recognition of articulation manner in knowledge-based automatic speech recognition,/doi/10.1007/11731177_21,1
+4443,4444,2,Sabato M. Siniscalchi,/profile/81322506392,1
+4444,4445,2,Jinyu Li,/profile/81493656542,1
+4445,4446,2,Mark A. Clements,/profile/81501662304,1
+4446,4447,2,Filippo Sorbello,/profile/81100450397,1
+4447,4448,1,Automatic dictionary creation by sub-symbolic encoding of words,/doi/10.1007/11731177_17,1
+4448,4449,2,Ignazio Motisi,/profile/81493659816,1
+4449,4450,1,Cache-efficient sweeping-based interval joins for extended Allen relation predicates,/doi/10.1007/s00778-020-00650-5,2
+4450,4451,2,Danila Piatov,/profile/99660107303,4
+4451,4452,2,Sven Helmer,/profile/81340489647,8
+4452,4453,2,Anton Dignös,/profile/81502810495,23
+4453,4454,1,How to Exploit Recommender Systems in Social Media,/doi/10.1109/IRI.2018.00085,1
+4454,4455,2,Daniela D'Auria,/profile/99658664986,6
+4455,4456,1,Recognizing human behaviours in online social networks,/doi/10.1016/j.cose.2017.06.002,1
+4456,4457,2,Aniello Castiglione,/profile/81548040797,1
+4457,4458,2,Aniello De Santo,/profile/99658633773,3
+4458,4459,2,Giancarlo Sperl,/profile/99659268608,1
+4459,4460,1,An Interactive Framework for Video Surveillance Event Detection and Modeling,/doi/10.1145/3132847.3133164,1
+4460,4461,2,Fabio Bettini,/profile/99659218348,1
+4461,4462,1,A Collaborative Robotic Cyber Physical System for Surgery Applications,/doi/10.1109/IRI.2017.84,1
+4462,4463,1,A Survey of Online Social Networks: Challenges and Opportunities,/doi/10.1109/IRI.2017.74,1
+4463,4464,1,"ISEQL, an Interval-based Surveillance Event Query Language",/doi/10.4018/IJMDEM.2016100101,1
+4464,4465,1,An Event Detection Framework Supported by a Smart Graphical User Interface,/doi/10.1109/IRI.2016.72,1
+4465,4466,1,A Distributed Framework for Event Detection in Video Surveillance Context,/doi/10.1109/3PGCIC.2015.113,1
+4466,4467,1,A Low-Cost Haptic System for Wrist Rehabilitation,/doi/10.1109/IRI.2015.81,1
+4467,4468,2,Bruno Siciliano,/profile/81100304899,1
+4468,4469,1,A Novel Approach to Query Expansion based on Semantic Similarity Measures,/doi/10.5220/0005579703440353,1
+4469,4470,2,Francesco Gargiulo,/profile/81388596826,3
+4470,4471,1,Discovering Expected Activities in Medical Context Scientific Databases,/doi/10.5220/0005146504460453,1
+4471,4472,1,Detecting Unexplained Human Behaviors in Social Networks,/doi/10.1109/ICSC.2014.21,1
+4472,4473,1,Discovering the Top-k Unexplained Sequences in Time-Stamped Observation Data,/doi/10.1109/TKDE.2013.33,1
+4473,4474,2,Massimiliano Albanese,/profile/81100039060,6
+4474,4475,2,Cristian Molinaro,/profile/81350577582,1
+4475,4476,2,V. S. Subrahmanian,/profile/81314485824,1
+4476,4477,1,PSIS: Parallel Semantic Indexing System - Preliminary Experiments,/doi/10.1007/978-3-319-03889-6_15,1
+4477,4478,1,A Multimedia Recommender System,/doi/10.1145/2532640,1
+4478,4479,2,Antonio d’Acierno,/profile/84459624557,1
+4479,4480,1,An RDF-Based Framework for Semantic Indexing of Web Pages,/doi/10.1109/ICSC.2013.76,1
+4480,4481,1,iWIN: A Summarizer System Based on a Semantic Analysis of Web Documents,/doi/10.1109/ICSC.2012.13,1
+4481,4482,2,Antonio d'Acierno,/profile/81100640030,6
+4482,4483,2,Antonio Penta,/profile/81474673961,2
+4483,4484,1,A Novel Strategy for Recommending Multimedia Objects and its Application in the Cultural Heritage Domain,/doi/10.4018/jmdem.2011100101,1
+4484,4485,1,A Multimedia Semantic Recommender System for Cultural Heritage Applications,/doi/10.1109/ICSC.2011.47,1
+4485,4486,1,Modeling recommendation as a social choice problem,/doi/10.1145/1864708.1864779,1
+4486,4487,1,Semantic Summarization of Web Documents,/doi/10.1109/ICSC.2010.28,1
+4487,4488,1,A ranking method for multimedia recommenders,/doi/10.1145/1816041.1816087,1
+4488,4489,1,A System for Automatic Image Categorization,/doi/10.1109/ICSC.2009.25,1
+4489,4490,2,Antonio Penta,/profile/81317498694,1
+4490,4491,1,Interactive and space-efficient multi-dimensional time series subsequence matching,/doi/10.1016/j.is.2018.08.002,2
+4491,4492,2,Johann Gamper,/profile/81100583489,96
+4492,4493,1,Indexing Temporal Relations for Range-Duration Queries,/doi/10.1145/3603719.3603732,2
+4493,4494,2,Matteo Ceccarello,/profile/81550734056,24
+4494,4495,2,Christina Khnaisser,/profile/99660567378,3
+4495,4496,1,A New Primitive for Processing Temporal Joins,/doi/10.1145/3609956.3609968,1
+4496,4497,2,Meghdad Mirabi,/profile/81502656047,1
+4497,4498,2,Leila Fathi,/profile/81759038057,1
+4498,4499,2,Carsten Binnig,/profile/81314493678,1
+4499,4500,1,CAVE: Correcting Attribute Values in E-commerce Profiles,/doi/10.1145/3511808.3557161,1
+4500,4501,2,Kassem Sabeh,/profile/99660598704,1
+4501,4502,2,Mouna Kacimi,/profile/81300388501,3
+4502,4503,1,What’s New in Temporal Databases?,/doi/10.1007/978-3-031-15740-0_5,2
+4503,4504,1,Querying Temporal Anomalies in Healthcare Information Systems and Beyond,/doi/10.1007/978-3-031-15740-0_16,1
+4504,4505,2,Hind Hamrouni,/profile/99659048852,1
+4505,4506,2,David B. Blumenthal,/profile/99659321894,7
+4506,4507,1,Fast and Scalable Mining of Time Series Motifs with Probabilistic Guarantees,/doi/10.14778/3565838.3565840,2
+4507,4508,1,Enumerating dissimilar minimum cost perfect and error-correcting bipartite matchings for robust data matching,/doi/10.1016/j.ins.2022.03.017,1
+4508,4509,2,Sébastien Bougleux,/profile/81503667082,4
+4509,4510,1,Leveraging range joins for the computation of overlap joins,/doi/10.1007/s00778-021-00692-3,1
+4510,4511,2,Michael H. Böhlen,/profile/81406594287,61
+4511,4512,2,Christian S. Jensen,/profile/81331495182,21
+4512,4513,2,Peter Moser,/profile/99660115509,1
+4513,4514,1,Processing Temporal and Time Series Data: Present State and Future Challenges,/doi/10.1007/978-3-030-54832-2_2,1
+4514,4515,1,HotPeriods: Visual Correlation Analysis of Interval Data,/doi/10.1145/3340964.3340989,1
+4515,4516,2,Necati Duran,/profile/99659459715,1
+4516,4517,2,Giovanni Mahlknecht,/profile/99659177476,2
+4517,4518,1,Period Index: A Learned 2D Hash Index for Range and Duration Queries,/doi/10.1145/3340964.3340965,1
+4518,4519,2,Andreas Behrend,/profile/81100021094,1
+4519,4520,2,Philip Schmiegelt,/profile/81472655873,1
+4520,4521,2,Hannes Voigt,/profile/81435604533,1
+4521,4522,2,Matthias Rottmann,/profile/99658984218,1
+4522,4523,2,Karsten Kahl,/profile/81492642026,1
+4523,4524,1,Comparing heuristics for graph edit distance computation,/doi/10.1007/s00778-019-00544-1,1
+4524,4525,2,Nicolas Boria,/profile/99659949940,1
+4525,4526,2,Luc Brun,/profile/81100362550,3
+4526,4527,1,GEDLIB: A C++ Library for Graph Edit Distance Computation,/doi/10.1007/978-3-030-20081-7_2,1
+4527,4528,1,Sparse prefix sums: Constant-time range sum queries over sparse multidimensional data cubes,/doi/10.1016/j.is.2018.06.009,1
+4528,4529,2,Michael Shekelyan,/profile/99659198660,2
+4529,4530,1,Snapshot semantics for temporal multiset relations,/doi/10.14778/3311880.3311882,1
+4530,4531,2,Boris Glavic,/profile/81384603130,1
+4531,4532,2,Xing Niu,/profile/99658738060,1
+4532,4533,1,Finding k-dissimilar paths with minimum collective length,/doi/10.1145/3274895.3274903,1
+4533,4534,2,Panagiotis Bouros,/profile/81381595891,2
+4534,4535,2,Ulf Leser,/profile/81100520165,3
+4535,4536,1,Ring Based Approximation of Graph Edit Distance,/doi/10.1007/978-3-319-97785-0_28,1
+4536,4537,1,DigitHist: a histogram-based data summary with tight error bounds,/doi/10.14778/3137628.3137658,1
+4537,4538,1,VISOR: Visualizing Summaries of Ordered Data,/doi/10.1145/3085504.3091115,1
+4538,4539,1,Computing Isochrones in Multimodal Spatial Networks using Tile Regions,/doi/10.1145/3085504.3085538,1
+4539,4540,2,Nikolaus Krismer,/profile/99659082523,1
+4540,4541,2,Doris Silbernagl,/profile/99659081544,1
+4541,4542,2,Günther Specht,/profile/81100487159,1
+4542,4543,1,Exact Computation of Graph Edit Distance for Uniform and Non-uniform Metric Edit Costs,/doi/10.1007/978-3-319-58961-9_19,1
+4543,4544,1,Extending the Kernel of a Relational DBMS with Comprehensive Support for Sequenced Temporal Queries,/doi/10.1145/2967608,1
+4544,4545,1,MoTrIS: a framework for route planning on multimodal transportation networks,/doi/10.1145/2996913.2997007,1
+4545,4546,2,Roberto Cavaliere,/profile/99659111350,1
+4546,4547,2,Patrick Ohnewein,/profile/99659109646,1
+4547,4548,1,Fast Sampling-Based Whole-Genome Haplotype Block Recognition,/doi/10.1109/TCBB.2015.2456897,1
+4548,4549,2,Daniel Taliun,/profile/81496688749,1
+4549,4550,2,Cristian Pattaro,/profile/81375619808,1
+4550,4551,1,Alternative routing: k-shortest paths with limited overlap,/doi/10.1145/2820783.2820858,1
+4551,4552,1,Efficient itinerary planning with category constraints,/doi/10.1145/2666310.2666411,1
+4552,4553,2,Paolo Bolzoni,/profile/99658687707,1
+4553,4554,2,Kevin Wellenzohn,/profile/99658683224,1
+4554,4555,2,Periklis Andritsos,/profile/81100588029,3
+4555,4556,1,Overlap interval partition join,/doi/10.1145/2588555.2612175,1
+4556,4557,1,Efficient Evaluation of Ad-Hoc Range Aggregates,/doi/10.1007/978-3-642-40131-2_5,1
+4557,4558,2,Christian Ammendola,/profile/99658709705,1
+4558,4559,1,Query time scaling of attribute values in interval timestamped databases,/doi/10.1109/ICDE.2013.6544930,1
+4559,4560,1,ISOGA: a system for geographical reachability analysis,/doi/10.1007/978-3-642-37087-8_13,1
+4560,4561,2,Markus Innerebner,/profile/81343495544,3
+4561,4562,1,MOUNA: mining opinions to unveil neglected arguments,/doi/10.1145/2396761.2398739,1
+4562,4563,1,Individualized Hiking Time Estimation,/doi/10.1109/DEXA.2012.51,1
+4563,4564,2,Arthur Pitman,/profile/81479648939,1
+4564,4565,2,Markus Zanker,/profile/81100541409,1
+4565,4566,1,Efficient event pattern matching with match windows,/doi/10.1145/2339530.2339607,1
+4566,4567,2,Bruno Cadonna,/profile/81482660386,2
+4567,4568,1,Windowed pq-grams for approximate joins of data-centric XML,/doi/10.1007/s00778-011-0254-6,1
+4568,4569,2,Nikolaus Augsten,/profile/81414609167,9
+4569,4570,2,Curtis Dyreson,/profile/81100452755,5
+4570,4571,1,Scalable computation of isochrones with network expiration,/doi/10.1007/978-3-642-31235-9_35,1
+4571,4572,1,Parsimonious temporal aggregation,/doi/10.1007/s00778-011-0243-9,1
+4572,4573,2,Juozas Gordevičius,/profile/81414595853,10
+4573,4574,1,Temporal alignment,/doi/10.1145/2213836.2213886,1
+4574,4575,1,Defining isochrones in multimodal spatial networks,/doi/10.1145/2063576.2063972,1
+4575,4576,2,Willi Cometti,/profile/81490690552,1
+4576,4577,1,Diversifying search results of controversial queries,/doi/10.1145/2063576.2063594,1
+4577,4578,1,Sequenced spatiotemporal aggregation for coarse query granularities,/doi/10.1007/s00778-011-0247-5,1
+4578,4579,2,Igor Timko,/profile/81100408860,9
+4579,4580,1,θ-Constrained multi-dimensional aggregation,/doi/10.1016/j.is.2010.07.005,1
+4580,4581,2,Michael Akinde,/profile/81100578139,1
+4581,4582,2,Damianos Chatziantoniou,/profile/81100127352,1
+4582,4583,1,Sequenced event set pattern matching,/doi/10.1145/1951365.1951372,1
+4583,4584,1,Ranking of evolving stories through meta-aggregation,/doi/10.1145/1871437.1871761,1
+4584,4585,2,Francisco J. Estrada,/profile/81100413299,1
+4585,4586,2,Hyun Chul Lee,/profile/99659613591,1
+4586,4587,1,Evaluating Exceptions on Time Slices,/doi/10.1007/978-3-642-04840-1_20,4
+4587,4588,2,Romans Kasperovics,/profile/81375618366,8
+4588,4589,1,Parsimonious temporal aggregation,/doi/10.1145/1516360.1516475,4
+4589,4590,1,Sequenced spatio-temporal aggregation in road networks,/doi/10.1145/1516360.1516368,4
+4590,4591,1,"Computing isochrones in multi-modal, schedule-based transport networks",/doi/10.1145/1463434.1463524,4
+4591,4592,2,Veronika Bauer,/profile/99661203507,4
+4592,4593,2,Roberto Loperfido,/profile/81435607035,4
+4593,4594,2,Sylvia Profanter,/profile/81435601032,4
+4594,4595,2,Stefan Putzer,/profile/81435596846,4
+4595,4596,1,Towards General Temporal Aggregation,/doi/10.1007/978-3-540-70504-8_27,4
+4596,4597,1,Representing Public Transport Schedules as Repeating Trips,/doi/10.1109/TIME.2008.26,4
+4597,4598,1,A Greedy Approach Towards Parsimonious Temporal Aggregation,/doi/10.1109/TIME.2008.24,4
+4598,4599,1,Approximate Joins for Data-Centric XML,/doi/10.1109/ICDE.2008.4497490,4
+4599,4600,1,The pq-gram distance between ordered labeled trees,/doi/10.1145/1670243.1670247,4
+4600,4601,1,How Would You Like to Aggregate Your Temporal Data?,/doi/10.1109/TIME.2006.17,4
+4601,4602,1,Multi-dimensional aggregation for temporal data,/doi/10.1007/11687238_18,4
+4602,4603,1,An algebraic framework for temporal attribute characteristics,/doi/10.1007/s10472-006-9022-5,4
+4603,4604,1,Fast and Accurate Fair k-Center Clustering in Doubling Metrics,/doi/10.1145/3589334.3645568,2
+4604,4605,2,Andrea Pietracaprina,/profile/81100576822,50
+4605,4606,2,Geppino Pucci,/profile/81100245526,47
+4606,4607,1,Solving k-Closest Pairs in High-Dimensional Data,/doi/10.1007/978-3-031-46994-7_17,1
+4607,4608,2,Martin Aumüller,/profile/81100259385,3
+4608,4609,1,Running Experiments with Confidence and Sanity,/doi/10.1007/978-3-030-60936-8_31,1
+4609,4610,1,A General Coreset-Based Approach to Diversity Maximization under Matroid Constraints,/doi/10.1145/3402448,2
+4610,4611,1,The Role of Local Intrinsic Dimensionality in Benchmarking Nearest Neighbor Search,/doi/10.1007/978-3-030-32047-8_11,1
+4611,4612,1,FRESH: Fréchet Similarity with Hashing,/doi/10.1007/978-3-030-24766-9_19,1
+4612,4613,2,Anne Driemel,/profile/81464673273,1
+4613,4614,2,Francesco Silvestri,/profile/81430593035,7
+4614,4615,1,"Solving k-center clustering (with outliers) in MapReduce and streaming, almost as accurately as sequentially",/doi/10.14778/3317315.3317319,2
+4615,4616,1,Fast Coreset-based Diversity Maximization under Matroid Constraints,/doi/10.1145/3159652.3159719,2
+4616,4617,1,MapReduce and streaming algorithms for diversity maximization in metric spaces of bounded doubling dimension,/doi/10.14778/3055540.3055541,2
+4617,4618,2,Eli Upfal,/profile/81339533412,9
+4618,4619,1,"Space and Time Efficient Parallel Graph Decomposition, Clustering, and Diameter Approximation",/doi/10.1145/2755573.2755591,2
+4619,4620,1,Automated generation of model classes for Java PathFinder,/doi/10.1145/2557833.2560572,1
+4620,4621,2,Oksana Tkachuk,/profile/81100360573,1
+4621,4622,1,Tools to generate and check consistency of model classes for Java PathFinder,/doi/10.1145/2382756.2382796,1
+4622,4623,2,Nastaran Shafiei,/profile/81551049256,1
+4623,4624,1,Distributed k-Means with Outliers in General Metrics,/doi/10.1007/978-3-031-39698-4_32,2
+4624,4625,2,Enrico Dandolo,/profile/99661011131,2
+4625,4626,1,Fully Dynamic Clustering and Diversity Maximization in Doubling Metrics,/doi/10.1007/978-3-031-38906-1_41,2
+4626,4627,2,Paolo Pellizzoni,/profile/99660984488,2
+4627,4628,1,A new scheme for the deterministic simulation of PRAMs in VLSI,/doi/10.1007/BF01840402,2
+4628,4629,2,F. Luccio,/profile/99660762905,2
+4629,4630,1,Network-Oblivious Algorithms,/doi/10.1145/2812804,2
+4630,4631,2,Gianfranco Bilardi,/profile/81100228925,54
+4631,4632,2,Michele Scquizzato,/profile/81474697970,4
+4632,4633,1,On the complexity of the shortest-path broadcast problem,/doi/10.1016/j.dam.2015.05.004,1
+4633,4634,2,Pierluigi Crescenzi,/profile/81100450048,1
+4634,4635,2,Pierre Fraigniaud,/profile/81100344705,1
+4635,4636,2,Magnus Halldórsson,/profile/81100394927,1
+4636,4637,2,Hovhannes A. Harutyunyan,/profile/81100354635,1
+4637,4638,2,Chiara Pierucci,/profile/99658957648,1
+4638,4639,1,Heterogeneous machine learning system for improving the diagnosis of primary aldosteronism,/doi/10.1016/j.patrec.2015.07.023,1
+4639,4640,2,Nicola Lazzarini,/profile/99658719980,1
+4640,4641,2,Loris Nanni,/profile/81100522683,1
+4641,4642,2,Carlo Fantozzi,/profile/81100557008,2
+4642,4643,2,Teresa Maria Seccia,/profile/99658751491,1
+4643,4644,2,Gian Paolo Rossi,/profile/99658749915,1
+4644,4645,1,Space-efficient parallel algorithms for combinatorial search problems,/doi/10.1016/j.jpdc.2014.09.007,1
+4645,4646,2,F. Vandin,/profile/81436602702,4
+4646,4647,1,On the Expansion and Diameter of Bluetooth-Like Topologies,/doi/10.1007/s00224-012-9390-7,1
+4647,4648,2,Alberto Pettarin,/profile/81474695612,2
+4648,4649,1,Space-round tradeoffs for MapReduce computations,/doi/10.1145/2304576.2304607,1
+4649,4650,2,Matteo Riondato,/profile/81467665989,2
+4650,4651,1,An Efficient Rigorous Approach for Identifying Statistically Significant Frequent Itemsets,/doi/10.1145/2220357.2220359,1
+4651,4652,2,Adam Kirsch,/profile/81100151691,2
+4652,4653,2,Michael Mitzenmacher,/profile/81100154521,2
+4653,4654,1,Tight bounds on information dissemination in sparse mobile networks,/doi/10.1145/1993806.1993882,1
+4654,4655,1,Mining top-K frequent itemsets through progressive sampling,/doi/10.1007/s10618-010-0185-7,1
+4655,4656,1,Introduction,/doi/10.1007/978-3-642-03869-3_90,1
+4656,4657,2,Rob Bisseling,/profile/81100336775,1
+4657,4658,2,Emmanuelle Lebhar,/profile/81442600594,1
+4658,4659,2,Alexander Tiskin,/profile/81100113429,1
+4659,4660,1,An efficient rigorous approach for identifying statistically significant frequent itemsets,/doi/10.1145/1559795.1559814,1
+4660,4661,1,Preface,/doi/10.1016/j.tcs.2008.08.001,1
+4661,4662,2,Nancy M. Amato,/profile/81100431673,1
+4662,4663,2,Der-Tsai Lee,/profile/81100397910,1
+4663,4664,2,Roberto Tamassia,/profile/81100005178,1
+4664,4665,1,Session details: Broadcasting in networks,/doi/10.1145/3246979,1
+4665,4666,1,Store-and-Forward Multicast Routing on the Mesh,/doi/10.1007/s00224-007-9008-7,1
+4666,4667,2,Kieran T. Herley,/profile/81100273137,11
+4667,4668,1,Obtaining Performance Measures through Microbenchmarking in a Peer-to-Peer Overlay Computer,/doi/10.1109/CISIS.2007.41,1
+4668,4669,2,Paolo Bertasi,/profile/81330488183,1
+4669,4670,2,Mauro Bianco,/profile/99659061018,1
+4670,4671,1,Translating submachine locality into locality of reference,/doi/10.1016/j.jpdc.2005.06.008,1
+4671,4672,1,The potential of on-chip multiprocessing for QCD machines,/doi/10.1007/11602569_41,2
+4672,4673,2,Fabio Schifano,/profile/81100619879,2
+4673,4674,2,Raffaele Tripiccione,/profile/81100022639,2
+4674,4675,1,Topic 12 theory and algorithms for parallel computation,/doi/10.1007/11549468_101,1
+4675,4676,2,Christos Zaroliagis,/profile/81100121089,1
+4676,4677,2,Casiano Rodriguez-Leon,/profile/81100489619,1
+4677,4678,1,On stalling in LogP,/doi/10.1016/j.jpdc.2004.10.002,2
+4678,4679,1,Optimal deterministic protocols for mobile robots on a grid,/doi/10.1006/inco.2000.3004,1
+4679,4680,2,Roberto Grossi,/profile/81100592374,1
+4680,4681,1,Deterministic parallel backtrack search,/doi/10.1016/S0304-3975%2800%2900386-8,1
+4681,4682,1,One-to-Many routing on the mesh,/doi/10.1145/378580.378585,1
+4682,4683,1,Implementing Shared Memory on Mesh-Connected Computers and on the Fat-Tree,/doi/10.1006/inco.2000.3006,1
+4683,4684,1,"Constructive, Deterministic Implementation of Shared Memory on Meshes",/doi/10.1137/S009753979732712X,1
+4684,4685,2,Jop F. Sibeyn,/profile/81100047361,2
+4685,4686,1,BSP vs LogP,/doi/10.1145/237502.237504,2
+4686,4687,2,Paul Spirakis,/profile/81100455984,2
+4687,4688,1,Constructive deterministic PRAM simulation on a mesh-connected computer,/doi/10.1145/181014.181388,1
+4688,4689,1,A practical constructive scheme for deterministic shared-memory access,/doi/10.1145/165231.165245,1
+4689,4690,2,F. P. Preparata,/profile/81100433169,12
+4690,4691,1,Analysis of parallel uniform hashing,/doi/10.1016/0020-0190%2891%2990135-5,1
+4691,4692,2,Fabrizio Luccio,/profile/81341493524,1
+4692,4693,1,Derivative grammars: a symbolic approach to parsing with derivatives,/doi/10.1145/3360553,2
+4693,4694,2,Ian Henriksen,/profile/99659471285,4
+4694,4695,2,Keshav Pingali,/profile/81100554731,11
+4695,4696,1,Bounds and Estimates on the Average Edit Distance,/doi/10.1007/978-3-030-32686-9_7,1
+4696,4697,2,Michele Schimd,/profile/99660040656,1
+4697,4698,1,A Lower Bound Technique for Communication in BSP,/doi/10.1145/3181776,1
+4698,4699,1,Optimal On-Line Computation of Stack Distances for MIN and OPT,/doi/10.1145/3075564.3075571,1
+4699,4700,2,Kattamuri Ekanadham,/profile/81100347980,7
+4700,4701,2,Pratap Pattnaik,/profile/81100326114,7
+4701,4702,1,Optimal eviction policies for stochastic address traces,/doi/10.1016/j.tcs.2013.01.016,1
+4702,4703,2,Francesco Versaci,/profile/81485655912,1
+4703,4704,1,A lower bound technique for communication on BSP with application to the FFT,/doi/10.1007/978-3-642-32820-6_67,1
+4704,4705,1,Efficient stack distance computation for priority replacement policies,/doi/10.1145/2016604.2016607,1
+4705,4706,1,Session details: Keynote,/doi/10.1145/3251918,1
+4706,4707,1,On approximating the ideal random access machine by physical machines,/doi/10.1145/1552285.1552288,1
+4707,4708,1,Area-time tradeoffs for universal VLSI circuits,/doi/10.1016/j.tcs.2008.08.005,1
+4708,4709,2,Sandeep N. Bhatt,/profile/81100483268,3
+4709,4710,1,Session details: Keynote II,/doi/10.1145/3260578,1
+4710,4711,1,Models for parallel and hierarchical computation,/doi/10.1145/1242531.1242533,1
+4711,4712,1,The Speculative Prefetcher and Evaluator Processor for Pipelined Memory Hierarchies,/doi/10.1109/IWIAS.2006.38,1
+4712,4713,1,An Address Dependence Model of Computation for Hierarchical Memories with Pipelined Transfer,/doi/10.1109/IPDPS.2005.85,1
+4713,4714,1,Preface,/doi/10.1016/S0196-6774%2803%2900084-1,1
+4714,4715,2,Giuseppe F. Italiano,/profile/81100203365,1
+4715,4716,1,Algorithms for computing the static single assignment form,/doi/10.1145/765568.765573,1
+4716,4717,1,Optimal organizations for pipelined hierarchical memories,/doi/10.1145/564870.564886,1
+4717,4718,1,Computational power of pipelined memory hierarchies,/doi/10.1145/378580.378615,1
+4718,4719,1,Tight Bounds on Parallel List Marking,/doi/10.1006/jpdc.1998.1447,1
+4719,4720,2,Abhiram Ranade,/profile/81100300222,2
+4720,4721,1,"Processor--Time Tradeoffs under Bounded-Speed Message Propagation: Part I, Upper Bounds",/doi/10.1007/s002240000066,1
+4721,4722,1,Optimal control dependence computation and the Roman chariots problem,/doi/10.1145/256167.256217,1
+4722,4723,1,On Bufferless Routing of Variable Length Messages in Leveled Networks,/doi/10.1109/12.506427,1
+4723,4724,2,Arnold L. Rosenberg,/profile/81100493202,1
+4724,4725,2,Eric J. Schwabe,/profile/81100468335,1
+4725,4726,1,A framework for generalized control dependence,/doi/10.1145/231379.231435,1
+4726,4727,1,Upper bounds to processor-time tradeoffs under bounded-speed message propagation,/doi/10.1145/215399.215443,1
+4727,4728,1,APT: a data structure for optimal control dependence computation,/doi/10.1145/207110.207114,1
+4728,4729,1,Horizons of parallel computation,/doi/10.1006/jpdc.1995.1080,1
+4729,4730,1,Deterministic on-line routing on area-universal networks,/doi/10.1145/210346.210417,1
+4730,4731,2,Paul Bay,/profile/81100311919,2
+4731,4732,1,Language learning without overgeneralization,/doi/10.1016/0304-3975%2894%2900075-T,1
+4732,4733,2,Shyam Kapur,/profile/81100425938,3
+4733,4734,1,A lower bound for area-universal graphs,/doi/10.1016/0020-0190%2894%2900070-0,1
+4734,4735,2,Shiva Chaudhuri,/profile/81100352752,1
+4735,4736,2,Devdatt Dubhashi,/profile/81100122766,1
+4736,4737,2,K. Mehlhorn,/profile/81100071935,1
+4737,4738,1,Deterministic Simulations of Prams on Bounded Degree Networks,/doi/10.1137/S0097539789164765,1
+4738,4739,1,On uniform learnability of language families,/doi/10.1016/0020-0190%2892%2990252-Q,1
+4739,4740,1,Language learning from stochastic input,/doi/10.1145/130385.130419,1
+4740,4741,1,Optimal VLSI architectures for multidimensional DFT (preliminary version),/doi/10.1145/121956.121961,1
+4741,4742,2,Scot W. Hornick,/profile/81332504783,2
+4742,4743,2,Majid Sarrafzadeh,/profile/81100210239,2
+4743,4744,1,Deterministic on-line routing on area-universal networks,/doi/10.1109/FSCS.1990.89548,1
+4744,4745,1,Characterization of associative operations with prefix circuits of constant depth and linear size,/doi/10.1137/0219016,1
+4745,4746,1,Size-time complexity of Boolean networks for prefix computations,/doi/10.1145/62044.62052,1
+4746,4747,1,Adaptive bitonic sorting: an optimal parallel algorithm for shared-memory machines,/doi/10.1137/0218014,1
+4747,4748,2,Alexandru Nicolau,/profile/81100139899,1
+4748,4749,1,Optimal VLSI architectures for multidimensional DFT,/doi/10.1145/72935.72963,1
+4749,4750,1,Size-time complexity of Boolean networks for prefix computations,/doi/10.1145/28395.28442,1
+4750,4751,1,Area-time lower-bound techniques with applications to sorting,/doi/10.1007/BF01840437,1
+4751,4752,1,Mean value of the output of a discrete-time volterra system driven by a Markov chain,/doi/10.1109/TIT.1985.1057117,1
+4752,4753,2,Gianfranco L. Cariolardo,/profile/81100146007,1
+4753,4754,2,Robert Chisti,/profile/81100236030,1
+4754,4755,1,A minimum area VLSI network for O(log n) time sorting,/doi/10.1109/TC.1985.5009384,1
+4755,4756,1,The VLSI optimality of the AKS sorting network,/doi/10.1016/0020-0190%2885%2990062-6,1
+4756,4757,1,A minimum area VLSI network for O(logn) time sorting,/doi/10.1145/800057.808666,1
+4757,4758,1,An Architecture for Bitonic Sorting with Optimal VLSI Performnance,/doi/10.1109/TC.1984.5009338,1
+4758,4759,1,Parallel graph-grammar-based algorithm for the longest-edge refinement of triangular meshes and the pollution simulations in Lesser Poland area,/doi/10.1007/s00366-020-01253-y,2
+4759,4760,2,Krzysztof Podsiadło,/profile/99659985253,6
+4760,4761,2,Albert Oliver Serra,/profile/99660105477,2
+4761,4762,2,Anna Paszyńska,/profile/81100275053,4
+4762,4763,2,Rafael Montenegro,/profile/81100500402,2
+4763,4764,2,Maciej Paszyński,/profile/81384612032,9
+4764,4765,1,A Massively Parallel Algorithm for the Three-Dimensional Navier-Stokes-Boussinesq Simulations of the Atmospheric Phenomena,/doi/10.1007/978-3-030-50371-0_8,2
+4765,4766,2,Leszek Siwik,/profile/81384616939,25
+4766,4767,2,Peter Minev,/profile/81100437299,2
+4767,4768,1,An Algorithm for Tensor Product Approximation of Three-Dimensional Material Data for Implicit Dynamics Simulations,/doi/10.1007/978-3-319-93701-4_12,2
+4768,4769,2,Marcin Łoś,/profile/99659179721,8
+4769,4770,2,Maciej Woźniak,/profile/99660010445,3
+4770,4771,1,Tuning three-dimensional tumor progression simulations on a cluster of GPGPUs,/doi/10.1016/j.cam.2022.114308,2
+4771,4772,2,Adrian Kłusek,/profile/99659086046,10
+4772,4773,2,Witold Dzwinel,/profile/81100642332,7
+4773,4774,1,"Supermodeling, a convergent data assimilation meta-procedure used in simulation of tumor progression",/doi/10.1016/j.camwa.2022.03.025,1
+4774,4775,1,Supermodeling in predictive diagnostics of cancer under treatment,/doi/10.1016/j.compbiomed.2021.104797,2
+4775,4776,1,Supermodeling - A Meta-procedure for Data Assimilation and Parameters Estimation,/doi/10.1007/978-3-030-77964-1_28,1
+4776,4777,1,Fast and green parallel isogeometric analysis computations for multi-objective optimization of liquid fossil fuel reserve exploitation with minimal groundwater contamination,/doi/10.1016/j.jpdc.2019.06.010,1
+4777,4778,1,Hybridization of Isogeometric Finite Element Method and Evolutionary Multi-agent System as a Tool-set for Multiobjective Optimization of Liquid Fossil Fuel Reserves Exploitation with Minimizing Groundwater Contamination,/doi/10.1016/j.procs.2016.05.369,1
+4778,4779,2,Marek Kisiel-Dorohinicki,/profile/81100435929,4
+4779,4780,2,Aleksander Byrski,/profile/81384614164,8
+4780,4781,1,Agent-Based Evolutionary System for Traveling Salesman Problem,/doi/10.1007/978-3-642-02319-4_5,1
+4781,4782,2,Rafał Dreżewski,/profile/81384614781,9
+4782,4783,2,Piotr Woźniak,/profile/81100118851,1
+4783,4784,1,Multi-objective Optimization Technique Based on Co-evolutionary Interactions in Multi-agent System,/doi/10.1007/978-3-540-71805-5_20,1
+4784,4785,1,Agent-Based Environment for Knowledge Integration,/doi/10.1007/978-3-642-01973-9_98,1
+4785,4786,2,Anna Zygmunt,/profile/81436594396,1
+4786,4787,2,Jarosław Koźlak,/profile/81100572424,2
+4787,4788,1,Comparison of Multi-agent Co-operative Co-evolutionary and Evolutionary Algorithms for Multi-objective Portfolio Optimization,/doi/10.1007/978-3-642-01129-0_26,1
+4788,4789,2,Krystian Obrocki,/profile/81418599849,1
+4789,4790,1,Hierarchical Approach to Evolutionary Multi-Objective Optimization,/doi/10.1007/978-3-540-69389-5_82,1
+4790,4791,2,Eryk Ciepiela,/profile/81381598100,1
+4791,4792,2,Joanna Kocot,/profile/81375617630,1
+4792,4793,1,Generating Robust Investment Strategies with Agent-Based Co-evolutionary System,/doi/10.1007/978-3-540-69389-5_74,1
+4793,4794,2,Jan Sepielak,/profile/81384598435,1
+4794,4795,1,Selection of Efficient Production Management Strategies Using the Multi-agent Approach,/doi/10.1007/978-3-540-75254-7_45,1
+4795,4796,2,Jan Marszałek,/profile/81384617194,1
+4796,4797,2,Maciej Zygmunt,/profile/81461645632,1
+4797,4798,1,Techniques for Maintaining Population Diversity in Classical and Agent-Based Multi-objective Evolutionary Algorithms,/doi/10.1007/978-3-540-72586-2_126,1
+4798,4799,1,Co-evolutionary Multi-agent System with Predator-Prey Mechanism for Multi-objective Optimization,/doi/10.1007/978-3-540-71618-1_8,1
+4799,4800,1,Improving the Quality of the Pareto Frontier Approximation Obtained by Semi-elitist Evolutionary Multi-agent System Using Distributed and Decentralized Frontier Crowding Mechanism,/doi/10.1007/978-3-540-71618-1_16,1
+4800,4801,1,Agent-Based Co-Operative Co-Evolutionary Algorithm for Multi-Objective Optimization,/doi/10.1007/978-3-540-69731-2_38,1
+4801,4802,1,Multi-objective optimization using co-evolutionary multi-agent system with host-parasite mechanism,/doi/10.1007/11758532_113,1
+4802,4803,1,Semi-elitist evolutionary multi-agent system for multiobjective optimization,/doi/10.1007/11758532_108,1
+4803,4804,1,Effective Car Collision Detection with Mobile Phone Only,/doi/10.1007/978-3-030-77980-1_24,2
+4804,4805,2,Mateusz Paciorek,/profile/99659505974,11
+4805,4806,2,Piotr Wawryka,/profile/99659506868,4
+4806,4807,2,Michał Kosowski,/profile/81508705947,4
+4807,4808,2,Andrzej Piechowicz,/profile/99659507356,4
+4808,4809,2,Julia Plewa,/profile/99659507466,4
+4809,4810,2,Marek Powroźnik,/profile/99659507025,4
+4810,4811,2,Wojciech Wach,/profile/99660062531,2
+4811,4812,2,Bartosz Rakoczy,/profile/99660061791,2
+4812,4813,2,Marcin Kurdziel,/profile/81384615579,4
+4813,4814,2,Wojciech Turek,/profile/81384601262,12
+4814,4815,1,Active Safety for Individual and Connected Vehicles using Mobile Phone Only,/doi/10.1145/3365921.3365924,2
+4815,4816,2,Przemysław Kalawski,/profile/99659507385,2
+4816,4817,2,Michał Śledź,/profile/99659506241,2
+4817,4818,1,Efficient model of tumor dynamics simulated in multi-GPU environment,/doi/10.1177/1094342018816772,1
+4818,4819,2,Gabriele Mencagli,/profile/81416607295,1
+4819,4820,2,Felipe MG França,/profile/99659720765,1
+4820,4821,2,Cristiana Barbosa Bentes,/profile/81548008795,1
+4821,4822,2,Leandro Augusto Justen Marzulo,/profile/99659722231,1
+4822,4823,2,Mauricio Lima Pilla,/profile/99659703391,1
+4823,4824,2,Roman Wyrzykowski,/profile/81100516691,1
+4824,4825,2,Ewa Deelman,/profile/81100572004,1
+4825,4826,1,An implementation of the Social Distances Model using multi-GPU systems,/doi/10.1177/1094342016679492,1
+4826,4827,2,Paweł Topa,/profile/81100507378,1
+4827,4828,2,Jarosław Wąs,/profile/81309486790,1
+4828,4829,2,Robert Lubaś,/profile/99658683292,1
+4829,4830,1,Three New Design Patterns for Scalable Agent-Based Computing and Simulation,/doi/10.15388/24-INFOR555,2
+4830,4831,2,Mateusz Najdek,/profile/99660068133,6
+4831,4832,1,Distributed Architecture for Highly Scalable Urban Traffic Simulation,/doi/10.1007/978-3-031-08760-8_43,2
+4832,4833,2,Michał Zych,/profile/99660495899,2
+4833,4834,1,Agent-Based Modeling of Social Phenomena for High Performance Distributed Simulations,/doi/10.1007/978-3-030-77964-1_32,1
+4834,4835,1,Scalable Signal-Based Simulation of Autonomous Beings in Complex Environments,/doi/10.1007/978-3-030-50420-5_11,1
+4835,4836,2,Agata Bogacz,/profile/99660016121,1
+4836,4837,1,Hybrid Swarm and Agent-Based Evolutionary Optimization,/doi/10.1007/978-3-319-93701-4_7,1
+4837,4838,2,Leszek Placzkiewicz,/profile/99660480533,1
+4838,4839,2,Marcin Sendera,/profile/99660481579,1
+4839,4840,2,Adam Szlachta,/profile/99660481331,1
+4840,4841,2,Mateusz Godzik,/profile/99660012971,1
+4841,4842,1,Scaling Simulation of Continuous Urban Traffic Model for High Performance Computing System,/doi/10.1007/978-3-030-77961-0_22,2
+4842,4843,2,Hairuo Xie,/profile/81324495087,56
+4843,4844,1,Real-time Road Network Optimization with Coordinated Reinforcement Learning,/doi/10.1145/3603379,3
+4844,4845,2,Udesh Gunarathna,/profile/99660079966,18
+4845,4846,2,Egemen Tanin,/profile/81100316892,135
+4846,4847,2,Shanika Karunasekera,/profile/81100125530,41
+4847,4848,2,Renata Borovica-Gajic,/profile/81548007361,15
+4848,4849,1,Dynamic Straggler Mitigation for Large-Scale Spatial Simulations,/doi/10.1145/3578933,1
+4849,4850,2,Eman Bin Khunayn,/profile/99659232760,2
+4850,4851,2,Kotagiri Ramamohanarao,/profile/81100532239,29
+4851,4852,1,Concurrent optimization of safety and traffic flow using deep reinforcement learning for autonomous intersection management,/doi/10.1145/3557915.3561018,3
+4852,4853,2,Lakmal Muthugama,/profile/99659631875,6
+4853,4854,1,A simulation study on prioritizing connected freight vehicles at intersections for traffic flow optimization (industrial paper),/doi/10.1145/3557915.3560988,3
+4854,4855,2,Gilbert Oppy,/profile/99660646431,3
+4855,4856,2,Majid Sarvi,/profile/81502643203,5
+4856,4857,1,Optimizing crowdsourced delivery routes through concurrent selection of pickup stores and drivers,/doi/10.1145/3557991.3567781,2
+4857,4858,2,Oscar Correa,/profile/99659232701,6
+4858,4859,2,Lars Kulik,/profile/81100419795,60
+4859,4860,2,Arkady Zaslavsky,/profile/81100249021,2
+4860,4861,1,Real-time road safety optimization through network-level data management,/doi/10.1007/s10707-022-00473-2,2
+4861,4862,1,Managing Trajectories and Interactions During a Pandemic: A Trajectory Similarity-based Approach (Demo Paper),/doi/10.1145/3474717.3484206,2
+4862,4863,2,Edward Buckland,/profile/99659908423,2
+4863,4864,2,Nicholas Geard,/profile/81100435026,2
+4864,4865,2,Cameron Zachreson,/profile/99659909635,2
+4865,4866,2,Hanan Samet,/profile/81100139629,10
+4866,4867,1,Effective Traffic Forecasting with Multi-Resolution Learning,/doi/10.1145/3469830.3470904,2
+4867,4868,2,Abdullah Aldwyish,/profile/99658981856,6
+4868,4869,1,Route intersection reduction with connected autonomous vehicles,/doi/10.1007/s10707-020-00420-z,2
+4869,4870,2,Sadegh Motallebi,/profile/99659232677,7
+4870,4871,2,Jianzhong Qi,/profile/81490658396,14
+4871,4872,1,Tracking Group Movement in Location Based Social Networks,/doi/10.1145/3397536.3422211,2
+4872,4873,2,Sameera Kannangara,/profile/99658727193,4
+4873,4874,2,Aaron Harwood,/profile/81100430352,9
+4874,4875,1,Streaming route assignment with prior temporal traffic data,/doi/10.1145/3423457.3429369,2
+4875,4876,1,Real-Time Lane Configuration with Coordinated Reinforcement Learning,/doi/10.1007/978-3-030-67667-4_18,3
+4876,4877,2,Shanika Karunasekara,/profile/99660093625,3
+4877,4878,1,Quantifying the Impact of Autonomous Vehicles using Microscopic Simulations,/doi/10.1145/3357000.3366145,2
+4878,4879,2,Rui Zhang,/profile/81435596120,19
+4879,4880,1,Streaming Route Assignment for Connected Autonomous Vehicles (Systems Paper),/doi/10.1145/3347146.3359062,2
+4880,4881,1,Generating traffic data for any city using SMARTS simulator,/doi/10.1145/3355491.3355495,2
+4881,4882,1,Is Euclidean Distance Really that Bad with Road Networks?,/doi/10.1145/3283207.3283215,2
+4882,4883,2,Hua Hua,/profile/99659305047,3
+4883,4884,1,Studying transportation problems with the SMARTS simulator (demo paper),/doi/10.1145/3274895.3274939,2
+4884,4885,1,Exploiting Data Dependency to Mitigate Stragglers in Distributed Spatial Simulation,/doi/10.1145/3139958.3140018,1
+4885,4886,1,Using a Traffic Simulator for Navigation Service,/doi/10.1145/3139958.3139998,2
+4886,4887,1,SMARTS: Scalable Microscopic Adaptive Road Traffic Simulator,/doi/10.1145/2898363,2
+4887,4888,2,Eman Bin Khunayn,/profile/99659093235,2
+4888,4889,1,A Randomized Path Routing Algorithm for Decentralized Route Allocation in Transportation Networks,/doi/10.1145/2834882.2834886,2
+4889,4890,2,Uyen T. V. Nguyen,/profile/99659665610,2
+4890,4891,2,Haolan Zhang,/profile/81100120553,2
+4891,4892,1,Euler histogram tree: a spatial data structure for aggregate range queries on vehicle trajectories,/doi/10.1145/2674918.2674921,2
+4892,4893,2,Peter Scheuermann,/profile/81100099073,4
+4893,4894,2,Goce Trajcevski,/profile/81100539524,6
+4894,4895,2,Maryam Fanaeepour,/profile/81464673458,3
+4895,4896,1,Privacy-aware collection of aggregate spatial data,/doi/10.1016/j.datak.2011.03.007,2
+4896,4897,1,Privacy-aware traffic monitoring,/doi/10.1109/TITS.2009.2028872,2
+4897,4898,1,Distributed Histograms for Processing Aggregate Data from Moving Objects,/doi/10.1109/MDM.2007.30,2
+4898,4899,1,Browsing large online data tables using generalized query previews,/doi/10.1016/j.is.2005.12.006,2
+4899,4900,2,Ben Shneiderman,/profile/81100146468,4
+4900,4901,1,Dynamic graph combinatorial optimization with multi-attention deep reinforcement learning,/doi/10.1145/3557915.3560956,2
+4901,4902,1,e-SMARTS: a system to simulate intelligent traffic management solutions (demo paper),/doi/10.1145/3557915.3560955,2
+4902,4903,1,Real-Time Intelligent Autonomous Intersection Management Using Reinforcement Learning,/doi/10.1109/IV51971.2022.9827188,2
+4903,4904,1,Mobility Data Science: Perspectives and Challenges,/doi/10.1145/3652158,2
+4904,4905,2,Mahmoud Sakr,/profile/81464641518,17
+4905,4906,2,Li Xiong,/profile/83358861657,2
+4906,4907,2,Andreas Züfle,/profile/81414621004,2
+4907,4908,2,Jussara Almeida,/profile/81100613403,2
+4908,4909,2,Taylor Anderson,/profile/99659599202,2
+4909,4910,2,Walid Aref,/profile/81100086855,2
+4910,4911,2,Gennady Andrienko,/profile/81100123116,3
+4911,4912,2,Natalia Andrienko,/profile/81350596019,3
+4912,4913,2,Yang Cao,/profile/99659199398,2
+4913,4914,2,Sanjay Chawla,/profile/81100002847,2
+4914,4915,2,Reynold Cheng,/profile/81100098135,2
+4915,4916,2,Panos Chrysanthis,/profile/81331489984,2
+4916,4917,2,Xiqi Fei,/profile/99659322742,2
+4917,4918,2,Gabriel Ghinita,/profile/81329488894,2
+4918,4919,2,Anita Graser,/profile/99661198208,2
+4919,4920,2,Dimitrios Gunopulos,/profile/81100515024,2
+4920,4921,2,Joon-Seok KIM,/profile/99659315099,2
+4921,4922,2,Kyoung-Sook Kim,/profile/99658769344,2
+4922,4923,2,Peer Kröger,/profile/81332509808,3
+4923,4924,2,John Krumm,/profile/81100611132,3
+4924,4925,2,Johannes Lauer,/profile/84459981257,2
+4925,4926,2,Amr Magdy,/profile/81472646068,2
+4926,4927,2,Mario Nascimento,/profile/81100522737,2
+4927,4928,2,Matthias Renz,/profile/81343503720,2
+4928,4929,2,Dimitris Sacharidis,/profile/81100153248,4
+4929,4930,2,Flora Salim,/profile/81549394356,2
+4930,4931,2,Mohamed Sarwat,/profile/81488649832,2
+4931,4932,2,Maxime Schoemans,/profile/99660983057,3
+4932,4933,2,Bettina Speckmann,/profile/81100422936,2
+4933,4934,2,Xu Teng,/profile/99659459704,2
+4934,4935,2,Kristian Torp,/profile/81341497371,5
+4935,4936,2,Marc van Kreveld,/profile/81100427803,2
+4936,4937,2,Carola Wenk,/profile/81408601058,2
+4937,4938,2,Martin Werner,/profile/99659532838,2
+4938,4939,2,Raymond Wong,/profile/81406592097,2
+4939,4940,2,Song WU,/profile/99660988921,3
+4940,4941,2,Jianqiu Xu,/profile/81472651935,2
+4941,4942,2,Moustafa Youssef,/profile/81100415882,2
+4942,4943,2,Demetris Zeinalipour,/profile/99661199034,2
+4943,4944,2,Mengxuan Zhang,/profile/99661198626,2
+4944,4945,2,Esteban Zimányi,/profile/81100400098,10
+4945,4946,1,MaaSDB: Spatial Databases in the Era of Large Language Models (Vision Paper),/doi/10.1145/3589132.3625597,1
+4946,4947,2,Zuqing Li,/profile/99661210857,1
+4947,4948,1,A Graph and Attentive Multi-Path Convolutional Network for Traffic Prediction,/doi/10.1109/TKDE.2022.3179646,1
+4948,4949,2,Zhuowei Zhao,/profile/99660995203,1
+4949,4950,2,Tingru Cui,/profile/99660300974,1
+4950,4951,2,Neema Nassir,/profile/99660995150,1
+4951,4952,1,Electric vehicle charging: it is not as simple as charging a smartphone (vision paper),/doi/10.1145/3557915.3560967,1
+4952,4953,2,Saeed Nasehi Basharzad,/profile/99660648481,1
+4953,4954,2,Farhana M. Choudhury,/profile/82459085257,1
+4954,4955,2,Lachlan L. H. Andrew,/profile/81100304412,1
+4955,4956,1,A study of rerouting beyond ad hoc decision making,/doi/10.1145/3486629.3490695,1
+4956,4957,2,David Amores,/profile/99659914175,1
+4957,4958,2,Maria Vasardani,/profile/81384609400,1
+4958,4959,1,Sub-trajectory Similarity Join with Obfuscation,/doi/10.1145/3468791.3468822,1
+4959,4960,2,Yanchuan Chang,/profile/99659244318,1
+4960,4961,2,Xingjun Ma,/profile/99661181596,1
+4961,4962,1,Platooning Graph for Safer Traffic Management,/doi/10.1145/3397536.3422272,1
+4962,4963,1,Privacy- and Context-aware Release of Trajectory Data,/doi/10.1145/3363449,1
+4963,4964,2,Elham Naghizade,/profile/89758654757,5
+4964,4965,2,James Bailey,/profile/81100616144,4
+4965,4966,1,Stepping Stone Graph: A Graph for Finding Movement Corridors using Sparse Trajectories,/doi/10.1145/3324883,1
+4966,4967,1,Congestion-Aware Ride-Sharing,/doi/10.1145/3317639,1
+4967,4968,2,A. K. M. Mustafizur Rahman Khan,/profile/99659109030,4
+4968,4969,1,Activity-based ride-sharing in action (demo paper),/doi/10.1145/3274895.3274991,1
+4969,4970,1,Stepping stone graph for public movement analysis,/doi/10.1145/3274895.3274913,1
+4970,4971,1,Efficient Computation of the Optimal Accessible Location for a Group of Mobile Agents,/doi/10.1145/3239124,1
+4971,4972,2,Tanzima Hashem,/profile/81458660065,7
+4972,4973,1,From Ride-Sourcing to Ride-Sharing through Hot-Spots,/doi/10.1145/3144457.3144483,1
+4973,4974,1,Follow The Best: Crowdsourced Automated Travel Advice,/doi/10.1145/3144457.3144475,1
+4974,4975,1,From How to Where: Traffic Optimization in the Era of Automated Vehicles,/doi/10.1145/3139958.3139997,1
+4975,4976,1,Ride-sharing is About Agreeing on a Destination,/doi/10.1145/3139958.3139972,1
+4976,4977,1,"MELT 2016 workshop report: the Sixth ACM SIGSPATIAL International Workshop on Mobile Entity Localization, Tracking and Analysis: Burlingame, CA, USA - October 31, 2016",/doi/10.1145/3124104.3124115,1
+4977,4978,2,Sarana Nutanong,/profile/81100508207,10
+4978,4979,1,Challenges of Differentially Private Release of Data Under an Open-world Assumption,/doi/10.1145/3085504.3085531,1
+4979,4980,1,On the effectiveness of removing location information from trajectory data for preserving location privacy,/doi/10.1145/3003965.3003966,1
+4980,4981,2,Amina Hossain,/profile/99660035225,1
+4981,4982,2,Anthony Quattrone,/profile/83458914357,6
+4982,4983,1,Mining city-wide encounters in real-time,/doi/10.1145/2996913.2996995,1
+4983,4984,1,Location privacy for group meetups,/doi/10.1145/2996913.2996966,1
+4984,4985,1,Onebody: Remote Posture Guidance System using First Person View in Virtual Environment,/doi/10.1145/2971485.2971521,1
+4985,4986,2,Thuong N. Hoang,/profile/81442608558,1
+4986,4987,2,Martin Reinoso,/profile/99659082269,1
+4987,4988,2,Frank Vetere,/profile/81100490463,1
+4988,4989,1,"Report from industrial workshop: ACM SIGSPATIAL 2015 Industrial Workshop Seattle, Washington, USA - November 2, 2015",/doi/10.1145/2961028.2961038,1
+4989,4990,1,Spatial Consensus Queries in a Collaborative Environment,/doi/10.1145/2829943,1
+4990,4991,2,Mohammed Eunus Ali,/profile/81435597825,10
+4991,4992,1,Optimal mobile facility localization,/doi/10.1145/2820783.2820862,1
+4992,4993,2,A. K. M. Mustafizur,/profile/99659667147,1
+4993,4994,2,Rahman Khan,/profile/99658983268,1
+4994,4995,1,Combining range-based and range-free methods: a unified approach for localization,/doi/10.1145/2820783.2820839,1
+4995,4996,1,Location-based social networking for obtaining personalised driving advice,/doi/10.1145/2820783.2820789,1
+4996,4997,1,Session details: Session 6C: Points-of-Interest,/doi/10.1145/3252311,1
+4997,4998,1,Efficient Computation of Trips with Friends and Families,/doi/10.1145/2806416.2806433,1
+4998,4999,2,Sukarna Barua,/profile/81464648150,1
+4999,5000,1,The CASE histogram: privacy-aware processing of trajectory data using aggregates,/doi/10.1007/s10707-015-0228-8,1
+5000,5001,2,Benjamin I. P. Rubinstein,/profile/81100218214,1
+5001,5002,1,How private can i be among public users?,/doi/10.1145/2750858.2805836,1
+5002,5003,1,Group Nearest Neighbor Queries for Fuzzy Geo-Spatial Objects,/doi/10.1145/2786006.2786011,1
+5003,5004,2,Novia Nurain,/profile/82258882757,1
+5004,5005,1,A Unified Framework for Authenticating Privacy Preserving Location Based Services,/doi/10.1145/2786006.2786009,1
+5005,5006,2,Shudip Datta,/profile/99658740471,1
+5006,5007,2,Tanzir Ul Islam,/profile/99658739709,1
+5007,5008,1,A simple localization system for ad-hoc indoor meetings through wireless connection points,/doi/10.1145/2677972.2678004,1
+5008,5009,2,Sangyeop Lee,/profile/99658655176,1
+5009,5010,1,Is this you?: identifying a mobile user using only diagnostic features,/doi/10.1145/2677972.2677999,1
+5010,5011,2,Tanusri Bhattacharya,/profile/81552454956,1
+5011,5012,1,Tell Me What You Want and I Will Tell Others Where You Have Been,/doi/10.1145/2661829.2661866,1
+5012,5013,1,Travel distance versus navigation complexity: a study on different spatial queries on road networks,/doi/10.1145/2661829.2661861,1
+5013,5014,2,Jie Shao,/profile/99658657167,1
+5014,5015,2,Long Guo,/profile/99658655755,1
+5015,5016,1,Protecting mobile users from visual privacy attacks,/doi/10.1145/2638728.2638788,1
+5016,5017,2,Anika Anwar,/profile/99660740023,1
+5017,5018,2,Ishrat Ahmed,/profile/99658644493,1
+5018,5019,1,Protection of sensitive trajectory datasets through spatial and temporal exchange,/doi/10.1145/2618243.2618278,1
+5019,5020,1,Opportunistic sampling-based query processing in wireless sensor networks,/doi/10.1007/s10707-012-0170-y,1
+5020,5021,2,Muhammad Umer,/profile/81384608895,4
+5021,5022,1,Protecting privacy for group nearest neighbor queries with crowdsourced data and computing,/doi/10.1145/2493432.2494524,1
+5022,5023,1,"Highlights from ACM SIGSPATIAL GIS 2012 the 20th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (Redondo Beach, California, November 6--9, 2012)",/doi/10.1145/2505403.2505404,1
+5023,5024,2,Peter Widmayer,/profile/81100263396,1
+5024,5025,1,Materialized views for count aggregates of spatial data,/doi/10.1007/978-3-642-33074-2_32,1
+5025,5026,2,Anan Yaagoub,/profile/81100296550,1
+5026,5027,2,Xudong Liu,/profile/81551879356,1
+5027,5028,1,Continuous Detour Queries in Spatial Networks,/doi/10.1109/TKDE.2011.52,1
+5028,5029,2,Jie Shao,/profile/81317500253,2
+5029,5030,1,Probabilistic Voronoi diagrams for probabilistic moving nearest neighbor queries,/doi/10.1016/j.datak.2012.02.001,1
+5030,5031,1,Activities of ACM SIGSPATIAL Australia Chapter in 2011,/doi/10.1145/2189403.2189413,1
+5031,5032,2,Mohamed A. Sharaf,/profile/81410595899,1
+5032,5033,1,"Highlights from ACM SIGSPATIAL GIS 2011: the 19th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems: (Chicago, Illinois - November 1 - 4, 2011)",/doi/10.1145/2189403.2189404,1
+5033,5034,2,Eyal Ofek,/profile/81100064088,1
+5034,5035,1,Gesture recognition using RFID technology,/doi/10.1007/s00779-011-0395-z,1
+5035,5036,2,Parvin Asadzadeh,/profile/99659118154,1
+5036,5037,1,Spatio-temporal database research at the University of Melbourne,/doi/10.1145/1815933.1815942,1
+5037,5038,1,Easiest-to-reach neighbor search,/doi/10.1145/1869790.1869840,1
+5038,5039,1,Local network Voronoi diagrams,/doi/10.1145/1869790.1869808,1
+5039,5040,1,A motion-aware approach for efficient evaluation of continuous queries on 3D object databases,/doi/10.1007/s00778-010-0182-x,1
+5040,5041,1,Analysis and evaluation of V*-kNN: an efficient algorithm for moving kNN queries,/doi/10.1007/s00778-009-0163-0,1
+5041,5042,1,Incremental Evaluation of Visible Nearest Neighbor Queries,/doi/10.1109/TKDE.2009.158,1
+5042,5043,1,Spatial interpolation in wireless sensor networks: localized algorithms for variogram modeling and Kriging,/doi/10.1007/s10707-009-0078-3,1
+5043,5044,1,Opportunistic sampling in wireless sensor networks,/doi/10.1145/1653771.1653852,1
+5044,5045,1,V*-kNN: An Efficient Algorithm for Moving k Nearest Neighbor Queries,/doi/10.1109/ICDE.2009.63,1
+5045,5046,1,Autonomous navigation of mobile agents using RFID-enabled space partitions,/doi/10.1145/1463434.1463461,1
+5046,5047,2,Muhammad Atif Mehmood,/profile/81341494085,2
+5047,5048,1,The V*-Diagram: a query-dependent approach to moving KNN queries,/doi/10.14778/1453856.1453973,1
+5048,5049,1,Kriging for Localized Spatial Interpolation in Sensor Networks,/doi/10.1007/978-3-540-69497-7_34,1
+5049,5050,1,Monitoring Moving Objects Using Low Frequency Snapshots in Sensor Networks,/doi/10.1109/MDM.2008.16,1
+5050,5051,2,Songting Chen,/profile/81351593901,2
+5051,5052,2,Wang-Pin Hsiung,/profile/81100441430,2
+5052,5053,1,A Motion-Aware Approach to Continuous Retrieval of 3D Objects,/doi/10.1109/ICDE.2008.4497493,1
+5053,5054,1,CAESAR: middleware for complex service-oriented peer-to-peer applications,/doi/10.1145/1388336.1388338,1
+5054,5055,2,Lipo Chan,/profile/81100176773,1
+5055,5056,1,Application semantics in query optimization for WSNs,/doi/10.1145/1322263.1322333,1
+5056,5057,1,Navigation and interaction in physical spaces using RFID enabled spatial sensing,/doi/10.1145/1322263.1322304,1
+5057,5058,1,Teaching Wireless Sensor Networks at the University of Melbourne,/doi/10.1109/MDSO.2007.39,1
+5058,5059,1,Using a distributed quadtree index in peer-to-peer networks,/doi/10.1007/s00778-005-0001-y,1
+5059,5060,1,Incremental rank updates for moving query points,/doi/10.1007/11863939_17,1
+5060,5061,1,Building and Querying a P2P Virtual World,/doi/10.1007/s10707-005-4887-8,1
+5061,5062,2,Deepa Nayar,/profile/81100051401,1
+5062,5063,1,A Distributed Quadtree Index for Peer-to-Peer Settings,/doi/10.1109/ICDE.2005.7,1
+5063,5064,1,A serverless 3D world,/doi/10.1145/1032222.1032246,1
+5064,5065,2,Minh Tri Truong,/profile/81100089595,1
+5065,5066,1,Use of the SAND spatial browser for digital government applications,/doi/10.1145/602421.602453,1
+5066,5067,2,Houman Alborzi,/profile/81100088658,1
+5067,5068,2,František Brabec,/profile/81311481741,2
+5068,5069,2,Claudio Esperança,/profile/81100383407,1
+5069,5070,2,Gísli R. Hjaltason,/profile/81100178111,1
+5070,5071,2,Frank Morgan,/profile/81545825456,1
+5071,5072,1,Remote access to large spatial databases,/doi/10.1145/585147.585150,1
+5072,5073,1,The end of zero-hit queries: query previews for NASA's Global Change Master Directory,/doi/10.1007/s007990050039,1
+5073,5074,2,Stephan Greene,/profile/81350579972,1
+5074,5075,2,Catherine Plaisant,/profile/81100041782,1
+5075,5076,2,Lola Olsen,/profile/81100587218,1
+5076,5077,2,Gene Major,/profile/81100045709,1
+5077,5078,2,Steve Johns,/profile/99658679240,1
+5078,5079,1,Incremental data structures and algorithms for dynamic query interfaces,/doi/10.1145/245882.245891,1
+5079,5080,2,Richard Beigel,/profile/81100424240,1
+5080,5081,1,Technological and Research Challenges in Data Engineering for Sustainable Agriculture,/doi/10.1145/3663741.3664786,2
+5081,5082,2,Sandro Bimonte,/profile/81384616037,37
+5082,5083,2,Gianni Bellocchi,/profile/99661225467,2
+5083,5084,2,Francois Pinet,/profile/99661231758,2
+5084,5085,2,Guillaume Charrier,/profile/99661230704,2
+5085,5086,2,Ronan Tournier,/profile/81384596334,2
+5086,5087,2,Gentian Jakllari,/profile/81100352002,2
+5087,5088,2,Gerard Chalhoub,/profile/99661231218,4
+5088,5089,2,Tahar Kechadi,/profile/81100527989,2
+5089,5090,2,Boualem Benatallah,/profile/81100167882,2
+5090,5091,2,Francesco Marinello,/profile/81487655323,2
+5091,5092,2,Roberto Oberti,/profile/99661228745,2
+5092,5093,2,Jerome Bindelle,/profile/99660777813,2
+5093,5094,2,Ginta Majore,/profile/99659143394,2
+5094,5095,2,Piotr Skrzypczyński,/profile/81456605582,2
+5095,5096,1,Roundabouts and the Energy Consumption of Electrical Vehicles,/doi/10.1145/3615895.3628165,1
+5096,5097,2,Rodrigo Sasse David,/profile/99661117057,1
+5097,5098,1,Brussels Mobility Twin,/doi/10.1145/3589132.3625634,1
+5098,5099,2,Gaspard Merten,/profile/99661211406,1
+5099,5100,1,On Computing the Time-varying Distance between Moving Bodies,/doi/10.1145/3611010,1
+5100,5101,1,Evaluation of Vessel CO2 Emissions Methods using AIS Trajectories,/doi/10.1145/3609956.3609960,1
+5101,5102,1,Speed and energy consumption for electrical vehicles,/doi/10.1145/3557991.3567802,1
+5102,5103,2,Rodrigo Sasse David,/profile/99660631554,1
+5103,5104,1,MobilityDB: A Mobility Database Based on PostgreSQL and PostGIS,/doi/10.1145/3406534,1
+5104,5105,2,Arthur Lesuisse,/profile/81557573356,2
+5105,5106,1,Distributed Spatiotemporal Trajectory Query Processing in SQL,/doi/10.1145/3397536.3422262,1
+5106,5107,2,Mohamed Bakli,/profile/99659460058,3
+5107,5108,1,Distributed moving object data management in MobilityDB,/doi/10.1145/3356999.3365467,1
+5108,5109,1,MobilityDB: A Mainstream Moving Object Database System,/doi/10.1145/3340964.3340991,1
+5109,5110,1,Group spatiotemporal pattern queries,/doi/10.1007/s10707-013-0198-7,1
+5110,5111,1,Exploring spatiotemporal patterns by integrating visual analytics with a moving objects database system,/doi/10.1145/2093973.2094060,1
+5111,5112,2,Thomas Behr,/profile/81100323238,1
+5112,5113,2,Christophe Hurter,/profile/81350584067,1
+5113,5114,1,Spatiotemporal pattern queries,/doi/10.1007/s10707-010-0114-3,1
+5114,5115,1,A New Approach for Spatiotemporal Pattern Queries in Trajectory Databases,/doi/10.1109/MDM.2010.60,1
+5115,5116,1,Multidimensional modeling driven from a domain language,/doi/10.1007/s10515-022-00375-5,2
+5116,5117,2,Leandro Antonelli,/profile/81453622657,14
+5117,5118,2,Stefano Rizzi,/profile/81100245508,7
+5118,5119,1,Logical design of multi-model data warehouses,/doi/10.1007/s10115-022-01788-0,1
+5119,5120,2,Enrico Gallinucci,/profile/84459129057,2
+5120,5121,2,Patrick Marcel,/profile/81452616769,2
+5121,5122,1,LambdAgrIoT: a new architecture for agricultural autonomous robots’ scheduling: from design to experiments,/doi/10.1007/s10586-022-03592-5,1
+5122,5123,2,Geraldine André,/profile/88159016657,2
+5123,5124,2,Bruno Bachelet,/profile/99661003775,1
+5124,5125,2,Pietro Battistoni,/profile/99659583756,3
+5125,5126,2,Amina Belhassena,/profile/99659126882,2
+5126,5127,2,Christophe Cariou,/profile/81430675573,2
+5127,5128,2,Frederic Chabot,/profile/99661010166,1
+5128,5129,2,Adrian Couvent,/profile/99661009982,1
+5129,5130,2,Georgia Garani,/profile/81350599128,2
+5130,5131,2,Jean Laneurit,/profile/81321493958,2
+5131,5132,2,Rim Moussa,/profile/99661006413,1
+5132,5133,2,Konstantinos Oikonomou,/profile/81310481348,2
+5133,5134,2,Ibrahim Sammour,/profile/99661002688,1
+5134,5135,2,Monica Sebillo,/profile/81340492674,3
+5135,5136,2,Mateus Vilela Souza,/profile/99661006296,1
+5136,5137,2,Nicolas Tricot,/profile/99661001805,1
+5137,5138,2,Robert Wrembel,/profile/81100599647,3
+5138,5139,1,What Logical Model Is Suitable for Relational Trajectory Data Warehouses?: Application to Agricultural Autonomous Robots,/doi/10.1007/978-3-031-12423-5_30,1
+5139,5140,1,"Sense, Transform & Send for the Internet of Things (STS4IoT): UML profile for data-centric IoT applications",/doi/10.1016/j.datak.2021.101971,1
+5140,5141,2,Julian Eduardo Plazas,/profile/99659909346,2
+5141,5142,2,Michel Schneider,/profile/81100156645,1
+5142,5143,2,Christophe de Vaulx,/profile/99660398239,1
+5143,5144,2,Juan Carlos Corrales,/profile/81322491532,2
+5144,5145,1,"Data variety, come as you are in multi-model data warehouses",/doi/10.1016/j.is.2021.101734,1
+5145,5146,1,On Modeling Data for IoT Agroecology Applications by means of a UML Profile,/doi/10.1145/3444757.3485109,1
+5146,5147,1,Requirements-driven data warehouse design based on enhanced pivot tables,/doi/10.1007/s00766-020-00331-3,2
+5147,5148,1,A Semi-Automatic Design Methodology for (Big) Data Warehouse Transforming Facts into Dimensions,/doi/10.1109/TKDE.2019.2925621,1
+5148,5149,2,Lucile Sautot,/profile/99659059986,2
+5149,5150,2,Ludovic Journaux,/profile/81384617087,2
+5150,5151,1,Design and Implementation of Active Stream Data Warehouses,/doi/10.4018/IJDWM.2019040101,1
+5151,5152,2,Omar Boussaid,/profile/81309504173,3
+5152,5153,2,Michel Schneider,/profile/81442592466,3
+5153,5154,2,Fabien Ruelle,/profile/99660871498,1
+5154,5155,1,Logical and Physical Design of Spatial Non-Strict Hierarchies in Relational Spatial Data Warehouse,/doi/10.4018/IJDWM.2019010101,1
+5155,5156,2,Ferrahi Ibtisam Ibtisam,/profile/99660874567,1
+5156,5157,2,Kamel Boukhalfa,/profile/81384598352,1
+5157,5158,1,Evaluation of user satisfaction with OLAP recommender systems: an application to RecoOLAP on a agricultural energetic consumption datawarehouse,/doi/10.1504/IJBIS.2016.073384,1
+5158,5159,2,Elsa Negre,/profile/81384620107,1
+5159,5160,1,"Business Intelligence Indicators: Types, Models and Implementation",/doi/10.4018/IJDWM.2016100104,1
+5160,5161,1,A quality-aware spatial data warehouse for querying hydroecological data,/doi/10.1016/j.cageo.2015.09.012,1
+5161,5162,2,L. Berrahou,/profile/99658761194,1
+5162,5163,2,N. Lalande,/profile/99658761623,1
+5163,5164,2,E. Serrano,/profile/99658761252,1
+5164,5165,2,G. Molla,/profile/99658760963,1
+5165,5166,2,S. Bringay,/profile/81388601924,1
+5166,5167,2,F. Cernesson,/profile/81324488530,1
+5167,5168,2,C. Grac,/profile/99658760686,1
+5168,5169,2,D. Ienco,/profile/81384618045,1
+5169,5170,2,F. Le Ber,/profile/81350582450,1
+5170,5171,2,M. Teisseire,/profile/81100148732,1
+5171,5172,1,A First Framework for Mutually Enhancing Chorem and Spatial OLAP Systems,/doi/10.5220/0005515200380048,1
+5172,5173,2,Francois Johany,/profile/99659058060,1
+5173,5174,2,Sylvie Lardon,/profile/99659058748,1
+5174,5175,1,Mixed Driven Refinement Design of Multidimensional Models based on Agglomerative Hierarchical Clustering,/doi/10.5220/0005404605470555,1
+5175,5176,2,Bruno Faivre,/profile/99659057376,1
+5176,5177,1,Conceptual model for spatial data cubes,/doi/10.1016/j.csi.2014.06.004,1
+5177,5178,2,Kamal Boulil,/profile/81472654422,4
+5178,5179,2,Francois Pinet,/profile/81100029248,6
+5179,5180,1,"Special section on ""Spatial data warehouses and SOLAP""",/doi/10.1007/s10707-013-0196-9,1
+5180,5181,2,André Miralles,/profile/84460541657,1
+5181,5182,2,Petraq Papajorgji,/profile/81416601515,1
+5182,5183,1,A hybrid risk-aware design method for spatial datacubes handling spatial vague data: implementation and validation,/doi/10.1504/IJBIDM.2014.068366,1
+5183,5184,2,Elodie Edoh-Alove,/profile/84459744557,2
+5184,5185,2,Yvan Bédard,/profile/81100343647,1
+5185,5186,1,ProtOLAP: rapid OLAP prototyping with on-demand data supply,/doi/10.1145/2513190.2513199,1
+5186,5187,2,Hassan Nazih,/profile/84460679257,1
+5187,5188,2,Myoung-Ah Kang,/profile/81474647074,2
+5188,5189,1,A New Sensor-Based Spatial OLAP Architecture Centered on an Agricultural Farm Energy-Use Diagnosis Tool,/doi/10.4018/ijdsst.2013100101,1
+5189,5190,2,Marilys Pradel,/profile/81508698413,2
+5190,5191,2,Daniel Boffety,/profile/88159426757,1
+5191,5192,2,Aurelie Tailleur,/profile/88159322957,1
+5192,5193,2,Rabi Bzikha,/profile/88159265557,1
+5193,5194,2,Jean-Pierre Chanet,/profile/81508708816,3
+5194,5195,1,Definition and analysis of new agricultural farm energetic indicators using spatial OLAP,/doi/10.1007/978-3-642-31075-1_28,1
+5195,5196,1,Cost models for view materialization in the cloud,/doi/10.1145/2320765.2320788,1
+5196,5197,2,Thi-Van-Anh Nguyen,/profile/81503641282,1
+5197,5198,2,Laurent d'Orazio,/profile/81384597022,1
+5198,5199,2,Jérôme Darmont,/profile/81100430882,1
+5199,5200,1,Spatial OLAP and Map Generalization: Model and Algebra,/doi/10.4018/jdwm.2012010102,1
+5200,5201,2,Michela Bertolotto,/profile/81100453077,3
+5201,5202,2,Jérôme Gensel,/profile/81100326385,3
+5202,5203,1,Using OCL to Model Constraints in Data Warehouses,/doi/10.4018/jtd.2011070104,1
+5203,5204,2,Gil De Sousa,/profile/87959437357,1
+5204,5205,2,Catherine Roussey,/profile/81100244351,1
+5205,5206,1,Towards the definition of spatial data warehouses integrity constraints with spatial OCL,/doi/10.1145/1871940.1871948,1
+5206,5207,2,Hadj Mahboubi,/profile/81384606199,1
+5207,5208,1,When Spatial Analysis Meets OLAP: Multidimensional Model and Operators,/doi/10.4018/jdwm.2010100103,1
+5208,5209,2,Maryvonne Miquel,/profile/81100164221,4
+5209,5210,2,Anne Tchounikine,/profile/81100296644,5
+5210,5211,1,Enriching Spatial OLAP with Map Generalization: a Conceptual Multidimensional Model,/doi/10.1109/ICDMW.2008.80,1
+5211,5212,1,HyperSmooth: A System for Interactive Spatial Analysis Via Potential Maps,/doi/10.1007/978-3-540-89903-7_2,1
+5212,5213,2,Christine Plumejeaud,/profile/81413602103,1
+5213,5214,2,Jean-Marc Vincent,/profile/81313483282,1
+5214,5215,2,Claude Grasland,/profile/81413606353,1
+5215,5216,2,Hélène Mathian,/profile/81413607668,1
+5216,5217,2,Serge Guelton,/profile/81335490765,1
+5217,5218,2,Joël Boulier,/profile/81413606915,1
+5218,5219,1,Integration of Geographic Information into Multidimensional Models,/doi/10.1007/978-3-540-69839-5_24,1
+5219,5220,1,GeWOlap: a web based spatial OLAP proposal,/doi/10.1007/11915072_66,1
+5220,5221,2,Pascal Wehrle,/profile/81330500508,1
+5221,5222,1,"GeoCube, a multidimensional model and navigation operators handling complex measures: application in spatial OLAP",/doi/10.1007/11890393_11,1
+5222,5223,1,Towards a spatial multidimensional model,/doi/10.1145/1097002.1097009,1
+5223,5224,1,Development iterations based on web augmentation and context tasks,/doi/10.1007/s11042-022-13694-2,4
+5224,5225,2,Lucy Gutierrez Marticorena,/profile/99660743795,4
+5225,5226,2,Leonardo A. Morales,/profile/99660742744,4
+5226,5227,2,Gustavo Rossi,/profile/81100497792,98
+5227,5228,2,Diego Firmenich,/profile/99659041135,6
+5228,5229,1,Using LEL and scenarios to derive mathematical programming models. Application in a fresh tomato packing problem,/doi/10.1016/j.compag.2020.105242,1
+5229,5230,2,Alejandra Garrido,/profile/81100081874,31
+5230,5231,2,Jonathan Martin,/profile/99659296918,1
+5231,5232,2,M.M.E. Alemany,/profile/81444607076,1
+5232,5233,2,Josefa Mula,/profile/81324492375,1
+5233,5234,1,Early identification of crosscutting concerns with the Language Extended Lexicon,/doi/10.1007/s00766-013-0193-4,2
+5234,5235,2,Julio Cesar Leite,/profile/81100070410,4
+5235,5236,2,João Araújo,/profile/81100440123,4
+5236,5237,1,Early identification of crosscutting concerns in the domain model guided by states,/doi/10.1145/1774088.1774147,2
+5237,5238,1,Embedding Security Patterns into a Domain Model,/doi/10.1109/DEXA.2009.44,1
+5238,5239,2,Miguel Solinas,/profile/81453652258,1
+5239,5240,2,Eduardo B. Fernandez,/profile/81100383974,1
+5240,5241,1,UX debt in an agile development process: evidence and characterization,/doi/10.1007/s11219-023-09652-2,4
+5241,5242,2,Andres Rodriguez,/profile/99658663482,14
+5242,5243,2,Juan Cruz Gardey,/profile/99659299566,16
+5243,5244,2,Julian Grigera,/profile/81330491339,39
+5244,5245,1,ANDES: An approach to embed search services on the Web browser,/doi/10.1016/j.csi.2022.103633,1
+5245,5246,2,Gabriela Bosetti,/profile/99658680770,9
+5246,5247,2,Alex Tacuri,/profile/99659264005,1
+5247,5248,2,Ishaya Gambo,/profile/81508708421,1
+5248,5249,2,Sergio Firmenich,/profile/81479661465,25
+5249,5250,2,Marco Winckler,/profile/81100041979,10
+5250,5251,2,Alejandro Fernandez,/profile/81100386986,6
+5251,5252,1,Engineering Web Augmentation software: A development method for enabling end-user maintenance,/doi/10.1016/j.infsof.2021.106735,1
+5252,5253,2,Manuel Wimmer,/profile/81317490231,2
+5253,5254,2,Irene Garrigós,/profile/81438598178,2
+5254,5255,2,César González-Mora,/profile/99659972424,1
+5255,5256,1,Engaging end-user driven recommender systems: personalization through web augmentation,/doi/10.1007/s11042-020-09803-8,1
+5256,5257,2,Martin Wischenbart,/profile/81501684068,2
+5257,5258,2,Elisabeth Kapsammer,/profile/81100275977,2
+5258,5259,1,MDWA: a model-driven Web augmentation approach—coping with client- and server-side support,/doi/10.1007/s10270-020-00779-5,1
+5259,5260,2,Matias Urbieta,/profile/81322508168,13
+5260,5261,2,Pedro Maglione,/profile/99660002287,1
+5261,5262,2,Miguel Angel Olivero,/profile/99659456329,1
+5262,5263,1,UX-Painter: An Approach to Explore Interaction Fixes in the Browser,/doi/10.1145/3397877,3
+5263,5264,1,An Approach to Build P2P Web Extensions,/doi/10.1007/978-3-030-50578-3_31,1
+5264,5265,2,Rodolfo Gonzalez,/profile/99660809065,1
+5265,5266,2,Darío Velez,/profile/99659968743,1
+5266,5267,1,A Web-based Model-driven Platform for Web Augmentation,/doi/10.5220/0008559304770486,1
+5267,5268,2,Franco Mahl,/profile/99659844986,1
+5268,5269,1,An End-User Pipeline for Scraping and Visualizing Semi-Structured Data over the Web,/doi/10.1007/978-3-030-19274-7_17,1
+5269,5270,2,Ulises Cornejo Fandos,/profile/99661205185,1
+5270,5271,2,Előd Egyed-Zsigmond,/profile/81312482940,1
+5271,5272,1,Usability improvement through A/B testing and refactoring,/doi/10.1007/s11219-018-9413-y,2
+5272,5273,2,José Matías Rivero,/profile/81479643691,10
+5273,5274,1,DataMock: An Agile Approach for Building Data Models from User Interface Mockups,/doi/10.1007/s10270-017-0586-9,2
+5274,5275,2,Damiano Distante,/profile/81100260526,14
+5275,5276,2,Francisco Montero,/profile/81100606880,4
+5276,5277,1,Live versioning of web applications through refactoring,/doi/10.1145/3238147.3240483,3
+5277,5278,1,Towards Full End-Users Control of Social Recommendations,/doi/10.1007/978-3-319-91662-0_24,1
+5278,5279,1,Improving Legacy Applications with Client-Side Augmentations,/doi/10.1007/978-3-319-91662-0_12,1
+5279,5280,2,Mauricio Witkin,/profile/99660904537,1
+5280,5281,2,Ramón Serrano,/profile/99660881265,1
+5281,5282,2,Viviana Elizabeth Cajas,/profile/99660880055,1
+5282,5283,1,iVOLUNTEER: a digital ecosystem for life-long volunteering,/doi/10.1145/3151759.3151801,1
+5283,5284,2,Eugen Kimmerstorfer,/profile/99659243235,1
+5284,5285,2,Birgit Pröll,/profile/81100431622,2
+5285,5286,2,Werner Retschitzegger,/profile/81100073871,4
+5286,5287,2,Wieland Schwinger,/profile/81100393327,5
+5287,5288,2,Johannes Schönböck,/profile/81331503732,1
+5288,5289,2,Nikolaus Dürk,/profile/99659243194,1
+5289,5290,2,Silvia Gordillo,/profile/81100400051,16
+5290,5291,1,Web of Things Augmentation,/doi/10.1145/3199919.3199923,1
+5291,5292,2,Jose Lobo,/profile/99659264614,1
+5292,5293,2,Nahuel Defossé,/profile/99659265057,1
+5293,5294,1,End-user software engineering for the personal web: poster,/doi/10.1109/ICSE-C.2017.127,1
+5294,5295,1,Flexible Distribution of Existing Web Interfaces: An Architecture Involving Developers and End-Users,/doi/10.1007/978-3-319-46963-8_20,1
+5295,5296,1,Assessing refactorings for usability in e-commerce applications,/doi/10.1007/s10664-015-9384-6,2
+5296,5297,2,Jose Ignacio Panach,/profile/81384601385,2
+5297,5298,1,A framework and tool to manage Cloud Computing service quality,/doi/10.1007/s11219-014-9248-0,1
+5298,5299,2,Francisco José Domínguez-Mayo,/profile/81479661443,1
+5299,5300,2,Julián Alberto García-García,/profile/81548021980,3
+5300,5301,2,María José Escalona,/profile/81100418653,5
+5301,5302,2,Manuel Mejías,/profile/81324492046,1
+5302,5303,1,Enactive sketches for designing enactive interactions,/doi/10.1145/2824893.2824908,2
+5303,5304,2,Pascual González,/profile/81100613548,2
+5304,5305,1,User Interface Adaptation Using Web Augmentation Techniques: Towards a Negotiated Approach,/doi/10.1007/978-3-319-19890-3_11,1
+5305,5306,1,Business processes refactoring to improve usability in E-commerce applications,/doi/10.1007/s10660-014-9149-0,1
+5306,5307,2,Julia Camelier-Carvajal,/profile/99658679853,1
+5307,5308,2,Roxana Giandini,/profile/81100053135,1
+5308,5309,1,Improving accessibility of Web interfaces: refactoring to the rescue,/doi/10.1007/s10209-013-0323-2,2
+5309,5310,2,Nuria Medina Medina,/profile/81315490557,4
+5310,5311,1,Sketching for designing enactive interactions,/doi/10.1145/2662253.2662292,2
+5311,5312,2,Pascual González López,/profile/81309491256,2
+5312,5313,1,Mockup-Driven Development: Providing agile support for Model-Driven Web Engineering,/doi/10.1016/j.infsof.2014.01.011,2
+5313,5314,2,Esteban Robles Luna,/profile/81438598056,10
+5314,5315,2,Martin Gaedke,/profile/81100571757,6
+5315,5316,1,The 25th ACM International Conference on Hypertext and Social Media,/doi/10.1145/251453.2591454,1
+5316,5317,2,Leo Ferres,/profile/81100281424,1
+5317,5318,2,Eelco Herder,/profile/81100336533,1
+5318,5319,2,Virgilio de Almeida,/profile/81503689114,1
+5319,5320,2,Denis Parra,/profile/81444606598,1
+5320,5321,1,Web-GIS models: accomplishing modularity with aspects,/doi/10.1007/s11334-013-0206-y,1
+5321,5322,2,Ana Oliveira,/profile/81474682056,2
+5322,5323,2,Armanda Rodrigues,/profile/81384593393,2
+5323,5324,2,Ana Moreira,/profile/81100499344,2
+5324,5325,1,An approach for supporting distributed user interface orchestration over the Web,/doi/10.1016/j.ijhcs.2013.08.014,1
+5325,5326,2,Philippe Palanque,/profile/81100552153,1
+5326,5327,1,Detecting Web requirements conflicts and inconsistencies under a model-based perspective,/doi/10.1016/j.jss.2013.05.045,1
+5327,5328,2,E. Robles Luna,/profile/81474672898,4
+5328,5329,1,Managing volatile requirements in web applications,/doi/10.1109/WSE.2013.6642420,1
+5329,5330,1,MockAPI: an agile approach supporting API-first web application development,/doi/10.1007/978-3-642-39200-9_4,2
+5330,5331,2,Sebastian Heil,/profile/82858779457,4
+5331,5332,1,A domain specific language for orchestrating user tasks whilst navigation web sites,/doi/10.1007/978-3-642-39200-9_20,1
+5332,5333,1,MockupDD: Facilitating Agile Support for Model-Driven Web Engineering,/doi/10.1007/978-3-319-04244-2_31,1
+5333,5334,1,Crowdsourcing Mobile Web Applications,/doi/10.1007/978-3-319-04244-2_21,1
+5334,5335,2,Cecilia Challiol,/profile/81392613771,3
+5335,5336,1,Personalized Web Accessibility using Client-Side Refactoring,/doi/10.1109/MIC.2012.143,2
+5336,5337,2,Nuria Medina Medina,/profile/81100268391,2
+5337,5338,2,Ivana Harari,/profile/84459945757,2
+5338,5339,1,Guest Editorial to the Theme Section on Model-Driven Web Engineering,/doi/10.1007/s10270-011-0196-x,1
+5339,5340,2,Nora Koch,/profile/81100301544,1
+5340,5341,2,Antonio Vallecillo,/profile/81100496226,1
+5341,5342,1,NDT-merge: a future tool for conciliating software requirements in MDE environments,/doi/10.1145/2428736.2428765,1
+5342,5343,2,E. Ravel,/profile/81551711256,1
+5343,5344,1,Modelling adaptations requirements in web workflows,/doi/10.1145/2428736.2428751,1
+5344,5345,1,Welcome from the chairs,/doi/10.1109/WSE.2012.6320542,1
+5345,5346,2,Scott Tilley,/profile/81100428970,4
+5346,5347,1,Identifying and modelling complex workflow requirements in web applications,/doi/10.1007/978-3-642-35623-0_15,1
+5347,5348,1,Supporting users tasks with personal information management and web forms augmentation,/doi/10.1007/978-3-642-31753-8_20,1
+5348,5349,2,Sergio Firmenich,/profile/81548022087,1
+5349,5350,2,Vincent Gaits,/profile/81540998956,1
+5350,5351,1,From requirements to web applications in an agile model-driven approach,/doi/10.1007/978-3-642-31753-8_15,2
+5351,5352,2,José Matías Rivero,/profile/81542581856,2
+5352,5353,2,Franco Giacosa,/profile/81548020098,2
+5353,5354,1,IT in Emerging Markets,/doi/10.1109/MITP.2012.79,1
+5354,5355,2,San Murugesan,/profile/81100183235,1
+5355,5356,2,Nina Godbole,/profile/81508705688,1
+5356,5357,1,Improving the model view controller paradigm in the web,/doi/10.1504/IJWET.2012.045764,1
+5357,5358,2,Santiago Robles,/profile/81456627798,2
+5358,5359,2,Juan Lautaro Ferná,/profile/81500662502,1
+5359,5360,2,  ndez,/profile/81500664094,1
+5360,5361,2,  André,/profile/81500663729,1
+5361,5362,2,s. Fortier,/profile/81500660284,1
+5362,5363,1,Making workflows situation aware: an ontology-driven framework for dynamic spatial systems,/doi/10.1145/2095536.2095568,1
+5363,5364,2,Stefan Mitsch,/profile/81331499980,1
+5364,5365,2,Wolfgang Gottesheim,/profile/81332501571,1
+5365,5366,2,Franz Hermann Pommer,/profile/81493658527,1
+5366,5367,2,Robert Hutter,/profile/81493657101,1
+5367,5368,2,Norbert Baumgartner,/profile/81436599354,1
+5368,5369,1,WebSpec: a visual language for specifying interaction and navigation requirements in web applications,/doi/10.1007/s00766-011-0124-1,1
+5369,5370,1,An approach and tool support for assisting users to fill-in web forms with personal information,/doi/10.1145/2038476.2038515,1
+5370,5371,2,Vicent Gaits,/profile/81488667772,1
+5371,5372,2,Dong-Bach Vo,/profile/81444596443,1
+5372,5373,2,Firmenich Sergio,/profile/81488668535,1
+5373,5374,1,A flexible architecture for client-side adaptation,/doi/10.1007/978-3-642-27997-3_34,1
+5374,5375,1,Detecting conflicts and inconsistencies in web application requirements,/doi/10.1007/978-3-642-27997-3_27,1
+5375,5376,1,Refactoring for Usability in Web Applications,/doi/10.1109/MS.2010.114,1
+5376,5377,1,Accessibility at early stages: insights from the designer perspective,/doi/10.1145/1969289.1969302,1
+5377,5378,2,Adriana Martín,/profile/81310485038,2
+5378,5379,2,Alejandra Cechich,/profile/81100313584,2
+5379,5380,1,An Incremental Approach for Building Accessible and Usable Web Applications,/doi/10.1007/978-3-642-17616-6_49,2
+5380,5381,2,Juan Burella,/profile/81464672476,4
+5381,5382,1,Engineering Accessible Web Applications. An Aspect-Oriented Approach,/doi/10.1007/s11280-010-0091-3,1
+5382,5383,1,Improving the Quality of Web-GIS Modularity Using Aspects,/doi/10.1109/QUATIC.2010.23,1
+5383,5384,1,Dealing with variability in context-aware mobile software,/doi/10.1016/j.jss.2009.11.002,1
+5384,5385,2,Andrés Fortier,/profile/81100435096,5
+5385,5386,1,A flexible tool suite for change-aware test-driven development of web applications,/doi/10.1145/1810295.1810359,2
+5386,5387,1,Rich Internet Applications,/doi/10.1109/MIC.2010.76,1
+5387,5388,2,Piero Fraternali,/profile/81100158817,1
+5388,5389,2,Fernando Sánchez-Figueroa,/profile/81339526197,1
+5389,5390,1,Erratum to: Engineering Issues for the Web 2.0,/doi/10.1007/s11280-010-0083-3,1
+5390,5391,2,Qing Li,/profile/81324491114,2
+5391,5392,2,Yanchun Zhang,/profile/81487649465,2
+5392,5393,1,Engineering Issues for the Web 2.0,/doi/10.1007/s11280-009-0071-7,1
+5393,5394,1,Rethinking Context Models,/doi/10.1007/978-3-642-05290-3_17,1
+5394,5395,2,Emiliano Pérez,/profile/81453633185,1
+5395,5396,1,Meteoroid towards a real MVC for the web,/doi/10.1145/1735935.1735941,1
+5396,5397,2,Lautaro Fernández,/profile/81456617582,1
+5397,5398,2,Stéphane Ducasse,/profile/81100625020,1
+5398,5399,1,Bridging Test and Model-Driven Approaches in Web Engineering,/doi/10.1007/978-3-642-02818-2_10,2
+5399,5400,1,Model-based concerns mashups for mobile hypermedia,/doi/10.1145/1497185.1497222,1
+5400,5401,1,Refactoring to Rich Internet Applications. A Model-Driven Approach,/doi/10.1109/ICWE.2008.41,1
+5401,5402,2,Jeronimo Ginzburg,/profile/81340489255,1
+5402,5403,1,Concern-Sensitive Navigation: Improving Navigation in Web Software through Separation of Concerns,/doi/10.1007/978-3-540-69534-9_32,1
+5403,5404,2,Jocelyne Nanard,/profile/81100426523,1
+5404,5405,2,Marc Nanard,/profile/81100426520,1
+5405,5406,2,Leandro Perez,/profile/81384598608,1
+5406,5407,1,A comprehensive design model for integrating business processes in web applications,/doi/10.1504/IJWET.2007.011527,3
+5407,5408,2,Gerardo Canfora,/profile/81100506450,3
+5408,5409,1,UX-Analyzer: Visualizing the interaction effort for web analytics,/doi/10.1145/3605098.3636013,3
+5409,5410,1,"Beyond the GUI in agriculture: a bibliographic review, challenges and opportunities",/doi/10.1145/3233824.3233844,2
+5410,5411,2,Jorge Hernández Hormazábal,/profile/99659297543,2
+5411,5412,1,Extending OpenUP to Conform with the ISO Usability Maturity Model,/doi/10.1007/978-3-662-44811-3_6,1
+5412,5413,1,Usability of data-oriented user interfaces for cultural heritage: A systematic mapping study,/doi/10.1177/01655515211001787,3
+5413,5414,2,Maria de la Paz Diulio,/profile/99660761894,3
+5414,5415,2,Analía Fernanda Gomez,/profile/99660764625,3
+5415,5416,1,In Search of Dark Patterns in Chatbots,/doi/10.1007/978-3-031-54975-5_7,2
+5416,5417,2,Verena Traubinger,/profile/99659576564,4
+5417,5418,1,A Mixed Usability Evaluation on a Multi Criteria Group Decision Support System in Agriculture,/doi/10.1145/3233824.3233852,1
+5418,5419,2,Pascale Zaraté,/profile/81100559119,1
+5419,5420,2,Guy Camilleri,/profile/81436594985,1
+5420,5421,1,A Modular Architecture for Context Sensing,/doi/10.1109/AINAW.2007.30,1
+5421,5422,1,Dynamic indoor navigation and orientation system for people with impairments,/doi/10.1145/3404983.3410000,2
+5422,5423,2,Julia Richter,/profile/99659058835,14
+5423,5424,2,Jeanine Lorenz,/profile/99659577104,2
+5424,5425,2,Maria Costantino,/profile/99659576450,2
+5425,5426,2,Nico Tauchmann,/profile/99659576417,2
+5426,5427,2,Thomas Graichen,/profile/99659576886,2
+5427,5428,2,Ulrich Heinkel,/profile/81100075548,2
+5428,5429,1,Signal fusion based on intensity and motion variations for remote heart rate determination,/doi/10.1109/IST.2016.7738282,3
+5429,5430,2,Christian Wiede,/profile/99659059251,20
+5430,5431,2,Gangolf Hirtz,/profile/88159139757,17
+5431,5432,1,Remote Heart Rate Determination in RGB Data,/doi/10.5220/0005694002400246,3
+5432,5433,2,André Apitzsch,/profile/99659059151,3
+5433,5434,2,Fajer KhairAldin,/profile/99659057521,3
+5434,5435,1,Activity Recognition based on High-Level Reasoning,/doi/10.5220/0005658804150422,3
+5435,5436,2,Enes Dayangac,/profile/99659059269,3
+5436,5437,2,Markus Heß,/profile/99659059699,3
+5437,5438,1,Mobility Assessment of Demented People Using Pose Estimation and Movement Detection,/doi/10.5220/0005178700220029,3
+5438,5439,1,Adaptive Decentralized Federated Gossip Learning for Resource-Constrained IoT Devices,/doi/10.1145/3630048.3630181,5
+5439,5440,2,Lars Wulfert,/profile/99661070824,5
+5440,5441,2,Navidreza Asadi,/profile/99661069732,5
+5441,5442,2,Wen-Yu Chung,/profile/99661067877,5
+5442,5443,2,Anton Grabmaier,/profile/81551046856,11
+5443,5444,1,Approximate Fast Fourier Transform-based Preprocessing for Edge AI,/doi/10.1109/ETFA52439.2022.9921684,3
+5444,5445,2,Lukas Krupp,/profile/99660691373,3
+5445,5446,1,Flexible Development and Testing Environment for Implementation of New Algorithms in RFID Systems,/doi/10.1109/RFID.2012.9,3
+5446,5447,2,Salvador Grey,/profile/81550145356,3
+5447,5448,2,Gerd vom Bogel,/profile/81100231760,3
+5448,5449,1,OmniGlasses: an optical aid for stereo vision CNNs to enable omnidirectional image processing,/doi/10.1007/s00138-024-01534-2,3
+5449,5450,2,Julian B. Seuffert,/profile/99661202743,3
+5450,5451,2,Ana C. Perez Grassi,/profile/81486657280,5
+5451,5452,2,Hamza Ahmed,/profile/99661201996,3
+5452,5453,2,Roman Seidel,/profile/99661202948,3
+5453,5454,1,Estimation of Gait Parameters from 3D Pose for Elderly Care,/doi/10.1145/3375923.3375943,1
+5454,5455,2,Jyothsna Kondragunta,/profile/99659559044,1
+5455,5456,2,Ankit Jaiswal,/profile/99659559078,1
+5456,5457,1,Trinocular Spherical Stereo Vision for Indoor Surveillance,/doi/10.1109/CRV.2014.56,1
+5457,5458,2,Michel Findeisen,/profile/88158977157,1
+5458,5459,1,Information fusion to detect and classify pedestrians using invariant features,/doi/10.1016/j.inffus.2010.06.002,2
+5459,5460,2,Vadim Frolov,/profile/81384616735,4
+5460,5461,2,Fernando Puente León,/profile/81486654856,2
+5461,5462,1,Gesture Recognition with Hidden Markov Models to Enable Multi-modal Haptic Feedback,/doi/10.1007/978-3-540-69057-3_100,2
+5462,5463,2,Barbara Deml,/profile/81100556185,8
+5463,5464,2,Gunter Hannig,/profile/81384607675,3
+5464,5465,1,Efficient Bimodal Haptic Weight Actuation,/doi/10.1007/978-3-642-14064-8_1,1
+5465,5466,1,A Contribution to Integrated Driver Modeling: A Coherent Framework for Modeling Both Non-routine and Routine Elements of the Driving Task,/doi/10.1007/978-3-642-02809-0_46,3
+5466,5467,2,Andreas Mihalyi,/profile/81442618491,3
+5467,5468,2,Thomas Augustin,/profile/81387601170,27
+5468,5469,1,Human Factors Issues on the Design of Telepresence Systems,/doi/10.1162/pres.16.5.471,1
+5469,5470,1,"A study on visual, auditory, and haptic feedback for assembly tasks",/doi/10.1162/105474604774048207,1
+5470,5471,2,Bernd Petzold,/profile/81100199443,1
+5471,5472,2,Michael F. Zaeh,/profile/81100594875,1
+5472,5473,2,Berthold Faerber,/profile/81331492332,1
+5473,5474,2,Hans Egermeier,/profile/81100626558,1
+5474,5475,2,Johannes Schilp,/profile/81100077650,1
+5475,5476,2,Stella Clarke,/profile/81100390538,1
+5476,5477,1,Learning de-biased regression trees and forests from complex samples,/doi/10.1007/s10994-023-06439-1,3
+5477,5478,2,Malte Nalenz,/profile/99661130626,3
+5478,5479,2,Julian Rodemann,/profile/99660121419,7
+5479,5480,1,Multi-target Decision Making Under Conditions of Severe Uncertainty,/doi/10.1007/978-3-031-33498-6_2,3
+5480,5481,2,Christoph Jansen,/profile/99660327774,6
+5481,5482,2,Georg Schollmeyer,/profile/99659034600,11
+5482,5483,1,Levelwise Data Disambiguation by Cautious Superset Classification,/doi/10.1007/978-3-031-18843-5_18,2
+5483,5484,2,Dominik Kreiss,/profile/99659982646,3
+5484,5485,2,Eyke Hüllermeier,/profile/81100327876,2
+5485,5486,1,Information efficient learning of complexly structured preferences: Elicitation procedures and their application to decision making under uncertainty,/doi/10.1016/j.ijar.2022.01.016,3
+5486,5487,2,H. Blocher,/profile/99660329015,3
+5487,5488,1,Accounting for Gaussian Process Imprecision in Bayesian Optimization,/doi/10.1007/978-3-030-98018-4_8,2
+5488,5489,1,Adapted single-cell consensus clustering (adaSC3),/doi/10.1007/s11634-020-00428-1,1
+5489,5490,2,Cornelia Fuetterer,/profile/99660060720,1
+5490,5491,2,Christiane Fuchs,/profile/99660060577,1
+5491,5492,1,Undecided Voters as Set-Valued Information – Towards Forecasts Under Epistemic Imprecision,/doi/10.1007/978-3-030-58449-8_18,1
+5492,5493,1,Estimation of classification probabilities in small domains accounting for nonresponse relying on imprecise probability,/doi/10.1016/j.ijar.2019.09.006,1
+5493,5494,2,Aziz Omar,/profile/99660834979,1
+5494,5495,1,Statistical modeling under partial identification,/doi/10.1016/j.ijar.2014.07.003,2
+5495,5496,1,Partially identified prevalence estimation under misclassification using the kappa coefficient,/doi/10.1016/j.ijar.2012.06.013,1
+5496,5497,2,Helmut KüChenhoff,/profile/81335492944,1
+5497,5498,2,Anne Kunz,/profile/81548036885,1
+5498,5499,1,Editorial: Imprecise probability in statistical inference and decision making,/doi/10.1016/j.ijar.2010.08.001,1
+5499,5500,2,Frank Coolen,/profile/81100282197,2
+5500,5501,2,Serafín Moral,/profile/81100070748,1
+5501,5502,2,Matthias Troffaes,/profile/81310484856,1
+5502,5503,1,Editorial: Imprecise probability models and their applications,/doi/10.1016/j.ijar.2009.02.009,1
+5503,5504,2,Enrique Miranda,/profile/81336491634,1
+5504,5505,2,Jiřina Vejnarová,/profile/81100563060,1
+5505,5506,1,A nonparametric predictive alternative to the Imprecise Dirichlet Model: The case of a known number of categories,/doi/10.1016/j.ijar.2008.03.011,1
+5506,5507,1,Bayesian learning for a class of priors with prescribed marginals,/doi/10.1016/j.ijar.2008.03.018,1
+5507,5508,2,Hermann Held,/profile/81430669506,1
+5508,5509,2,Elmar Kriegler,/profile/81416596773,1
+5509,5510,1,Decision making under incomplete data using the imprecise Dirichlet model,/doi/10.1016/j.ijar.2006.07.016,1
+5510,5511,2,L. V. Utkin,/profile/81100615769,1
+5511,5512,1,Neural network model for imprecise regression with interval dependent variables,/doi/10.1016/j.neunet.2023.02.005,3
+5512,5513,2,Krasymyr Tretiak,/profile/99660767972,5
+5513,5514,2,Scott Ferson,/profile/81343492463,17
+5514,5515,1,Should data ever be thrown away? Pooling interval-censored data sets with different precision,/doi/10.1016/j.ijar.2023.02.007,2
+5515,5516,1,Verified propagation of imprecise probabilities in non-linear ODEs,/doi/10.1016/j.ijar.2023.109044,3
+5516,5517,2,Ander Gray,/profile/99661128335,3
+5517,5518,2,Marcelo Forets,/profile/81508708070,14
+5518,5519,2,Christian Schilling,/profile/81554516056,14
+5519,5520,2,Luis Benet,/profile/99661123176,3
+5520,5521,1,A Collaborative Decision Support System Framework for Vertical Farming Business Developments,/doi/10.4018/IJDSST.2021010103,1
+5521,5522,2,Francis J. Baumont De Oliveira,/profile/99660729628,1
+5522,5523,2,Ronald Dyer,/profile/99661115017,1
+5523,5524,1,Towards an automatic uncertainty compiler,/doi/10.1016/j.ijar.2023.108951,1
+5524,5525,2,Nicholas Gray,/profile/99660987393,1
+5525,5526,2,Marco de Angelis,/profile/99659926360,1
+5526,5527,1,Natural language of uncertainty,/doi/10.1016/j.ijar.2014.11.003,1
+5527,5528,2,Jason O'Rawe,/profile/99659034060,1
+5528,5529,2,Andrei Antonenko,/profile/99659034539,1
+5529,5530,2,Jack Siegrist,/profile/99659034480,1
+5530,5531,2,James Mickley,/profile/99659032058,1
+5531,5532,2,Christian C. Luhmann,/profile/99659033525,1
+5532,5533,2,Kari Sentz,/profile/83058749557,1
+5533,5534,2,Adam M. Finkel,/profile/99659033060,1
+5534,5535,1,Short communication: Commentary: IUCN classifications under uncertainty,/doi/10.1016/j.envsoft.2012.05.009,1
+5535,5536,2,H. ReşIt AkçAkaya,/profile/81548019559,1
+5536,5537,2,Mark A. Burgman,/profile/81548019560,1
+5537,5538,2,David A. Keith,/profile/81548019561,1
+5538,5539,2,Georgina M. Mace,/profile/81548019562,1
+5539,5540,2,Charles R. Todd,/profile/81548019563,1
+5540,5541,1,Trade-off between sample size and accuracy: Case of measurements under interval uncertainty,/doi/10.1016/j.ijar.2009.06.013,1
+5541,5542,2,Hung T. Nguyen,/profile/81100512064,1
+5542,5543,2,Olga Kosheleva,/profile/81100326732,1
+5543,5544,2,Vladik Kreinovich,/profile/81100051586,5
+5544,5545,1,"Interval versions of statistical techniques with applications to environmental analysis, bioinformatics, and privacy in statistical databases",/doi/10.1016/j.cam.2005.07.041,1
+5545,5546,2,Luc Longpré,/profile/81100311793,2
+5546,5547,2,Scott A. Starks,/profile/81100037117,1
+5547,5548,2,Gang Xiang,/profile/81452600651,2
+5548,5549,2,Jan Beck,/profile/81100558546,1
+5549,5550,2,Raj Kandathi,/profile/81325488732,1
+5550,5551,2,Asis Nayak,/profile/81325489690,1
+5551,5552,2,Janos Hajagos,/profile/81325488560,1
+5552,5553,1,"Adding Constraints to Situations When, In Addition to Intervals,We Also Have Partial Information about Probabilities",/doi/10.1109/SCAN.2006.7,1
+5553,5554,2,Martine Ceberio,/profile/81100638937,1
+5554,5555,2,Cliff Joslyn,/profile/81339507877,1
+5555,5556,1,Computing best-possible bounds for the distribution of a sum of several variables is NP-hard,/doi/10.1016/j.ijar.2005.06.009,1
+5556,5557,1,Computing variance for interval data is NP-hard,/doi/10.1145/564585.564604,1
+5557,5558,2,Lev Ginzburg,/profile/81344490832,1
+5558,5559,2,Monica Aviles,/profile/81100455924,1
+5559,5560,1,The Inverse Problem for Neural Networks,/doi/10.1007/978-3-031-46002-9_14,1
+5560,5561,1,Decomposing reach set computations with low-dimensional sets and high-dimensional matrices (extended version),/doi/10.1016/j.ic.2022.104937,2
+5561,5562,2,Sergiy Bogomolov,/profile/81479645756,27
+5562,5563,2,Goran Frehse,/profile/81313484095,10
+5563,5564,2,Andreas Podelski,/profile/81100130920,7
+5564,5565,1,Conservative Time Discretization: A Comparative Study,/doi/10.1007/978-3-031-07727-2_9,1
+5565,5566,1,Combining set propagation with finite element methods for time integration in transient solid mechanics problems,/doi/10.1016/j.compstruc.2021.106699,1
+5566,5567,2,Daniel Freire Caporale,/profile/99660091092,1
+5567,5568,2,Jorge M. Pérez Zerpa,/profile/99659051512,1
+5568,5569,1,Reachability of Weakly Nonlinear Systems Using Carleman Linearization,/doi/10.1007/978-3-030-89716-1_6,1
+5569,5570,1,Case Study: Reachability and Scalability in a Unified Combat-Command-and-Control Model,/doi/10.1007/978-3-030-61739-4_4,2
+5570,5571,2,Kostiantyn Potomkin,/profile/99659360502,6
+5571,5572,1,JuliaReach: a toolbox for set-based reachability,/doi/10.1145/3302504.3311804,2
+5572,5573,1,Falsification using Reachability of Surrogate Koopman Models,/doi/10.1145/3641513.3650141,1
+5573,5574,2,Stanley Bak,/profile/81435595696,7
+5574,5575,2,Abdelrahman Hekal,/profile/99660686815,3
+5575,5576,2,Niklas Kochdumper,/profile/99659528317,3
+5576,5577,2,Ethan Lew,/profile/99660562369,3
+5577,5578,2,Andrew Mata,/profile/99661198544,1
+5578,5579,2,Amir Rahmati,/profile/99661198920,1
+5579,5580,1,AutoKoopman: A Toolbox for Automated System Identification via Koopman Operator Linearization,/doi/10.1007/978-3-031-45332-8_12,1
+5580,5581,2,Brandon Hencey,/profile/81443597548,2
+5581,5582,1,A Refinement-based Formal Development of Cyber-physical Railway Signalling Systems,/doi/10.1145/3524052,1
+5582,5583,2,Yamine Aït-Ameur,/profile/81100033129,2
+5583,5584,2,Guillaume Dupont,/profile/99659302834,2
+5584,5585,2,Alexei Iliasov,/profile/81100518879,1
+5585,5586,2,Alexander Romanovsky,/profile/81100534443,1
+5586,5587,2,Paulius Stankaitis,/profile/99658766064,3
+5587,5588,1,Data-Driven Reachability Analysis of Digital Twin FMI Models,/doi/10.1007/978-3-031-19762-8_10,1
+5588,5589,2,John Fitzgerald,/profile/81100271482,1
+5589,5590,2,Sadegh Soudjani,/profile/81490687090,1
+5590,5591,1,Runtime Assurance for Autonomous Driving with Neural Reachability,/doi/10.1109/ITSC55140.2022.9922294,1
+5591,5592,2,Bardh Hoxha,/profile/99658691695,1
+5592,5593,2,Tomoya Yamaguchi,/profile/99659699727,1
+5593,5594,1,Reachability of Koopman Linearized Systems Using Random Fourier Feature Observables and Polynomial Zonotope Refinement,/doi/10.1007/978-3-031-13185-1_24,1
+5594,5595,1,Reachability Analysis and Simulation for Hybridised Event-B Models,/doi/10.1007/978-3-031-07727-2_7,1
+5595,5596,2,Neeraj Kumar Singh,/profile/81479651488,1
+5596,5597,1,Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling,/doi/10.1007/978-3-030-57628-8_16,1
+5597,5598,2,Dongxu Li,/profile/99659360815,2
+5598,5599,1,Parallel reachability analysis of hybrid systems in XSpeed,/doi/10.1007/s10009-018-0485-6,1
+5599,5600,2,Amit Gurung,/profile/99658713359,2
+5600,5601,2,Rajarshi Ray,/profile/81488652418,2
+5601,5602,2,Ezio Bartocci,/profile/99659154211,1
+5602,5603,2,Radu Grosu,/profile/81100063749,3
+5603,5604,1,Falsification of hybrid systems using symbolic reachability and trajectory splicing,/doi/10.1145/3302504.3311813,1
+5604,5605,2,Georg Martius,/profile/81314484034,1
+5605,5606,1,Hybrid automata: from verification to implementation,/doi/10.1007/s10009-017-0458-1,1
+5606,5607,2,Omar Ali Beg,/profile/99659351898,1
+5607,5608,2,Taylor T. Johnson,/profile/81479642205,5
+5608,5609,2,Luan Viet Nguyen,/profile/87958795257,2
+5609,5610,1,Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices,/doi/10.1145/3178126.3178128,1
+5610,5611,2,Frédéric Viry,/profile/99659256826,1
+5611,5612,1,Counterexample-Guided Refinement of Template Polyhedra,/doi/10.1007/978-3-662-54577-5_34,1
+5612,5613,2,Mirco Giacobbe,/profile/99658756752,1
+5613,5614,2,Thomas A. Henzinger,/profile/81548011385,1
+5614,5615,1,Safety Verification of Nonlinear Hybrid Systems Based on Invariant Clusters,/doi/10.1145/3049797.3049814,1
+5615,5616,2,Hui Kong,/profile/99659529229,1
+5616,5617,2,Yu Jiang,/profile/82658667557,1
+5617,5618,2,Thomas A. Henzinger,/profile/81100034124,2
+5618,5619,1,Guided search for hybrid systems based on coarse-grained space abstractions,/doi/10.1007/s10009-015-0393-y,1
+5619,5620,2,Alexandre Donzé,/profile/81418599745,1
+5620,5621,2,Hamed Ladan,/profile/81508705255,2
+5621,5622,2,Martin Wehrle,/profile/81418595100,2
+5622,5623,1,Scalable Static Hybridization Methods for Analysis of Nonlinear Systems,/doi/10.1145/2883817.2883837,1
+5623,5624,2,Pradyot Prakash,/profile/99659005441,1
+5624,5625,1,HyRG: a random generation tool for affine hybrid automata,/doi/10.1145/2728606.2728650,1
+5625,5626,1,HYST: a source transformation and translation tool for hybrid automaton models,/doi/10.1145/2728606.2728630,1
+5626,5627,1,Eliminating spurious transitions in reachability with support functions,/doi/10.1145/2728606.2728622,1
+5627,5628,2,Marius Greitschus,/profile/99658709921,1
+5628,5629,2,Thomas Strump,/profile/99658712966,1
+5629,5630,1,Quasi-dependent variables in hybrid automata,/doi/10.1145/2562059.2562142,1
+5630,5631,2,Christian Herrera,/profile/81551070456,1
+5631,5632,2,Marco Muñiz,/profile/81488661063,1
+5632,5633,2,Bernd Westphal,/profile/99659026519,1
+5633,5634,1,A box-based distance between regions for guiding the reachability analysis of spaceex,/doi/10.1007/978-3-642-31424-7_35,1

@@ -32,11 +32,11 @@ class NameMatcher:
 		# The following parameters have been optimized on a limited initial dataset.
 		# Users may wish to adjust and experiment with them on their own dataset.
 		# Detailed parameter explanations will be provided in the README file.
-		self.params = {'weights':[0.25, 0.66, 0.09],
-					  'disc_abbrev':0.95, 'disc_abbrev_notstart':0.6,
+		self.params = {'weights':[0.25, 0.7, 0.05],
+					  'disc_abbrev':0.2, 'disc_abbrev_notstart':0.2,
 					  'disc_missing_fname':0.7, 'disc_missing_mname':0.95,
 					  'disc_missing_nickname':0.8, 'disc_initial':0.6,
-					  'disc_initial_mismatch':0.4, 'disc_acronym':0.5}
+					  'disc_initial_mismatch':0.1, 'disc_acronym':0.1}
 
 	def _levenshtein_pct(self, str1, str2):
 		return edit_distance(str1, str2) / max(len(str1),len(str2))

@@ -42,8 +42,39 @@
 # plt.show()
 
 from opencage.geocoder import OpenCageGeocode
+import requests
+import json
 
-api_key = "68020a7f39dd42fd9dc58971638403e6"
+api_key = "5bf38ed7c2484256b6b739055b532a37"
 geocoder = OpenCageGeocode(api_key)
-result = geocoder.geocode("University of Science and Technology - Shanghai, China")
+result = geocoder.geocode("University of Bari Aldo Moro Bari, Italy")
 print(result[0]["formatted"])
+
+# def find_place(query):    
+#     # Define the API endpoint
+#     url = 'https://places.googleapis.com/v1/places:searchText'
+
+#     # Define the headers
+#     headers = {
+#         'Content-Type': 'application/json',
+#         'X-Goog-Api-Key': 'AIzaSyA_0YrEuHRV1BwqKASWEleMR6QdcgovdkI',  # Replace 'API_KEY' with your actual Google Places API key
+#         # 'X-Goog-FieldMask': 'places.id'
+#     }
+
+#     # Define the data payload for the POST request
+#     data = {
+#         'textQuery': query
+#     }
+
+#     # Make the POST request
+#     response = requests.post(url, headers=headers, json=data)
+
+#     # Check if the request was successful
+#     if response.status_code == 200:
+#         # Process the response
+#         print(response.json())
+#     else:
+#         print(f"Error: {response.status_code}, {response.text}")
+#     return json.loads(response.text)
+
+# print(find_place('University of Calabria  Rende, Italy'))

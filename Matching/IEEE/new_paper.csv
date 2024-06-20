@@ -1,0 +1,26 @@
+,ner_id,link,title,doi
+0,1,/document/10508446/,Optimizing Audio-Visual Speech Enhancement Using Multi-Level Distortion Measures for Audio-Visual Speech Recognition,10.1109/TASLP.2024.3393732
+1,8,/document/10418525/,Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement,10.1109/TASLP.2024.3361376
+2,12,/document/10423864/,METTS: Multilingual Emotional Text-to-Speech by Cross-Speaker and Cross-Lingual Emotion Transfer,10.1109/TASLP.2024.3363444
+3,20,/document/10530074/,AudioLDM 2: Learning Holistic Audio Generation With Self-Supervised Pretraining,10.1109/TASLP.2024.3399607
+4,31,/document/10301554/,Sample-Efficient Unsupervised Domain Adaptation of Speech Recognition Systems: A Case Study for Modern Greek,10.1109/TASLP.2023.3328280
+5,38,/document/10502286/,Conversational Speech Recognition by Learning Audio-Textual Cross-Modal Contextual Representation,10.1109/TASLP.2024.3389630
+6,44,/document/10476749/,SpeechLM: Enhanced Speech Pre-Training With Unpaired Textual Data,10.1109/TASLP.2024.3379877
+7,56,/document/10381805/,Audio Super-Resolution With Robust Speech Representation Learning of Masked Autoencoder,10.1109/TASLP.2023.3349053
+8,61,/document/10444075/,Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,10.1109/TASLP.2024.3369537
+9,68,/document/10316571/,Decoupling and Interacting Multi-Task Learning Network for Joint Speech and Accent Recognition,10.1109/TASLP.2023.3332542
+10,73,/document/10361556/,Improving Speech Translation Accuracy and Time Efficiency With Fine-Tuned wav2vec 2.0-Based Speech Segmentation,10.1109/TASLP.2023.3343614
+11,77,/document/10379131/,Text-to-Speech for Low-Resource Agglutinative Language With Morphology-Aware Language Model Pre-Training,10.1109/TASLP.2023.3348762
+12,84,/document/10349911/,Wav2code: Restore Clean Speech Representations via Codebook Lookup for Noise-Robust ASR,10.1109/TASLP.2023.3332545
+13,89,/document/10547426/,A Variance-Preserving Interpolation Approach for Diffusion Models With Applications to Single Channel Speech Enhancement and Recognition,10.1109/TASLP.2024.3407533
+14,93,/document/10285526/,Beyond the Status Quo: A Contemporary Survey of Advances and Challenges in Audio Captioning,10.1109/TASLP.2023.3321968
+15,98,/document/10103146/,Can Pretrained English Language Models Benefit Non-English NLP Systems in Low-Resource Scenarios?,10.1109/TASLP.2023.3267618
+16,105,/document/10286152/,Personalized Adversarial Data Augmentation for Dysarthric and Elderly Speech Recognition,10.1109/TASLP.2023.3323888
+17,113,/document/10271546/,Data-Driven Non-Intrusive Speech Intelligibility Prediction Using Speech Presence Probability,10.1109/TASLP.2023.3321964
+18,118,/document/10491381/,Low-Latency Neural Speech Phase Prediction Based on Parallel Estimation Architecture and Anti-Wrapping Losses for Speech Generation Tasks,10.1109/TASLP.2024.3385285
+19,119,/document/10480633/,Large-Scale Unsupervised Audio Pre-Training for Video-to-Speech Synthesis,10.1109/TASLP.2024.3382500
+20,123,/document/10472123/,Unified Cross-Modal Attention: Robust Audio-Visual Speech Recognition and Beyond,10.1109/TASLP.2024.3375641
+21,128,/document/10416355/,Statistically Guided Near-End Speech Intelligibility Improvement Through Voice Transformation and Transfer Learning,10.1109/TASLP.2024.3359893
+22,132,/document/10487819/,Controllable Accented Text-to-Speech Synthesis With Fine and Coarse-Grained Intensity Rendering,10.1109/TASLP.2024.3378110
+23,135,/document/10400460/,Slowness Regularized Contrastive Predictive Coding for Acoustic Unit Discovery,10.1109/TASLP.2024.3350888
+24,141,/document/10301583/,Comments on “Primary-Ambient Extraction Using Ambient Spectrum Estimation for Immersive Spatial Audio Reproduction”,10.1109/TASLP.2023.3328286

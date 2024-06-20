@@ -35,16 +35,18 @@ for link in df_links.index:
   G.add_edge(int(df_links.iloc[link]['from']),int(df_links.iloc[link]['to']),weight=df_links.iloc[link]['count'])
   # print('\n', df_links.iloc[link]['from'], df_links.iloc[link]['to'])
 
-connected_components = nx.connected_components(G)
+print(f"================={nx.community.modularity(G, nx.community.label_propagation_communities(G))}========================")
 
-# # # Find the largest connected component
-largest_component = max(connected_components, key=len)
+# connected_components = nx.connected_components(G)
+
+# # # # Find the largest connected component
+# largest_component = max(connected_components, key=len)
+# # print(largest_component)
+# # # # Create a subgraph of the largest connected component
+# largest_subgraph = G.subgraph(largest_component)
 # print(largest_component)
-# # # Create a subgraph of the largest connected component
-largest_subgraph = G.subgraph(largest_component)
-print(largest_component)
-nx.write_gexf(largest_subgraph, 'subgraph.gexf')
-# degree_centrality = nx.degree_centrality(G)
+# nx.write_gexf(largest_subgraph, 'subgraph.gexf')
+degree_centrality = nx.degree_centrality(G)
 
 # # Sort nodes by degree centrality in descending order
 # sorted_nodes = sorted(degree_centrality, key=degree_centrality.get, reverse=True)

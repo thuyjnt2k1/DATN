@@ -118,17 +118,12 @@ def scratch_author_data(ner_id, url):
 			print(f"An error occurred: {str(e)}")
 			df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
-def insert_paper_node(paper, node_ids):
+def insert_paper_node(paper, node_ids, doi):
 	global id, df_queue, df_ner, df_links, df_paper
 	title_container = paper.find('div', class_='nova-legacy-v-publication-item__title').find('a')
 	paper_link = title_container.get("href")
 	paper_name = title_container.text
 	li_elements = paper.find_all('li', class_='nova-legacy-v-publication-item__meta-data-item')
-	doi = ''
-	for li in li_elements:
-		if li.span and li.span.text.startswith('DOI: '):
-			doi = li.span.text.split(':')[1]
-			break	
 	if paper_link in df_ner['link'].values:
 		df_ner.loc[df_ner['link'] == paper_link, 'count'] += 1
 		file.write(f"\npaper {paper_name} existed")
@@ -184,8 +179,18 @@ def scratch_list_data(url):
 				type = match.find("span", class_="nova-legacy-v-publication-item__badge").text
 				if type is None or type not in content_types:
 					continue;
-				df_ner, node_ids = insert_paper_node(match, node_ids)
-				#get author list
+
+				li_elements = match.find_all('li', class_='nova-legacy-v-publication-item__meta-data-item')
+				doi = False
+				for li in li_elements:
+					if li.span and li.span.text.startswith('DOI: '):
+						doi = li.span.text.split(':')[1]
+						break	
+				if(not doi):
+					print('\nNot have doi')
+					continue
+
+				df_ner, node_ids = insert_paper_node(match, node_ids, doi)
 				df_ner, node_ids = insert_author_node(match, node_ids)
 				df_links = insert_link(node_ids)
 			if(page == 100):
@@ -198,7 +203,7 @@ def scratch_list_data(url):
 				file.write(f"\nAn error occurred: {str(e)}")
 				print(f"An error occurred: {str(e)}")
 				has_next_page = False
-				retry +=1
+				retry += 1
 				df_error = df_error._append({'id': page, "url": url}, ignore_index=True)
 		finally:
 			df_ner.to_csv('new_node.csv', index=True)

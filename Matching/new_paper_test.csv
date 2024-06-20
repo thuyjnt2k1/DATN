@@ -1,0 +1,49 @@
+,ner_id,link,title,doi
+0,1,https://dl.acm.org/doi/10.1109/TASLP.2024.3361376,Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement,10.1109/TASLP.2024.3361376
+1,5,https://dl.acm.org/doi/10.1109/TASLP.2024.3363444,METTS: Multilingual Emotional Text-to-Speech by Cross-Speaker and Cross-Lingual Emotion Transfer,10.1109/TASLP.2024.3363444
+2,13,https://dl.acm.org/doi/10.1109/TASLP.2023.3332542,Decoupling and Interacting Multi-Task Learning Network for Joint Speech and Accent Recognition,10.1109/TASLP.2023.3332542
+3,18,https://dl.acm.org/doi/10.1109/TASLP.2023.3313424,Pronunciation Dictionary-Free Multilingual Speech Synthesis Using Learned Phonetic Representations,10.1109/TASLP.2023.3313424
+4,21,https://dl.acm.org/doi/10.1109/TASLP.2024.3375641,Unified Cross-Modal Attention: Robust Audio-Visual Speech Recognition and Beyond,10.1109/TASLP.2024.3375641
+5,26,https://dl.acm.org/doi/10.1109/TASLP.2023.3294705,"Audio-Visual End-to-End Multi-Channel Speech Separation, Dereverberation and Recognition",10.1109/TASLP.2023.3294705
+6,36,https://dl.acm.org/doi/10.1109/TASLP.2024.3369537,Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,10.1109/TASLP.2024.3369537
+7,43,https://dl.acm.org/doi/10.1109/TASLP.2024.3382500,Large-Scale Unsupervised Audio Pre-Training for Video-to-Speech Synthesis,10.1109/TASLP.2024.3382500
+8,47,https://dl.acm.org/doi/10.1109/TASLP.2023.3349053,Audio Super-Resolution With Robust Speech Representation Learning of Masked Autoencoder,10.1109/TASLP.2023.3349053
+9,52,https://dl.acm.org/doi/10.1109/TASLP.2023.3328280,Sample-Efficient Unsupervised Domain Adaptation of Speech Recognition Systems: A Case Study for Modern Greek,10.1109/TASLP.2023.3328280
+10,59,https://dl.acm.org/doi/10.1109/TASLP.2023.3348762,Text-to-Speech for Low-Resource Agglutinative Language With Morphology-Aware Language Model Pre-Training,10.1109/TASLP.2023.3348762
+11,66,https://dl.acm.org/doi/10.1109/TASLP.2023.3318398,SURT 2.0: Advances in Transducer-Based Multi-Talker Speech Recognition,10.1109/TASLP.2023.3318398
+12,70,https://dl.acm.org/doi/10.1109/TASLP.2023.3332545,Wav2code: Restore Clean Speech Representations via Codebook Lookup for Noise-Robust ASR,10.1109/TASLP.2023.3332545
+13,75,https://dl.acm.org/doi/10.1109/TASLP.2023.3313413,DiCLET-TTS: Diffusion Model Based Cross-Lingual Emotion Transfer for Text-to-Speech &#x2014; A Study Between English and Mandarin,10.1109/TASLP.2023.3313413
+14,81,https://dl.acm.org/doi/10.1109/TASLP.2024.3369536,Time-Domain Speech Super-Resolution With GAN Based Modeling for Telephony Speaker Verification,10.1109/TASLP.2024.3369536
+15,87,https://dl.acm.org/doi/10.1109/TASLP.2023.3306709,Alternative Pseudo-Labeling for Semi-Supervised Automatic Speech Recognition,10.1109/TASLP.2023.3306709
+16,93,https://dl.acm.org/doi/10.1109/TASLP.2023.3321964,Data-Driven Non-Intrusive Speech Intelligibility Prediction Using Speech Presence Probability,10.1109/TASLP.2023.3321964
+17,98,https://dl.acm.org/doi/10.1109/TASLP.2023.3285241,Speech Enhancement and Dereverberation With Diffusion-Based Generative Models,10.1109/TASLP.2023.3285241
+18,104,https://dl.acm.org/doi/10.1109/TASLP.2024.3379877,SpeechLM: Enhanced Speech Pre-Training With Unpaired Textual Data,10.1109/TASLP.2024.3379877
+19,116,https://dl.acm.org/doi/10.1109/TASLP.2023.3297954,AmbiSep: Joint Ambisonic-to-Ambisonic Speech Separation and Noise Reduction,10.1109/TASLP.2023.3297954
+20,120,https://dl.acm.org/doi/10.1109/TASLP.2023.3301230,Boosting Cross-Domain Speech Recognition With Self-Supervision,10.1109/TASLP.2023.3301230
+21,123,https://dl.acm.org/doi/10.1109/TASLP.2024.3372874,Articulatory Copy Synthesis Based on the Speech Synthesizer VocalTractLab and Convolutional Recurrent Neural Networks,10.1109/TASLP.2024.3372874
+22,127,https://dl.acm.org/doi/10.1109/TASLP.2023.3328283,End-to-End Speech Recognition: A Survey,10.1109/TASLP.2023.3328283
+23,129,https://ieeexplore.ieee.org/document/10508446/,Optimizing Audio-Visual Speech Enhancement Using Multi-Level Distortion Measures for Audio-Visual Speech Recognition,10.1109/TASLP.2024.3393732
+24,136,https://ieeexplore.ieee.org/document/10418525/,Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement,10.1109/TASLP.2024.3361376
+25,140,https://ieeexplore.ieee.org/document/10423864/,METTS: Multilingual Emotional Text-to-Speech by Cross-Speaker and Cross-Lingual Emotion Transfer,10.1109/TASLP.2024.3363444
+26,148,https://ieeexplore.ieee.org/document/10530074/,AudioLDM 2: Learning Holistic Audio Generation With Self-Supervised Pretraining,10.1109/TASLP.2024.3399607
+27,159,https://ieeexplore.ieee.org/document/10301554/,Sample-Efficient Unsupervised Domain Adaptation of Speech Recognition Systems: A Case Study for Modern Greek,10.1109/TASLP.2023.3328280
+28,166,https://ieeexplore.ieee.org/document/10502286/,Conversational Speech Recognition by Learning Audio-Textual Cross-Modal Contextual Representation,10.1109/TASLP.2024.3389630
+29,172,https://ieeexplore.ieee.org/document/10476749/,SpeechLM: Enhanced Speech Pre-Training With Unpaired Textual Data,10.1109/TASLP.2024.3379877
+30,184,https://ieeexplore.ieee.org/document/10381805/,Audio Super-Resolution With Robust Speech Representation Learning of Masked Autoencoder,10.1109/TASLP.2023.3349053
+31,189,https://ieeexplore.ieee.org/document/10444075/,Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,10.1109/TASLP.2024.3369537
+32,196,https://ieeexplore.ieee.org/document/10316571/,Decoupling and Interacting Multi-Task Learning Network for Joint Speech and Accent Recognition,10.1109/TASLP.2023.3332542
+33,201,https://ieeexplore.ieee.org/document/10361556/,Improving Speech Translation Accuracy and Time Efficiency With Fine-Tuned wav2vec 2.0-Based Speech Segmentation,10.1109/TASLP.2023.3343614
+34,205,https://ieeexplore.ieee.org/document/10379131/,Text-to-Speech for Low-Resource Agglutinative Language With Morphology-Aware Language Model Pre-Training,10.1109/TASLP.2023.3348762
+35,212,https://ieeexplore.ieee.org/document/10349911/,Wav2code: Restore Clean Speech Representations via Codebook Lookup for Noise-Robust ASR,10.1109/TASLP.2023.3332545
+36,217,https://ieeexplore.ieee.org/document/10547426/,A Variance-Preserving Interpolation Approach for Diffusion Models With Applications to Single Channel Speech Enhancement and Recognition,10.1109/TASLP.2024.3407533
+37,221,https://ieeexplore.ieee.org/document/10285526/,Beyond the Status Quo: A Contemporary Survey of Advances and Challenges in Audio Captioning,10.1109/TASLP.2023.3321968
+38,226,https://ieeexplore.ieee.org/document/10103146/,Can Pretrained English Language Models Benefit Non-English NLP Systems in Low-Resource Scenarios?,10.1109/TASLP.2023.3267618
+39,233,https://ieeexplore.ieee.org/document/10286152/,Personalized Adversarial Data Augmentation for Dysarthric and Elderly Speech Recognition,10.1109/TASLP.2023.3323888
+40,241,https://ieeexplore.ieee.org/document/10271546/,Data-Driven Non-Intrusive Speech Intelligibility Prediction Using Speech Presence Probability,10.1109/TASLP.2023.3321964
+41,246,https://ieeexplore.ieee.org/document/10491381/,Low-Latency Neural Speech Phase Prediction Based on Parallel Estimation Architecture and Anti-Wrapping Losses for Speech Generation Tasks,10.1109/TASLP.2024.3385285
+42,247,https://ieeexplore.ieee.org/document/10480633/,Large-Scale Unsupervised Audio Pre-Training for Video-to-Speech Synthesis,10.1109/TASLP.2024.3382500
+43,251,https://ieeexplore.ieee.org/document/10472123/,Unified Cross-Modal Attention: Robust Audio-Visual Speech Recognition and Beyond,10.1109/TASLP.2024.3375641
+44,256,https://ieeexplore.ieee.org/document/10416355/,Statistically Guided Near-End Speech Intelligibility Improvement Through Voice Transformation and Transfer Learning,10.1109/TASLP.2024.3359893
+45,260,https://ieeexplore.ieee.org/document/10487819/,Controllable Accented Text-to-Speech Synthesis With Fine and Coarse-Grained Intensity Rendering,10.1109/TASLP.2024.3378110
+46,263,https://ieeexplore.ieee.org/document/10400460/,Slowness Regularized Contrastive Predictive Coding for Acoustic Unit Discovery,10.1109/TASLP.2024.3350888
+47,269,https://ieeexplore.ieee.org/document/10301583/,Comments on “Primary-Ambient Extraction Using Ambient Spectrum Estimation for Immersive Spatial Audio Reproduction”,10.1109/TASLP.2023.3328286

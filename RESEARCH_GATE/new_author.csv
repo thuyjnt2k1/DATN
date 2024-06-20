@@ -1,298 +1,386 @@
 ,ner_id,link,name,orcid,affiliation
 0,2,profile/Zhaohao-Sun,Zhaohao Sun,,"The Papua New Guinea University of Technology Lae, Papua New Guinea; The Papua New Guinea University of Technology Lae, Papua New Guinea; The Papua New Guinea University of Technology Lae, Papua New Guinea; The Papua New Guinea University of Technology | PNG Unitech"
-1,4,profile/Ahmed-Abdelwahed-11,Ahmed Saad Abdelwahed,,"Cairo University Cairo, Egypt; Cairo University | CU"
-2,5,profile/Ahmad-Abu-Musa-3,Ahmad A. Abu-Musa,,Tanta University
-3,6,profile/Hosam-Moubarak,Hosam Moubarak,,"Alexandria University Alexandria, Egypt; Alexandria University, Cardiff Metropolitan University"
-4,7,profile/Hebatallah-Badawy,Hebatallah Abd El Salam Badawy,,Egypt-Japan University of Science and Technology
-5,9,profile/Yinusa-Bamimore,Yinusa Olatunde Bamimore,,Caleb University Lagos
-6,10,profile/Ayorinde-Oduroye-2,Ayorinde Oduroye,,"Babcock University School of Posgraduate StudiesShagamu, Nigeria; Babcock UniversityShagamu, Nigeria; Caleb University; Caleb University Lagos"
-7,12,profile/Farzana-Mir,Farzana Asad Mir,,"British University in Dubai Dubai, United Arab Emirates; British University in Dubai Dubai, United Arab Emirates; British University in Dubai"
-8,14,profile/Sumit-Jadhav-5,Sumit Jadhav,,Vivekanand Education Society's Institute of Technology
-9,20,profile/Elzana-Dupljak,Elzana Dupljak,,International Balkan University | IBU
-10,22,profile/Sid-Terason,Sid TERASON,,Kasetsart University | KU
-11,27,profile/Ali-Mir-Asif,Ali Mir Arif Mir Asif,,
-12,29,profile/Zhipeng-Ma-10,Zhipeng Michael Ma,,University of Southern Denmark | SDU
-13,31,profile/Gina-Larasaty-2,Gina Putri Larasaty,,"Universitas Pembanguan Nasional ""Veteran"" Jakarta | UPN ""Veteran"" Jakarta"
-14,35,profile/Uemit-Demirbaga,Ümit Demirbaga,,"Logoİzmit, Turkey; European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI)Cambridge, United Kingdom; Bartin University"
-15,36,profile/Gagangeet-Aujla,Gagangeet Singh Aujla,,"Chandigarh University India; Newcastle University Newcastle upon Tyne, United Kingdom; Durham University Durham, United Kingdom; Durham University | DU"
-16,37,profile/Anish-Jindal-2,Anish Jindal,,"Lancaster University Lancaster, United Kingdom; University of Essex Colchester, United Kingdom; Durham University | DU"
-17,38,profile/Oguzhan-Kalyon,Oguzhan Kalyon,,Newcastle University | NCL
-18,42,profile/Davide-Tosi,Davide Tosi,,"Università degli Studi dell'Insubria Varese, Italy; Università degli Studi dell'Insubria | UNINSUBRIA"
-19,43,profile/Marco-Roccetti,Marco Roccetti,,"International Computer Science Institute Berkeley, United States; University of California, Los Angeles Los Angeles, United States; University of Bologna | UNIBO"
-20,46,profile/Srividya-Nadindla,Srividya Nadindla,,Institute of Engineering & Management | IEM
-21,48,profile/Malsha-Hansani,Malsha Hansani,,Sabaragamuwa University of Sri Lanka | SUSL
-22,49,profile/Himashi-Dissanayaka,Himashi Ravihari Dissanayaka,,Sabaragamuwa University of Sri Lanka | SUSL
-23,50,profile/Lakmini-Walakumbura,Lakmini Walakumbura,,Sabaragamuwa University of Sri Lanka | SUSL
-24,52,profile/Fedia-Ghedass,Fedia Ghedass,,
-25,53,profile/Faouzi-Charrada,Faouzi Ben Charrada,,University of Tunis El Manar | FST
-26,55,profile/Ranjeet-Kumar-Singh-3,Ranjeet Kumar Singh,,"University of Calcutta Kolkata, India"
-27,58,profile/Chandradeep-Bhatt,Chandradeep Bhatt,,"Graphic Era Hill University Dehra Dūn, India; Graphic Era Hill University"
-28,60,profile/Ramin-Papi,Ramin Papi,,"University of Tehran Tehran, Iran; University of Tehran | UT"
-29,64,profile/C-Vijai-2,C. Vijai,,
-30,65,profile/Sundarapandiyan-Natarajan-2,Sundarapandiyan Natarajan,,Adithya Institute of Technology
-31,68,profile/Jose-Galdon,Jose Luis Galdon,,Universitat Politècnica de València | UPV
-32,71,profile/Sidalina-Goncalves,Sidalina Gonçalves,,Instituto Politécnico de Setúbal
-33,72,profile/Jose-Ventura-11,José Ventura,,Universidade de Évora | uevora
-34,73,profile/Orlando-Lima-Rua,Orlando Lima Rua,,
-35,75,profile/Assefa-Senbeto,Assefa Senbeto,,
-36,77,profile/Chukwudi-Maha,Chukwudi Cosmos Maha,,Ministry of Health Saudi Arabia | MOH
-37,79,profile/Huadong-Guo-2,Huadong Guo,,Chinese Academy of Sciences | CAS
-38,80,profile/Dong-Liang-23,Dong Liang,,"Chinese Academy of Sciences Beijing, China; Chinese Academy of Sciences Beijing, China; Chinese Academy of Sciences Beijing, China"
-39,82,profile/Sukhpreet-Singh-16,Sukhpreet Singh,,
-40,85,profile/Murali-Pasupuleti-2,Murali Krishna Pasupuleti,,
-41,88,profile/Diego-Garcia-Gil,Diego García-Gil,,University of Granada | UGR
-42,89,profile/Salvador-Garcia-16,Salvador García,,Universidad de Jaén | UJAEN
-43,90,profile/N-Xiong,N. Xiong,,Mälardalen University | MDH
-44,92,profile/Sebastian-Werner-17,Sebastian Werner,,"Technische Universität Berlin Berlin, Germany; Technische Universität Berlin | TUB"
-45,93,profile/Stefan-Tai,Stefan Tai,,"Karlsruhe Institute of TechnologyKarlsruhe, Germany; FZI Forschungszentrum InformatikKarlsruhe, Germany; Technische Universität BerlinGermany; Technische Universität Berlin | TUB"
-46,96,profile/Thomas-Lefevre-3,Thomas Lefèvre,,Hôpital Jean-Verdier –  Hôpitaux Universitaires Paris-Seine-Saint-Denis
-47,99,profile/Matthew-Willetts-2,Matthew Willetts,,Staffordshire University | SU
-48,100,profile/Anthony-Atkins-3,Anthony S. Atkins,,"Staffordshire University Stoke-on-Trent, United Kingdom; Staffordshire University | SU"
-49,103,profile/Amrish-Solanki,Amrish Solanki,,
-50,108,profile/Shoumya-Singh,Shoumya Singh,,"SRH Hochschule Heidelberg Heidelberg, Germany"
-51,109,profile/Deepak-Kumar-429,Deepak Kumar,,"Visvesvaraya Technological UniversityBelgaum, India; University of the Cumberlands"
-52,112,profile/Adeola-Adenubi,Adeola Oladele Adenubi,,Caleb University Lagos
-53,113,profile/Adeniyi-Akanni,Adeniyi Akanni,,
-54,115,profile/Peter-Schmidt-4,Peter Schmidt,,University of Economics in Bratislava
-55,116,profile/Zsolt-Simonka,Zsolt Simonka,,University of Economics in Bratislava
-56,118,profile/Nicola-Dimitri,Nicola Dimitri,,Università degli Studi di Siena | UNISI
-57,120,profile/Aditya-Dev-Mishra,aditya dev Mishra,,"Jamia Millia Islamia New Delhi, India; Jamia Millia Islamia"
-58,121,profile/Atul-Srivastava-32,Atul Srivastava,,Amity University | AU
-59,123,profile/Aryan-Raut-2,Aryan Raut,,Somaiya Vidyavihar | KJSIEIT
-60,129,profile/Wandisa-Nyikana,Wandisa Nyikana,,Cape Peninsula University of Technology | CPUT
-61,130,profile/Tiko-Iyamu,Tiko Iyamu,,Cape Peninsula University of Technology | CPUT
-62,132,profile/R-Sheeja-2,R. Sheeja,,Easwari Engineering College | EEC
-63,133,profile/M-Adimoolam,M. Adimoolam,,
-64,135,profile/Ajay-Badhan-2,Ajay Kumar Badhan,,Lovely Professional University | LPU
-65,136,profile/Rita-Roy-5,Rita Roy,,GITAM University | GITAM
-66,140,profile/Matthew-Ogunbukola,Matthew Ogunbukola,,
-67,147,profile/Guillaume-Wunsch,Guillaume Wunsch,,Université Catholique de Louvain - UCLouvain | UCLouvain
-68,149,profile/Nozima-Akhmedova,Nozima Akhmedova,,Tashkent University of Information Technology | TUIT
-69,152,profile/Dishant-Banga,Dishant Banga,,
-70,156,profile/David-Mhlanga-2,David Mhlanga,,"Government of Zimbabwe Department of EducationZimbabwe; University of Johannesburg Johannesburg, South Africa; University of Johannesburg | uj"
-71,161,profile/Zidong-Yu,Zidong Yu,,The Hong Kong Polytechnic University | PolyU
-72,162,profile/Xintao-Liu-2,Xintao Liu,,The Hong Kong Polytechnic University | PolyU
-73,164,profile/Efosa-Idemudia,Efosa Idemudia,,Howard University | HU
-74,167,profile/Nikolai-Eremin,Nikolai Eremin,,"Russian Academy of Sciences Moscow, Russia; Russian Academy of Sciences | RAS"
-75,172,profile/Vahid-Bakhtiary,Vahid Bakhtiary,,Islamic Azad University | IAU
-76,174,profile/Shamik-Palit-2,Shamik Palit,,"Manipal University, Dubai Dubai, United Arab Emirates"
-77,175,profile/Chandrima-Sinha-Roy,Chandrima Sinha Roy,,JIS COLLEGE OF ENGINEERING
-78,178,profile/Kanan-Mahmudlu-2,Kanan Mahmudlu,,Zhongnan University of Economics and Law
-79,179,profile/Fagan-Muzaffarli-2,Fagan Muzaffarli,,"Baku Engineering University Baku, Azerbaijan; Zhongnan University of Economics and Law"
-80,181,profile/Priyanka-Jadhav-21,Priyanka Jadhav,,Mahatma Phule Krishi Vidyapeeth
-81,185,profile/Amir-Abbasi-10,Amir Ali Abbasi,,"Philipps University of Marburg Germany; Quaid-i-Azam University Islamabad, Pakistan; Quaid-i-Azam University Pakistan; Quaid-i-Azam University | QAU"
-82,186,profile/Jiabao-Cao,Jiabao Cao,,"Beijing Institute of genomics Beijing, China; Chinese Academy of Sciences | CAS"
-83,187,profile/Feng-Gao-76,Feng Gao,,"Tianjin University Tianjin, China; Tianjin University | tju"
-84,190,profile/Marc-Schuilenburg,Marc Schuilenburg,,Erasmus University Rotterdam | EUR
-85,191,profile/Melvin_Soudijn2,Melvin R. J. Soudijn,,Dutch National Police
-86,193,profile/John-Owen-20,John Owen,,Harvard University | Harvard
-87,195,profile/Yijie-Weng,Yijie Weng,,"University of Maryland, College Park | UMD, UMCP, University of Maryland College Park"
-88,198,profile/Xiutong-Xu,Xiutong Xu,,Nanjing Forestry University
-89,200,profile/Rajesh-Remala,Rajesh Remala,,
-90,201,profile/Divya-Marupaka-2,Divya Marupaka,,
-91,202,profile/Krishnamurty-Raju-Mudunuru,Krishnamurty Raju Mudunuru,,
-92,205,profile/Rahul-Waghamare-2,Rahul Waghamare,,
-93,209,profile/Manikanta-Tadi,Manikanta Reddy Tadi,,WOXSEN
-94,210,profile/Koushik-Reddy-Patlolla,Koushik Reddy Patlolla,,WOXSEN
-95,211,profile/Poojitha-Gattu,Poojitha Gattu,,WOXSEN
-96,212,profile/Mohd-Azhar-5,Mohd Azhar,,"Aligarh Muslim University Alīgarh, India"
-97,214,profile/Aliffannisa-Ananta,Aliffannisa Ananta,,University of Sumatera Utara | USU
-98,217,profile/Mamta-10,Mamta ..,,Chandigarh University | CU
-99,220,profile/Chandrakala-m,Chandrakala .M,,Kristu Jayanti College
-100,225,profile/Narasimha-Vajjhala,Narasimha Rao Vajjhala,,"American University of Nigeria Yola, Nigeria; University of New York Tirana Tirana, Albania; American University of Nigeria Yola, Nigeria; University of New York Tirana"
-101,226,profile/Kenneth_David_Strang,Kenneth David Strang,,"Multinations Sydney, Australia; W3-Research Charlotte Amalie, U.S. Virgin Islands; IGI Global Hershey, United States"
-102,231,profile/Fatna-Elmendili,Fatna Elmendili,,Université Moulay Ismail | UMI
-103,232,profile/Mohammed-Fattah,Mohammed Fattah,,Université Moulay Ismail | UMI
-104,234,profile/Kanchan-Naithani,Kanchan Naithani,,"Govind Ballabh Pant Engineering College Pauri, India; Galgotias University"
-105,237,profile/Atefeh-Hemmati-2,Atefeh Hemmati,,Islamic Azad University Tehran Science and Research Branch | SRBIAU
-106,238,profile/Amir-Rahmani-3,Amir Masoud Rahmani,,"Islamic Azad University Tehran Science and Research Branch Tehran, Iran; Islamic Azad University Tehran, Iran; Islamic Azad University Tehran Science and Research BranchTehran, Iran; National Yunlin University of Science and Technology"
-107,243,profile/Abdul-Sajid-Mohammed,Abdul Sajid Mohammed,,University of the Cumberlands
-108,249,profile/Solomon-Oyetola,Solomon Olusegun Oyetola,,Ladoke Akintola University of Technology
-109,250,profile/Bolaji-Oladokun,Bolaji David Oladokun,,Kogi State University Nigeria
-110,253,profile/Serhii-Lehenchuk,Serhii Lehenchuk,,"Zhytomyr State Technological University Zhytomyr, Ukraine"
-111,254,profile/Tetiana-Zavalii-2,Tetiana Zavalii,,Zhytomyr State Technological University
-112,257,profile/Joseph-Oluwaseyi-2,Joseph Oluwaseyi,,Ladoke Akintola University of Technology
-113,258,profile/Dylan-Stilinski,Dylan Stilinski,,University of Northern Iowa | UNI
-114,260,profile/Steven-Daka,Steven Daka,,
-115,262,profile/Sagal-Yusuf-6,Sagal Mohamed Yusuf,,"SIMAD University Mogadishu, Somalia; University of Malaya | UM"
-116,267,profile/Sang-Hyuk-Kim-3,Sang Hyuk Kim,,
-117,269,profile/Alhakam-Salih,Alhakam Ayad Salih,,Tikrit University
-118,271,profile/Naresh-Kumar-Miryala,Naresh Kumar Miryala,,Meta
-119,272,profile/Divit-Gupta,Divit Gupta,,"HCL Noida, India; IBM Raleigh, United States; Oracle Corporation"
-120,276,profile/Kaushal-Kishor-4,Kaushal Kishor,,ABES Institute of Technology
-121,278,profile/Raj-Verma-23,Raj KISHOR Verma,,"ABES Institute of Technology Ghāziābād, India; ABES Institute of Technology"
-122,280,profile/Majeed-Mohammed-4,Majeed Mohammed,,
-123,281,profile/Abdul-Mumin-Khalid,Abdul-Mumin Khalid,,
-124,282,profile/Jonas-Yomboi-2,Jonas Yomboi,,
-125,284,profile/Muamar-Jasim,Muamar Jasim,,"Northern Technical University Kirkuk, Iraq; Northern Technical University"
-126,286,profile/Khatera-Akrami,Khatera Akrami,,
-127,287,profile/Mursal-Akrami,Mursal Akrami,,
-128,288,profile/Fazila-Akrami,Fazila Akrami,,
-129,289,profile/Musawer-Hakimi,Musawer Hakimi,,
-130,293,profile/Chibuike-Uzoagba,Chibuike Israel Uzoagba,,
-131,295,profile/Sheriffdeen-Kayode,Sheriffdeen Olayinka Kayode,,Ladoke Akintola University of Technology
-132,297,profile/Emre-Yasar-4,Emre Yaşar,,Isparta University of Applied Sciences
-133,298,profile/Mahmut-Demir-3,Mahmut Demir,,"Mugla ÜniversitesiMuğla, Turkey; T.C. Süleyman Demirel ÜniversitesiIsparta, Turkey; Isparta University of Applied Sciences Turkey; Isparta University of Applied Sciences"
-134,300,profile/Thamir-Alaskar,Thamir Alaskar,,Imam Muhammad bin Saud Islamic University
-135,301,profile/Amin-Alsadi,Amin K Alsadi,,Imam Muhammad bin Saud Islamic University
-136,302,profile/Wassim-J-Aloulou,Wassim J. ALOULOU,,"College of Economics and Administrative SciencesBusiness Administration; Saudi Entrepreneurship Association; Imam Muhammad bin Saud Islamic University Riyadh, Saudi Arabia"
-137,303,profile/Faouzi-Ayadi,Faouzi Ayadi,,
-138,308,profile/Ehizogie-Adeghe-2,Ehizogie Paul Adeghe,,Kane County Health Department United States
-139,310,profile/Patricia-Sanchez-Holgado,Patricia Sanchez-Holgado,,Universidad de Salamanca
-140,311,profile/Carlos-Arcila-Calderon,Carlos Arcila Calderón,,Universidad del Rosario (Colombia)Escuela de Ciencaias Humanas; Universidad de Salamanca
-141,322,profile/Dimitris-Karlis,Dimitris Karlis,,"Athens University of Economics and Business Athens, Greece; Athens University of Economics and Business | AUEB"
-142,323,profile/Vasilis-Chasiotis-3,Vasilis Chasiotis,,"University of Western Macedonia Kozáni, Greece; University of Western Macedonia Kozáni, Greece; Athens University of Economics and Business Athens, Greece; Athens University of Economics and Business | AUEB"
-143,327,profile/Faten-Louati,Faten Louati,,Faculté des Sciences Économiques et de Gestion de Sfax | FSEG
-144,328,profile/Farah-Ktata,Farah BARIKA Ktata,,
-145,329,profile/Ikram-Amous-2,Ikram Amous,,"Paul Sabatier University - Toulouse IIIToulouse, France; University of Sfax Sfax, Tunisia"
-146,334,profile/Haripriya-V,Haripriya V,,Jain University
-147,338,profile/Massimiliano-Gervasi,Massimiliano Gervasi,,Università del Salento | Unisalento
-148,339,profile/Nicolo-Totaro,Nicolò Gianmauro Totaro,,Università del Salento | Unisalento
-149,340,profile/Giorgia-Specchia,Giorgia Specchia,,Università del Salento | Unisalento
-150,341,profile/Maria-Latino,Maria Elena Latino,,Università del Salento | Unisalento
-151,344,profile/Endluri-Venkata-Naga-Jyothi,Endluri Venkata Naga Jyothi,,PACE Institute of Technology and Science | PACE
-152,349,profile/Subhi-Zeebaree,Subhi R. M. Zeebaree,,"Nawroz University Dihok, Iraq; Duhok Polytechnic University Dihok, Iraq; Duhok Polytechnic University Dihok, Iraq"
-153,351,profile/Doh-Depiction-Of-Health,Doh Depiction of Health,,Tabriz University of Medical Sciences | TBZMED
-154,352,profile/Mohammad-Ronaghi-2,Mohammad Hossein Ronaghi,,Shiraz University
-155,355,profile/Mani-Zarei,Mani Zarei,,"Islamic Azad University Shahr-e Qods, Iran"
-156,359,profile/Sivanagaraju-Gadiparthi,Sivanagaraju Gadiparthi,,Automatic Data Processing | ADP
-157,362,profile/Nuno-Galego,Nuno Galego,,Universidade Lusófona | ULHT
-158,366,profile/Ademola-Fathia,Ademola Fathia,,Stanford University | SU
-159,370,profile/Amal-Alaamer,Amal Alaamer,,Ahlia University
-160,371,profile/Rami-Abu-Wadi,Rami Abu wadi,,Ahlia University
-161,376,profile/Dragan-Primorac,Dragan Primorac,,Pennsylvania State University | Penn State
-162,377,profile/Petar-Brlek,Petar Brlek,,"Croatian Institute for Brain Research Zagreb, Croatia; International Society for Applied Biological Sciences; St. Catherine Specialty Hospital Zagreb, Croatia"
-163,378,profile/Vedrana-Skaro,Vedrana Skaro,,Children's Hospital Oakland Research Institute; Children's Hospital Oakland Research Institute; University Hospital Örebro Sweden
-164,380,profile/Rajeev-Tripathi-5,Rajeev Tripathi,,"School of Management Sciences, Lucknow"
-165,384,profile/Maureen-Nnamdi,Maureen Nnamdi,,American University Washington D.C. | AU
-166,386,profile/Mohd-Amran-Mohd-Daril,Mohd Amran Mohd Daril,,
-167,387,profile/Fatima-Fozia,Fatima Fozia,,National University of Medical Sciences | NUMS
-168,388,profile/Alhamzah-Abbas,Alhamzah F. Abbas,,Universiti Teknologi Malaysia | UTM
-169,390,profile/Marco-Postiglione-2,Marco Postiglione,,University of Naples Federico II | UNINA
-170,391,profile/Giancarlo-Sperli-2,Giancarlo Sperlì,,University of Naples Federico II | UNINA
-171,394,profile/Merve-Cigerci,Merve Ciğerci,,Yeditepe University
-172,397,profile/Rida-Akbar-3,Rida Akbar,,"University of Lahore Lahore, Pakistan; University of Education, Lahore"
-173,398,profile/Suhail-Chandio-2,Suhail A. Chandio,,Mehran University of Engineering and Technology
-174,401,profile/Anil-Goswami,Anil Goswami,,Indian Institute of Management Kashipur
-175,402,profile/Anamika-Sinha-2,Anamika Sinha,,Goa Institute of Management | GIM
-176,404,profile/Abeer-Amer,Abeer Amer,,Sadat Academy
-177,406,profile/Hung-Tran-Ngoc,Hung Tran Ngoc,,
-178,409,profile/Nabina-Khamaru,Nabina Khamaru,,Indian Statistical Institute | ISI
-179,410,profile/Ratna-Raj,Ratna Raj,,Indian Statistical Institute | ISI
-180,414,profile/Bharath-Srinivasaiah,Bharath Srinivasaiah,,
-181,423,profile/Kaifeng-Duan,Kaifeng Duan,,Fuzhou University
-182,426,profile/Princy-Tyagi-2,Princy tyagi Tyagi,,Swami Rama Himalayan University
-183,428,profile/Jun-Gao-80,Jun Gao,,"Shanghai Jiao Tong University Shanghai, China; University of London London, United Kingdom; University of Texas at Austin | UT"
-184,430,profile/Vikash-4,Vikash ..,,Jawaharlal Nehru University | JNU
-185,432,profile/Rohit-Bansal-9,Rohit Bansal,,"Vaish College of Engineering Rohtak, India; Vaish College of Engineering Rohtak, India; Vaish College of Engineering"
-186,433,profile/Shweta-Saini-11,Shweta Saini,,Maharshi Dayanand University | MDU
-187,434,profile/Nishita-Pruthi,Nishita Pruthi,,Maharshi Dayanand University | MDU
-188,438,profile/Jianli-Hao,Jianli Hao,,Xi'an Jiaotong-Liverpool University
-189,443,profile/Dariusz-Prokopowicz,Dariusz Prokopowicz,,"Business Academy Support for Business Otwock, Poland; International Institute of Innovation ""Science - Education - Development"" in Warsaw Warsaw, Poland; University of Warsaw Warsaw, Poland"
-190,444,profile/Malgorzata-Such-Pyrgiel,Małgorzata Such-Pyrgiel,,
-191,450,profile/Inam-Haq-14,Inam Ul Haq,,Chandigarh University | CU
-192,454,profile/Nicolae-Sfetcu,Nicolae Sfetcu,,Romanian Academy
-193,458,profile/Baofeng-Shi,Baofeng Shi,,Dalian University of Technology China; Northwest A & F University China; Northwest A & F University
-194,459,profile/Chunguang-Bai,Chunguang Bai,,"Dongbei University of Finance and Economics Dalian, China; University of Electronic Science and Technology of China | UESTC"
-195,460,profile/Yizhe-Dong-2,Yizhe Dong,,"Durham University United Kingdom; Aberystwyth University Aberystwyth, United Kingdom; The University of Edinburgh | UoE"
-196,462,profile/Basit-Ali-27,Basit Ali,,The University of Northampton | UN
-197,464,profile/Hana-Marcetic,Hana Marčetić,,Högskolan i Borås
-198,466,profile/Atul-Sahu-5,Atul Sahu,,"Tata Institute of Social Sciences Mumbai, India; Tata Institute of Social Sciences"
-199,467,profile/Appasaheb-Naikal,Appasaheb Naikal,,"Kuder Visions Unlimited; Indian Institute of Management, Kozhikode"
-200,470,profile/Maxim-Kalinin,Maxim Kalinin,,Peter the Great St.Petersburg Polytechnic University | SPBSTU
-201,471,profile/Poltavtseva-Maria,Poltavtseva Maria,,"Tver State Technical University Tver, Russia; Peter the Great St.Petersburg Polytechnic University Saint Petersburg, Russia; Peter the Great St.Petersburg Polytechnic University Saint Petersburg, Russia; Peter the Great St.Petersburg Polytechnic University | SPBSTU"
-202,473,profile/Md-Shohel-Sayeed,Md Shohel Sayeed,,"Multimedia UniversityKuala Lumpur, Malaysia; Multimedia University | mmu"
-203,474,profile/Abu-Fuad-Ahmad,Abu Fuad Ahmad,,
-204,475,profile/Choo-Tan-5,Choo Peng Tan,,
-205,480,profile/Jaggannagari-Kavitha,Jaggannagari Kavitha,,Sri Vishnu Educational Society | SVES
-206,481,profile/Amit-Tyagi-14,Amit Tyagi,,Pondicherry Engineering College
-207,483,profile/Michael-Kim-27,Michael Dokyum Kim,,State University of New York at New Paltz | SUNY New Paltz
-208,485,profile/Thomas-Setiabudi-Aden,Thomas Setiabudi Aden,,Public Works State Polytechnique IndonesiaIndonesia; The MInistry of Public Works and HousingIndonesia
-209,486,profile/Hera-Widyastuti,Hera Widyastuti,,Institut Teknologi Sepuluh Nopember | ITS
-210,488,profile/Hrishitva-Patel,Hrishitva Patel,,University of Texas at San Antonio | UTSA
-211,490,profile/Edwin-Frank,Edwin Frank,,Johns Hopkins University | JHU
-212,492,profile/Iman-Bagheri-2,Iman Bagheri,,
-213,498,profile/Hameedat-Olodo,Hameedat Olodo,,Al-Hikmah University
-214,500,profile/Iris-Reychav,Iris Reychav,,"Ariel University in Collaboration with Luceren on CRM ,Global Management in virtual organization Israel; Ariel University Israel; Ariel University Israel"
-215,501,profile/R-Mchaney,R. W. McHaney,,University of Arkansas; Kansas State UniversityCollege of Business Administration; Auckland University of TechnologyDepartment of Business information systems; Kansas State University | KSU
-216,512,profile/Dr-Prakash-16,Dr T. NIKIL Prakash,,St. Joseph's College of Tiruchchirappalli
-217,515,profile/Abdalmuttaleb-Al-Sartawi,Abdalmuttaleb AL-sartawi,,Ahlia University Bahrain; Inderscience Publishers; Ahlia University Bahrain; Ahlia University
-218,517,profile/Parijata-Majumdar,Parijata Majumdar,,
-219,519,profile/V-Bekkers,V. J. J. M. Bekkers,,Erasmus University Rotterdam | EUR
-220,527,profile/Saurav-Mishra-17,Saurav Kumar Mishra,,University of North Bengal
-221,528,profile/Georrge-John-J,Georrge John. J,,"Bentham Science PublishersSharjah, United Arab Emirates; The Royal Society London, United Kingdom; University of North Bengal India; University of North Bengal"
-222,531,profile/Intekhab-Alam-6,Intekhab Alam,,"Aligarh Muslim University Alīgarh, India"
-223,532,profile/Samreen-Fiza,Samreen Fiza,,"Presidency University, Bangalore"
-224,533,profile/Sunil-M-P-2,Sunil M P,,"Jain University Bengaluru, India; Jain University"
-225,539,profile/Adedoyin-Oyewole-2,Adedoyin Oyewole,,University of Georgia | UGA
-226,540,profile/Chinwe-Okoye,Chinwe Chinazo Okoye,,
-227,543,profile/Rania-Mkhinini-Gahar,Rania Mkhinini Gahar,,Higher Institute of Computer Science Tunisia; University of Tunis El Manar | FST
-228,544,profile/Olfa-Arfaoui,Olfa Arfaoui,,École Nationale d'Ingénieurs de Tunis | ENIT
-229,545,profile/Minyar-Sassi-Hidri,Minyar Sassi Hidri,,"University of Tunis El Manar Tunis, Tunisia; Imam Abdul Rahman bin Faisal UniversityDammam, Saudi Arabia"
-230,548,profile/Surendranadha-Reddy-Byrapu-Reddy,Surendranadha Reddy Byrapu Reddy,,Northeastern University | NEU
-231,550,profile/Nitin-Arora-12,Nitin Arora,,Indian Institute of Technology Roorkee | University of Roorkee
-232,551,profile/Anupam-Singh-24,Anupam Singh,,"Pranveer Singh Institute of Technology Kanpur, India; University of Petroleum & Energy Studies Dehra Dūn, India; Graphic Era Hill University India"
-233,552,profile/Vivek-Shahare-2,Vivek Shahare,,University of Petroleum & Energy Studies | UPES
-234,553,profile/Goutam-Datta-3,Goutam Datta,,University of Petroleum & Energy Studies | UPES
-235,558,profile/Tarun-Vashishth-2,Tarun Kumar Vashishth,,
-236,559,profile/Mr-Vikas-Sharma,Mr. Vikas Sharma,,IIMT Group of Colleges
-237,563,profile/Hamid-El-Amrani,Hamid El Amrani,,Abdelmalek Essaâdi University | UAE
-238,564,profile/Mariam-Lazrak,Mariam Lazrak,,"Abdelmalek Essaâdi University Tétouan, Morocco; Abdelmalek Essaâdi University | UAE"
-239,566,profile/Desislava-Ivanova-8,Desislava Ivanova,,"Forschungszentrum Jülich Germany; Cineca Italy; Technical University of Sofia Sofia, Bulgaria; Technical University of Sofia | TU"
-240,572,profile/Gheorghe-Savoiu,Gheorghe Savoiu,,"University of Pitesti Piteşti, Romania; University of Pitesti Piteşti, Romania; University of Pitesti Piteşti, Romania"
-241,574,profile/Ibra-Him-5,Ibra Him,,Ladoke Akintola University of Technology
-242,577,profile/Tiffany-Vance,Tiffany Vance,,San Francisco State University | SFSU
-243,578,profile/Kevin-Butler-7,Kevin Butler,,Environmental Systems Research Institute (ESRI) | ESRI
-244,580,profile/Mahmudul-Hasan-251,Mahmudul Hasan,,Lamar University
-245,581,profile/Md-Mostafizur-Rahman-18,Md Mostafizur Rahman,,Lamar University
-246,582,profile/Md-Abdul-Ahad-Maraj,Md Abdul Ahad Maraj,,Lamar University
-247,586,profile/Ching-Seng-Yap,Ching Seng Yap,,
-248,589,profile/John-Kaiser-Calautit,John Kaiser S. Calautit,,"The University of Sheffield Sheffield, United Kingdom; University of Nottingham Nottingham, United Kingdom; University of Nottingham United Kingdom; University of Nottingham | Notts"
-249,591,profile/Antonella-Falanga-2,Antonella Falanga,,"Università degli Studi della Campania ""Luigi Vanvitelli"
-250,592,profile/Armando-Carteni,Armando Cartenì,,"University of Naples Federico II Naples, Italy; Università degli Studi della Campania ""Luigi Vanvitelli Caserta, Italy; Università degli Studi della Campania ""Luigi VanvitelliCaserta, Italy; Università degli Studi della Campania ""Luigi Vanvitelli"
-251,594,profile/Kannadhasan-Suriyan,Kannadhasan Suriyan,,"Lord Venkateshwara Engineering College India; Tamilnadu Government Polytechnic College India; Cheran College of Engineering, India"
-252,595,profile/Kanagaraj-Venusamy-2,Kanagaraj Venusamy,,"Sadeem-aziz co Ltd Dammam, Saudi Arabia; CPAT-TVS Chennai, India; Al Musanna College of Technology Muscat, Oman; REC | REC"
-253,596,profile/Nagarajan-Ramalingam,Nagarajan Ramalingam,,"Gnanamani College of Technology Nāmakkal, India; Gnanamani College of Technology | GCT"
-254,598,profile/Oscar-Dalva-2,Oscar Dalva,,Universidade Federal do Ceará | UFC
-255,599,profile/Edemilson-Parana,Edemilson Paraná,,"University of Brasília Brasília, Brazil; Instituto de Pesquisa Econômica Aplicada - IPEABrasília, Brazil; University of Brasília Brasília, Brazil; Lappeenranta – Lahti University of Technology LUT"
-256,601,profile/Loso-Judijanto,Loso Judijanto,,
-257,605,profile/Luciana-Klein,Luciana Klein,,Universidade Federal do Paraná | UFPR
-258,611,profile/Gouri-Bhunia,Gouri SANKAR Bhunia,,
-259,612,profile/Pravat-Shit,Pravat Kumar Shit,,"Vidyasagar University India; Raja Narendralal Khan Women's College Medinīpur, India; Raja Narendralal Khan Women's College"
-260,615,profile/Xinyun-Hu-10,Xinyun Hu,,Chongqing Technology and Business University
-261,616,profile/Pengfei-Guo-23,Pengfei Guo,,Chongqing Technology and Business University
-262,617,profile/Mingming-Li-21,Mingming Li,,Central European University | CEU
-263,619,profile/Lee-Qi-Zian-2,Lee Qi Zian,,Technical University of Malaysia Malacca | utem
-264,620,profile/Nur-Zareen-Zulkarnain,Nur Zareen Zulkarnain,,Technical University of Malaysia Malacca | utem
-265,621,profile/Yogan-Jaya-Kumar,Yogan Jaya Kumar,,"Universiti Teknikal Malaysia Melaka (UTeM)Faculty of Information and Communication technology; Technical University of Malaysia Malacca Malacca, Malaysia; Technical University of Malaysia Malacca Malacca, Malaysia"
-266,626,profile/Bv-Rao-2,B.V. Ramalingeswara Rao,,Indian Maritime University
-267,627,profile/Bhasutkar-Mahesh-2,Bhasutkar Mahesh,,
-268,629,profile/Farhan-Aslam-10,Farhan Aslam,,University of the Cumberlands
-269,631,profile/Firsty_Larastiyana_Susanto,Firsty Larastiyana Susanto,,State University of Malang | UM
-270,633,profile/Yusoff-Wan-Sallha,Yusoff Wan sallha,,"Universiti Malaysia Perlis Kangar, Malaysia; Universiti Malaysia Perlis | unimap"
-271,634,profile/Ummi-Naiemah-Saraih,Ummi Naiemah Saraih,,"Universiti Malaysia Perlis Kangar, Malaysia; Universiti Malaysia Perlis | unimap"
-272,636,profile/Carson-Leung,Carson Leung,,University of Manitoba | UMN
-273,637,profile/Connor-Hryhoruk,Connor Hryhoruk,,University of Manitoba | UMN
-274,638,profile/Alfredo-Cuzzocrea-2,Alfredo Cuzzocrea,,Università della Calabria | Università della Calabria
-275,640,profile/Sunny-Au,Sunny Chi Lik Au,,"Hong Kong Hospital Authority Hong Kong, Hong Kong"
-276,642,profile/R-Prabodha-Lenora,R. Prabodha Dilini Lenora,,"University of Kelaniya Kelaniya, Sri Lanka; Sri Lanka Institute of Information Technology | SLIIT"
-277,643,profile/W-Sanduni-Shashipraba-Perera,W. Sanduni Shashipraba Perera,,"Sri Lanka Institute of Information Technology Colombo, Sri Lanka"
-278,646,profile/Athanasios-Drigas,Athanasios Drigas,,"National Center for Scientific Research Demokritos Athens, Greece; National Center for Scientific Research Demokritos Greece; NCSR Demokritos & Demokritus Univercity of Thrace Greece; National Center for Scientific Research Demokritos | ncsr"
-279,651,profile/Belachew-Regane-2,Belachew Regane,,"Addis Ababa University Addis Ababa, Ethiopia; Addis Ababa University | AAU"
-280,654,profile/Pedro-Delicado,Pedro Delicado,,Universitat Pompeu Fabra Spain; Universitat Politècnica de Catalunya Spain; Universitat Politècnica de Catalunya | UPC
-281,655,profile/Cristian-Pachon-Garcia,Cristian Pachón-García,,Universitat Politècnica de Catalunya | UPC
-282,660,profile/Nasos-Grigoropoulos,Nasos Grigoropoulos,,"The Centre for Research and Technology, Hellas Volos, Greece"
-283,665,profile/Temidayo-Folalu,Temidayo Folalu,,Ladoke Akintola University of Technology
-284,666,profile/Precious-Damola,Precious Damola,,Ladoke Akintola University of Technology
-285,669,profile/Dr-Shamim-2,Dr Shamim,,
-286,676,profile/Megha-Walia-2,Megha Walia,,SGT University
-287,681,profile/Asad-Abbas-35,Asad Abbas,,University of South Alabama | USA
-288,687,profile/Krismon-Tude,Krismon Noldiantus Liwe Tude,,
-289,691,profile/Khurram-Khan-10,Khurram Khan,,
-290,693,profile/Brandon-Randolph-Seng,Brandon Randolph-Seng,,"Texas A&M University-Commerce Commerce, United States; Texas A&M University-Commerce"
-291,696,profile/Noman-Ali-31,Noman Ali,,
-292,700,profile/Saransh-Arora-4,Saransh Arora,,
-293,701,profile/Sunil-Raj-Thota,Sunil Raj Thota,,"Northeastern University Boston, United States; Northeastern University Boston, United States; Environmental Systems Research Institute (ESRI) Redlands, United States; Yahoo"
-294,703,profile/Md-Nurul-Islam-2,Md. Nurul Islam,,"Manarat International UniversityDhaka, Bangladesh; Nanjing University Nanjing, China; Nanjing University Nanjing, China; International Islamic University Chittagong | IIUC"
-295,704,profile/Murtaza-Ashiq,Murtaza Ashiq,,"FG College Jhelum Jhelum, Pakistan; University of the Punjab | PU"
-296,705,profile/Shakil-Ahmad-Phd,Shakil Ahmad Phd,,"King Saud University Riyadh, Saudi Arabia; Imam Abdul Rahman bin Faisal University Dammam, Saudi Arabia; Imam Abdul Rahman bin Faisal University Dammam, Saudi Arabia"
+1,4,profile/Farzana-Mir,Farzana Asad Mir,,"British University in Dubai Dubai, United Arab Emirates; British University in Dubai Dubai, United Arab Emirates; British University in Dubai"
+2,6,profile/Sumit-Jadhav-5,Sumit Jadhav,,Vivekanand Education Society's Institute of Technology
+3,12,profile/Sid-Terason,Sid TERASON,,Kasetsart University | KU
+4,17,profile/Zhipeng-Ma-10,Zhipeng Michael Ma,,University of Southern Denmark | SDU
+5,18,profile/Bo-Jorgensen-5,Bo Nørregaard Jørgensen,,"University of Southern Denmark Kolding, Denmark; University of Southern Denmark | SDU"
+6,21,profile/Uemit-Demirbaga,Ümit Demirbaga,,"Logoİzmit, Turkey; European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI)Cambridge, United Kingdom; Bartin University"
+7,22,profile/Gagangeet-Aujla,Gagangeet Singh Aujla,,"Chandigarh University India; Newcastle University Newcastle upon Tyne, United Kingdom; Durham University Durham, United Kingdom; Durham University | DU"
+8,23,profile/Anish-Jindal-2,Anish Jindal,,"Lancaster University Lancaster, United Kingdom; University of Essex Colchester, United Kingdom; Durham University | DU"
+9,24,profile/Oguzhan-Kalyon,Oguzhan Kalyon,,Newcastle University | NCL
+10,30,profile/Davide-Tosi,Davide Tosi,,"Università degli Studi dell'Insubria Varese, Italy; Università degli Studi dell'Insubria | UNINSUBRIA"
+11,31,profile/Marco-Roccetti,Marco Roccetti,,"International Computer Science Institute Berkeley, United States; University of California, Los Angeles Los Angeles, United States; University of Bologna | UNIBO"
+12,34,profile/Fedia-Ghedass,Fedia Ghedass,,
+13,35,profile/Faouzi-Charrada,Faouzi Ben Charrada,,University of Tunis El Manar | FST
+14,37,profile/Ranjeet-Kumar-Singh-3,Ranjeet Kumar Singh,,"University of Calcutta Kolkata, India"
+15,40,profile/Chandradeep-Bhatt,Chandradeep Bhatt,,"Graphic Era Hill University Dehra Dūn, India; Graphic Era Hill University"
+16,45,profile/Jose-Galdon,Jose Luis Galdon,,Universitat Politècnica de València | UPV
+17,48,profile/Assefa-Senbeto,Assefa Senbeto,,
+18,50,profile/Huadong-Guo-2,Huadong Guo,,Chinese Academy of Sciences | CAS
+19,51,profile/Dong-Liang-23,Dong Liang,,"Chinese Academy of Sciences Beijing, China; Chinese Academy of Sciences Beijing, China; Chinese Academy of Sciences Beijing, China"
+20,53,profile/Chukwudi-Maha,Chukwudi Cosmos Maha,,Ministry of Health Saudi Arabia | MOH
+21,56,profile/Murali-Pasupuleti-2,Murali Krishna Pasupuleti,,
+22,60,profile/Diego-Garcia-Gil,Diego García-Gil,,University of Granada | UGR
+23,61,profile/Salvador-Garcia-16,Salvador García,,Universidad de Jaén | UJAEN
+24,62,profile/N-Xiong,N. Xiong,,Mälardalen University | MDH
+25,64,profile/Sebastian-Werner-17,Sebastian Werner,,"Technische Universität Berlin Berlin, Germany; Technische Universität Berlin | TUB"
+26,65,profile/Stefan-Tai,Stefan Tai,,"Karlsruhe Institute of TechnologyKarlsruhe, Germany; FZI Forschungszentrum InformatikKarlsruhe, Germany; Technische Universität BerlinGermany; Technische Universität Berlin | TUB"
+27,67,profile/Matthew-Willetts-2,Matthew Willetts,,Staffordshire University | SU
+28,68,profile/Anthony-Atkins-3,Anthony S. Atkins,,"Staffordshire University Stoke-on-Trent, United Kingdom; Staffordshire University | SU"
+29,70,profile/Pushpendu-Kar,Pushpendu Kar,,"National University of Singapore Singapore, Singapore; Norwegian University of Science and Technology Ålesund, Norway; University of Nottingham Ningbo China Ningbo, China"
+30,71,profile/Monideepa-Roy-2,Monideepa Roy,,KIIT University | KIIT
+31,77,profile/Adeola-Adenubi,Adeola Oladele Adenubi,,Caleb University Lagos
+32,78,profile/Ayorinde-Oduroye-2,Ayorinde Oduroye,,"Babcock University School of Posgraduate StudiesShagamu, Nigeria; Babcock UniversityShagamu, Nigeria; Caleb University; Caleb University Lagos"
+33,79,profile/Adeniyi-Akanni,Adeniyi Akanni,,
+34,82,profile/Nicola-Dimitri,Nicola Dimitri,,Università degli Studi di Siena | UNISI
+35,84,profile/Aditya-Dev-Mishra,aditya dev Mishra,,"Jamia Millia Islamia New Delhi, India; Jamia Millia Islamia"
+36,85,profile/Atul-Srivastava-32,Atul Srivastava,,Amity University | AU
+37,89,profile/Wandisa-Nyikana,Wandisa Nyikana,,Cape Peninsula University of Technology | CPUT
+38,90,profile/Tiko-Iyamu,Tiko Iyamu,,Cape Peninsula University of Technology | CPUT
+39,94,profile/R-Sheeja-2,R. Sheeja,,Easwari Engineering College | EEC
+40,95,profile/M-Adimoolam,M. Adimoolam,,
+41,97,profile/Ajay-Badhan-2,Ajay Kumar Badhan,,Lovely Professional University | LPU
+42,98,profile/Rita-Roy-5,Rita Roy,,GITAM University | GITAM
+43,105,profile/Nikolai-Siniak,Nikolai Siniak,,"Belarusian State Technological University Minsk, Belarus; University for Information Science and Technology ""St. Paul the Apostle""; University for Information Science and Technology ""St. Paul the Apostle""Faculty of Machine Intelligence and Robotics"
+44,108,profile/Nozima-Akhmedova,Nozima Akhmedova,,Tashkent University of Information Technology | TUIT
+45,110,profile/Guillaume-Wunsch,Guillaume Wunsch,,Université Catholique de Louvain - UCLouvain | UCLouvain
+46,112,profile/Dishant-Banga,Dishant Banga,,
+47,117,profile/David-Mhlanga-2,David Mhlanga,,"Government of Zimbabwe Department of EducationZimbabwe; University of Johannesburg Johannesburg, South Africa; University of Johannesburg | uj"
+48,121,profile/Efosa-Idemudia,Efosa Idemudia,,Howard University | HU
+49,124,profile/Zidong-Yu,Zidong Yu,,The Hong Kong Polytechnic University | PolyU
+50,125,profile/Xintao-Liu-2,Xintao Liu,,The Hong Kong Polytechnic University | PolyU
+51,127,profile/Zihad-Hasan-Joy,Zihad Hasan Joy,,"University of South Asia Dhaka, Bangladesh; Texas A&M University - Texarkana | TAMUT"
+52,129,profile/Amir-Abbasi-10,Amir Ali Abbasi,,"Philipps University of Marburg Germany; Quaid-i-Azam University Islamabad, Pakistan; Quaid-i-Azam University Pakistan; Quaid-i-Azam University | QAU"
+53,130,profile/Jiabao-Cao,Jiabao Cao,,"Beijing Institute of genomics Beijing, China; Chinese Academy of Sciences | CAS"
+54,131,profile/Feng-Gao-76,Feng Gao,,"Tianjin University Tianjin, China; Tianjin University | tju"
+55,133,profile/Nikolai-Eremin,Nikolai Eremin,,"Russian Academy of Sciences Moscow, Russia; Russian Academy of Sciences | RAS"
+56,139,profile/Vahid-Bakhtiary,Vahid Bakhtiary,,Islamic Azad University | IAU
+57,142,profile/Marc-Schuilenburg,Marc Schuilenburg,,Erasmus University Rotterdam | EUR
+58,143,profile/Melvin_Soudijn2,Melvin R. J. Soudijn,,Dutch National Police
+59,149,profile/Yijie-Weng,Yijie Weng,,"University of Maryland, College Park | UMD, UMCP, University of Maryland College Park"
+60,151,profile/Rahul-Waghamare-2,Rahul Waghamare,,
+61,154,profile/Xiutong-Xu,Xiutong Xu,,Nanjing Forestry University
+62,157,profile/Rajesh-Remala,Rajesh Remala,,
+63,158,profile/Divya-Marupaka-2,Divya Marupaka,,
+64,159,profile/Krishnamurty-Raju-Mudunuru,Krishnamurty Raju Mudunuru,,
+65,162,profile/Abdul-Sajid-Mohammed,Abdul Sajid Mohammed,,University of the Cumberlands
+66,164,profile/Manikanta-Tadi,Manikanta Reddy Tadi,,WOXSEN
+67,165,profile/Koushik-Reddy-Patlolla,Koushik Reddy Patlolla,,WOXSEN
+68,166,profile/Poojitha-Gattu,Poojitha Gattu,,WOXSEN
+69,167,profile/Mohd-Azhar-5,Mohd Azhar,,"Aligarh Muslim University Alīgarh, India"
+70,170,profile/Chandrakala-m,Chandrakala .M,,Kristu Jayanti College
+71,176,profile/Narasimha-Vajjhala,Narasimha Rao Vajjhala,,"American University of Nigeria Yola, Nigeria; University of New York Tirana Tirana, Albania; American University of Nigeria Yola, Nigeria; University of New York Tirana"
+72,177,profile/Kenneth_David_Strang,Kenneth David Strang,,"Multinations Sydney, Australia; W3-Research Charlotte Amalie, U.S. Virgin Islands; IGI Global Hershey, United States"
+73,181,profile/Fatna-Elmendili,Fatna Elmendili,,Université Moulay Ismail | UMI
+74,182,profile/Mohammed-Fattah,Mohammed Fattah,,Université Moulay Ismail | UMI
+75,185,profile/Kanchan-Naithani,Kanchan Naithani,,"Govind Ballabh Pant Engineering College Pauri, India; Galgotias University"
+76,187,profile/Atefeh-Hemmati-2,Atefeh Hemmati,,Islamic Azad University Tehran Science and Research Branch | SRBIAU
+77,188,profile/Amir-Rahmani-3,Amir Masoud Rahmani,,"Islamic Azad University Tehran Science and Research Branch Tehran, Iran; Islamic Azad University Tehran, Iran; Islamic Azad University Tehran Science and Research BranchTehran, Iran; National Yunlin University of Science and Technology"
+78,195,profile/Serhii-Lehenchuk,Serhii Lehenchuk,,"Zhytomyr State Technological University Zhytomyr, Ukraine"
+79,196,profile/Tetiana-Zavalii-2,Tetiana Zavalii,,Zhytomyr State Technological University
+80,203,profile/Steven-Daka,Steven Daka,,
+81,206,profile/Naresh-Kumar-Miryala,Naresh Kumar Miryala,,Meta
+82,207,profile/Divit-Gupta,Divit Gupta,,"HCL Noida, India; IBM Raleigh, United States; Oracle Corporation"
+83,209,profile/Sang-Hyuk-Kim-3,Sang Hyuk Kim,,
+84,213,profile/Majeed-Mohammed-4,Majeed Mohammed,,
+85,214,profile/Abdul-Mumin-Khalid,Abdul-Mumin Khalid,,
+86,215,profile/Jonas-Yomboi-2,Jonas Yomboi,,
+87,217,profile/Kaushal-Kishor-4,Kaushal Kishor,,ABES Institute of Technology
+88,219,profile/Raj-Verma-23,Raj KISHOR Verma,,"ABES Institute of Technology Ghāziābād, India; ABES Institute of Technology"
+89,221,profile/Khatera-Akrami,Khatera Akrami,,
+90,222,profile/Mursal-Akrami,Mursal Akrami,,
+91,223,profile/Fazila-Akrami,Fazila Akrami,,
+92,224,profile/Musawer-Hakimi,Musawer Hakimi,,
+93,228,profile/Chibuike-Uzoagba,Chibuike Israel Uzoagba,,
+94,231,profile/Emre-Yasar-4,Emre Yaşar,,Isparta University of Applied Sciences
+95,232,profile/Mahmut-Demir-3,Mahmut Demir,,"Mugla ÜniversitesiMuğla, Turkey; T.C. Süleyman Demirel ÜniversitesiIsparta, Turkey; Isparta University of Applied Sciences Turkey; Isparta University of Applied Sciences"
+96,234,profile/Thamir-Alaskar,Thamir Alaskar,,Imam Muhammad bin Saud Islamic University
+97,235,profile/Amin-Alsadi,Amin K Alsadi,,Imam Muhammad bin Saud Islamic University
+98,236,profile/Wassim-J-Aloulou,Wassim J. ALOULOU,,"College of Economics and Administrative SciencesBusiness Administration; Saudi Entrepreneurship Association; Imam Muhammad bin Saud Islamic University Riyadh, Saudi Arabia"
+99,237,profile/Faouzi-Ayadi,Faouzi Ayadi,,
+100,241,profile/Ehizogie-Adeghe-2,Ehizogie Paul Adeghe,,Kane County Health Department United States
+101,244,profile/Patricia-Sanchez-Holgado,Patricia Sanchez-Holgado,,Universidad de Salamanca
+102,245,profile/Carlos-Arcila-Calderon,Carlos Arcila Calderón,,Universidad del Rosario (Colombia)Escuela de Ciencaias Humanas; Universidad de Salamanca
+103,257,profile/Faten-Louati,Faten Louati,,Faculté des Sciences Économiques et de Gestion de Sfax | FSEG
+104,258,profile/Farah-Ktata,Farah BARIKA Ktata,,
+105,259,profile/Ikram-Amous-2,Ikram Amous,,"Paul Sabatier University - Toulouse IIIToulouse, France; University of Sfax Sfax, Tunisia"
+106,261,profile/Dimitris-Karlis,Dimitris Karlis,,"Athens University of Economics and Business Athens, Greece; Athens University of Economics and Business | AUEB"
+107,262,profile/Vasilis-Chasiotis-3,Vasilis Chasiotis,,"University of Western Macedonia Kozáni, Greece; University of Western Macedonia Kozáni, Greece; Athens University of Economics and Business Athens, Greece; Athens University of Economics and Business | AUEB"
+108,269,profile/Haripriya-V,Haripriya V,,Jain University
+109,275,profile/Doh-Depiction-Of-Health,Doh Depiction of Health,,Tabriz University of Medical Sciences | TBZMED
+110,276,profile/Mohammad-Ronaghi-2,Mohammad Hossein Ronaghi,,Shiraz University
+111,281,profile/Endluri-Venkata-Naga-Jyothi,Endluri Venkata Naga Jyothi,,PACE Institute of Technology and Science | PACE
+112,284,profile/Mani-Zarei,Mani Zarei,,"Islamic Azad University Shahr-e Qods, Iran"
+113,289,profile/Sivanagaraju-Gadiparthi,Sivanagaraju Gadiparthi,,Automatic Data Processing | ADP
+114,292,profile/Nuno-Galego,Nuno Galego,,Universidade Lusófona | ULHT
+115,294,profile/Amal-Alaamer,Amal Alaamer,,Ahlia University
+116,295,profile/Rami-Abu-Wadi,Rami Abu wadi,,Ahlia University
+117,300,profile/Dragan-Primorac,Dragan Primorac,,Pennsylvania State University | Penn State
+118,301,profile/Petar-Brlek,Petar Brlek,,"Croatian Institute for Brain Research Zagreb, Croatia; International Society for Applied Biological Sciences; St. Catherine Specialty Hospital Zagreb, Croatia"
+119,302,profile/Vedrana-Skaro,Vedrana Skaro,,Children's Hospital Oakland Research Institute; Children's Hospital Oakland Research Institute; University Hospital Örebro Sweden
+120,305,profile/Rajeev-Tripathi-5,Rajeev Tripathi,,"School of Management Sciences, Lucknow"
+121,309,profile/Mohd-Amran-Mohd-Daril,Mohd Amran Mohd Daril,,
+122,310,profile/Fatima-Fozia,Fatima Fozia,,National University of Medical Sciences | NUMS
+123,311,profile/Alhamzah-Abbas,Alhamzah F. Abbas,,Universiti Teknologi Malaysia | UTM
+124,314,profile/Marco-Postiglione-2,Marco Postiglione,,University of Naples Federico II | UNINA
+125,315,profile/Giancarlo-Sperli-2,Giancarlo Sperlì,,University of Naples Federico II | UNINA
+126,318,profile/Rida-Akbar-3,Rida Akbar,,"University of Lahore Lahore, Pakistan; University of Education, Lahore"
+127,319,profile/Suhail-Chandio-2,Suhail A. Chandio,,Mehran University of Engineering and Technology
+128,323,profile/Anil-Goswami,Anil Goswami,,Indian Institute of Management Kashipur
+129,324,profile/Anamika-Sinha-2,Anamika Sinha,,Goa Institute of Management | GIM
+130,326,profile/Hung-Tran-Ngoc,Hung Tran Ngoc,,
+131,333,profile/Vikash-4,Vikash ..,,Jawaharlal Nehru University | JNU
+132,335,profile/Jun-Gao-80,Jun Gao,,"Shanghai Jiao Tong University Shanghai, China; University of London London, United Kingdom; University of Texas at Austin | UT"
+133,341,profile/Kaifeng-Duan,Kaifeng Duan,,Fuzhou University
+134,343,profile/Rohit-Bansal-9,Rohit Bansal,,"Vaish College of Engineering Rohtak, India; Vaish College of Engineering Rohtak, India; Vaish College of Engineering"
+135,344,profile/Shweta-Saini-11,Shweta Saini,,Maharshi Dayanand University | MDU
+136,345,profile/Nishita-Pruthi,Nishita Pruthi,,Maharshi Dayanand University | MDU
+137,352,profile/Swati-Sharma-199,Swati Sharma,,O.P. Jindal Global University | JGLS
+138,354,profile/Dariusz-Prokopowicz,Dariusz Prokopowicz,,"Business Academy Support for Business Otwock, Poland; International Institute of Innovation ""Science - Education - Development"" in Warsaw Warsaw, Poland; University of Warsaw Warsaw, Poland"
+139,355,profile/Malgorzata-Such-Pyrgiel,Małgorzata Such-Pyrgiel,,
+140,357,profile/Jianli-Hao,Jianli Hao,,Xi'an Jiaotong-Liverpool University
+141,364,profile/Hana-Marcetic,Hana Marčetić,,Högskolan i Borås
+142,366,profile/Nicolae-Sfetcu,Nicolae Sfetcu,,Romanian Academy
+143,368,profile/Maxim-Kalinin,Maxim Kalinin,,Peter the Great St.Petersburg Polytechnic University | SPBSTU
+144,369,profile/Poltavtseva-Maria,Poltavtseva Maria,,"Tver State Technical University Tver, Russia; Peter the Great St.Petersburg Polytechnic University Saint Petersburg, Russia; Peter the Great St.Petersburg Polytechnic University Saint Petersburg, Russia; Peter the Great St.Petersburg Polytechnic University | SPBSTU"
+145,374,profile/Basit-Ali-27,Basit Ali,,The University of Northampton | UN
+146,377,profile/Peter-Simpa,Peter Simpa,,University of Hull
+147,378,profile/Darlington-Ekechukwu,Darlington Eze Ekechukwu,,
+148,381,profile/Baofeng-Shi,Baofeng Shi,,Dalian University of Technology China; Northwest A & F University China; Northwest A & F University
+149,382,profile/Chunguang-Bai,Chunguang Bai,,"Dongbei University of Finance and Economics Dalian, China; University of Electronic Science and Technology of China | UESTC"
+150,383,profile/Yizhe-Dong-2,Yizhe Dong,,"Durham University United Kingdom; Aberystwyth University Aberystwyth, United Kingdom; The University of Edinburgh | UoE"
+151,385,profile/Md-Shohel-Sayeed,Md Shohel Sayeed,,"Multimedia UniversityKuala Lumpur, Malaysia; Multimedia University | mmu"
+152,386,profile/Abu-Fuad-Ahmad,Abu Fuad Ahmad,,
+153,387,profile/Choo-Tan-5,Choo Peng Tan,,
+154,390,profile/Hrishitva-Patel,Hrishitva Patel,,University of Texas at San Antonio | UTSA
+155,392,profile/Jaggannagari-Kavitha,Jaggannagari Kavitha,,Sri Vishnu Educational Society | SVES
+156,393,profile/Amit-Tyagi-14,Amit Tyagi,,Pondicherry Engineering College
+157,395,profile/Thomas-Setiabudi-Aden,Thomas Setiabudi Aden,,Public Works State Polytechnique IndonesiaIndonesia; The MInistry of Public Works and HousingIndonesia
+158,396,profile/Hera-Widyastuti,Hera Widyastuti,,Institut Teknologi Sepuluh Nopember | ITS
+159,399,profile/Michael-Kim-27,Michael Dokyum Kim,,State University of New York at New Paltz | SUNY New Paltz
+160,402,profile/Iris-Reychav,Iris Reychav,,"Ariel University in Collaboration with Luceren on CRM ,Global Management in virtual organization Israel; Ariel University Israel; Ariel University Israel"
+161,403,profile/R-Mchaney,R. W. McHaney,,University of Arkansas; Kansas State UniversityCollege of Business Administration; Auckland University of TechnologyDepartment of Business information systems; Kansas State University | KSU
+162,411,profile/V-Bekkers,V. J. J. M. Bekkers,,Erasmus University Rotterdam | EUR
+163,413,profile/Hameedat-Olodo,Hameedat Olodo,,Al-Hikmah University
+164,418,profile/Abdalmuttaleb-Al-Sartawi,Abdalmuttaleb AL-sartawi,,Ahlia University Bahrain; Inderscience Publishers; Ahlia University Bahrain; Ahlia University
+165,423,profile/Parijata-Majumdar,Parijata Majumdar,,
+166,430,profile/Intekhab-Alam-6,Intekhab Alam,,"Aligarh Muslim University Alīgarh, India"
+167,431,profile/Samreen-Fiza,Samreen Fiza,,"Presidency University, Bangalore"
+168,432,profile/Sunil-M-P-2,Sunil M P,,"Jain University Bengaluru, India; Jain University"
+169,436,profile/Saurav-Mishra-17,Saurav Kumar Mishra,,University of North Bengal
+170,437,profile/Georrge-John-J,Georrge John. J,,"Bentham Science PublishersSharjah, United Arab Emirates; The Royal Society London, United Kingdom; University of North Bengal India; University of North Bengal"
+171,441,profile/Surendranadha-Reddy-Byrapu-Reddy,Surendranadha Reddy Byrapu Reddy,,Northeastern University | NEU
+172,444,profile/Nitin-Arora-12,Nitin Arora,,Indian Institute of Technology Roorkee | University of Roorkee
+173,445,profile/Anupam-Singh-24,Anupam Singh,,"Pranveer Singh Institute of Technology Kanpur, India; University of Petroleum & Energy Studies Dehra Dūn, India; Graphic Era Hill University India"
+174,446,profile/Vivek-Shahare-2,Vivek Shahare,,University of Petroleum & Energy Studies | UPES
+175,447,profile/Goutam-Datta-3,Goutam Datta,,University of Petroleum & Energy Studies | UPES
+176,450,profile/Adedoyin-Oyewole-2,Adedoyin Oyewole,,University of Georgia | UGA
+177,451,profile/Chinwe-Okoye,Chinwe Chinazo Okoye,,
+178,453,profile/Rania-Mkhinini-Gahar,Rania Mkhinini Gahar,,Higher Institute of Computer Science Tunisia; University of Tunis El Manar | FST
+179,454,profile/Olfa-Arfaoui,Olfa Arfaoui,,École Nationale d'Ingénieurs de Tunis | ENIT
+180,455,profile/Minyar-Sassi-Hidri,Minyar Sassi Hidri,,"University of Tunis El Manar Tunis, Tunisia; Imam Abdul Rahman bin Faisal UniversityDammam, Saudi Arabia"
+181,466,profile/Tarun-Vashishth-2,Tarun Kumar Vashishth,,
+182,467,profile/Mr-Vikas-Sharma,Mr. Vikas Sharma,,IIMT Group of Colleges
+183,469,profile/Desislava-Ivanova-8,Desislava Ivanova,,"Forschungszentrum Jülich Germany; Cineca Italy; Technical University of Sofia Sofia, Bulgaria; Technical University of Sofia | TU"
+184,473,profile/Tiffany-Vance,Tiffany Vance,,San Francisco State University | SFSU
+185,474,profile/Kevin-Butler-7,Kevin Butler,,Environmental Systems Research Institute (ESRI) | ESRI
+186,477,profile/Mahmudul-Hasan-251,Mahmudul Hasan,,Lamar University
+187,478,profile/Md-Mostafizur-Rahman-18,Md Mostafizur Rahman,,Lamar University
+188,479,profile/Md-Abdul-Ahad-Maraj,Md Abdul Ahad Maraj,,Lamar University
+189,481,profile/Ching-Seng-Yap,Ching Seng Yap,,
+190,483,profile/John-Kaiser-Calautit,John Kaiser S. Calautit,,"The University of Sheffield Sheffield, United Kingdom; University of Nottingham Nottingham, United Kingdom; University of Nottingham United Kingdom; University of Nottingham | Notts"
+191,488,profile/Antonella-Falanga-2,Antonella Falanga,,"Università degli Studi della Campania ""Luigi Vanvitelli"
+192,489,profile/Armando-Carteni,Armando Cartenì,,"University of Naples Federico II Naples, Italy; Università degli Studi della Campania ""Luigi Vanvitelli Caserta, Italy; Università degli Studi della Campania ""Luigi VanvitelliCaserta, Italy; Università degli Studi della Campania ""Luigi Vanvitelli"
+193,491,profile/Kannadhasan-Suriyan,Kannadhasan Suriyan,,"Lord Venkateshwara Engineering College India; Tamilnadu Government Polytechnic College India; Cheran College of Engineering, India"
+194,492,profile/Kanagaraj-Venusamy-2,Kanagaraj Venusamy,,"Sadeem-aziz co Ltd Dammam, Saudi Arabia; CPAT-TVS Chennai, India; Al Musanna College of Technology Muscat, Oman; REC | REC"
+195,493,profile/Nagarajan-Ramalingam,Nagarajan Ramalingam,,"Gnanamani College of Technology Nāmakkal, India; Gnanamani College of Technology | GCT"
+196,495,profile/Oscar-Dalva-2,Oscar Dalva,,Universidade Federal do Ceará | UFC
+197,496,profile/Edemilson-Parana,Edemilson Paraná,,"University of Brasília Brasília, Brazil; Instituto de Pesquisa Econômica Aplicada - IPEABrasília, Brazil; University of Brasília Brasília, Brazil; Lappeenranta – Lahti University of Technology LUT"
+198,498,profile/Loso-Judijanto,Loso Judijanto,,
+199,504,profile/Luciana-Klein,Luciana Klein,,Universidade Federal do Paraná | UFPR
+200,507,profile/Carson-Leung,Carson Leung,,University of Manitoba | UMN
+201,508,profile/Connor-Hryhoruk,Connor Hryhoruk,,University of Manitoba | UMN
+202,509,profile/Alfredo-Cuzzocrea-2,Alfredo Cuzzocrea,,Università della Calabria | Università della Calabria
+203,511,profile/Farhan-Aslam-10,Farhan Aslam,,University of the Cumberlands
+204,513,profile/Gouri-Bhunia,Gouri SANKAR Bhunia,,
+205,514,profile/Pravat-Shit,Pravat Kumar Shit,,"Vidyasagar University India; Raja Narendralal Khan Women's College Medinīpur, India; Raja Narendralal Khan Women's College"
+206,516,profile/Xinyun-Hu-10,Xinyun Hu,,Chongqing Technology and Business University
+207,517,profile/Pengfei-Guo-23,Pengfei Guo,,Chongqing Technology and Business University
+208,518,profile/Mingming-Li-21,Mingming Li,,Central European University | CEU
+209,520,profile/Lee-Qi-Zian-2,Lee Qi Zian,,Technical University of Malaysia Malacca | utem
+210,521,profile/Nur-Zareen-Zulkarnain,Nur Zareen Zulkarnain,,Technical University of Malaysia Malacca | utem
+211,522,profile/Yogan-Jaya-Kumar,Yogan Jaya Kumar,,"Universiti Teknikal Malaysia Melaka (UTeM)Faculty of Information and Communication technology; Technical University of Malaysia Malacca Malacca, Malaysia; Technical University of Malaysia Malacca Malacca, Malaysia"
+212,528,profile/Athanasios-Drigas,Athanasios Drigas,,"National Center for Scientific Research Demokritos Athens, Greece; National Center for Scientific Research Demokritos Greece; NCSR Demokritos & Demokritus Univercity of Thrace Greece; National Center for Scientific Research Demokritos | ncsr"
+213,530,profile/Bv-Rao-2,B.V. Ramalingeswara Rao,,Indian Maritime University
+214,531,profile/Bhasutkar-Mahesh-2,Bhasutkar Mahesh,,
+215,533,profile/Yusoff-Wan-Sallha,Yusoff Wan sallha,,"Universiti Malaysia Perlis Kangar, Malaysia; Universiti Malaysia Perlis | unimap"
+216,534,profile/Ummi-Naiemah-Saraih,Ummi Naiemah Saraih,,"Universiti Malaysia Perlis Kangar, Malaysia; Universiti Malaysia Perlis | unimap"
+217,537,profile/Firsty_Larastiyana_Susanto,Firsty Larastiyana Susanto,,State University of Malang | UM
+218,540,profile/R-Prabodha-Lenora,R. Prabodha Dilini Lenora,,"University of Kelaniya Kelaniya, Sri Lanka; Sri Lanka Institute of Information Technology | SLIIT"
+219,541,profile/W-Sanduni-Shashipraba-Perera,W. Sanduni Shashipraba Perera,,"Sri Lanka Institute of Information Technology Colombo, Sri Lanka"
+220,543,profile/Sunny-Au,Sunny Chi Lik Au,,"Hong Kong Hospital Authority Hong Kong, Hong Kong"
+221,549,profile/Belachew-Regane-2,Belachew Regane,,"Addis Ababa University Addis Ababa, Ethiopia; Addis Ababa University | AAU"
+222,551,profile/Nasos-Grigoropoulos,Nasos Grigoropoulos,,"The Centre for Research and Technology, Hellas Volos, Greece"
+223,553,profile/Pedro-Delicado,Pedro Delicado,,Universitat Pompeu Fabra Spain; Universitat Politècnica de Catalunya Spain; Universitat Politècnica de Catalunya | UPC
+224,554,profile/Cristian-Pachon-Garcia,Cristian Pachón-García,,Universitat Politècnica de Catalunya | UPC
+225,565,profile/Megha-Walia-2,Megha Walia,,SGT University
+226,577,profile/Brandon-Randolph-Seng,Brandon Randolph-Seng,,"Texas A&M University-Commerce Commerce, United States; Texas A&M University-Commerce"
+227,579,profile/Liping-Di,Liping Di,,George Mason University | GMU
+228,581,profile/Khurram-Khan-10,Khurram Khan,,
+229,584,profile/Md-Nurul-Islam-2,Md. Nurul Islam,,"Manarat International University Dhaka, Bangladesh; International Islamic University Chittagong Bangladesh; Nanjing University Nanjing, China; Nanjing University | NJU"
+230,585,profile/Murtaza-Ashiq,Murtaza Ashiq,,"FG College Jhelum Jhelum, Pakistan; University of the Punjab | PU"
+231,586,profile/Shakil-Ahmad-Phd,Shakil Ahmad Phd,,"King Saud University Riyadh, Saudi Arabia; Imam Abdul Rahman bin Faisal University Dammam, Saudi Arabia; Imam Abdul Rahman bin Faisal University Dammam, Saudi Arabia"
+232,594,profile/Sumit-Sharma-28,Sumit Sharma,,"Chandigarh University Mohali, India; Chandigarh University | CU"
+233,597,profile/Francisco-Rowe,Francisco Rowe,,University of Liverpool | UoL
+234,601,profile/Nicola-Castellano,Nicola Giuseppe Castellano,,"University of Macerata Macerata, Italy; Università di Pisa | UNIPI"
+235,602,profile/Roberto-Del-Gobbo,Roberto Del Gobbo,,University of Macerata | UNIMC
+236,603,profile/Lorenzo-Leto,Lorenzo Leto,,Università di Pisa | UNIPI
+237,611,profile/Rusen-Meylani,Rusen Meylani,,"Arizona State University United States; University of Alaska Anchorage Anchorage, United States; Dicle University"
+238,619,profile/Pieter-Huybrechts,Pieter Huybrechts,,Research Institute for Nature and Forest | INBO
+239,622,profile/Tetiana-Petrishyna,Tetiana Petrishyna,,
+240,624,profile/Syeda-Alishba-Fatima,Syeda Alishba Fatima,,"NED University of Engineering and Technology, Karachi | NED University"
+241,625,profile/Syeda-Faiza-Nasim,Syeda Faiza Nasim,,"NED University of Engineering and Technology, Karachi | NED University"
+242,626,profile/Saad-Ahmed-83,Saad Ahmed,,Riphah International University
+243,632,profile/Kamiya-Pithode,Kamiya Pithode,,VIT University | VIT
+244,633,profile/Pushpinder-Patheja-2,Pushpinder Patheja,,VIT University | VIT
+245,635,profile/Asad-Abbas-35,Asad Abbas,,University of South Alabama | USA
+246,642,profile/Angkush-Kumar-Ghosh,Angkush Kumar Ghosh,,Kitami Institute of Technology
+247,643,profile/Sharifu-Ura,Sharifu Ura,,"United Arab Emirates University Al Ain, United Arab Emirates; Kitami Institute of Technology Kitami, Japan; Kitami Institute of Technology Kitami, Japan; Kitami Institute of Technology"
+248,646,profile/Saida-Ishak-Boushaki,Saida Ishak Ishak Boushaki,,University M'Hamed Bougara of Boumerdes | UMBB
+249,647,profile/Omar-Bendjeghaba,Omar Bendjeghaba,,University M'Hamed Bougara of Boumerdes | UMBB
+250,651,profile/Shameek-Mukhopadhyay,Shameek Mukhopadhyay,,"Siliguri Institute of Technology Shiliguri, India; Syamaprasad Institute of Technology and Management Kolkata, India; The Heritage Academy Kolkata, India"
+251,657,profile/Weiwei-Wu,Weiwei Wu,,Harbin Institute of Technology | HIT
+252,659,profile/Fehmi-Skender,Fehmi Skender,,
+253,660,profile/Ilija-Hristoski,Ilija S. Hristoski,,"University ""St. Kliment Ohridski"" - Bitola"
+254,662,profile/Obeng-Owusu-Boateng,Obeng Owusu-Boateng,,
+255,664,profile/Muhammad-Faaique,Muhammad Faaique,,Mehran University of Engineering and Technology
+256,668,profile/Faisal-Rehman-26,Faisal Rehman,,"National University of Sciences and Technology (NUST Islamabad) Islamabad, Pakistan; Leads University"
+257,669,profile/Hanan-Sharif-2,Hanan Sharif,,
+258,670,profile/Naveed-Riaz-2,Naveed Riaz,,National University of Sciences and Technology | NUST
+259,677,profile/Gordon-Pottinger,Gordon Pottinger,,Health Service Executive | HSE
+260,678,profile/Aine-Kearns,Áine Kearns,,University of Limerick | UL
+261,680,profile/Reg-Bhandari,Reg Bahadur Bhandari,,"LA College of Management Nepal; Tribhuvan University Kathmandu, Nepal"
+262,689,profile/Shaymaa-Razoqi,Shaymaa Ahmed Razoqi,,"University of Mosul Mosul, Iraq; University of Mosul Mosul, Iraq; University of Mosul"
+263,690,profile/Ghayda-Altalib,Ghayda Altalib,,University of Mosul Iraq; University of Mosul
+264,693,profile/Ebrahim-Ghaleb,Ebrahim A A Ghaleb,,Universiti Teknologi PETRONAS | UTP
+265,694,profile/Dhanapal-Durai-Dominic-Panneer-Selvam,Dhanapal Durai Dominic Panneer Selvam,,Universiti Teknologi PETRONAS | UTP
+266,695,profile/Gehad-Naji,Gehad Mohammed Ahmed Naji,,Universiti Teknologi PETRONAS | UTP
+267,701,profile/Abdellah-Elfeky-2,Abdellah Elfeky,,Kafrelsheikh University
+268,702,profile/Ali-Najmi-7,Ali Najmi,,King Abdulaziz University
+269,703,profile/Marwa-Elbyaly,Marwa Elbyaly,,Kafrelsheikh University
+270,705,profile/Masayoshi-Aritsugi,Masayoshi Aritsugi,,Kumamoto University | Kumadai
+271,714,profile/Houssam-Benbrahim,Houssam Benbrahim,,faculty of economics and management settat Morocco; Université Hassan 1er
+272,715,profile/Hanaa-Hachimi,Hanaa Hachimi,,"National School of Applied Sciences of Kenitra, Ibn Tofail UniversityApplied Mathematics; Ecole Nationale Supérieure d'Electricité et de Mécanique de Casablanca Casablanca, Morocco; Sultan Moulay Slimane University; Université Ibn Tofail"
+273,716,profile/Aouatif-Amine-2,Aouatif Amine,,"Mohammed V University of Rabat Rabat, Morocco; Université Ibn Tofail"
+274,719,profile/Marco-Terlizzi,Marco Alexandre Terlizzi,,Escola de Administração de Empresas de São Paulo da Fundação Getulio Vargas | FGV-EAESP
+275,723,profile/Ikra-Itu-2,Ikra Islam Itu,,
+276,727,profile/Maria-Jensen-18,Maria Hoffmann Jensen,,Aarhus University | AU
+277,728,profile/Peter-Nielsen-26,Peter Axel Nielsen,,Aalborg University Denmark; Virginia Commonwealth UniversityDepartment of Information Systems; Universitetet i Agder Norway; Aalborg University
+278,729,profile/John-Persson,John Stouby Persson,,"Aalborg University Denmark; Aalborg University Aalborg, Denmark; Aalborg University Aalborg, Denmark; Aalborg University"
+279,733,profile/Janet-Ngesa,Janet Ngesa,,Jaramogi Oginga Odinga University of Science and Technology
+280,735,profile/Msafiri-Ponera,Msafiri Ponera,,Moshi Co-operative University (MoCU)
+281,736,profile/Valeria-Kyumana,Valeria Kyumana,,Institute of Finance Management | IFM
+282,738,profile/Muhammad-Balbaa,Muhammad Balbaa,,International Islamic Academy of Uzbekistan Uzbekistan; Tashkent State University of Economics
+283,739,profile/Olim-Astanakulov,Olim Astanakulov,,
+284,740,profile/Nilufar-Ismailova-2,Nilufar Ismailova,,Tashkent State University of Economics
+285,741,profile/Nilufar-Batirova,Nilufar Batirova,,
+286,751,profile/Ashwini-Pai-3,Ashwini Pai,,
+287,754,profile/Faheem-Ahmad-4,Faheem Ahmad,,
+288,755,profile/Shafiqul-Abidin-2,Shafiqul Abidin,,Aligarh Muslim University | AMU
+289,756,profile/Imran-Qureshi-20,Imran Qureshi,,Al Musanna College of Technology
+290,757,profile/Mohammad-Ishrat,Mohammad Ishrat,,K L University | KLU
+291,762,profile/Yalanati-Ayyappa,Yalanati Ayyappa,,Vel Tech - Technical University | VELTECH
+292,765,profile/Tharindra-Ranasinghe,Tharindra Ranasinghe,,American University Washington D.C. | AU
+293,771,profile/Yasir-Zaki,Yasir Zaki,,Universität BremenGermany; New York University Abu Dhabi
+294,776,profile/Vahid-Biglari-3,Vahid Biglari,,"The University of Newcastle, Australia"
+295,779,profile/Mohammed-Elhmadany,Mohammed Elhmadany,,Ain Shams University
+296,785,profile/Sanjaya-Adhikari-3,Sanjaya Adhikari,,"Armed Police Force Nepal Kathmandu, Nepal; Tribhuvan University"
+297,788,profile/Somi-Sareen-2,Somi Sareen,,National Institute of Technology Patna | NITP
+298,789,profile/Nazish-Abid,Nazish Abid,,"Amity University uttar pradesh (AUUP) Noida Noida, India; University of Bahrain"
+299,790,profile/Mazharul-Haque-6,Mazharul Haque,,National Institute of Technology Patna | NITP
+300,792,profile/Araf-Aliwijaya,Araf Aliwijaya,,Universitas Gadjah Mada | UGM
+301,794,profile/Alfia-Badiwalla,Alfia Salim Badiwalla,,King Fahd University of Petroleum and Minerals | KFUPM
+302,800,profile/Saurabh-Pote,Saurabh Anil Pote,,Visvesvaraya Technological University | VTU
+303,801,profile/Prayag-Gokhale-2,Prayag Prakash Gokhale,,K L E Society's College of Engineering and Technology | KLESCET
+304,802,profile/Praveen-Kulkarni-4,Praveen M Kulkarni,,
+305,806,profile/Junbin-Wang-4,Junbin Wang,,"Changshu Institute of Technology Suzhou, China; Changshu Institute of Technology"
+306,810,profile/Chukuakadibia-Eresia-Eke,Chukuakadibia Ejerulo Eresia-Eke,,University of Pretoria | UP
+307,811,profile/Taguma-Nyanga,Taguma Nyanga,,University of Pretoria | UP
+308,816,profile/Ahatsham-Hayat,Ahatsham Hayat,,"Parul Universiy Vadodara, India; University of Petroleum & Energy Studies Dehra Dūn, India; Universidade da Madeira Funchal, Portugal; University of Nebraska at Lincoln | NU"
+309,820,profile/Serkan-Gursoy,Serkan Gursoy,,
+310,821,profile/Murat-Yucelen,Murat Yucelen,,Yeditepe University
+311,823,profile/Aso-Yasin,Aso Omar Yasin,,
+312,830,profile/Noor-Zaidi-Sahid-2,Noor Zaidi Sahid,,"Universiti Teknologi MARA Shah Alam, Malaysia; Universiti Teknologi MARA | UiTM"
+313,832,profile/Abeer-Amer,Abeer Amer,,Sadat Academy
+314,839,profile/Buelent-Yildiz,Bülent Yıldız,,Kastamonu University Turkey; Kastamonu Üniversitesi
+315,840,profile/Semsettin-Cigdem,Şemsettin Çiğdem,,"Gaziantep University Gaziantep, Turkey; Gaziantep University Gaziantep, Turkey; Gaziantep University"
+316,841,profile/Ieva-Meidute-Kavaliauskiene,Ieva Meidute-Kavaliauskiene,,
+317,842,profile/Renata-Cincikaite,Renata Činčikaitė,,General Jonas Žemaitis Military Academy of Lithuania
+318,845,profile/Fatima-Aviles-Castillo,Fátima Avilés-Castillo,,"Pontificia Universidad Católica del Ecuador Quito, Ecuador; LAKEd Editorial GroupEcuador; Universidad Tecnológica Indoamérica | UTI"
+319,846,profile/Manuel-Ayala-Chauvin,Manuel Ignacio Ayala Chauvin,,Universidad Tecnológica Indoamérica | UTI
+320,847,profile/Jorge-Buele,Jorge Buele,,"University of Zaragoza Zaragoza, Spain; Universidad Tecnológica Indoamérica | UTI"
+321,855,profile/Meral-Calis-Duman,Meral Çalış Duman,,
+322,856,profile/Hulisi-Binbasioglu,Hulisi Binbasioglu,,"Inonu University Malatya, Turkey; Malatya Turgut Özal University Malatya, Turkey; Malatya Turgut Özal University Malatya, Turkey"
+323,863,profile/Panos-Patatoukas,Panos N. Patatoukas,,"University of California, Berkeley | UCB"
+324,867,profile/Mir-Mohsen-Pedram,Mir Mohsen Pedram,,Kharazmi University | KHU
+325,871,profile/Vijoy-Sinha,Vijoy Kumar Sinha,,University of North Bengal India; West Bengal National University of Juridical Sciences
+326,873,profile/Ismail-Dergaa,Ismail Dergaa,,Primary Health Care Corporation Qatar | PHCC
+327,874,profile/Karim-Chamari,Karim Chamari,,"Institut Supérieur du Sport et de l’Education Physique de Ksar-Said Tunis, Tunisia; Université de la Manouba Manouba, Tunisia; Aspetar - Qatar Orthopaedic and Sports Medicine Hospital Doha, Qatar; Institut Supérieur du Sport et de l’Education Physique de Ksar-Said"
+328,878,profile/Ismail-Ameskour,Ismail Ameskour,,Université Ibn Tofail
+329,885,profile/Kunecova-Jana,Kunecová Jana,,Universitat de Girona | UDG
+330,886,profile/Andrea-Bikfalvi,Andrea Bikfalvi,,Universitat de Girona | UDG
+331,887,profile/Pilar-Gou,Pilar Marquès Gou,,Universitat de Girona | UDG
+332,891,profile/Sangjae-Lee,Sangjae Lee,,Sejong University | sejong
+333,899,profile/M-Ramesh-5,M. Ramesh,,"Methodist College of Engineering and Technology Hyderabad, India; Methodist College of Engineering and Technology Hyderabad, India; Jawaharlal Nehru Technological University, Anantapur Hyderabad, India; Jawaharlal Nehru Technological University, Hyderabad | JNTUH"
+334,900,profile/Dr-Manjula-Bairam,Dr. Manjula Bairam,,"Kakatiya University Warangal, India; Kakatiya University"
+335,903,profile/Kaushikkumar-Patel-4,Kaushikkumar Patel,,
+336,906,profile/Ananda-Ravuri,Ananda Ravuri,,Intel
+337,909,profile/Sugandha-Agarwal-2,Sugandha Agarwal,,Independent Researcher United States
+338,911,profile/Georgios-Thanasas,Georgios L. Thanasas,,University of Patras Greece; Technological Educational Institute of Western Macedonia Greece; University of Patras Greece; University of Patras | UP
+339,913,profile/Surapon-Riyana,Surapon Riyana,,"Maejo University Chiang Mai, Thailand; Maejo University | Maecho University"
+340,914,profile/Kittikorn-Sasujit,Kittikorn Sasujit,,Chiang Mai University | CMU
+341,915,profile/Nigran-Homdoung,Nigran Homdoung,,"Maejo University Chiang Mai, Thailand; Maejo University | Maecho University"
+342,917,profile/Anna-Ivanova-107,Anna Mikhailovna Ivanova,,Moscow City University
+343,922,profile/M-S-Bhargavi,M S Bhargavi,,Bangalore Institute of Technology | BIT
+344,926,profile/Fan-Chao-8,Fan Chao,,Harbin Institute of Technology | HIT
+345,927,profile/Weibin-Wang-4,Weibin Wang,,Harbin Institute of Technology | HIT
+346,928,profile/Guang-Yu-9,Guang Yu,,
+347,931,profile/Chizi-Aloy-Okwelle,Chizi Aloy-Okwelle,,Rivers State University of Science and Technology | RSUST
+348,932,profile/Justice-Palimote,Justice Palimote,,"kenule beeson saro-wiwa polytechnic, bori Bori, Nigeria"
+349,933,profile/Op-Nweke,O.P Nweke,,Rivers State University of Science and Technology | RSUST
+350,936,profile/Ching-Yu-Cheng-2,Ching-yu Cheng,,National University of Singapore | NUS
+351,940,profile/Akhoza-Tagaj,Акхожа Тагай,,
+352,942,profile/Joshua-Nettey,Joshua Nii Akai Nettey,,
+353,943,profile/Ronald-Mensah,Ronald Osei Mensah,,"Takoradi Technical University Takoradi, Ghana"
+354,946,profile/Ravi-Jagadish,Ravi Jagadish,,
+355,948,profile/John-Hancock-16,John Hancock,,Florida Atlantic University | FAU
+356,949,profile/Taghi-Khoshgoftaar,Taghi Khoshgoftaar,,Florida Atlantic University | FAU
+357,951,profile/Shaza-Samsul,Shaza Arissa Samsul,,Universiti Teknologi Malaysia | UTM
+358,952,profile/Noraffandy-Yahaya,Noraffandy Yahaya,,Universiti Teknologi Malaysia | UTM
+359,953,profile/Hassan-Abuhassna,Hassan Abuhassna,,"Universiti Teknologi Malaysia Johor Bahru, Malaysia; Universiti Teknologi Malaysia | UTM"
+360,956,profile/Mohammad-Abdallah,Mohammad Abdallah,,"Al-Zaytoonah University of Jordan Amman, Jordan; Al-Zaytoonah University of Jordan Amman, Jordan; Al-Zaytoonah University of Jordan Jordan; Al-Zaytoonah University of Jordan"
+361,957,profile/Daniel-Staegemann-2,Daniel Staegemann,,Otto-von-Guericke-Universität Magdeburg | OvGU
+362,963,profile/Jo-Hsuan-Wu-2,Jo-Hsuan Wu,,"National Taiwan University Taipei, Taiwan; National Taiwan University HospitalTaipei, Taiwan; University of California, San Diego San Diego, United States; University of California, San Diego | UCSD"
+363,964,profile/Sasan-Moghimi,Sasan Moghimi,,"University of California, San Diego | UCSD"
+364,967,profile/Minghao-Huang-5,Minghao Huang,,
+365,973,profile/Neeta-Baporikar,Neeta Baporikar,,"International Institute of Information Technology, Pune Pune, India; Ministry of Higher Education, Oman (MOHE) Şalālah, Oman; The Namibia University of Science and Technology Windhoek, Namibia; The Namibia University of Science and Technology"
+366,979,profile/Rizal-Mohd-Nor-2,Rizal Mohd Nor,,International Islamic University Malaysia | iium
+367,981,profile/Adrian-Domenteanu,Adrian Domenteanu,,Bucharest Academy of Economic Studies | ASE
+368,982,profile/Bianca-Cibu,Bianca Raluca Cibu,,Bucharest Academy of Economic Studies | ASE
+369,983,profile/Camelia-Delcea,Camelia Delcea,,Bucharest University of Economic Studies Romania; Bucharest University of Economic Studies Romania; Bucharest University of Economic Studies Romania; Bucharest Academy of Economic Studies | ASE
+370,985,profile/Ji-Wu,Ji Wu,,Sun Yat-Sen University | SYSU
+371,986,profile/Haiyan-Song-5,Haiyan Song,,"University of Surrey Guildford, United Kingdom; The Hong Kong Polytechnic University China; The Hong Kong Polytechnic University Hong Kong, Hong Kong; The Hong Kong Polytechnic University | PolyU"
+372,991,profile/Ramiz-Salama,Ramiz Salama,,Near East University
+373,993,profile/Renato-Carr,Renato Carr,,Universidade do Estado do Pará | EUPA
+374,995,profile/Nusrat-Rouf,Nusrat Rouf,,Baba Ghulam Shah Badshah University | BGSB
+375,996,profile/Majid-Malik,Majid Bashir Malik,,Baba Ghulam Shah Badshah UniversitySchool of Mathematical & Computer Sciences
+376,1000,profile/Kasuni-Weerasinghe,Kasuni Weerasinghe,,Auckland University of Technology | AUT
+377,1001,profile/David-Pauleen,David J. Pauleen,,"Victoria University of Wellington Wellington, New Zealand; Massey University Palmerston North, New Zealand; National Chung Cheng University"
+378,1002,profile/Nazim-Taskin,Nazim Taskin,,Massey University
+379,1003,profile/Shane-Scahill,Shane L Scahill,,"Massey University Palmerston North, New Zealand; Massey University Palmerston North, New Zealand; University of Auckland Auckland, New Zealand; University of Auckland"
+380,1005,profile/Georgios-Georgiadis-9,Georgios Georgiadis,,Ghent University | UGhent
+381,1006,profile/Geert-Poels,Geert Poels,,"KU Leuven Leuven, Belgium; Ghent University Gent, Belgium; Ghent University | UGhent"
+382,1010,profile/Mourine-Achieng,Mourine S. Achieng,,
+383,1011,profile/Oluwamayowa-Ogundaini,Oluwamayowa Ogundaini,,"Cape Peninsula University of Technology Cape Town, South Africa"
+384,1018,profile/Damian-Tamburri,Damian Andrew Tamburri,,"Vrije Universiteit AmsterdamNetherlands; Vrije Universiteit Amsterdam Netherlands; Vrije Universiteit Amsterdam Amsterdam, Netherlands; Eindhoven University of Technology | TUE"

@@ -27,21 +27,43 @@ df_ieee_paper = df_ieee_paper.set_index('ner_id')
 df_ieee_author = df_ieee_author.set_index('ner_id')
 base_ieee_url = 'https://ieeexplore.ieee.org'
 
+df_affiliation = pd.DataFrame(columns=['affiliation', 'result'])
+df_affiliation.set_index('affiliation')
+df_affiliation = pd.read_csv('affiliation.csv', index_col='affiliation')
 df_ner = pd.DataFrame(columns=['id', 'type', 'name', 'link', 'count'])
 df_links = pd.DataFrame(columns=['from', 'to', 'count'])
 df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid', 'email', 'affiliation']) 
 df_paper = pd.DataFrame(columns=['ner_id', 'link', 'title', 'doi'])
 
+def getAffiliation(affiliation):
+	global df_affiliation
+	result = ''
+	formatted_affiliation = affiliation.strip()
+	formatted_affiliation = ' '.join(formatted_affiliation.strip().split())
+	try:
+		result = df_affiliation.loc[formatted_affiliation]['result']
+	except KeyError:
+		getGeocode = geocoder.geocode(formatted_affiliation)
+		if(len(getGeocode) == 0):
+			result = formatted_affiliation
+		else:
+			result = getGeocode[0]['formatted']
+		print(result)
+		df_affiliation.loc[formatted_affiliation] = result
+		print(df_affiliation.loc[formatted_affiliation])
+	return result
+
 def prepareDocument(base_url, document):
 	document['title'] = document['title'].strip()
 	if document['link'].find('http') == -1:
 		document['link'] = base_url + document['link']
-	if document['doi'].find('http') != -1:
-		document['doi'] = document['doi'].split('https://doi.org/')[1]
+	if document['doi'].find('https://doi.org/') != -1:
+		document['doi'] = document['doi'].replace('https://doi.org/','')
 	return document
 
 def prepareAuthor(base_url, author):
-	author['name'] = ' '.join(re.sub(r"[^a-zA-Z0-9\.]", " ", author['name']).split())
+	# author['name'] = ' '.join(re.sub(r"[!\"#$%&()*+,\-/:;<=>?@\[\\\]^_`{|}~]", " ", author['name']).split())
+	author['name'] = ' '.join(author['name'].strip().split())
 	if author['link'].find('http') == -1:
 		author['link'] = base_url + author['link']
 	if 'email' in author and isinstance(author['email'], str):
@@ -49,7 +71,8 @@ def prepareAuthor(base_url, author):
 	if isinstance(author['affiliation'], str):
 		results = []
 		for affiliation in author['affiliation'].split('; '):
-			results.append(geocoder.geocode(affiliation)[0]['formatted'] if geocoder.geocode(affiliation) else affiliation)
+			results.append(getAffiliation(affiliation))
+		print(results)
 		author['affiliation'] = ';'.join(results)
 		print(author['affiliation'])
 	if 'orcid' in author:
@@ -63,7 +86,7 @@ def prepareAuthor(base_url, author):
 def insertACM(): 
 	global current_id, df_ner, df_paper, df_author , df_links
 	for index, link in df_acm_links.iterrows():
-		df_links = df_links._append({'from': int(link['from']) + current_id + 1, 'to': int(link['to']) + current_id + 1, 'count': int(link['count'])}, ignore_index = True)
+		df_links = df_links._append({'from': int(link['from']) + current_id, 'to': int(link['to']) + current_id , 'count': int(link['count'])}, ignore_index = True)
 		# print('\n=====', int(link['from']) + current_id + 1, int(link['to']) + current_id + 1)
 
 	for index,node in df_acm_nodes.iterrows():
@@ -95,8 +118,8 @@ def insertACM():
 def insertIEEE(): 
 	global current_id, df_ner, df_paper, df_author , df_links
 	for index, link in df_ieee_links.iterrows():
-		df_links = df_links._append({'from': int(link['from']) + current_id, 'to': int(link['to']) + current_id, 'count': int(link['count'])}, ignore_index = True)
-		print('\n=====', int(link['from']) + current_id + 1, int(link['to']) + current_id + 1)
+		df_links = df_links._append({'from': int(link['from']) + current_id , 'to': int(link['to']) + current_id , 'count': int(link['count'])}, ignore_index = True)
+		# print('\n=====', int(link['from']) + current_id, int(link['to']) + current_id)
 
 	for index,node in df_ieee_nodes.iterrows():
 		if node["type"] == 1:
@@ -127,15 +150,17 @@ current_id = 0
 insertACM()
 insertIEEE()
 
-df_ner.to_csv('new_node_test.csv', index=True)
-df_links.to_csv('new_link_test.csv', index=True)
-df_paper.to_csv('new_paper_test.csv', index=True)
-df_author.to_csv('new_author_test.csv', index=True)
+df_ner.to_csv('new_node.csv', index=True)
+df_links.to_csv('new_link.csv', index=True)
+df_paper.to_csv('new_paper.csv', index=True)
+df_author.to_csv('new_author.csv', index=True)
+df_affiliation.to_csv('affiliation.csv')
 
 print(df_ner)
 print(df_links)
 print(df_author)
 print(df_paper)
+print(df_affiliation)
 
 # name_matcher = NameMatcher()
 # score = name_matcher.match_names('Mark D. Plumbley', 'M. Plumbley')

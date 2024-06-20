@@ -1,0 +1,129 @@
+,id,type,name,link,count
+0,1,1,Incorporating Ultrasound Tongue Images for Audio-Visual Speech Enhancement,/doi/10.1109/TASLP.2024.3361376,1
+1,2,2,Rui-Chen Zheng,/profile/99661145670,1
+2,3,2,Yang Ai,/profile/99659260335,1
+3,4,2,Zhen-Hua Ling,/profile/81388598990,2
+4,5,1,METTS: Multilingual Emotional Text-to-Speech by Cross-Speaker and Cross-Lingual Emotion Transfer,/doi/10.1109/TASLP.2024.3363444,1
+5,6,2,Xinfa Zhu,/profile/99661147476,2
+6,7,2,Yi Lei,/profile/99659270571,1
+7,8,2,Tao Li,/profile/99660768740,2
+8,9,2,Yongmao Zhang,/profile/99661149139,1
+9,10,2,Hongbin Zhou,/profile/99661148749,1
+10,11,2,Heng Lu,/profile/99661042163,1
+11,12,2,Lei Xie,/profile/81384608466,3
+12,13,1,Decoupling and Interacting Multi-Task Learning Network for Joint Speech and Accent Recognition,/doi/10.1109/TASLP.2023.3332542,1
+13,14,2,Qijie Shao,/profile/99661148706,1
+14,15,2,Pengcheng Guo,/profile/99659479808,1
+15,16,2,Jinghao Yan,/profile/99661147054,1
+16,17,2,Pengfei Hu,/profile/99661146992,1
+17,18,1,Pronunciation Dictionary-Free Multilingual Speech Synthesis Using Learned Phonetic Representations,/doi/10.1109/TASLP.2023.3313424,1
+18,19,2,Chang Liu,/profile/99661148628,1
+19,20,2,Ling-Hui Chen,/profile/99661145006,1
+20,21,1,Unified Cross-Modal Attention: Robust Audio-Visual Speech Recognition and Beyond,/doi/10.1109/TASLP.2024.3375641,1
+21,22,2,Jiahong Li,/profile/99661151782,1
+22,23,2,Chenda Li,/profile/99660768860,1
+23,24,2,Yifei Wu,/profile/99661151206,1
+24,25,2,Yanmin Qian,/profile/99659027771,1
+25,26,1,"Audio-Visual End-to-End Multi-Channel Speech Separation, Dereverberation and Recognition",/doi/10.1109/TASLP.2023.3294705,1
+26,27,2,Guinan Li,/profile/99660762360,1
+27,28,2,Jiajun Deng,/profile/99660762519,1
+28,29,2,Mengzhe Geng,/profile/99659735545,1
+29,30,2,Zengrui Jin,/profile/99660765187,1
+30,31,2,Tianzi Wang,/profile/99660759995,1
+31,32,2,Shujie Hu,/profile/99660760318,1
+32,33,2,Mingyu Cui,/profile/99660096081,1
+33,34,2,Helen Meng,/profile/81100222801,1
+34,35,2,Xunying Liu,/profile/81502728330,1
+35,36,1,Text-Inductive Graphone-Based Language Adaptation for Low-Resource Speech Synthesis,/doi/10.1109/TASLP.2024.3369537,1
+36,37,2,Takaaki Saeki,/profile/99661072150,1
+37,38,2,Soumi Maiti,/profile/99660450556,1
+38,39,2,Xinjian Li,/profile/99659735072,1
+39,40,2,Shinji Watanabe,/profile/81320496378,1
+40,41,2,Shinnosuke Takamichi,/profile/99659068511,1
+41,42,2,Hiroshi Saruwatari,/profile/81320494315,1
+42,43,1,Large-Scale Unsupervised Audio Pre-Training for Video-to-Speech Synthesis,/doi/10.1109/TASLP.2024.3382500,1
+43,44,2,Triantafyllos Kefalas,/profile/99661125144,1
+44,45,2,Yannis Panagakis,/profile/81460655034,1
+45,46,2,Maja Pantic,/profile/81320493461,1
+46,47,1,Audio Super-Resolution With Robust Speech Representation Learning of Masked Autoencoder,/doi/10.1109/TASLP.2023.3349053,1
+47,48,2,Seung-Bin Kim,/profile/99661147035,1
+48,49,2,Sang-Hoon Lee,/profile/99660768377,1
+49,50,2,Ha-Yeong Choi,/profile/99661146920,1
+50,51,2,Seong-Whan Lee,/profile/81409594301,1
+51,52,1,Sample-Efficient Unsupervised Domain Adaptation of Speech Recognition Systems: A Case Study for Modern Greek,/doi/10.1109/TASLP.2023.3328280,1
+52,53,2,Georgios Paraskevopoulos,/profile/99659021794,1
+53,54,2,Theodoros Kouzelis,/profile/99661146260,1
+54,55,2,Georgios Rouvalis,/profile/99661147750,1
+55,56,2,Athanasios Katsamanis,/profile/81440616283,1
+56,57,2,Vassilis Katsouros,/profile/81442592520,1
+57,58,2,Alexandros Potamianos,/profile/81100118805,1
+58,59,1,Text-to-Speech for Low-Resource Agglutinative Language With Morphology-Aware Language Model Pre-Training,/doi/10.1109/TASLP.2023.3348762,1
+59,60,2,Rui Liu,/profile/99660533380,1
+60,61,2,Yifan Hu,/profile/99661146663,1
+61,62,2,Haolin Zuo,/profile/99661147794,1
+62,63,2,Zhaojie Luo,/profile/99659196082,1
+63,64,2,Longbiao Wang,/profile/99658670197,1
+64,65,2,Guanglai Gao,/profile/81472644828,1
+65,66,1,SURT 2.0: Advances in Transducer-Based Multi-Talker Speech Recognition,/doi/10.1109/TASLP.2023.3318398,1
+66,67,2,Desh Raj,/profile/99659927721,1
+67,68,2,Daniel Povey,/profile/81324493037,2
+68,69,2,Sanjeev Khudanpur,/profile/81100418948,1
+69,70,1,Wav2code: Restore Clean Speech Representations via Codebook Lookup for Noise-Robust ASR,/doi/10.1109/TASLP.2023.3332545,1
+70,71,2,Yuchen Hu,/profile/99660996574,1
+71,72,2,Chen Chen,/profile/99661072391,1
+72,73,2,Qiushi Zhu,/profile/99661072112,1
+73,74,2,Eng Siong Chng,/profile/81322491282,1
+74,75,1,DiCLET-TTS: Diffusion Model Based Cross-Lingual Emotion Transfer for Text-to-Speech &#x2014; A Study Between English and Mandarin,/doi/10.1109/TASLP.2023.3313413,1
+75,76,2,Chenxu Hu,/profile/99661148746,1
+76,77,2,Jian Cong,/profile/99661148404,1
+77,78,2,Jingbei Li,/profile/99660945886,1
+78,79,2,Qiao Tian,/profile/99660941756,1
+79,80,2,Yuping Wang,/profile/99660945974,1
+80,81,1,Time-Domain Speech Super-Resolution With GAN Based Modeling for Telephony Speaker Verification,/doi/10.1109/TASLP.2024.3369536,1
+81,82,2,Saurabh Kataria,/profile/99661153499,1
+82,83,2,Jesús Villalba,/profile/81481643982,1
+83,84,2,Laureano Moro-Velázquez,/profile/99660353833,1
+84,85,2,Piotr Żelasko,/profile/99659065306,1
+85,86,2,Najim Dehak,/profile/81440595770,1
+86,87,1,Alternative Pseudo-Labeling for Semi-Supervised Automatic Speech Recognition,/doi/10.1109/TASLP.2023.3306709,1
+87,88,2,Han Zhu,/profile/99660020261,2
+88,89,2,Dongji Gao,/profile/99661147992,1
+89,90,2,Gaofeng Cheng,/profile/99660021492,2
+90,91,2,Pengyuan Zhang,/profile/99659477931,2
+91,92,2,Yonghong Yan,/profile/81332536694,2
+92,93,1,Data-Driven Non-Intrusive Speech Intelligibility Prediction Using Speech Presence Probability,/doi/10.1109/TASLP.2023.3321964,1
+93,94,2,Mathias Bach Pedersen,/profile/99661146102,1
+94,95,2,Søren Holdt Jensen,/profile/81100640063,1
+95,96,2,Zheng-Hua Tan,/profile/81323496879,1
+96,97,2,Jesper Jensen,/profile/81502766961,1
+97,98,1,Speech Enhancement and Dereverberation With Diffusion-Based Generative Models,/doi/10.1109/TASLP.2023.3285241,1
+98,99,2,Julius Richter,/profile/99661146500,1
+99,100,2,Simon Welker,/profile/99661147925,1
+100,101,2,Jean-Marie Lemercier,/profile/99661148452,1
+101,102,2,Bunlong Lay,/profile/99661146796,1
+102,103,2,Timo Gerkmann,/profile/99659261293,1
+103,104,1,SpeechLM: Enhanced Speech Pre-Training With Unpaired Textual Data,/doi/10.1109/TASLP.2024.3379877,2
+104,105,2,Ziqiang Zhang,/profile/99660638309,2
+105,106,2,Sanyuan Chen,/profile/99661017102,2
+106,107,2,Long Zhou,/profile/99661228961,2
+107,108,2,Yu Wu,/profile/99661229972,2
+108,109,2,Shuo Ren,/profile/99661231788,2
+109,110,2,Shujie Liu,/profile/99661022071,2
+110,111,2,Zhuoyuan Yao,/profile/99661227545,2
+111,112,2,Xun Gong,/profile/99661230193,2
+112,113,2,Lirong Dai,/profile/99661226143,2
+113,114,2,Jinyu Li,/profile/81493656542,2
+114,115,2,Furu Wei,/profile/99661018444,2
+115,116,1,AmbiSep: Joint Ambisonic-to-Ambisonic Speech Separation and Noise Reduction,/doi/10.1109/TASLP.2023.3297954,1
+116,117,2,Adrian Herzog,/profile/99660838555,1
+117,118,2,Srikanth Raj Chetupalli,/profile/99659373686,1
+118,119,2,Emanuël A. P. Habets,/profile/81502717153,1
+119,120,1,Boosting Cross-Domain Speech Recognition With Self-Supervision,/doi/10.1109/TASLP.2023.3301230,1
+120,121,2,Jindong Wang,/profile/99659658153,1
+121,122,2,Wenxin Hou,/profile/99660021002,1
+122,123,1,Articulatory Copy Synthesis Based on the Speech Synthesizer VocalTractLab and Convolutional Recurrent Neural Networks,/doi/10.1109/TASLP.2024.3372874,1
+123,124,2,Yingming Gao,/profile/99661047267,1
+124,125,2,Peter Birkholz,/profile/81418599994,1
+125,126,2,Ya Li,/profile/99660500867,1
+126,127,1,End-to-End Speech Recognition: A Survey,/doi/10.1109/TASLP.2023.3328283,1
+127,128,2,Rohit Prabhavalkar,/profile/81467671125,1

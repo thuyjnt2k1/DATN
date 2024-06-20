@@ -1032,3 +1032,659 @@
 1030,4059,/doi/10.1007/978-3-031-39821-6_37,A Machine-Learning Framework for Supporting Content Recommendation via User Feedback Data and Content Profiles in Content Managements Systems,https://doi.org/10.1007/978-3-031-39821-6_37
 1031,4063,/doi/10.1145/3603719.3603735,Privacy-Preserving OLAP via Modeling and Analysis of Query Workloads: Innovative Theories and Theorems,https://doi.org/10.1145/3603719.3603735
 1032,4064,/doi/10.1007/978-3-031-36805-9_47,Structural Node Representation Learning for Detecting Botnet Nodes,https://doi.org/10.1007/978-3-031-36805-9_47
+1033,4069,/doi/10.1007/978-3-031-36805-9_46,A Machine Learning Methodology for Optimal Big Data Processing in Advanced Smart City Environments,https://doi.org/10.1007/978-3-031-36805-9_46
+1034,4072,/doi/10.1145/3555776.3577790,Optimal Location of Charging Stations for Electric Vehicles: A Theoretically-Sound Heuristic Model,https://doi.org/10.1145/3555776.3577790
+1035,4073,/doi/10.1145/3555962.3555974,Towards a Bayesian-Neural-Networks Framework for Scaling Posterior Distributions over Different-Curation Datasets,https://doi.org/10.1145/3555962.3555974
+1036,4076,/doi/10.1145/3555962.3555965,Effective and Efficient Heuristic Approaches for Solving the Capacitated P-Median Clustering Problem,https://doi.org/10.1145/3555962.3555965
+1037,4078,/doi/10.1007/978-3-031-16564-1_19,Scaling Posterior Distributions over Differently-Curated Datasets: A Bayesian-Neural-Networks Methodology,https://doi.org/10.1007/978-3-031-16564-1_19
+1038,4079,/doi/10.1007/978-3-031-15471-3_17,Generalized Fisher Kernel with Bregman Divergence,https://doi.org/10.1007/978-3-031-15471-3_17
+1039,4080,/doi/10.1007/978-3-031-15471-3_16,"CORE-BCD-mAI: A Composite Framework for Representing, Querying, and Analyzing Big Clinical Data by Means of Multidimensional AI Tools",https://doi.org/10.1007/978-3-031-15471-3_16
+1040,4081,/doi/10.1007/978-3-031-12670-3_23,Mahalanobis Distance Based K-Means Clustering,https://doi.org/10.1007/978-3-031-12670-3_23
+1041,4088,/doi/10.1109/FUZZ-IEEE55066.2022.9882787,A Fuzzy-Logic Based Multi-Dimensional Analysis of Traffic Incident Data,https://doi.org/10.1109/FUZZ-IEEE55066.2022.9882787
+1042,4094,/doi/10.1109/FUZZ-IEEE55066.2022.9882645,Transportation Analytics with Fuzzy Logic and Regression,https://doi.org/10.1109/FUZZ-IEEE55066.2022.9882645
+1043,4100,/doi/10.1007/978-3-031-10450-3_9,Effectively and Efficiently Supporting Visual Big Data Analytics over Big Sequential Data: An Innovative Data Science Approach,https://doi.org/10.1007/978-3-031-10450-3_9
+1044,4103,/doi/10.4018/IJDST.296248,"Towards a Grid-Based Framework for Supporting Range Aggregate Queries Over Big Sensor Network Readings: Overview, Management, and Applications",https://doi.org/10.4018/IJDST.296248
+1045,4105,/doi/10.1016/j.procs.2021.12.217,Supporting Privacy-Preserving Big Data Analytics on Temporal Open Big Data,https://doi.org/10.1016/j.procs.2021.12.217
+1046,4107,/doi/10.1016/j.procs.2021.12.216,Predictive Big Data Analytics for Service Requests: A Framework,https://doi.org/10.1016/j.procs.2021.12.216
+1047,4112,/doi/10.1016/j.future.2021.08.008,Effective and efficient skyline query processing over attribute-order-preserving-free encrypted data in cloud-enabled databases,https://doi.org/10.1016/j.future.2021.08.008
+1048,4114,/doi/10.1007/s11042-021-11390-1,Cyber-attack detection via non-linear prediction of IP addresses: an innovative big data analytics approach,https://doi.org/10.1007/s11042-021-11390-1
+1049,4115,/doi/10.1145/3481646.3481652,Lyapunov Central Limit Theorem: Theoretical Properties and Applications in Big-Data-Populated Smart City Settings,https://doi.org/10.1145/3481646.3481652
+1050,4116,/doi/10.1007/978-3-030-86472-9_32,Enhancing Scan Matching Algorithms via Genetic Programming for Supporting Big Moving Objects Tracking and Analysis in Emerging Environments,https://doi.org/10.1007/978-3-030-86472-9_32
+1051,4118,/doi/10.1007/978-3-030-86271-8_46,Financial Forecasting via Deep-Learning and Machine-Learning Tools over Two-Dimensional Objects Transformed from Time Series,https://doi.org/10.1007/978-3-030-86271-8_46
+1052,4119,/doi/10.1007/978-3-030-86271-8_3,Content-Based Authorship Identification for Short Texts in Social Media Networks,https://doi.org/10.1007/978-3-030-86271-8_3
+1053,4126,/doi/10.1007/978-3-030-86967-0_13,A Novel Approach for Supporting Italian Satire Detection Through Deep Learning,https://doi.org/10.1007/978-3-030-86967-0_13
+1054,4131,/doi/10.1007/978-3-030-86970-0_3,A Neural-Network-Based Framework for Supporting Driver Classification and Analysis,https://doi.org/10.1007/978-3-030-86970-0_3
+1055,4134,/doi/10.1007/978-3-030-86970-0_25,A Machine-Learning-Based Framework for Supporting Malware Detection and Analysis,https://doi.org/10.1007/978-3-030-86970-0_25
+1056,4135,/doi/10.1007/978-3-030-86970-0_2,A Framework for Supporting Ransomware Detection and Prevention Based on Hybrid Analysis,https://doi.org/10.1007/978-3-030-86970-0_2
+1057,4136,/doi/10.1145/3428757.3429144,Analysis and Comparison of Deep Learning Networks for Supporting Sentiment Mining in Text Corpora,https://doi.org/10.1145/3428757.3429144
+1058,4138,/doi/10.1145/3415958.3433051,Data-Intensive Object-Oriented Adaptive Web Systems: Implementing and Experimenting the OO-XAHM Framework,https://doi.org/10.1145/3415958.3433051
+1059,4139,/doi/10.1145/3410566.3410598,Data science for healthcare predictive analytics,https://doi.org/10.1145/3410566.3410598
+1060,4146,/doi/10.1109/FUZZ48607.2020.9177823,An Innovative Fuzzy Logic-Based Machine Learning Algorithm for Supporting Predictive Analytics on Big Transportation Data,https://doi.org/10.1109/FUZZ48607.2020.9177823
+1061,4150,/doi/10.1007/978-3-030-58799-4_71,A Big-Data Variational Bayesian Framework for Supporting the Prediction of Functional Outcomes in Wake-Up Stroke Patients,https://doi.org/10.1007/978-3-030-58799-4_71
+1062,4162,/doi/10.1007/978-3-030-58799-4_70,A Novel Big Data Analytics Approach for Supporting Cyber Attack Detection via Non-linear Analytic Prediction of IP Addresses,https://doi.org/10.1007/978-3-030-58799-4_70
+1063,4164,/doi/10.1007/978-3-030-58799-4_69,A Kinect-Based Gesture Acquisition and Reproduction System for Humanoid Robots,https://doi.org/10.1007/978-3-030-58799-4_69
+1064,4169,/doi/10.1007/s00500-019-04478-2,An innovative user-attentive framework for supporting real-time detection and mining of streaming microblog posts,https://doi.org/10.1007/s00500-019-04478-2
+1065,4170,/doi/10.1007/s11227-018-2707-9,A rewrite/merge approach for supporting real-time data warehousing via lightweight data integration,https://doi.org/10.1007/s11227-018-2707-9
+1066,4173,/doi/10.1007/s00500-019-04385-6,A composite machine-learning-based framework for supporting low-level event logs to high-level business process model activities mappings enhanced by flexible BPMN model translation,https://doi.org/10.1007/s00500-019-04385-6
+1067,4177,/doi/10.1145/3366030.3366077,A Theoretical Approach to Discover Mutual Friendships from Social Graph Networks,https://doi.org/10.1145/3366030.3366077
+1068,4179,/doi/10.1145/3375998.3376040,Cognitive-Based Hybrid Collaborative Filtering with Rating Scaling on Entropy to Defend Shilling Influence,https://doi.org/10.1145/3375998.3376040
+1069,4182,/doi/10.1007/978-3-030-33617-2_32,Multi-class Text Complexity Evaluation via Deep Neural Networks,https://doi.org/10.1007/978-3-030-33617-2_32
+1070,4183,/doi/10.1007/978-3-030-33617-2_24,An Innovative Deep-Learning Algorithm for Supporting the Approximate Classification of Workloads in Big Data Environments,https://doi.org/10.1007/978-3-030-33617-2_24
+1071,4184,/doi/10.1016/j.ins.2019.03.029,A novel GPU-aware Histogram-based algorithm for supporting moving object segmentation in big-data-based IoT application scenarios,https://doi.org/10.1016/j.ins.2019.03.029
+1072,4185,/doi/10.1145/3358505.3358525,Querying and Learning OSN Graphs for Advanced Viral Marketing Applications,https://doi.org/10.1145/3358505.3358525
+1073,4187,/doi/10.1007/978-3-030-27520-4_3,Urban Analytics of Big Transportation Data for Supporting Smart Cities,https://doi.org/10.1007/978-3-030-27520-4_3
+1074,4191,/doi/10.1007/978-3-030-27629-4_5,Flexible Querying and Analytics for Smart Cities and Smart Societies in the Age of Big Data: Overview of the FQAS 2019 International Conference,https://doi.org/10.1007/978-3-030-27629-4_5
+1075,4193,/doi/10.1145/3331076.3331087,A machine-learning framework for supporting intelligent web-phishing detection and analysis,https://doi.org/10.1145/3331076.3331087
+1076,4194,/doi/10.1109/FUZZ-IEEE.2019.8858791,A Fuzzy Logic Based Machine Learning Tool for Supporting Big Data Business Analytics in Complex Artificial Intelligence Environments,https://doi.org/10.1109/FUZZ-IEEE.2019.8858791
+1077,4200,/doi/10.1145/3297280.3297385,An effective and efficient algorithm for ranking web documents via genetic programming,https://doi.org/10.1145/3297280.3297385
+1078,4204,/doi/10.1016/j.is.2018.02.001,Predictive monitoring of temporally-aggregated performance indicators of business processes against low-level streaming events,https://doi.org/10.1016/j.is.2018.02.001
+1079,4208,/doi/10.1016/j.procs.2019.09.329,A Big-Data-Analytics Framework for Supporting Classification of ADHD and Healthy Children via Principal Component Analysis of EEG Sleep Spindles Power Spectra,https://doi.org/10.1016/j.procs.2019.09.329
+1080,4213,/doi/10.1016/j.procs.2019.09.257,A Big-Data-Analytics Framework for Supporting Logistics Problems in Smart-City Environments,https://doi.org/10.1016/j.procs.2019.09.257
+1081,4216,/doi/10.1145/3282373.3282422,Applying Machine Learning Techniques to Detect and Analyze Web Phishing Attacks,https://doi.org/10.1145/3282373.3282422
+1082,4217,/doi/10.1016/j.future.2017.02.047,Strategies and systems towards grids and clouds integration: A DBMS-based solution,https://doi.org/10.1016/j.future.2017.02.047
+1083,4222,/doi/10.1109/SMC.2018.00502,An Effective and Efficient Approach for Supporting the Generation of Synthetic Memory Reference Traces via Hierarchical Hidden/Non-Hidden Markov Models,https://doi.org/10.1109/SMC.2018.00502
+1084,4224,/doi/10.1007/978-3-319-98812-2_34,Learning Ranking Functions by Genetic Programming Revisited,https://doi.org/10.1007/978-3-319-98812-2_34
+1085,4226,/doi/10.1007/978-3-319-98398-1_15,Set Similarity Joins with Complex Expressions on Distributed Platforms,https://doi.org/10.1007/978-3-319-98398-1_15
+1086,4230,/doi/10.1109/FUZZ-IEEE.2018.8491637,A Novel Structural-Entropy-based Classification Technique for Supporting Android Ransomware Detection and Analysis,https://doi.org/10.1109/FUZZ-IEEE.2018.8491637
+1087,4231,/doi/10.1109/FUZZ-IEEE.2018.8491523,Fuzzy Logic-Based Data Analytics on Predicting the Effect of Hurricanes on the Stock Market,https://doi.org/10.1109/FUZZ-IEEE.2018.8491523
+1088,4235,/doi/10.1007/s00500-017-2661-0,Advanced pattern recognition from complex environments: a classification-based approach,https://doi.org/10.1007/s00500-017-2661-0
+1089,4236,/doi/10.1007/978-3-319-94301-5_12,An Innovative Lambda-Architecture-Based Data Warehouse Maintenance Framework for Effective and Efficient Near-Real-Time OLAP over Big Data,https://doi.org/10.1007/978-3-319-94301-5_12
+1090,4238,/doi/10.1007/978-3-319-92639-1_48,Taxonomy-Based Detection of User Emotions for Advanced Artificial Intelligent Applications,https://doi.org/10.1007/978-3-319-92639-1_48
+1091,4239,/doi/10.1145/3216122.3216143,A Predictive Learning Framework for Monitoring Aggregated Performance Indicators over Business Process Events,https://doi.org/10.1145/3216122.3216143
+1092,4240,/doi/10.1145/3216122.3216129,"The Inverse Tree-OLAP Problem: Definitions, Models, Complexity Analysis, and a Possible Solution",https://doi.org/10.1145/3216122.3216129
+1093,4241,/doi/10.1109/CCGRID.2018.00099,A scalable cloud-edge computing framework for supporting device-adaptive big media provisioning,https://doi.org/10.1109/CCGRID.2018.00099
+1094,4246,/doi/10.1145/3167132.3167166,Predicting facebook-users' personality based on status and linguistic features via flexible regression analysis techniques,https://doi.org/10.1145/3167132.3167166
+1095,4250,/doi/10.3233/FI-2018-1704,Detecting Insider Malicious Activities in Cloud Collaboration Systems,https://doi.org/10.3233/FI-2018-1704
+1096,4253,/doi/10.1016/j.procs.2018.08.075,Item-centric mining of frequent patterns from big uncertain data,https://doi.org/10.1016/j.procs.2018.08.075
+1097,4254,/doi/10.1016/j.procs.2018.08.017,Data analytics on the board game Go for the discovery of interesting sequences of moves in joseki,https://doi.org/10.1016/j.procs.2018.08.017
+1098,4256,/doi/10.1016/j.jvlc.2017.07.002,An effective and efficient approximate two-dimensional dynamic programming algorithm for supporting advanced computer vision applications,https://doi.org/10.1016/j.jvlc.2017.07.002
+1099,4257,/doi/10.1016/j.procs.2017.08.141,Game Data Mining,https://doi.org/10.1016/j.procs.2017.08.141
+1100,4261,/doi/10.1016/j.procs.2017.08.129,Enhanced Prediction of User-Preferred YouTube Videos Based on Cleaned Viewing Pattern History,https://doi.org/10.1016/j.procs.2017.08.129
+1101,4266,/doi/10.1145/3102254.3102268,An innovative majority voting mechanism in interactive social network clustering,https://doi.org/10.1145/3102254.3102268
+1102,4268,/doi/10.1145/3019612.3019915,Syntactic and semantic validation of SPARQL queries,https://doi.org/10.1145/3019612.3019915
+1103,4271,/doi/10.1145/3019612.3019720,An effective and efficient hybrid scan matching algorithm for mobile object applications,https://doi.org/10.1145/3019612.3019720
+1104,4272,/doi/10.1145/3018896.3056801,Enhancing contact center performance using cloud computing: a case study on telecom contact centers,https://doi.org/10.1145/3018896.3056801
+1105,4274,/doi/10.1145/3018896.3056799,Business scenarios for hierarchical workload management in data centers,https://doi.org/10.1145/3018896.3056799
+1106,4281,/doi/10.1145/3012071.3012099,A semantic-web-technology-based framework for supporting knowledge-driven digital forensics,https://doi.org/10.1145/3012071.3012099
+1107,4283,/doi/10.1109/SMC.2016.7844899,An efficient CUDA-based approximate two-dimensional dynamic programming algorithm for advanced computer vision applications,https://doi.org/10.1109/SMC.2016.7844899
+1108,4285,/doi/10.1016/j.procs.2016.08.250,Knowledge Discovery from Social Graph Data,https://doi.org/10.1016/j.procs.2016.08.250
+1109,4287,/doi/10.1007/978-3-319-44403-1_12,Incorporating Clustering into Set Similarity Join Algorithms: The SjClust Framework,https://doi.org/10.1007/978-3-319-44403-1_12
+1110,4290,/doi/10.1145/2938503.2938517,An Innovative Framework for Effectively and Efficiently Supporting Big Data Analytics over Geo-Located Mobile Social Media,https://doi.org/10.1145/2938503.2938517
+1111,4293,/doi/10.1109/CCGrid.2016.102,I-HASTREAM: density-based hierarchical clustering of big data streams and its application to big graph analytics tools,https://doi.org/10.1109/CCGrid.2016.102
+1112,4296,/doi/10.5220/0005868700750080,SJClust: Towards a Framework for Integrating Similarity Join Algorithms and Clustering,https://doi.org/10.5220/0005868700750080
+1113,4297,/doi/10.1145/2872518.2890533,RECAP: Building Relatedness Explanations on the Web,https://doi.org/10.1145/2872518.2890533
+1114,4298,/doi/10.1145/2851613.2851714,Real-time counting of moving objects in complex environments,https://doi.org/10.1145/2851613.2851714
+1115,4300,/doi/10.1145/2851613.2851662,OLAP analysis of multidimensional tweet streams for supporting advanced analytics,https://doi.org/10.1145/2851613.2851662
+1116,4304,/doi/10.1145/2896387.2900327,"A DBMS-Based System for Integrating Grids and Clouds: Anatomy, Models, Functionalities",https://doi.org/10.1145/2896387.2900327
+1117,4305,/doi/10.1145/2896387.2900326,Clustering-Based Spatio-Temporal Analysis of Big Atmospheric Data,https://doi.org/10.1145/2896387.2900326
+1118,4307,/doi/10.3233/KES-160332,Interactive mining of diverse social entities,https://doi.org/10.3233/KES-160332
+1119,4310,/doi/10.1145/2837185.2837243,OLAP-enabled web search of complex objects,https://doi.org/10.1145/2837185.2837243
+1120,4311,/doi/10.1109/BigData.2015.7363967,A distributed framework for supporting adaptive ensemble-based intrusion detection,https://doi.org/10.1109/BigData.2015.7363967
+1121,4314,/doi/10.1109/BigData.2015.7363963,Heterogeneous k-anonymization with high utility,https://doi.org/10.1109/BigData.2015.7363963
+1122,4317,/doi/10.1007/978-3-319-26148-5_9,A Multi-view Learning Approach to the Discovery of Deviant Process Instances,https://doi.org/10.1007/978-3-319-26148-5_9
+1123,4318,/doi/10.1145/3247586,Session details: Query Processing,https://doi.org/10.1145/3247586
+1124,4319,/doi/10.1145/2811222.2811233,Towards OLAP Analysis of Multidimensional Tweet Streams,https://doi.org/10.1145/2811222.2811233
+1125,4320,/doi/10.1109/CSE.2015.51,A Simulation Framework for Efficient Resource Management on Hybrid Systems,https://doi.org/10.1109/CSE.2015.51
+1126,4322,/doi/10.1016/j.is.2015.06.001,Advances in data warehousing and OLAP in the big Data Era,https://doi.org/10.1016/j.is.2015.06.001
+1127,4325,/doi/10.1007/978-3-319-23781-7_23,Knowledge Discovery from Geo-Located Tweets for Supporting Advanced Big Data Analytics: A Real-Life Experience,https://doi.org/10.1007/978-3-319-23781-7_23
+1128,4326,/doi/10.1109/TIME.2015.31,Temporal Aspects of Big Data Management: State-of-the-Art Analysis and Future Research Directions,https://doi.org/10.1109/TIME.2015.31
+1129,4327,/doi/10.1007/978-3-319-23237-9_19,"A GPU-Based Statistical Framework for Moving Object Segmentation: Implementation, Analysis and Applications",https://doi.org/10.1007/978-3-319-23237-9_19
+1130,4329,/doi/10.1007/s11280-015-0330-8,Detecting overlapping communities in poly-relational networks,https://doi.org/10.1007/s11280-015-0330-8
+1131,4335,/doi/10.1007/s10844-013-0287-y,"Design, implementation and validation of AI-inspired information systems",https://doi.org/10.1007/s10844-013-0287-y
+1132,4336,/doi/10.1145/2790798.2790799,Frequent Subgraph Mining from Streams of Uncertain Data,https://doi.org/10.1145/2790798.2790799
+1133,4337,/doi/10.1109/CISIS.2015.7,Automatic Learning for Supporting Advanced Human-Machine Interfaces,https://doi.org/10.1109/CISIS.2015.7
+1134,4338,/doi/10.1109/CISIS.2015.23,Effective and Efficient Moving Object Segmentation via an Innovative Statistical Approach,https://doi.org/10.1109/CISIS.2015.23
+1135,4339,/doi/10.1109/COMPSAC.2015.89,Runtime Anomaly Detection in Embedded Systems by Binary Tracing and Hidden Markov Models,https://doi.org/10.1109/COMPSAC.2015.89
+1136,4341,/doi/10.1109/COMPSAC.2015.345,Provenance Research Issues and Challenges in the Big Data Era,https://doi.org/10.1109/COMPSAC.2015.345
+1137,4342,/doi/10.1109/COMPSAC.2015.152,High-Recall Information Retrieval from Linked Big Data,https://doi.org/10.1109/COMPSAC.2015.152
+1138,4343,/doi/10.1109/ICCSA.2015.28,A Classification-Based Algorithm for Building 3D Maps of Environmental Objects,https://doi.org/10.1109/ICCSA.2015.28
+1139,4344,/doi/10.1007/s10844-013-0268-1,Effectively and efficiently supporting roll-up and drill-down OLAP operations over continuous dimensions via hierarchical clustering,https://doi.org/10.1007/s10844-013-0268-1
+1140,4347,/doi/10.1016/j.procs.2018.11.108,A Neural Network model for the Evaluation of Text Complexity in Italian Language: a Representation Point of View,https://doi.org/10.1016/j.procs.2018.11.108
+1141,4348,/doi/10.1145/3615359,A Modular Social Sensing System for Personalized Orienteering in the COVID-19 Era,https://doi.org/10.1145/3615359
+1142,4353,/doi/10.1016/j.robot.2023.104400,Roboception and adaptation in a cognitive robot,https://doi.org/10.1016/j.robot.2023.104400
+1143,4356,/doi/10.1007/978-3-540-76888-3_67,A Virtual Shopper Customer Assistant in Pervasive Environments,https://doi.org/10.1007/978-3-540-76888-3_67
+1144,4361,/doi/10.1016/j.robot.2023.104362,Quantum planning for swarm robotics,https://doi.org/10.1016/j.robot.2023.104362
+1145,4366,/doi/10.1016/j.cogsys.2021.12.004,Extending affective capabilities for medical assistive robots,https://doi.org/10.1016/j.cogsys.2021.12.004
+1146,4368,/doi/10.1016/j.procs.2022.11.098,Multimodal Mood Recognition for Assistive Scenarios,https://doi.org/10.1016/j.procs.2022.11.098
+1147,4370,/doi/10.1145/3125571.3125590,Exploiting Correlation between Body Gestures and Spoken Sentences for Real-time Emotion Recognition,https://doi.org/10.1145/3125571.3125590
+1148,4373,/doi/10.4018/IJKSR.2016040102,"The Good, the Ugly and the Bad Situation Awareness in the Big Data: A Cognitive Architecture for Social Forecasting",https://doi.org/10.4018/IJKSR.2016040102
+1149,4375,/doi/10.5220/0005614205970602,Data-driven Relation Discovery from Unstructured Texts,https://doi.org/10.5220/0005614205970602
+1150,4378,/doi/10.5220/0005613305890596,Posgram Driven Word Prediction,https://doi.org/10.5220/0005613305890596
+1151,4380,/doi/10.1016/j.chb.2014.11.081,Mining social network users opinions' to aid buyers' shopping decisions,https://doi.org/10.1016/j.chb.2014.11.081
+1152,4381,/doi/10.1109/ICSC.2014.59,Facebook Users Relationships Analysis Based on Sentiment Classification,https://doi.org/10.1109/ICSC.2014.59
+1153,4383,/doi/10.1109/ICSC.2014.58,Robotic Creativity Driven by Motivation and Semantic Analysis,https://doi.org/10.1109/ICSC.2014.58
+1154,4385,/doi/10.1109/ICSC.2014.17,Automatic Unsupervised Polarity Detection on a Twitter Data Stream,https://doi.org/10.1109/ICSC.2014.17
+1155,4386,/doi/10.1109/ICSC.2013.82,A Study on Classification Methods Applied to Sentiment Analysis,https://doi.org/10.1109/ICSC.2013.82
+1156,4388,/doi/10.1109/ICSC.2013.46,"Detection, Clustering and Tracking of Life Cycle Events on Twitter Using Electric Fields Analogy",https://doi.org/10.1109/ICSC.2013.46
+1157,4389,/doi/10.1109/ICSC.2013.40,An Unsupervised Data-Driven Cross-Lingual Method for Building High Precision Sentiment Lexicons,https://doi.org/10.1109/ICSC.2013.40
+1158,4391,/doi/10.1109/ICSC.2012.26,An Approach to Enhance Chatbot Semantic Power and Maintainability: Experiences within the FRASI Project,https://doi.org/10.1109/ICSC.2012.26
+1159,4393,/doi/10.1109/ICSC.2012.25,Integration of Ontologies and Bayesian Networks for Maritime Situation Awareness,https://doi.org/10.1109/ICSC.2012.25
+1160,4396,/doi/10.1109/CISIS.2012.184,Human-Robot Interaction Based on Introspective Capability,https://doi.org/10.1109/CISIS.2012.184
+1161,4398,/doi/10.1109/ICSC.2011.68,A Modular Architecture for Adaptive ChatBots,https://doi.org/10.1109/ICSC.2011.68
+1162,4399,/doi/10.1007/978-3-642-23954-0_13,An Architecture with a Mobile Phone Interface for the Interaction of a Human with a Humanoid Robot Expressing Emotions and Personality,https://doi.org/10.1007/978-3-642-23954-0_13
+1163,4404,/doi/10.1109/CISIS.2011.95,A Modular Framework for Versatile Conversational Agent Building,https://doi.org/10.1109/CISIS.2011.95
+1164,4406,/doi/10.1109/CISIS.2011.94,"A Cyc-based Web System for Semantic Organization, Search and Browsing of Knowledge Items",https://doi.org/10.1109/CISIS.2011.94
+1165,4408,/doi/10.1109/ICSC.2010.54,A Conceptual Probabilistic Model for the Induction of Image Semantics,https://doi.org/10.1109/ICSC.2010.54
+1166,4410,/doi/10.1109/MPRV.2010.34,Interacting with Augmented Environments,https://doi.org/10.1109/MPRV.2010.34
+1167,4411,/doi/10.1109/CISIS.2010.75,An Intelligent Advisor to Suggest Strategies in Economic Policy Decisions,https://doi.org/10.1109/CISIS.2010.75
+1168,4412,/doi/10.1109/CISIS.2010.125,Adaptive Semantics of Complex Information/Services Networks: A Case Study from Cultural Heritage,https://doi.org/10.1109/CISIS.2010.125
+1169,4419,/doi/10.1109/ICSC.2009.74,A Conversational Agent to Support Decisions in SimCity like Games,https://doi.org/10.1109/ICSC.2009.74
+1170,4420,/doi/10.1007/978-3-540-89076-8_24,An Emphatic Humanoid Robot with Emotional Latent Semantic Behavior,https://doi.org/10.1007/978-3-540-89076-8_24
+1171,4423,/doi/10.1109/ICSC.2008.74,"Sentence Induced Transformations in ""Conceptual"" Spaces",https://doi.org/10.1109/ICSC.2008.74
+1172,4424,/doi/10.1155/2008/312319,EHeBby: An evocative humorist chat-bot,https://doi.org/10.1155/2008/312319
+1173,4425,/doi/10.1080/08839510801972785,A KST-BASED SYSTEM FOR STUDENT TUTORING,https://doi.org/10.1080/08839510801972785
+1174,4427,/doi/10.1109/CISIS.2008.57,A Java3D Talking Head for a Chatbot,https://doi.org/10.1109/CISIS.2008.57
+1175,4430,/doi/10.1109/CISIS.2008.117,Humorist Bot: Bringing Computational Humour in a Chat-Bot System,https://doi.org/10.1109/CISIS.2008.117
+1176,4432,/doi/10.1145/1294046.1294123,A multimodal guide for the augmented campus,https://doi.org/10.1145/1294046.1294123
+1177,4433,/doi/10.1109/ICSC.2007.95,Sub-Symbolic Semantic Layer in Cyc for Intuitive Chat-Bots,https://doi.org/10.1109/ICSC.2007.95
+1178,4434,/doi/10.1007/11565123_52,Latent semantic description of iconic scenes,https://doi.org/10.1007/11565123_52
+1179,4435,/doi/10.1007/11558590_39,A conversational agent based on a conceptual interpretation of a data driven semantic space,https://doi.org/10.1007/11558590_39
+1180,4437,/doi/10.1007/11558590_37,Learning path generation by domain ontology transformation,https://doi.org/10.1007/11558590_37
+1181,4439,/doi/10.1109/CAMP.2005.8,A Sub-Symbolic Approach to Word Modelling for Domain Specific Speech Recognition,https://doi.org/10.1109/CAMP.2005.8
+1182,4440,/doi/10.1007/11504894_43,A geometric approach to automatic description of iconic scenes,https://doi.org/10.1007/11504894_43
+1183,4441,/doi/10.1007/11504894_42,Discovering learning paths on a domain ontology using natural language interaction,https://doi.org/10.1007/11504894_42
+1184,4443,/doi/10.1007/11731177_21,Application of Eαnets to feature recognition of articulation manner in knowledge-based automatic speech recognition,https://doi.org/10.1007/11731177_21
+1185,4448,/doi/10.1007/11731177_17,Automatic dictionary creation by sub-symbolic encoding of words,https://doi.org/10.1007/11731177_17
+1186,4450,/doi/10.1007/s00778-020-00650-5,Cache-efficient sweeping-based interval joins for extended Allen relation predicates,https://doi.org/10.1007/s00778-020-00650-5
+1187,4454,/doi/10.1109/IRI.2018.00085,How to Exploit Recommender Systems in Social Media,https://doi.org/10.1109/IRI.2018.00085
+1188,4456,/doi/10.1016/j.cose.2017.06.002,Recognizing human behaviours in online social networks,https://doi.org/10.1016/j.cose.2017.06.002
+1189,4460,/doi/10.1145/3132847.3133164,An Interactive Framework for Video Surveillance Event Detection and Modeling,https://doi.org/10.1145/3132847.3133164
+1190,4462,/doi/10.1109/IRI.2017.84,A Collaborative Robotic Cyber Physical System for Surgery Applications,https://doi.org/10.1109/IRI.2017.84
+1191,4463,/doi/10.1109/IRI.2017.74,A Survey of Online Social Networks: Challenges and Opportunities,https://doi.org/10.1109/IRI.2017.74
+1192,4464,/doi/10.4018/IJMDEM.2016100101,"ISEQL, an Interval-based Surveillance Event Query Language",https://doi.org/10.4018/IJMDEM.2016100101
+1193,4465,/doi/10.1109/IRI.2016.72,An Event Detection Framework Supported by a Smart Graphical User Interface,https://doi.org/10.1109/IRI.2016.72
+1194,4466,/doi/10.1109/3PGCIC.2015.113,A Distributed Framework for Event Detection in Video Surveillance Context,https://doi.org/10.1109/3PGCIC.2015.113
+1195,4467,/doi/10.1109/IRI.2015.81,A Low-Cost Haptic System for Wrist Rehabilitation,https://doi.org/10.1109/IRI.2015.81
+1196,4469,/doi/10.5220/0005579703440353,A Novel Approach to Query Expansion based on Semantic Similarity Measures,https://doi.org/10.5220/0005579703440353
+1197,4471,/doi/10.5220/0005146504460453,Discovering Expected Activities in Medical Context Scientific Databases,https://doi.org/10.5220/0005146504460453
+1198,4472,/doi/10.1109/ICSC.2014.21,Detecting Unexplained Human Behaviors in Social Networks,https://doi.org/10.1109/ICSC.2014.21
+1199,4473,/doi/10.1109/TKDE.2013.33,Discovering the Top-k Unexplained Sequences in Time-Stamped Observation Data,https://doi.org/10.1109/TKDE.2013.33
+1200,4477,/doi/10.1007/978-3-319-03889-6_15,PSIS: Parallel Semantic Indexing System - Preliminary Experiments,https://doi.org/10.1007/978-3-319-03889-6_15
+1201,4478,/doi/10.1145/2532640,A Multimedia Recommender System,https://doi.org/10.1145/2532640
+1202,4480,/doi/10.1109/ICSC.2013.76,An RDF-Based Framework for Semantic Indexing of Web Pages,https://doi.org/10.1109/ICSC.2013.76
+1203,4481,/doi/10.1109/ICSC.2012.13,iWIN: A Summarizer System Based on a Semantic Analysis of Web Documents,https://doi.org/10.1109/ICSC.2012.13
+1204,4484,/doi/10.4018/jmdem.2011100101,A Novel Strategy for Recommending Multimedia Objects and its Application in the Cultural Heritage Domain,https://doi.org/10.4018/jmdem.2011100101
+1205,4485,/doi/10.1109/ICSC.2011.47,A Multimedia Semantic Recommender System for Cultural Heritage Applications,https://doi.org/10.1109/ICSC.2011.47
+1206,4486,/doi/10.1145/1864708.1864779,Modeling recommendation as a social choice problem,https://doi.org/10.1145/1864708.1864779
+1207,4487,/doi/10.1109/ICSC.2010.28,Semantic Summarization of Web Documents,https://doi.org/10.1109/ICSC.2010.28
+1208,4488,/doi/10.1145/1816041.1816087,A ranking method for multimedia recommenders,https://doi.org/10.1145/1816041.1816087
+1209,4489,/doi/10.1109/ICSC.2009.25,A System for Automatic Image Categorization,https://doi.org/10.1109/ICSC.2009.25
+1210,4491,/doi/10.1016/j.is.2018.08.002,Interactive and space-efficient multi-dimensional time series subsequence matching,https://doi.org/10.1016/j.is.2018.08.002
+1211,4493,/doi/10.1145/3603719.3603732,Indexing Temporal Relations for Range-Duration Queries,https://doi.org/10.1145/3603719.3603732
+1212,4496,/doi/10.1145/3609956.3609968,A New Primitive for Processing Temporal Joins,https://doi.org/10.1145/3609956.3609968
+1213,4500,/doi/10.1145/3511808.3557161,CAVE: Correcting Attribute Values in E-commerce Profiles,https://doi.org/10.1145/3511808.3557161
+1214,4503,/doi/10.1007/978-3-031-15740-0_5,What’s New in Temporal Databases?,https://doi.org/10.1007/978-3-031-15740-0_5
+1215,4504,/doi/10.1007/978-3-031-15740-0_16,Querying Temporal Anomalies in Healthcare Information Systems and Beyond,https://doi.org/10.1007/978-3-031-15740-0_16
+1216,4507,/doi/10.14778/3565838.3565840,Fast and Scalable Mining of Time Series Motifs with Probabilistic Guarantees,https://doi.org/10.14778/3565838.3565840
+1217,4508,/doi/10.1016/j.ins.2022.03.017,Enumerating dissimilar minimum cost perfect and error-correcting bipartite matchings for robust data matching,https://doi.org/10.1016/j.ins.2022.03.017
+1218,4510,/doi/10.1007/s00778-021-00692-3,Leveraging range joins for the computation of overlap joins,https://doi.org/10.1007/s00778-021-00692-3
+1219,4514,/doi/10.1007/978-3-030-54832-2_2,Processing Temporal and Time Series Data: Present State and Future Challenges,https://doi.org/10.1007/978-3-030-54832-2_2
+1220,4515,/doi/10.1145/3340964.3340989,HotPeriods: Visual Correlation Analysis of Interval Data,https://doi.org/10.1145/3340964.3340989
+1221,4518,/doi/10.1145/3340964.3340965,Period Index: A Learned 2D Hash Index for Range and Duration Queries,https://doi.org/10.1145/3340964.3340965
+1222,4524,/doi/10.1007/s00778-019-00544-1,Comparing heuristics for graph edit distance computation,https://doi.org/10.1007/s00778-019-00544-1
+1223,4527,/doi/10.1007/978-3-030-20081-7_2,GEDLIB: A C++ Library for Graph Edit Distance Computation,https://doi.org/10.1007/978-3-030-20081-7_2
+1224,4528,/doi/10.1016/j.is.2018.06.009,Sparse prefix sums: Constant-time range sum queries over sparse multidimensional data cubes,https://doi.org/10.1016/j.is.2018.06.009
+1225,4530,/doi/10.14778/3311880.3311882,Snapshot semantics for temporal multiset relations,https://doi.org/10.14778/3311880.3311882
+1226,4533,/doi/10.1145/3274895.3274903,Finding k-dissimilar paths with minimum collective length,https://doi.org/10.1145/3274895.3274903
+1227,4536,/doi/10.1007/978-3-319-97785-0_28,Ring Based Approximation of Graph Edit Distance,https://doi.org/10.1007/978-3-319-97785-0_28
+1228,4537,/doi/10.14778/3137628.3137658,DigitHist: a histogram-based data summary with tight error bounds,https://doi.org/10.14778/3137628.3137658
+1229,4538,/doi/10.1145/3085504.3091115,VISOR: Visualizing Summaries of Ordered Data,https://doi.org/10.1145/3085504.3091115
+1230,4539,/doi/10.1145/3085504.3085538,Computing Isochrones in Multimodal Spatial Networks using Tile Regions,https://doi.org/10.1145/3085504.3085538
+1231,4543,/doi/10.1007/978-3-319-58961-9_19,Exact Computation of Graph Edit Distance for Uniform and Non-uniform Metric Edit Costs,https://doi.org/10.1007/978-3-319-58961-9_19
+1232,4544,/doi/10.1145/2967608,Extending the Kernel of a Relational DBMS with Comprehensive Support for Sequenced Temporal Queries,https://doi.org/10.1145/2967608
+1233,4545,/doi/10.1145/2996913.2997007,MoTrIS: a framework for route planning on multimodal transportation networks,https://doi.org/10.1145/2996913.2997007
+1234,4548,/doi/10.1109/TCBB.2015.2456897,Fast Sampling-Based Whole-Genome Haplotype Block Recognition,https://doi.org/10.1109/TCBB.2015.2456897
+1235,4551,/doi/10.1145/2820783.2820858,Alternative routing: k-shortest paths with limited overlap,https://doi.org/10.1145/2820783.2820858
+1236,4552,/doi/10.1145/2666310.2666411,Efficient itinerary planning with category constraints,https://doi.org/10.1145/2666310.2666411
+1237,4556,/doi/10.1145/2588555.2612175,Overlap interval partition join,https://doi.org/10.1145/2588555.2612175
+1238,4557,/doi/10.1007/978-3-642-40131-2_5,Efficient Evaluation of Ad-Hoc Range Aggregates,https://doi.org/10.1007/978-3-642-40131-2_5
+1239,4559,/doi/10.1109/ICDE.2013.6544930,Query time scaling of attribute values in interval timestamped databases,https://doi.org/10.1109/ICDE.2013.6544930
+1240,4560,/doi/10.1007/978-3-642-37087-8_13,ISOGA: a system for geographical reachability analysis,https://doi.org/10.1007/978-3-642-37087-8_13
+1241,4562,/doi/10.1145/2396761.2398739,MOUNA: mining opinions to unveil neglected arguments,https://doi.org/10.1145/2396761.2398739
+1242,4563,/doi/10.1109/DEXA.2012.51,Individualized Hiking Time Estimation,https://doi.org/10.1109/DEXA.2012.51
+1243,4566,/doi/10.1145/2339530.2339607,Efficient event pattern matching with match windows,https://doi.org/10.1145/2339530.2339607
+1244,4568,/doi/10.1007/s00778-011-0254-6,Windowed pq-grams for approximate joins of data-centric XML,https://doi.org/10.1007/s00778-011-0254-6
+1245,4571,/doi/10.1007/978-3-642-31235-9_35,Scalable computation of isochrones with network expiration,https://doi.org/10.1007/978-3-642-31235-9_35
+1246,4572,/doi/10.1007/s00778-011-0243-9,Parsimonious temporal aggregation,https://doi.org/10.1007/s00778-011-0243-9
+1247,4574,/doi/10.1145/2213836.2213886,Temporal alignment,https://doi.org/10.1145/2213836.2213886
+1248,4575,/doi/10.1145/2063576.2063972,Defining isochrones in multimodal spatial networks,https://doi.org/10.1145/2063576.2063972
+1249,4577,/doi/10.1145/2063576.2063594,Diversifying search results of controversial queries,https://doi.org/10.1145/2063576.2063594
+1250,4578,/doi/10.1007/s00778-011-0247-5,Sequenced spatiotemporal aggregation for coarse query granularities,https://doi.org/10.1007/s00778-011-0247-5
+1251,4580,/doi/10.1016/j.is.2010.07.005,θ-Constrained multi-dimensional aggregation,https://doi.org/10.1016/j.is.2010.07.005
+1252,4583,/doi/10.1145/1951365.1951372,Sequenced event set pattern matching,https://doi.org/10.1145/1951365.1951372
+1253,4584,/doi/10.1145/1871437.1871761,Ranking of evolving stories through meta-aggregation,https://doi.org/10.1145/1871437.1871761
+1254,4587,/doi/10.1007/978-3-642-04840-1_20,Evaluating Exceptions on Time Slices,https://doi.org/10.1007/978-3-642-04840-1_20
+1255,4589,/doi/10.1145/1516360.1516475,Parsimonious temporal aggregation,https://doi.org/10.1145/1516360.1516475
+1256,4590,/doi/10.1145/1516360.1516368,Sequenced spatio-temporal aggregation in road networks,https://doi.org/10.1145/1516360.1516368
+1257,4591,/doi/10.1145/1463434.1463524,"Computing isochrones in multi-modal, schedule-based transport networks",https://doi.org/10.1145/1463434.1463524
+1258,4596,/doi/10.1007/978-3-540-70504-8_27,Towards General Temporal Aggregation,https://doi.org/10.1007/978-3-540-70504-8_27
+1259,4597,/doi/10.1109/TIME.2008.26,Representing Public Transport Schedules as Repeating Trips,https://doi.org/10.1109/TIME.2008.26
+1260,4598,/doi/10.1109/TIME.2008.24,A Greedy Approach Towards Parsimonious Temporal Aggregation,https://doi.org/10.1109/TIME.2008.24
+1261,4599,/doi/10.1109/ICDE.2008.4497490,Approximate Joins for Data-Centric XML,https://doi.org/10.1109/ICDE.2008.4497490
+1262,4600,/doi/10.1145/1670243.1670247,The pq-gram distance between ordered labeled trees,https://doi.org/10.1145/1670243.1670247
+1263,4601,/doi/10.1109/TIME.2006.17,How Would You Like to Aggregate Your Temporal Data?,https://doi.org/10.1109/TIME.2006.17
+1264,4602,/doi/10.1007/11687238_18,Multi-dimensional aggregation for temporal data,https://doi.org/10.1007/11687238_18
+1265,4603,/doi/10.1007/s10472-006-9022-5,An algebraic framework for temporal attribute characteristics,https://doi.org/10.1007/s10472-006-9022-5
+1266,4604,/doi/10.1145/3589334.3645568,Fast and Accurate Fair k-Center Clustering in Doubling Metrics,https://doi.org/10.1145/3589334.3645568
+1267,4607,/doi/10.1007/978-3-031-46994-7_17,Solving k-Closest Pairs in High-Dimensional Data,https://doi.org/10.1007/978-3-031-46994-7_17
+1268,4609,/doi/10.1007/978-3-030-60936-8_31,Running Experiments with Confidence and Sanity,https://doi.org/10.1007/978-3-030-60936-8_31
+1269,4610,/doi/10.1145/3402448,A General Coreset-Based Approach to Diversity Maximization under Matroid Constraints,https://doi.org/10.1145/3402448
+1270,4611,/doi/10.1007/978-3-030-32047-8_11,The Role of Local Intrinsic Dimensionality in Benchmarking Nearest Neighbor Search,https://doi.org/10.1007/978-3-030-32047-8_11
+1271,4612,/doi/10.1007/978-3-030-24766-9_19,FRESH: Fréchet Similarity with Hashing,https://doi.org/10.1007/978-3-030-24766-9_19
+1272,4615,/doi/10.14778/3317315.3317319,"Solving k-center clustering (with outliers) in MapReduce and streaming, almost as accurately as sequentially",https://doi.org/10.14778/3317315.3317319
+1273,4616,/doi/10.1145/3159652.3159719,Fast Coreset-based Diversity Maximization under Matroid Constraints,https://doi.org/10.1145/3159652.3159719
+1274,4617,/doi/10.14778/3055540.3055541,MapReduce and streaming algorithms for diversity maximization in metric spaces of bounded doubling dimension,https://doi.org/10.14778/3055540.3055541
+1275,4619,/doi/10.1145/2755573.2755591,"Space and Time Efficient Parallel Graph Decomposition, Clustering, and Diameter Approximation",https://doi.org/10.1145/2755573.2755591
+1276,4620,/doi/10.1145/2557833.2560572,Automated generation of model classes for Java PathFinder,https://doi.org/10.1145/2557833.2560572
+1277,4622,/doi/10.1145/2382756.2382796,Tools to generate and check consistency of model classes for Java PathFinder,https://doi.org/10.1145/2382756.2382796
+1278,4624,/doi/10.1007/978-3-031-39698-4_32,Distributed k-Means with Outliers in General Metrics,https://doi.org/10.1007/978-3-031-39698-4_32
+1279,4626,/doi/10.1007/978-3-031-38906-1_41,Fully Dynamic Clustering and Diversity Maximization in Doubling Metrics,https://doi.org/10.1007/978-3-031-38906-1_41
+1280,4628,/doi/10.1007/BF01840402,A new scheme for the deterministic simulation of PRAMs in VLSI,https://doi.org/10.1007/BF01840402
+1281,4630,/doi/10.1145/2812804,Network-Oblivious Algorithms,https://doi.org/10.1145/2812804
+1282,4633,/doi/10.1016/j.dam.2015.05.004,On the complexity of the shortest-path broadcast problem,https://doi.org/10.1016/j.dam.2015.05.004
+1283,4639,/doi/10.1016/j.patrec.2015.07.023,Heterogeneous machine learning system for improving the diagnosis of primary aldosteronism,https://doi.org/10.1016/j.patrec.2015.07.023
+1284,4645,/doi/10.1016/j.jpdc.2014.09.007,Space-efficient parallel algorithms for combinatorial search problems,https://doi.org/10.1016/j.jpdc.2014.09.007
+1285,4647,/doi/10.1007/s00224-012-9390-7,On the Expansion and Diameter of Bluetooth-Like Topologies,https://doi.org/10.1007/s00224-012-9390-7
+1286,4649,/doi/10.1145/2304576.2304607,Space-round tradeoffs for MapReduce computations,https://doi.org/10.1145/2304576.2304607
+1287,4651,/doi/10.1145/2220357.2220359,An Efficient Rigorous Approach for Identifying Statistically Significant Frequent Itemsets,https://doi.org/10.1145/2220357.2220359
+1288,4654,/doi/10.1145/1993806.1993882,Tight bounds on information dissemination in sparse mobile networks,https://doi.org/10.1145/1993806.1993882
+1289,4655,/doi/10.1007/s10618-010-0185-7,Mining top-K frequent itemsets through progressive sampling,https://doi.org/10.1007/s10618-010-0185-7
+1290,4656,/doi/10.1007/978-3-642-03869-3_90,Introduction,https://doi.org/10.1007/978-3-642-03869-3_90
+1291,4660,/doi/10.1145/1559795.1559814,An efficient rigorous approach for identifying statistically significant frequent itemsets,https://doi.org/10.1145/1559795.1559814
+1292,4661,/doi/10.1016/j.tcs.2008.08.001,Preface,https://doi.org/10.1016/j.tcs.2008.08.001
+1293,4665,/doi/10.1145/3246979,Session details: Broadcasting in networks,https://doi.org/10.1145/3246979
+1294,4666,/doi/10.1007/s00224-007-9008-7,Store-and-Forward Multicast Routing on the Mesh,https://doi.org/10.1007/s00224-007-9008-7
+1295,4668,/doi/10.1109/CISIS.2007.41,Obtaining Performance Measures through Microbenchmarking in a Peer-to-Peer Overlay Computer,https://doi.org/10.1109/CISIS.2007.41
+1296,4671,/doi/10.1016/j.jpdc.2005.06.008,Translating submachine locality into locality of reference,https://doi.org/10.1016/j.jpdc.2005.06.008
+1297,4672,/doi/10.1007/11602569_41,The potential of on-chip multiprocessing for QCD machines,https://doi.org/10.1007/11602569_41
+1298,4675,/doi/10.1007/11549468_101,Topic 12 theory and algorithms for parallel computation,https://doi.org/10.1007/11549468_101
+1299,4678,/doi/10.1016/j.jpdc.2004.10.002,On stalling in LogP,https://doi.org/10.1016/j.jpdc.2004.10.002
+1300,4679,/doi/10.1006/inco.2000.3004,Optimal deterministic protocols for mobile robots on a grid,https://doi.org/10.1006/inco.2000.3004
+1301,4681,/doi/10.1016/S0304-3975%2800%2900386-8,Deterministic parallel backtrack search,https://doi.org/10.1016/S0304-3975(00)00386-8
+1302,4682,/doi/10.1145/378580.378585,One-to-Many routing on the mesh,https://doi.org/10.1145/378580.378585
+1303,4683,/doi/10.1006/inco.2000.3006,Implementing Shared Memory on Mesh-Connected Computers and on the Fat-Tree,https://doi.org/10.1006/inco.2000.3006
+1304,4684,/doi/10.1137/S009753979732712X,"Constructive, Deterministic Implementation of Shared Memory on Meshes",https://doi.org/10.1137/S009753979732712X
+1305,4686,/doi/10.1145/237502.237504,BSP vs LogP,https://doi.org/10.1145/237502.237504
+1306,4688,/doi/10.1145/181014.181388,Constructive deterministic PRAM simulation on a mesh-connected computer,https://doi.org/10.1145/181014.181388
+1307,4689,/doi/10.1145/165231.165245,A practical constructive scheme for deterministic shared-memory access,https://doi.org/10.1145/165231.165245
+1308,4691,/doi/10.1016/0020-0190%2891%2990135-5,Analysis of parallel uniform hashing,https://doi.org/10.1016/0020-0190(91)90135-5
+1309,4693,/doi/10.1145/3360553,Derivative grammars: a symbolic approach to parsing with derivatives,https://doi.org/10.1145/3360553
+1310,4696,/doi/10.1007/978-3-030-32686-9_7,Bounds and Estimates on the Average Edit Distance,https://doi.org/10.1007/978-3-030-32686-9_7
+1311,4698,/doi/10.1145/3181776,A Lower Bound Technique for Communication in BSP,https://doi.org/10.1145/3181776
+1312,4699,/doi/10.1145/3075564.3075571,Optimal On-Line Computation of Stack Distances for MIN and OPT,https://doi.org/10.1145/3075564.3075571
+1313,4702,/doi/10.1016/j.tcs.2013.01.016,Optimal eviction policies for stochastic address traces,https://doi.org/10.1016/j.tcs.2013.01.016
+1314,4704,/doi/10.1007/978-3-642-32820-6_67,A lower bound technique for communication on BSP with application to the FFT,https://doi.org/10.1007/978-3-642-32820-6_67
+1315,4705,/doi/10.1145/2016604.2016607,Efficient stack distance computation for priority replacement policies,https://doi.org/10.1145/2016604.2016607
+1316,4706,/doi/10.1145/3251918,Session details: Keynote,https://doi.org/10.1145/3251918
+1317,4707,/doi/10.1145/1552285.1552288,On approximating the ideal random access machine by physical machines,https://doi.org/10.1145/1552285.1552288
+1318,4708,/doi/10.1016/j.tcs.2008.08.005,Area-time tradeoffs for universal VLSI circuits,https://doi.org/10.1016/j.tcs.2008.08.005
+1319,4710,/doi/10.1145/3260578,Session details: Keynote II,https://doi.org/10.1145/3260578
+1320,4711,/doi/10.1145/1242531.1242533,Models for parallel and hierarchical computation,https://doi.org/10.1145/1242531.1242533
+1321,4712,/doi/10.1109/IWIAS.2006.38,The Speculative Prefetcher and Evaluator Processor for Pipelined Memory Hierarchies,https://doi.org/10.1109/IWIAS.2006.38
+1322,4713,/doi/10.1109/IPDPS.2005.85,An Address Dependence Model of Computation for Hierarchical Memories with Pipelined Transfer,https://doi.org/10.1109/IPDPS.2005.85
+1323,4714,/doi/10.1016/S0196-6774%2803%2900084-1,Preface,https://doi.org/10.1016/S0196-6774(03)00084-1
+1324,4716,/doi/10.1145/765568.765573,Algorithms for computing the static single assignment form,https://doi.org/10.1145/765568.765573
+1325,4717,/doi/10.1145/564870.564886,Optimal organizations for pipelined hierarchical memories,https://doi.org/10.1145/564870.564886
+1326,4718,/doi/10.1145/378580.378615,Computational power of pipelined memory hierarchies,https://doi.org/10.1145/378580.378615
+1327,4719,/doi/10.1006/jpdc.1998.1447,Tight Bounds on Parallel List Marking,https://doi.org/10.1006/jpdc.1998.1447
+1328,4721,/doi/10.1007/s002240000066,"Processor--Time Tradeoffs under Bounded-Speed Message Propagation: Part I, Upper Bounds",https://doi.org/10.1007/s002240000066
+1329,4722,/doi/10.1145/256167.256217,Optimal control dependence computation and the Roman chariots problem,https://doi.org/10.1145/256167.256217
+1330,4723,/doi/10.1109/12.506427,On Bufferless Routing of Variable Length Messages in Leveled Networks,https://doi.org/10.1109/12.506427
+1331,4726,/doi/10.1145/231379.231435,A framework for generalized control dependence,https://doi.org/10.1145/231379.231435
+1332,4727,/doi/10.1145/215399.215443,Upper bounds to processor-time tradeoffs under bounded-speed message propagation,https://doi.org/10.1145/215399.215443
+1333,4728,/doi/10.1145/207110.207114,APT: a data structure for optimal control dependence computation,https://doi.org/10.1145/207110.207114
+1334,4729,/doi/10.1006/jpdc.1995.1080,Horizons of parallel computation,https://doi.org/10.1006/jpdc.1995.1080
+1335,4730,/doi/10.1145/210346.210417,Deterministic on-line routing on area-universal networks,https://doi.org/10.1145/210346.210417
+1336,4732,/doi/10.1016/0304-3975%2894%2900075-T,Language learning without overgeneralization,https://doi.org/10.1016/0304-3975(94)00075-T
+1337,4734,/doi/10.1016/0020-0190%2894%2900070-0,A lower bound for area-universal graphs,https://doi.org/10.1016/0020-0190(94)00070-0
+1338,4738,/doi/10.1137/S0097539789164765,Deterministic Simulations of Prams on Bounded Degree Networks,https://doi.org/10.1137/S0097539789164765
+1339,4739,/doi/10.1016/0020-0190%2892%2990252-Q,On uniform learnability of language families,https://doi.org/10.1016/0020-0190(92)90252-Q
+1340,4740,/doi/10.1145/130385.130419,Language learning from stochastic input,https://doi.org/10.1145/130385.130419
+1341,4741,/doi/10.1145/121956.121961,Optimal VLSI architectures for multidimensional DFT (preliminary version),https://doi.org/10.1145/121956.121961
+1342,4744,/doi/10.1109/FSCS.1990.89548,Deterministic on-line routing on area-universal networks,https://doi.org/10.1109/FSCS.1990.89548
+1343,4745,/doi/10.1137/0219016,Characterization of associative operations with prefix circuits of constant depth and linear size,https://doi.org/10.1137/0219016
+1344,4746,/doi/10.1145/62044.62052,Size-time complexity of Boolean networks for prefix computations,https://doi.org/10.1145/62044.62052
+1345,4747,/doi/10.1137/0218014,Adaptive bitonic sorting: an optimal parallel algorithm for shared-memory machines,https://doi.org/10.1137/0218014
+1346,4749,/doi/10.1145/72935.72963,Optimal VLSI architectures for multidimensional DFT,https://doi.org/10.1145/72935.72963
+1347,4750,/doi/10.1145/28395.28442,Size-time complexity of Boolean networks for prefix computations,https://doi.org/10.1145/28395.28442
+1348,4751,/doi/10.1007/BF01840437,Area-time lower-bound techniques with applications to sorting,https://doi.org/10.1007/BF01840437
+1349,4752,/doi/10.1109/TIT.1985.1057117,Mean value of the output of a discrete-time volterra system driven by a Markov chain,https://doi.org/10.1109/TIT.1985.1057117
+1350,4755,/doi/10.1109/TC.1985.5009384,A minimum area VLSI network for O(log n) time sorting,https://doi.org/10.1109/TC.1985.5009384
+1351,4756,/doi/10.1016/0020-0190%2885%2990062-6,The VLSI optimality of the AKS sorting network,https://doi.org/10.1016/0020-0190(85)90062-6
+1352,4757,/doi/10.1145/800057.808666,A minimum area VLSI network for O(logn) time sorting,https://doi.org/10.1145/800057.808666
+1353,4758,/doi/10.1109/TC.1984.5009338,An Architecture for Bitonic Sorting with Optimal VLSI Performnance,https://doi.org/10.1109/TC.1984.5009338
+1354,4759,/doi/10.1007/s00366-020-01253-y,Parallel graph-grammar-based algorithm for the longest-edge refinement of triangular meshes and the pollution simulations in Lesser Poland area,https://doi.org/10.1007/s00366-020-01253-y
+1355,4765,/doi/10.1007/978-3-030-50371-0_8,A Massively Parallel Algorithm for the Three-Dimensional Navier-Stokes-Boussinesq Simulations of the Atmospheric Phenomena,https://doi.org/10.1007/978-3-030-50371-0_8
+1356,4768,/doi/10.1007/978-3-319-93701-4_12,An Algorithm for Tensor Product Approximation of Three-Dimensional Material Data for Implicit Dynamics Simulations,https://doi.org/10.1007/978-3-319-93701-4_12
+1357,4771,/doi/10.1016/j.cam.2022.114308,Tuning three-dimensional tumor progression simulations on a cluster of GPGPUs,https://doi.org/10.1016/j.cam.2022.114308
+1358,4774,/doi/10.1016/j.camwa.2022.03.025,"Supermodeling, a convergent data assimilation meta-procedure used in simulation of tumor progression",https://doi.org/10.1016/j.camwa.2022.03.025
+1359,4775,/doi/10.1016/j.compbiomed.2021.104797,Supermodeling in predictive diagnostics of cancer under treatment,https://doi.org/10.1016/j.compbiomed.2021.104797
+1360,4776,/doi/10.1007/978-3-030-77964-1_28,Supermodeling - A Meta-procedure for Data Assimilation and Parameters Estimation,https://doi.org/10.1007/978-3-030-77964-1_28
+1361,4777,/doi/10.1016/j.jpdc.2019.06.010,Fast and green parallel isogeometric analysis computations for multi-objective optimization of liquid fossil fuel reserve exploitation with minimal groundwater contamination,https://doi.org/10.1016/j.jpdc.2019.06.010
+1362,4778,/doi/10.1016/j.procs.2016.05.369,Hybridization of Isogeometric Finite Element Method and Evolutionary Multi-agent System as a Tool-set for Multiobjective Optimization of Liquid Fossil Fuel Reserves Exploitation with Minimizing Groundwater Contamination,https://doi.org/10.1016/j.procs.2016.05.369
+1363,4781,/doi/10.1007/978-3-642-02319-4_5,Agent-Based Evolutionary System for Traveling Salesman Problem,https://doi.org/10.1007/978-3-642-02319-4_5
+1364,4784,/doi/10.1007/978-3-540-71805-5_20,Multi-objective Optimization Technique Based on Co-evolutionary Interactions in Multi-agent System,https://doi.org/10.1007/978-3-540-71805-5_20
+1365,4785,/doi/10.1007/978-3-642-01973-9_98,Agent-Based Environment for Knowledge Integration,https://doi.org/10.1007/978-3-642-01973-9_98
+1366,4788,/doi/10.1007/978-3-642-01129-0_26,Comparison of Multi-agent Co-operative Co-evolutionary and Evolutionary Algorithms for Multi-objective Portfolio Optimization,https://doi.org/10.1007/978-3-642-01129-0_26
+1367,4790,/doi/10.1007/978-3-540-69389-5_82,Hierarchical Approach to Evolutionary Multi-Objective Optimization,https://doi.org/10.1007/978-3-540-69389-5_82
+1368,4793,/doi/10.1007/978-3-540-69389-5_74,Generating Robust Investment Strategies with Agent-Based Co-evolutionary System,https://doi.org/10.1007/978-3-540-69389-5_74
+1369,4795,/doi/10.1007/978-3-540-75254-7_45,Selection of Efficient Production Management Strategies Using the Multi-agent Approach,https://doi.org/10.1007/978-3-540-75254-7_45
+1370,4798,/doi/10.1007/978-3-540-72586-2_126,Techniques for Maintaining Population Diversity in Classical and Agent-Based Multi-objective Evolutionary Algorithms,https://doi.org/10.1007/978-3-540-72586-2_126
+1371,4799,/doi/10.1007/978-3-540-71618-1_8,Co-evolutionary Multi-agent System with Predator-Prey Mechanism for Multi-objective Optimization,https://doi.org/10.1007/978-3-540-71618-1_8
+1372,4800,/doi/10.1007/978-3-540-71618-1_16,Improving the Quality of the Pareto Frontier Approximation Obtained by Semi-elitist Evolutionary Multi-agent System Using Distributed and Decentralized Frontier Crowding Mechanism,https://doi.org/10.1007/978-3-540-71618-1_16
+1373,4801,/doi/10.1007/978-3-540-69731-2_38,Agent-Based Co-Operative Co-Evolutionary Algorithm for Multi-Objective Optimization,https://doi.org/10.1007/978-3-540-69731-2_38
+1374,4802,/doi/10.1007/11758532_113,Multi-objective optimization using co-evolutionary multi-agent system with host-parasite mechanism,https://doi.org/10.1007/11758532_113
+1375,4803,/doi/10.1007/11758532_108,Semi-elitist evolutionary multi-agent system for multiobjective optimization,https://doi.org/10.1007/11758532_108
+1376,4804,/doi/10.1007/978-3-030-77980-1_24,Effective Car Collision Detection with Mobile Phone Only,https://doi.org/10.1007/978-3-030-77980-1_24
+1377,4815,/doi/10.1145/3365921.3365924,Active Safety for Individual and Connected Vehicles using Mobile Phone Only,https://doi.org/10.1145/3365921.3365924
+1378,4818,/doi/10.1177/1094342018816772,Efficient model of tumor dynamics simulated in multi-GPU environment,https://doi.org/10.1177/1094342018816772
+1379,4826,/doi/10.1177/1094342016679492,An implementation of the Social Distances Model using multi-GPU systems,https://doi.org/10.1177/1094342016679492
+1380,4830,/doi/10.15388/24-INFOR555,Three New Design Patterns for Scalable Agent-Based Computing and Simulation,https://doi.org/10.15388/24-INFOR555
+1381,4832,/doi/10.1007/978-3-031-08760-8_43,Distributed Architecture for Highly Scalable Urban Traffic Simulation,https://doi.org/10.1007/978-3-031-08760-8_43
+1382,4834,/doi/10.1007/978-3-030-77964-1_32,Agent-Based Modeling of Social Phenomena for High Performance Distributed Simulations,https://doi.org/10.1007/978-3-030-77964-1_32
+1383,4835,/doi/10.1007/978-3-030-50420-5_11,Scalable Signal-Based Simulation of Autonomous Beings in Complex Environments,https://doi.org/10.1007/978-3-030-50420-5_11
+1384,4837,/doi/10.1007/978-3-319-93701-4_7,Hybrid Swarm and Agent-Based Evolutionary Optimization,https://doi.org/10.1007/978-3-319-93701-4_7
+1385,4842,/doi/10.1007/978-3-030-77961-0_22,Scaling Simulation of Continuous Urban Traffic Model for High Performance Computing System,https://doi.org/10.1007/978-3-030-77961-0_22
+1386,4844,/doi/10.1145/3603379,Real-time Road Network Optimization with Coordinated Reinforcement Learning,https://doi.org/10.1145/3603379
+1387,4849,/doi/10.1145/3578933,Dynamic Straggler Mitigation for Large-Scale Spatial Simulations,https://doi.org/10.1145/3578933
+1388,4852,/doi/10.1145/3557915.3561018,Concurrent optimization of safety and traffic flow using deep reinforcement learning for autonomous intersection management,https://doi.org/10.1145/3557915.3561018
+1389,4854,/doi/10.1145/3557915.3560988,A simulation study on prioritizing connected freight vehicles at intersections for traffic flow optimization (industrial paper),https://doi.org/10.1145/3557915.3560988
+1390,4857,/doi/10.1145/3557991.3567781,Optimizing crowdsourced delivery routes through concurrent selection of pickup stores and drivers,https://doi.org/10.1145/3557991.3567781
+1391,4861,/doi/10.1007/s10707-022-00473-2,Real-time road safety optimization through network-level data management,https://doi.org/10.1007/s10707-022-00473-2
+1392,4862,/doi/10.1145/3474717.3484206,Managing Trajectories and Interactions During a Pandemic: A Trajectory Similarity-based Approach (Demo Paper),https://doi.org/10.1145/3474717.3484206
+1393,4867,/doi/10.1145/3469830.3470904,Effective Traffic Forecasting with Multi-Resolution Learning,https://doi.org/10.1145/3469830.3470904
+1394,4869,/doi/10.1007/s10707-020-00420-z,Route intersection reduction with connected autonomous vehicles,https://doi.org/10.1007/s10707-020-00420-z
+1395,4872,/doi/10.1145/3397536.3422211,Tracking Group Movement in Location Based Social Networks,https://doi.org/10.1145/3397536.3422211
+1396,4875,/doi/10.1145/3423457.3429369,Streaming route assignment with prior temporal traffic data,https://doi.org/10.1145/3423457.3429369
+1397,4876,/doi/10.1007/978-3-030-67667-4_18,Real-Time Lane Configuration with Coordinated Reinforcement Learning,https://doi.org/10.1007/978-3-030-67667-4_18
+1398,4878,/doi/10.1145/3357000.3366145,Quantifying the Impact of Autonomous Vehicles using Microscopic Simulations,https://doi.org/10.1145/3357000.3366145
+1399,4880,/doi/10.1145/3347146.3359062,Streaming Route Assignment for Connected Autonomous Vehicles (Systems Paper),https://doi.org/10.1145/3347146.3359062
+1400,4881,/doi/10.1145/3355491.3355495,Generating traffic data for any city using SMARTS simulator,https://doi.org/10.1145/3355491.3355495
+1401,4882,/doi/10.1145/3283207.3283215,Is Euclidean Distance Really that Bad with Road Networks?,https://doi.org/10.1145/3283207.3283215
+1402,4884,/doi/10.1145/3274895.3274939,Studying transportation problems with the SMARTS simulator (demo paper),https://doi.org/10.1145/3274895.3274939
+1403,4885,/doi/10.1145/3139958.3140018,Exploiting Data Dependency to Mitigate Stragglers in Distributed Spatial Simulation,https://doi.org/10.1145/3139958.3140018
+1404,4886,/doi/10.1145/3139958.3139998,Using a Traffic Simulator for Navigation Service,https://doi.org/10.1145/3139958.3139998
+1405,4887,/doi/10.1145/2898363,SMARTS: Scalable Microscopic Adaptive Road Traffic Simulator,https://doi.org/10.1145/2898363
+1406,4889,/doi/10.1145/2834882.2834886,A Randomized Path Routing Algorithm for Decentralized Route Allocation in Transportation Networks,https://doi.org/10.1145/2834882.2834886
+1407,4892,/doi/10.1145/2674918.2674921,Euler histogram tree: a spatial data structure for aggregate range queries on vehicle trajectories,https://doi.org/10.1145/2674918.2674921
+1408,4896,/doi/10.1016/j.datak.2011.03.007,Privacy-aware collection of aggregate spatial data,https://doi.org/10.1016/j.datak.2011.03.007
+1409,4897,/doi/10.1109/TITS.2009.2028872,Privacy-aware traffic monitoring,https://doi.org/10.1109/TITS.2009.2028872
+1410,4898,/doi/10.1109/MDM.2007.30,Distributed Histograms for Processing Aggregate Data from Moving Objects,https://doi.org/10.1109/MDM.2007.30
+1411,4899,/doi/10.1016/j.is.2005.12.006,Browsing large online data tables using generalized query previews,https://doi.org/10.1016/j.is.2005.12.006
+1412,4901,/doi/10.1145/3557915.3560956,Dynamic graph combinatorial optimization with multi-attention deep reinforcement learning,https://doi.org/10.1145/3557915.3560956
+1413,4902,/doi/10.1145/3557915.3560955,e-SMARTS: a system to simulate intelligent traffic management solutions (demo paper),https://doi.org/10.1145/3557915.3560955
+1414,4903,/doi/10.1109/IV51971.2022.9827188,Real-Time Intelligent Autonomous Intersection Management Using Reinforcement Learning,https://doi.org/10.1109/IV51971.2022.9827188
+1415,4904,/doi/10.1145/3652158,Mobility Data Science: Perspectives and Challenges,https://doi.org/10.1145/3652158
+1416,4946,/doi/10.1145/3589132.3625597,MaaSDB: Spatial Databases in the Era of Large Language Models (Vision Paper),https://doi.org/10.1145/3589132.3625597
+1417,4948,/doi/10.1109/TKDE.2022.3179646,A Graph and Attentive Multi-Path Convolutional Network for Traffic Prediction,https://doi.org/10.1109/TKDE.2022.3179646
+1418,4952,/doi/10.1145/3557915.3560967,Electric vehicle charging: it is not as simple as charging a smartphone (vision paper),https://doi.org/10.1145/3557915.3560967
+1419,4956,/doi/10.1145/3486629.3490695,A study of rerouting beyond ad hoc decision making,https://doi.org/10.1145/3486629.3490695
+1420,4959,/doi/10.1145/3468791.3468822,Sub-trajectory Similarity Join with Obfuscation,https://doi.org/10.1145/3468791.3468822
+1421,4962,/doi/10.1145/3397536.3422272,Platooning Graph for Safer Traffic Management,https://doi.org/10.1145/3397536.3422272
+1422,4963,/doi/10.1145/3363449,Privacy- and Context-aware Release of Trajectory Data,https://doi.org/10.1145/3363449
+1423,4966,/doi/10.1145/3324883,Stepping Stone Graph: A Graph for Finding Movement Corridors using Sparse Trajectories,https://doi.org/10.1145/3324883
+1424,4967,/doi/10.1145/3317639,Congestion-Aware Ride-Sharing,https://doi.org/10.1145/3317639
+1425,4969,/doi/10.1145/3274895.3274991,Activity-based ride-sharing in action (demo paper),https://doi.org/10.1145/3274895.3274991
+1426,4970,/doi/10.1145/3274895.3274913,Stepping stone graph for public movement analysis,https://doi.org/10.1145/3274895.3274913
+1427,4971,/doi/10.1145/3239124,Efficient Computation of the Optimal Accessible Location for a Group of Mobile Agents,https://doi.org/10.1145/3239124
+1428,4973,/doi/10.1145/3144457.3144483,From Ride-Sourcing to Ride-Sharing through Hot-Spots,https://doi.org/10.1145/3144457.3144483
+1429,4974,/doi/10.1145/3144457.3144475,Follow The Best: Crowdsourced Automated Travel Advice,https://doi.org/10.1145/3144457.3144475
+1430,4975,/doi/10.1145/3139958.3139997,From How to Where: Traffic Optimization in the Era of Automated Vehicles,https://doi.org/10.1145/3139958.3139997
+1431,4976,/doi/10.1145/3139958.3139972,Ride-sharing is About Agreeing on a Destination,https://doi.org/10.1145/3139958.3139972
+1432,4977,/doi/10.1145/3124104.3124115,"MELT 2016 workshop report: the Sixth ACM SIGSPATIAL International Workshop on Mobile Entity Localization, Tracking and Analysis: Burlingame, CA, USA - October 31, 2016",https://doi.org/10.1145/3124104.3124115
+1433,4979,/doi/10.1145/3085504.3085531,Challenges of Differentially Private Release of Data Under an Open-world Assumption,https://doi.org/10.1145/3085504.3085531
+1434,4980,/doi/10.1145/3003965.3003966,On the effectiveness of removing location information from trajectory data for preserving location privacy,https://doi.org/10.1145/3003965.3003966
+1435,4983,/doi/10.1145/2996913.2996995,Mining city-wide encounters in real-time,https://doi.org/10.1145/2996913.2996995
+1436,4984,/doi/10.1145/2996913.2996966,Location privacy for group meetups,https://doi.org/10.1145/2996913.2996966
+1437,4985,/doi/10.1145/2971485.2971521,Onebody: Remote Posture Guidance System using First Person View in Virtual Environment,https://doi.org/10.1145/2971485.2971521
+1438,4989,/doi/10.1145/2961028.2961038,"Report from industrial workshop: ACM SIGSPATIAL 2015 Industrial Workshop Seattle, Washington, USA - November 2, 2015",https://doi.org/10.1145/2961028.2961038
+1439,4990,/doi/10.1145/2829943,Spatial Consensus Queries in a Collaborative Environment,https://doi.org/10.1145/2829943
+1440,4992,/doi/10.1145/2820783.2820862,Optimal mobile facility localization,https://doi.org/10.1145/2820783.2820862
+1441,4995,/doi/10.1145/2820783.2820839,Combining range-based and range-free methods: a unified approach for localization,https://doi.org/10.1145/2820783.2820839
+1442,4996,/doi/10.1145/2820783.2820789,Location-based social networking for obtaining personalised driving advice,https://doi.org/10.1145/2820783.2820789
+1443,4997,/doi/10.1145/3252311,Session details: Session 6C: Points-of-Interest,https://doi.org/10.1145/3252311
+1444,4998,/doi/10.1145/2806416.2806433,Efficient Computation of Trips with Friends and Families,https://doi.org/10.1145/2806416.2806433
+1445,5000,/doi/10.1007/s10707-015-0228-8,The CASE histogram: privacy-aware processing of trajectory data using aggregates,https://doi.org/10.1007/s10707-015-0228-8
+1446,5002,/doi/10.1145/2750858.2805836,How private can i be among public users?,https://doi.org/10.1145/2750858.2805836
+1447,5003,/doi/10.1145/2786006.2786011,Group Nearest Neighbor Queries for Fuzzy Geo-Spatial Objects,https://doi.org/10.1145/2786006.2786011
+1448,5005,/doi/10.1145/2786006.2786009,A Unified Framework for Authenticating Privacy Preserving Location Based Services,https://doi.org/10.1145/2786006.2786009
+1449,5008,/doi/10.1145/2677972.2678004,A simple localization system for ad-hoc indoor meetings through wireless connection points,https://doi.org/10.1145/2677972.2678004
+1450,5010,/doi/10.1145/2677972.2677999,Is this you?: identifying a mobile user using only diagnostic features,https://doi.org/10.1145/2677972.2677999
+1451,5012,/doi/10.1145/2661829.2661866,Tell Me What You Want and I Will Tell Others Where You Have Been,https://doi.org/10.1145/2661829.2661866
+1452,5013,/doi/10.1145/2661829.2661861,Travel distance versus navigation complexity: a study on different spatial queries on road networks,https://doi.org/10.1145/2661829.2661861
+1453,5016,/doi/10.1145/2638728.2638788,Protecting mobile users from visual privacy attacks,https://doi.org/10.1145/2638728.2638788
+1454,5019,/doi/10.1145/2618243.2618278,Protection of sensitive trajectory datasets through spatial and temporal exchange,https://doi.org/10.1145/2618243.2618278
+1455,5020,/doi/10.1007/s10707-012-0170-y,Opportunistic sampling-based query processing in wireless sensor networks,https://doi.org/10.1007/s10707-012-0170-y
+1456,5022,/doi/10.1145/2493432.2494524,Protecting privacy for group nearest neighbor queries with crowdsourced data and computing,https://doi.org/10.1145/2493432.2494524
+1457,5023,/doi/10.1145/2505403.2505404,"Highlights from ACM SIGSPATIAL GIS 2012 the 20th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (Redondo Beach, California, November 6--9, 2012)",https://doi.org/10.1145/2505403.2505404
+1458,5025,/doi/10.1007/978-3-642-33074-2_32,Materialized views for count aggregates of spatial data,https://doi.org/10.1007/978-3-642-33074-2_32
+1459,5028,/doi/10.1109/TKDE.2011.52,Continuous Detour Queries in Spatial Networks,https://doi.org/10.1109/TKDE.2011.52
+1460,5030,/doi/10.1016/j.datak.2012.02.001,Probabilistic Voronoi diagrams for probabilistic moving nearest neighbor queries,https://doi.org/10.1016/j.datak.2012.02.001
+1461,5031,/doi/10.1145/2189403.2189413,Activities of ACM SIGSPATIAL Australia Chapter in 2011,https://doi.org/10.1145/2189403.2189413
+1462,5033,/doi/10.1145/2189403.2189404,"Highlights from ACM SIGSPATIAL GIS 2011: the 19th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems: (Chicago, Illinois - November 1 - 4, 2011)",https://doi.org/10.1145/2189403.2189404
+1463,5035,/doi/10.1007/s00779-011-0395-z,Gesture recognition using RFID technology,https://doi.org/10.1007/s00779-011-0395-z
+1464,5037,/doi/10.1145/1815933.1815942,Spatio-temporal database research at the University of Melbourne,https://doi.org/10.1145/1815933.1815942
+1465,5038,/doi/10.1145/1869790.1869840,Easiest-to-reach neighbor search,https://doi.org/10.1145/1869790.1869840
+1466,5039,/doi/10.1145/1869790.1869808,Local network Voronoi diagrams,https://doi.org/10.1145/1869790.1869808
+1467,5040,/doi/10.1007/s00778-010-0182-x,A motion-aware approach for efficient evaluation of continuous queries on 3D object databases,https://doi.org/10.1007/s00778-010-0182-x
+1468,5041,/doi/10.1007/s00778-009-0163-0,Analysis and evaluation of V*-kNN: an efficient algorithm for moving kNN queries,https://doi.org/10.1007/s00778-009-0163-0
+1469,5042,/doi/10.1109/TKDE.2009.158,Incremental Evaluation of Visible Nearest Neighbor Queries,https://doi.org/10.1109/TKDE.2009.158
+1470,5043,/doi/10.1007/s10707-009-0078-3,Spatial interpolation in wireless sensor networks: localized algorithms for variogram modeling and Kriging,https://doi.org/10.1007/s10707-009-0078-3
+1471,5044,/doi/10.1145/1653771.1653852,Opportunistic sampling in wireless sensor networks,https://doi.org/10.1145/1653771.1653852
+1472,5045,/doi/10.1109/ICDE.2009.63,V*-kNN: An Efficient Algorithm for Moving k Nearest Neighbor Queries,https://doi.org/10.1109/ICDE.2009.63
+1473,5046,/doi/10.1145/1463434.1463461,Autonomous navigation of mobile agents using RFID-enabled space partitions,https://doi.org/10.1145/1463434.1463461
+1474,5048,/doi/10.14778/1453856.1453973,The V*-Diagram: a query-dependent approach to moving KNN queries,https://doi.org/10.14778/1453856.1453973
+1475,5049,/doi/10.1007/978-3-540-69497-7_34,Kriging for Localized Spatial Interpolation in Sensor Networks,https://doi.org/10.1007/978-3-540-69497-7_34
+1476,5050,/doi/10.1109/MDM.2008.16,Monitoring Moving Objects Using Low Frequency Snapshots in Sensor Networks,https://doi.org/10.1109/MDM.2008.16
+1477,5053,/doi/10.1109/ICDE.2008.4497493,A Motion-Aware Approach to Continuous Retrieval of 3D Objects,https://doi.org/10.1109/ICDE.2008.4497493
+1478,5054,/doi/10.1145/1388336.1388338,CAESAR: middleware for complex service-oriented peer-to-peer applications,https://doi.org/10.1145/1388336.1388338
+1479,5056,/doi/10.1145/1322263.1322333,Application semantics in query optimization for WSNs,https://doi.org/10.1145/1322263.1322333
+1480,5057,/doi/10.1145/1322263.1322304,Navigation and interaction in physical spaces using RFID enabled spatial sensing,https://doi.org/10.1145/1322263.1322304
+1481,5058,/doi/10.1109/MDSO.2007.39,Teaching Wireless Sensor Networks at the University of Melbourne,https://doi.org/10.1109/MDSO.2007.39
+1482,5059,/doi/10.1007/s00778-005-0001-y,Using a distributed quadtree index in peer-to-peer networks,https://doi.org/10.1007/s00778-005-0001-y
+1483,5060,/doi/10.1007/11863939_17,Incremental rank updates for moving query points,https://doi.org/10.1007/11863939_17
+1484,5061,/doi/10.1007/s10707-005-4887-8,Building and Querying a P2P Virtual World,https://doi.org/10.1007/s10707-005-4887-8
+1485,5063,/doi/10.1109/ICDE.2005.7,A Distributed Quadtree Index for Peer-to-Peer Settings,https://doi.org/10.1109/ICDE.2005.7
+1486,5064,/doi/10.1145/1032222.1032246,A serverless 3D world,https://doi.org/10.1145/1032222.1032246
+1487,5066,/doi/10.1145/602421.602453,Use of the SAND spatial browser for digital government applications,https://doi.org/10.1145/602421.602453
+1488,5072,/doi/10.1145/585147.585150,Remote access to large spatial databases,https://doi.org/10.1145/585147.585150
+1489,5073,/doi/10.1007/s007990050039,The end of zero-hit queries: query previews for NASA's Global Change Master Directory,https://doi.org/10.1007/s007990050039
+1490,5079,/doi/10.1145/245882.245891,Incremental data structures and algorithms for dynamic query interfaces,https://doi.org/10.1145/245882.245891
+1491,5081,/doi/10.1145/3663741.3664786,Technological and Research Challenges in Data Engineering for Sustainable Agriculture,https://doi.org/10.1145/3663741.3664786
+1492,5096,/doi/10.1145/3615895.3628165,Roundabouts and the Energy Consumption of Electrical Vehicles,https://doi.org/10.1145/3615895.3628165
+1493,5098,/doi/10.1145/3589132.3625634,Brussels Mobility Twin,https://doi.org/10.1145/3589132.3625634
+1494,5100,/doi/10.1145/3611010,On Computing the Time-varying Distance between Moving Bodies,https://doi.org/10.1145/3611010
+1495,5101,/doi/10.1145/3609956.3609960,Evaluation of Vessel CO2 Emissions Methods using AIS Trajectories,https://doi.org/10.1145/3609956.3609960
+1496,5102,/doi/10.1145/3557991.3567802,Speed and energy consumption for electrical vehicles,https://doi.org/10.1145/3557991.3567802
+1497,5104,/doi/10.1145/3406534,MobilityDB: A Mobility Database Based on PostgreSQL and PostGIS,https://doi.org/10.1145/3406534
+1498,5106,/doi/10.1145/3397536.3422262,Distributed Spatiotemporal Trajectory Query Processing in SQL,https://doi.org/10.1145/3397536.3422262
+1499,5108,/doi/10.1145/3356999.3365467,Distributed moving object data management in MobilityDB,https://doi.org/10.1145/3356999.3365467
+1500,5109,/doi/10.1145/3340964.3340991,MobilityDB: A Mainstream Moving Object Database System,https://doi.org/10.1145/3340964.3340991
+1501,5110,/doi/10.1007/s10707-013-0198-7,Group spatiotemporal pattern queries,https://doi.org/10.1007/s10707-013-0198-7
+1502,5111,/doi/10.1145/2093973.2094060,Exploring spatiotemporal patterns by integrating visual analytics with a moving objects database system,https://doi.org/10.1145/2093973.2094060
+1503,5114,/doi/10.1007/s10707-010-0114-3,Spatiotemporal pattern queries,https://doi.org/10.1007/s10707-010-0114-3
+1504,5115,/doi/10.1109/MDM.2010.60,A New Approach for Spatiotemporal Pattern Queries in Trajectory Databases,https://doi.org/10.1109/MDM.2010.60
+1505,5116,/doi/10.1007/s10515-022-00375-5,Multidimensional modeling driven from a domain language,https://doi.org/10.1007/s10515-022-00375-5
+1506,5119,/doi/10.1007/s10115-022-01788-0,Logical design of multi-model data warehouses,https://doi.org/10.1007/s10115-022-01788-0
+1507,5122,/doi/10.1007/s10586-022-03592-5,LambdAgrIoT: a new architecture for agricultural autonomous robots’ scheduling: from design to experiments,https://doi.org/10.1007/s10586-022-03592-5
+1508,5139,/doi/10.1007/978-3-031-12423-5_30,What Logical Model Is Suitable for Relational Trajectory Data Warehouses?: Application to Agricultural Autonomous Robots,https://doi.org/10.1007/978-3-031-12423-5_30
+1509,5140,/doi/10.1016/j.datak.2021.101971,"Sense, Transform & Send for the Internet of Things (STS4IoT): UML profile for data-centric IoT applications",https://doi.org/10.1016/j.datak.2021.101971
+1510,5145,/doi/10.1016/j.is.2021.101734,"Data variety, come as you are in multi-model data warehouses",https://doi.org/10.1016/j.is.2021.101734
+1511,5146,/doi/10.1145/3444757.3485109,On Modeling Data for IoT Agroecology Applications by means of a UML Profile,https://doi.org/10.1145/3444757.3485109
+1512,5147,/doi/10.1007/s00766-020-00331-3,Requirements-driven data warehouse design based on enhanced pivot tables,https://doi.org/10.1007/s00766-020-00331-3
+1513,5148,/doi/10.1109/TKDE.2019.2925621,A Semi-Automatic Design Methodology for (Big) Data Warehouse Transforming Facts into Dimensions,https://doi.org/10.1109/TKDE.2019.2925621
+1514,5151,/doi/10.4018/IJDWM.2019040101,Design and Implementation of Active Stream Data Warehouses,https://doi.org/10.4018/IJDWM.2019040101
+1515,5155,/doi/10.4018/IJDWM.2019010101,Logical and Physical Design of Spatial Non-Strict Hierarchies in Relational Spatial Data Warehouse,https://doi.org/10.4018/IJDWM.2019010101
+1516,5158,/doi/10.1504/IJBIS.2016.073384,Evaluation of user satisfaction with OLAP recommender systems: an application to RecoOLAP on a agricultural energetic consumption datawarehouse,https://doi.org/10.1504/IJBIS.2016.073384
+1517,5160,/doi/10.4018/IJDWM.2016100104,"Business Intelligence Indicators: Types, Models and Implementation",https://doi.org/10.4018/IJDWM.2016100104
+1518,5161,/doi/10.1016/j.cageo.2015.09.012,A quality-aware spatial data warehouse for querying hydroecological data,https://doi.org/10.1016/j.cageo.2015.09.012
+1519,5172,/doi/10.5220/0005515200380048,A First Framework for Mutually Enhancing Chorem and Spatial OLAP Systems,https://doi.org/10.5220/0005515200380048
+1520,5175,/doi/10.5220/0005404605470555,Mixed Driven Refinement Design of Multidimensional Models based on Agglomerative Hierarchical Clustering,https://doi.org/10.5220/0005404605470555
+1521,5177,/doi/10.1016/j.csi.2014.06.004,Conceptual model for spatial data cubes,https://doi.org/10.1016/j.csi.2014.06.004
+1522,5180,/doi/10.1007/s10707-013-0196-9,"Special section on ""Spatial data warehouses and SOLAP""",https://doi.org/10.1007/s10707-013-0196-9
+1523,5183,/doi/10.1504/IJBIDM.2014.068366,A hybrid risk-aware design method for spatial datacubes handling spatial vague data: implementation and validation,https://doi.org/10.1504/IJBIDM.2014.068366
+1524,5186,/doi/10.1145/2513190.2513199,ProtOLAP: rapid OLAP prototyping with on-demand data supply,https://doi.org/10.1145/2513190.2513199
+1525,5189,/doi/10.4018/ijdsst.2013100101,A New Sensor-Based Spatial OLAP Architecture Centered on an Agricultural Farm Energy-Use Diagnosis Tool,https://doi.org/10.4018/ijdsst.2013100101
+1526,5195,/doi/10.1007/978-3-642-31075-1_28,Definition and analysis of new agricultural farm energetic indicators using spatial OLAP,https://doi.org/10.1007/978-3-642-31075-1_28
+1527,5196,/doi/10.1145/2320765.2320788,Cost models for view materialization in the cloud,https://doi.org/10.1145/2320765.2320788
+1528,5200,/doi/10.4018/jdwm.2012010102,Spatial OLAP and Map Generalization: Model and Algebra,https://doi.org/10.4018/jdwm.2012010102
+1529,5203,/doi/10.4018/jtd.2011070104,Using OCL to Model Constraints in Data Warehouses,https://doi.org/10.4018/jtd.2011070104
+1530,5206,/doi/10.1145/1871940.1871948,Towards the definition of spatial data warehouses integrity constraints with spatial OCL,https://doi.org/10.1145/1871940.1871948
+1531,5208,/doi/10.4018/jdwm.2010100103,When Spatial Analysis Meets OLAP: Multidimensional Model and Operators,https://doi.org/10.4018/jdwm.2010100103
+1532,5211,/doi/10.1109/ICDMW.2008.80,Enriching Spatial OLAP with Map Generalization: a Conceptual Multidimensional Model,https://doi.org/10.1109/ICDMW.2008.80
+1533,5212,/doi/10.1007/978-3-540-89903-7_2,HyperSmooth: A System for Interactive Spatial Analysis Via Potential Maps,https://doi.org/10.1007/978-3-540-89903-7_2
+1534,5219,/doi/10.1007/978-3-540-69839-5_24,Integration of Geographic Information into Multidimensional Models,https://doi.org/10.1007/978-3-540-69839-5_24
+1535,5220,/doi/10.1007/11915072_66,GeWOlap: a web based spatial OLAP proposal,https://doi.org/10.1007/11915072_66
+1536,5222,/doi/10.1007/11890393_11,"GeoCube, a multidimensional model and navigation operators handling complex measures: application in spatial OLAP",https://doi.org/10.1007/11890393_11
+1537,5223,/doi/10.1145/1097002.1097009,Towards a spatial multidimensional model,https://doi.org/10.1145/1097002.1097009
+1538,5224,/doi/10.1007/s11042-022-13694-2,Development iterations based on web augmentation and context tasks,https://doi.org/10.1007/s11042-022-13694-2
+1539,5229,/doi/10.1016/j.compag.2020.105242,Using LEL and scenarios to derive mathematical programming models. Application in a fresh tomato packing problem,https://doi.org/10.1016/j.compag.2020.105242
+1540,5234,/doi/10.1007/s00766-013-0193-4,Early identification of crosscutting concerns with the Language Extended Lexicon,https://doi.org/10.1007/s00766-013-0193-4
+1541,5237,/doi/10.1145/1774088.1774147,Early identification of crosscutting concerns in the domain model guided by states,https://doi.org/10.1145/1774088.1774147
+1542,5238,/doi/10.1109/DEXA.2009.44,Embedding Security Patterns into a Domain Model,https://doi.org/10.1109/DEXA.2009.44
+1543,5241,/doi/10.1007/s11219-023-09652-2,UX debt in an agile development process: evidence and characterization,https://doi.org/10.1007/s11219-023-09652-2
+1544,5245,/doi/10.1016/j.csi.2022.103633,ANDES: An approach to embed search services on the Web browser,https://doi.org/10.1016/j.csi.2022.103633
+1545,5252,/doi/10.1016/j.infsof.2021.106735,Engineering Web Augmentation software: A development method for enabling end-user maintenance,https://doi.org/10.1016/j.infsof.2021.106735
+1546,5256,/doi/10.1007/s11042-020-09803-8,Engaging end-user driven recommender systems: personalization through web augmentation,https://doi.org/10.1007/s11042-020-09803-8
+1547,5259,/doi/10.1007/s10270-020-00779-5,MDWA: a model-driven Web augmentation approach—coping with client- and server-side support,https://doi.org/10.1007/s10270-020-00779-5
+1548,5263,/doi/10.1145/3397877,UX-Painter: An Approach to Explore Interaction Fixes in the Browser,https://doi.org/10.1145/3397877
+1549,5264,/doi/10.1007/978-3-030-50578-3_31,An Approach to Build P2P Web Extensions,https://doi.org/10.1007/978-3-030-50578-3_31
+1550,5267,/doi/10.5220/0008559304770486,A Web-based Model-driven Platform for Web Augmentation,https://doi.org/10.5220/0008559304770486
+1551,5269,/doi/10.1007/978-3-030-19274-7_17,An End-User Pipeline for Scraping and Visualizing Semi-Structured Data over the Web,https://doi.org/10.1007/978-3-030-19274-7_17
+1552,5272,/doi/10.1007/s11219-018-9413-y,Usability improvement through A/B testing and refactoring,https://doi.org/10.1007/s11219-018-9413-y
+1553,5274,/doi/10.1007/s10270-017-0586-9,DataMock: An Agile Approach for Building Data Models from User Interface Mockups,https://doi.org/10.1007/s10270-017-0586-9
+1554,5277,/doi/10.1145/3238147.3240483,Live versioning of web applications through refactoring,https://doi.org/10.1145/3238147.3240483
+1555,5278,/doi/10.1007/978-3-319-91662-0_24,Towards Full End-Users Control of Social Recommendations,https://doi.org/10.1007/978-3-319-91662-0_24
+1556,5279,/doi/10.1007/978-3-319-91662-0_12,Improving Legacy Applications with Client-Side Augmentations,https://doi.org/10.1007/978-3-319-91662-0_12
+1557,5283,/doi/10.1145/3151759.3151801,iVOLUNTEER: a digital ecosystem for life-long volunteering,https://doi.org/10.1145/3151759.3151801
+1558,5291,/doi/10.1145/3199919.3199923,Web of Things Augmentation,https://doi.org/10.1145/3199919.3199923
+1559,5294,/doi/10.1109/ICSE-C.2017.127,End-user software engineering for the personal web: poster,https://doi.org/10.1109/ICSE-C.2017.127
+1560,5295,/doi/10.1007/978-3-319-46963-8_20,Flexible Distribution of Existing Web Interfaces: An Architecture Involving Developers and End-Users,https://doi.org/10.1007/978-3-319-46963-8_20
+1561,5296,/doi/10.1007/s10664-015-9384-6,Assessing refactorings for usability in e-commerce applications,https://doi.org/10.1007/s10664-015-9384-6
+1562,5298,/doi/10.1007/s11219-014-9248-0,A framework and tool to manage Cloud Computing service quality,https://doi.org/10.1007/s11219-014-9248-0
+1563,5303,/doi/10.1145/2824893.2824908,Enactive sketches for designing enactive interactions,https://doi.org/10.1145/2824893.2824908
+1564,5305,/doi/10.1007/978-3-319-19890-3_11,User Interface Adaptation Using Web Augmentation Techniques: Towards a Negotiated Approach,https://doi.org/10.1007/978-3-319-19890-3_11
+1565,5306,/doi/10.1007/s10660-014-9149-0,Business processes refactoring to improve usability in E-commerce applications,https://doi.org/10.1007/s10660-014-9149-0
+1566,5309,/doi/10.1007/s10209-013-0323-2,Improving accessibility of Web interfaces: refactoring to the rescue,https://doi.org/10.1007/s10209-013-0323-2
+1567,5311,/doi/10.1145/2662253.2662292,Sketching for designing enactive interactions,https://doi.org/10.1145/2662253.2662292
+1568,5313,/doi/10.1016/j.infsof.2014.01.011,Mockup-Driven Development: Providing agile support for Model-Driven Web Engineering,https://doi.org/10.1016/j.infsof.2014.01.011
+1569,5316,/doi/10.1145/251453.2591454,The 25th ACM International Conference on Hypertext and Social Media,https://doi.org/10.1145/251453.2591454
+1570,5321,/doi/10.1007/s11334-013-0206-y,Web-GIS models: accomplishing modularity with aspects,https://doi.org/10.1007/s11334-013-0206-y
+1571,5325,/doi/10.1016/j.ijhcs.2013.08.014,An approach for supporting distributed user interface orchestration over the Web,https://doi.org/10.1016/j.ijhcs.2013.08.014
+1572,5327,/doi/10.1016/j.jss.2013.05.045,Detecting Web requirements conflicts and inconsistencies under a model-based perspective,https://doi.org/10.1016/j.jss.2013.05.045
+1573,5329,/doi/10.1109/WSE.2013.6642420,Managing volatile requirements in web applications,https://doi.org/10.1109/WSE.2013.6642420
+1574,5330,/doi/10.1007/978-3-642-39200-9_4,MockAPI: an agile approach supporting API-first web application development,https://doi.org/10.1007/978-3-642-39200-9_4
+1575,5332,/doi/10.1007/978-3-642-39200-9_20,A domain specific language for orchestrating user tasks whilst navigation web sites,https://doi.org/10.1007/978-3-642-39200-9_20
+1576,5333,/doi/10.1007/978-3-319-04244-2_31,MockupDD: Facilitating Agile Support for Model-Driven Web Engineering,https://doi.org/10.1007/978-3-319-04244-2_31
+1577,5334,/doi/10.1007/978-3-319-04244-2_21,Crowdsourcing Mobile Web Applications,https://doi.org/10.1007/978-3-319-04244-2_21
+1578,5336,/doi/10.1109/MIC.2012.143,Personalized Web Accessibility using Client-Side Refactoring,https://doi.org/10.1109/MIC.2012.143
+1579,5339,/doi/10.1007/s10270-011-0196-x,Guest Editorial to the Theme Section on Model-Driven Web Engineering,https://doi.org/10.1007/s10270-011-0196-x
+1580,5342,/doi/10.1145/2428736.2428765,NDT-merge: a future tool for conciliating software requirements in MDE environments,https://doi.org/10.1145/2428736.2428765
+1581,5344,/doi/10.1145/2428736.2428751,Modelling adaptations requirements in web workflows,https://doi.org/10.1145/2428736.2428751
+1582,5345,/doi/10.1109/WSE.2012.6320542,Welcome from the chairs,https://doi.org/10.1109/WSE.2012.6320542
+1583,5347,/doi/10.1007/978-3-642-35623-0_15,Identifying and modelling complex workflow requirements in web applications,https://doi.org/10.1007/978-3-642-35623-0_15
+1584,5348,/doi/10.1007/978-3-642-31753-8_20,Supporting users tasks with personal information management and web forms augmentation,https://doi.org/10.1007/978-3-642-31753-8_20
+1585,5351,/doi/10.1007/978-3-642-31753-8_15,From requirements to web applications in an agile model-driven approach,https://doi.org/10.1007/978-3-642-31753-8_15
+1586,5354,/doi/10.1109/MITP.2012.79,IT in Emerging Markets,https://doi.org/10.1109/MITP.2012.79
+1587,5357,/doi/10.1504/IJWET.2012.045764,Improving the model view controller paradigm in the web,https://doi.org/10.1504/IJWET.2012.045764
+1588,5363,/doi/10.1145/2095536.2095568,Making workflows situation aware: an ontology-driven framework for dynamic spatial systems,https://doi.org/10.1145/2095536.2095568
+1589,5369,/doi/10.1007/s00766-011-0124-1,WebSpec: a visual language for specifying interaction and navigation requirements in web applications,https://doi.org/10.1007/s00766-011-0124-1
+1590,5370,/doi/10.1145/2038476.2038515,An approach and tool support for assisting users to fill-in web forms with personal information,https://doi.org/10.1145/2038476.2038515
+1591,5374,/doi/10.1007/978-3-642-27997-3_34,A flexible architecture for client-side adaptation,https://doi.org/10.1007/978-3-642-27997-3_34
+1592,5375,/doi/10.1007/978-3-642-27997-3_27,Detecting conflicts and inconsistencies in web application requirements,https://doi.org/10.1007/978-3-642-27997-3_27
+1593,5376,/doi/10.1109/MS.2010.114,Refactoring for Usability in Web Applications,https://doi.org/10.1109/MS.2010.114
+1594,5377,/doi/10.1145/1969289.1969302,Accessibility at early stages: insights from the designer perspective,https://doi.org/10.1145/1969289.1969302
+1595,5380,/doi/10.1007/978-3-642-17616-6_49,An Incremental Approach for Building Accessible and Usable Web Applications,https://doi.org/10.1007/978-3-642-17616-6_49
+1596,5382,/doi/10.1007/s11280-010-0091-3,Engineering Accessible Web Applications. An Aspect-Oriented Approach,https://doi.org/10.1007/s11280-010-0091-3
+1597,5383,/doi/10.1109/QUATIC.2010.23,Improving the Quality of Web-GIS Modularity Using Aspects,https://doi.org/10.1109/QUATIC.2010.23
+1598,5384,/doi/10.1016/j.jss.2009.11.002,Dealing with variability in context-aware mobile software,https://doi.org/10.1016/j.jss.2009.11.002
+1599,5386,/doi/10.1145/1810295.1810359,A flexible tool suite for change-aware test-driven development of web applications,https://doi.org/10.1145/1810295.1810359
+1600,5387,/doi/10.1109/MIC.2010.76,Rich Internet Applications,https://doi.org/10.1109/MIC.2010.76
+1601,5390,/doi/10.1007/s11280-010-0083-3,Erratum to: Engineering Issues for the Web 2.0,https://doi.org/10.1007/s11280-010-0083-3
+1602,5393,/doi/10.1007/s11280-009-0071-7,Engineering Issues for the Web 2.0,https://doi.org/10.1007/s11280-009-0071-7
+1603,5394,/doi/10.1007/978-3-642-05290-3_17,Rethinking Context Models,https://doi.org/10.1007/978-3-642-05290-3_17
+1604,5396,/doi/10.1145/1735935.1735941,Meteoroid towards a real MVC for the web,https://doi.org/10.1145/1735935.1735941
+1605,5399,/doi/10.1007/978-3-642-02818-2_10,Bridging Test and Model-Driven Approaches in Web Engineering,https://doi.org/10.1007/978-3-642-02818-2_10
+1606,5400,/doi/10.1145/1497185.1497222,Model-based concerns mashups for mobile hypermedia,https://doi.org/10.1145/1497185.1497222
+1607,5401,/doi/10.1109/ICWE.2008.41,Refactoring to Rich Internet Applications. A Model-Driven Approach,https://doi.org/10.1109/ICWE.2008.41
+1608,5403,/doi/10.1007/978-3-540-69534-9_32,Concern-Sensitive Navigation: Improving Navigation in Web Software through Separation of Concerns,https://doi.org/10.1007/978-3-540-69534-9_32
+1609,5407,/doi/10.1504/IJWET.2007.011527,A comprehensive design model for integrating business processes in web applications,https://doi.org/10.1504/IJWET.2007.011527
+1610,5409,/doi/10.1145/3605098.3636013,UX-Analyzer: Visualizing the interaction effort for web analytics,https://doi.org/10.1145/3605098.3636013
+1611,5410,/doi/10.1145/3233824.3233844,"Beyond the GUI in agriculture: a bibliographic review, challenges and opportunities",https://doi.org/10.1145/3233824.3233844
+1612,5412,/doi/10.1007/978-3-662-44811-3_6,Extending OpenUP to Conform with the ISO Usability Maturity Model,https://doi.org/10.1007/978-3-662-44811-3_6
+1613,5413,/doi/10.1177/01655515211001787,Usability of data-oriented user interfaces for cultural heritage: A systematic mapping study,https://doi.org/10.1177/01655515211001787
+1614,5416,/doi/10.1007/978-3-031-54975-5_7,In Search of Dark Patterns in Chatbots,https://doi.org/10.1007/978-3-031-54975-5_7
+1615,5418,/doi/10.1145/3233824.3233852,A Mixed Usability Evaluation on a Multi Criteria Group Decision Support System in Agriculture,https://doi.org/10.1145/3233824.3233852
+1616,5421,/doi/10.1109/AINAW.2007.30,A Modular Architecture for Context Sensing,https://doi.org/10.1109/AINAW.2007.30
+1617,5422,/doi/10.1145/3404983.3410000,Dynamic indoor navigation and orientation system for people with impairments,https://doi.org/10.1145/3404983.3410000
+1618,5429,/doi/10.1109/IST.2016.7738282,Signal fusion based on intensity and motion variations for remote heart rate determination,https://doi.org/10.1109/IST.2016.7738282
+1619,5432,/doi/10.5220/0005694002400246,Remote Heart Rate Determination in RGB Data,https://doi.org/10.5220/0005694002400246
+1620,5435,/doi/10.5220/0005658804150422,Activity Recognition based on High-Level Reasoning,https://doi.org/10.5220/0005658804150422
+1621,5438,/doi/10.5220/0005178700220029,Mobility Assessment of Demented People Using Pose Estimation and Movement Detection,https://doi.org/10.5220/0005178700220029
+1622,5439,/doi/10.1145/3630048.3630181,Adaptive Decentralized Federated Gossip Learning for Resource-Constrained IoT Devices,https://doi.org/10.1145/3630048.3630181
+1623,5444,/doi/10.1109/ETFA52439.2022.9921684,Approximate Fast Fourier Transform-based Preprocessing for Edge AI,https://doi.org/10.1109/ETFA52439.2022.9921684
+1624,5446,/doi/10.1109/RFID.2012.9,Flexible Development and Testing Environment for Implementation of New Algorithms in RFID Systems,https://doi.org/10.1109/RFID.2012.9
+1625,5449,/doi/10.1007/s00138-024-01534-2,OmniGlasses: an optical aid for stereo vision CNNs to enable omnidirectional image processing,https://doi.org/10.1007/s00138-024-01534-2
+1626,5454,/doi/10.1145/3375923.3375943,Estimation of Gait Parameters from 3D Pose for Elderly Care,https://doi.org/10.1145/3375923.3375943
+1627,5457,/doi/10.1109/CRV.2014.56,Trinocular Spherical Stereo Vision for Indoor Surveillance,https://doi.org/10.1109/CRV.2014.56
+1628,5459,/doi/10.1016/j.inffus.2010.06.002,Information fusion to detect and classify pedestrians using invariant features,https://doi.org/10.1016/j.inffus.2010.06.002
+1629,5462,/doi/10.1007/978-3-540-69057-3_100,Gesture Recognition with Hidden Markov Models to Enable Multi-modal Haptic Feedback,https://doi.org/10.1007/978-3-540-69057-3_100
+1630,5465,/doi/10.1007/978-3-642-14064-8_1,Efficient Bimodal Haptic Weight Actuation,https://doi.org/10.1007/978-3-642-14064-8_1
+1631,5466,/doi/10.1007/978-3-642-02809-0_46,A Contribution to Integrated Driver Modeling: A Coherent Framework for Modeling Both Non-routine and Routine Elements of the Driving Task,https://doi.org/10.1007/978-3-642-02809-0_46
+1632,5469,/doi/10.1162/pres.16.5.471,Human Factors Issues on the Design of Telepresence Systems,https://doi.org/10.1162/pres.16.5.471
+1633,5470,/doi/10.1162/105474604774048207,"A study on visual, auditory, and haptic feedback for assembly tasks",https://doi.org/10.1162/105474604774048207
+1634,5477,/doi/10.1007/s10994-023-06439-1,Learning de-biased regression trees and forests from complex samples,https://doi.org/10.1007/s10994-023-06439-1
+1635,5480,/doi/10.1007/978-3-031-33498-6_2,Multi-target Decision Making Under Conditions of Severe Uncertainty,https://doi.org/10.1007/978-3-031-33498-6_2
+1636,5483,/doi/10.1007/978-3-031-18843-5_18,Levelwise Data Disambiguation by Cautious Superset Classification,https://doi.org/10.1007/978-3-031-18843-5_18
+1637,5486,/doi/10.1016/j.ijar.2022.01.016,Information efficient learning of complexly structured preferences: Elicitation procedures and their application to decision making under uncertainty,https://doi.org/10.1016/j.ijar.2022.01.016
+1638,5488,/doi/10.1007/978-3-030-98018-4_8,Accounting for Gaussian Process Imprecision in Bayesian Optimization,https://doi.org/10.1007/978-3-030-98018-4_8
+1639,5489,/doi/10.1007/s11634-020-00428-1,Adapted single-cell consensus clustering (adaSC3),https://doi.org/10.1007/s11634-020-00428-1
+1640,5492,/doi/10.1007/978-3-030-58449-8_18,Undecided Voters as Set-Valued Information – Towards Forecasts Under Epistemic Imprecision,https://doi.org/10.1007/978-3-030-58449-8_18
+1641,5493,/doi/10.1016/j.ijar.2019.09.006,Estimation of classification probabilities in small domains accounting for nonresponse relying on imprecise probability,https://doi.org/10.1016/j.ijar.2019.09.006
+1642,5495,/doi/10.1016/j.ijar.2014.07.003,Statistical modeling under partial identification,https://doi.org/10.1016/j.ijar.2014.07.003
+1643,5496,/doi/10.1016/j.ijar.2012.06.013,Partially identified prevalence estimation under misclassification using the kappa coefficient,https://doi.org/10.1016/j.ijar.2012.06.013
+1644,5499,/doi/10.1016/j.ijar.2010.08.001,Editorial: Imprecise probability in statistical inference and decision making,https://doi.org/10.1016/j.ijar.2010.08.001
+1645,5503,/doi/10.1016/j.ijar.2009.02.009,Editorial: Imprecise probability models and their applications,https://doi.org/10.1016/j.ijar.2009.02.009
+1646,5506,/doi/10.1016/j.ijar.2008.03.011,A nonparametric predictive alternative to the Imprecise Dirichlet Model: The case of a known number of categories,https://doi.org/10.1016/j.ijar.2008.03.011
+1647,5507,/doi/10.1016/j.ijar.2008.03.018,Bayesian learning for a class of priors with prescribed marginals,https://doi.org/10.1016/j.ijar.2008.03.018
+1648,5510,/doi/10.1016/j.ijar.2006.07.016,Decision making under incomplete data using the imprecise Dirichlet model,https://doi.org/10.1016/j.ijar.2006.07.016
+1649,5512,/doi/10.1016/j.neunet.2023.02.005,Neural network model for imprecise regression with interval dependent variables,https://doi.org/10.1016/j.neunet.2023.02.005
+1650,5515,/doi/10.1016/j.ijar.2023.02.007,Should data ever be thrown away? Pooling interval-censored data sets with different precision,https://doi.org/10.1016/j.ijar.2023.02.007
+1651,5516,/doi/10.1016/j.ijar.2023.109044,Verified propagation of imprecise probabilities in non-linear ODEs,https://doi.org/10.1016/j.ijar.2023.109044
+1652,5521,/doi/10.4018/IJDSST.2021010103,A Collaborative Decision Support System Framework for Vertical Farming Business Developments,https://doi.org/10.4018/IJDSST.2021010103
+1653,5524,/doi/10.1016/j.ijar.2023.108951,Towards an automatic uncertainty compiler,https://doi.org/10.1016/j.ijar.2023.108951
+1654,5527,/doi/10.1016/j.ijar.2014.11.003,Natural language of uncertainty,https://doi.org/10.1016/j.ijar.2014.11.003
+1655,5535,/doi/10.1016/j.envsoft.2012.05.009,Short communication: Commentary: IUCN classifications under uncertainty,https://doi.org/10.1016/j.envsoft.2012.05.009
+1656,5541,/doi/10.1016/j.ijar.2009.06.013,Trade-off between sample size and accuracy: Case of measurements under interval uncertainty,https://doi.org/10.1016/j.ijar.2009.06.013
+1657,5545,/doi/10.1016/j.cam.2005.07.041,"Interval versions of statistical techniques with applications to environmental analysis, bioinformatics, and privacy in statistical databases",https://doi.org/10.1016/j.cam.2005.07.041
+1658,5553,/doi/10.1109/SCAN.2006.7,"Adding Constraints to Situations When, In Addition to Intervals,We Also Have Partial Information about Probabilities",https://doi.org/10.1109/SCAN.2006.7
+1659,5556,/doi/10.1016/j.ijar.2005.06.009,Computing best-possible bounds for the distribution of a sum of several variables is NP-hard,https://doi.org/10.1016/j.ijar.2005.06.009
+1660,5557,/doi/10.1145/564585.564604,Computing variance for interval data is NP-hard,https://doi.org/10.1145/564585.564604
+1661,5560,/doi/10.1007/978-3-031-46002-9_14,The Inverse Problem for Neural Networks,https://doi.org/10.1007/978-3-031-46002-9_14
+1662,5561,/doi/10.1016/j.ic.2022.104937,Decomposing reach set computations with low-dimensional sets and high-dimensional matrices (extended version),https://doi.org/10.1016/j.ic.2022.104937
+1663,5565,/doi/10.1007/978-3-031-07727-2_9,Conservative Time Discretization: A Comparative Study,https://doi.org/10.1007/978-3-031-07727-2_9
+1664,5566,/doi/10.1016/j.compstruc.2021.106699,Combining set propagation with finite element methods for time integration in transient solid mechanics problems,https://doi.org/10.1016/j.compstruc.2021.106699
+1665,5569,/doi/10.1007/978-3-030-89716-1_6,Reachability of Weakly Nonlinear Systems Using Carleman Linearization,https://doi.org/10.1007/978-3-030-89716-1_6
+1666,5570,/doi/10.1007/978-3-030-61739-4_4,Case Study: Reachability and Scalability in a Unified Combat-Command-and-Control Model,https://doi.org/10.1007/978-3-030-61739-4_4
+1667,5572,/doi/10.1145/3302504.3311804,JuliaReach: a toolbox for set-based reachability,https://doi.org/10.1145/3302504.3311804
+1668,5573,/doi/10.1145/3641513.3650141,Falsification using Reachability of Surrogate Koopman Models,https://doi.org/10.1145/3641513.3650141
+1669,5580,/doi/10.1007/978-3-031-45332-8_12,AutoKoopman: A Toolbox for Automated System Identification via Koopman Operator Linearization,https://doi.org/10.1007/978-3-031-45332-8_12
+1670,5582,/doi/10.1145/3524052,A Refinement-based Formal Development of Cyber-physical Railway Signalling Systems,https://doi.org/10.1145/3524052
+1671,5588,/doi/10.1007/978-3-031-19762-8_10,Data-Driven Reachability Analysis of Digital Twin FMI Models,https://doi.org/10.1007/978-3-031-19762-8_10
+1672,5591,/doi/10.1109/ITSC55140.2022.9922294,Runtime Assurance for Autonomous Driving with Neural Reachability,https://doi.org/10.1109/ITSC55140.2022.9922294
+1673,5594,/doi/10.1007/978-3-031-13185-1_24,Reachability of Koopman Linearized Systems Using Random Fourier Feature Observables and Polynomial Zonotope Refinement,https://doi.org/10.1007/978-3-031-13185-1_24
+1674,5595,/doi/10.1007/978-3-031-07727-2_7,Reachability Analysis and Simulation for Hybridised Event-B Models,https://doi.org/10.1007/978-3-031-07727-2_7
+1675,5597,/doi/10.1007/978-3-030-57628-8_16,Reachability Analysis of Nonlinear Systems Using Hybridization and Dynamics Scaling,https://doi.org/10.1007/978-3-030-57628-8_16
+1676,5599,/doi/10.1007/s10009-018-0485-6,Parallel reachability analysis of hybrid systems in XSpeed,https://doi.org/10.1007/s10009-018-0485-6
+1677,5604,/doi/10.1145/3302504.3311813,Falsification of hybrid systems using symbolic reachability and trajectory splicing,https://doi.org/10.1145/3302504.3311813
+1678,5606,/doi/10.1007/s10009-017-0458-1,Hybrid automata: from verification to implementation,https://doi.org/10.1007/s10009-017-0458-1
+1679,5610,/doi/10.1145/3178126.3178128,Reach Set Approximation through Decomposition with Low-dimensional Sets and High-dimensional Matrices,https://doi.org/10.1145/3178126.3178128
+1680,5612,/doi/10.1007/978-3-662-54577-5_34,Counterexample-Guided Refinement of Template Polyhedra,https://doi.org/10.1007/978-3-662-54577-5_34
+1681,5615,/doi/10.1145/3049797.3049814,Safety Verification of Nonlinear Hybrid Systems Based on Invariant Clusters,https://doi.org/10.1145/3049797.3049814
+1682,5619,/doi/10.1007/s10009-015-0393-y,Guided search for hybrid systems based on coarse-grained space abstractions,https://doi.org/10.1007/s10009-015-0393-y
+1683,5623,/doi/10.1145/2883817.2883837,Scalable Static Hybridization Methods for Analysis of Nonlinear Systems,https://doi.org/10.1145/2883817.2883837
+1684,5625,/doi/10.1145/2728606.2728650,HyRG: a random generation tool for affine hybrid automata,https://doi.org/10.1145/2728606.2728650
+1685,5626,/doi/10.1145/2728606.2728630,HYST: a source transformation and translation tool for hybrid automaton models,https://doi.org/10.1145/2728606.2728630
+1686,5627,/doi/10.1145/2728606.2728622,Eliminating spurious transitions in reachability with support functions,https://doi.org/10.1145/2728606.2728622
+1687,5630,/doi/10.1145/2562059.2562142,Quasi-dependent variables in hybrid automata,https://doi.org/10.1145/2562059.2562142
+1688,5634,/doi/10.1007/978-3-642-31424-7_35,A box-based distance between regions for guiding the reachability analysis of spaceex,https://doi.org/10.1007/978-3-642-31424-7_35

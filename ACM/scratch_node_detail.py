@@ -65,8 +65,8 @@ def insert_author_node(authors, node_ids):
 					print(f"\nauthor {author_name} existed")
 					node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 				else:
-					node_ids.append(id)
 					id = id + 1
+					node_ids.append(id)
 					new_author_node_list.append(id)
 					print(f"****************{id}*****************************")
 					df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
@@ -85,8 +85,8 @@ def insert_paper_node(paper, node_ids, doi):
 		file.write(f"\npaper {paper_name} existed")
 		node_ids.append(df_ner.loc[df_ner['link'] == paper_link]['id'].values[0])
 	else:
-		node_ids.append(id)
 		id = id + 1
+		node_ids.append(id)
 		print(f"****************{id}*****************************")
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
 		file.write(f"\ninsert paper {paper_name}")
@@ -112,7 +112,7 @@ def scratch_author_data(ner_id, url):
 	file.write(f"\nstart scratching {url}")
 	print(f"\nstart scratching {url}")
 	try:
-		page2.goto(base_url+url, timeout=10000)
+		page2.goto(base_url+url, timeout=20000)
 		# element = WebDriverWait(driver2, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "list-of-institutions")))
 		try:
 			element = page2.wait_for_selector(".list-of-institutions", timeout=5000)
@@ -128,12 +128,12 @@ def scratch_author_data(ner_id, url):
 			for item in author_profile.find('ul', class_="list-of-institutions").find_all('a'):
 				# affiliation.insert(0, item.text)
 				try:
-					page3.goto(base_url+item.get('href'), timeout=10000)
+					page3.goto(base_url+item.get('href'), timeout=5000)
 					element = page3.wait_for_selector(".institution-profile", timeout=5000)
 					addressSoup = BeautifulSoup(page3.content(),'lxml').find('div', class_='item-meta__info')
 					affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
 				except Exception:
-					element = page3.wait_for_selector(".institution-profile", timeout=5000)
+					element = page3.wait_for_selector(".institution-profile", timeout=10000)
 					addressSoup = BeautifulSoup(page3.content(),'lxml').find('div', class_='item-meta__info')
 					affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
 					page3.close()
@@ -148,7 +148,7 @@ def scratch_author_data(ner_id, url):
 		
 	except Exception as e:
 	    # Error handling and logging
-			print('\author timeout')
+			print('\nauthor timeout')
 			page2.close()
 			page2 = browser2.new_page(no_viewport=True)
 			print(f"An error occurred: {str(e)}")
@@ -161,7 +161,7 @@ def scratch_list_data(url):
 	page_number = 0
 	has_next_page = False
 	retry = 1
-	entry_time = 8000
+	entry_time = 15000
 	new_author_node_list = []
 	while True:
 		current_url = url + f"&startPage={page_number}"
@@ -208,7 +208,7 @@ def scratch_list_data(url):
 			if(has_next_page): 
 				page_number += 1
 				retry = 0
-				entry_time = 2000
+				entry_time = 10000
 			else: 
 				retry +=1
 				entry_time += 3000
@@ -219,7 +219,7 @@ def scratch_list_data(url):
 		except Exception as e:
 		    # Error handling and logging
 		    retry +=1
-				entry_time += 3000
+		    entry_time += 3000
 		    has_next_page = False
 		    page.close()
 		    page = browser.new_page(no_viewport=True)
@@ -231,7 +231,7 @@ def scratch_list_data(url):
 				break;
 	print('\n**************\n',new_author_node_list)
 	for node in new_author_node_list:
-		new_node = df_ner.loc[df_ner['id'] == node, 'link'].values[0]
+		new_node = df_ner.loc[df_ner['id'] == node, 'link'].values[2]
 		current_url = base_url + new_node + f"/publications?pageSize=50"
 		scratch_list_data(current_url)
 
@@ -243,17 +243,17 @@ def scratch_list_data(url):
 
 base_url = 'https://dl.acm.org'
 
-df_links = pd.read_csv('new_link.csv', index_col=0)
-df_ner = pd.read_csv('new_node.csv', index_col=0)
-df_paper = pd.read_csv('new_paper.csv', index_col=0)
-df_author = pd.read_csv('new_author.csv', index_col=0)
+df_links = pd.read_csv('after_link2.csv', index_col=0)
+df_ner = pd.read_csv('after_node2.csv', index_col=0)
+df_paper = pd.read_csv('after_paper2.csv', index_col=0)
+df_author = pd.read_csv('after_author2.csv', index_col=0)
 # scratch_author_data(1, '/profile/81442610028')
 try:
-	df_queue = df_ner[df_ner['type'] == 2].nlargest(100, 'count')
+	df_queue = df_ner[df_ner['type'] == 2].nlargest(80, 'count')
 	print(df_queue)
 	id = len(df_ner)
 	author_count = 0
-	index = 0
+	index = 79
 	while True:
 		if(index == len(df_queue)):
 			break;
@@ -295,12 +295,12 @@ finally:
 	file.write(df_author.to_string())
 	file.write(df_error.to_string())
 
-	df_ner.to_csv('after_node2.csv', index=True)
-	df_links.to_csv('after_link2.csv', index=True)
-	df_queue.to_csv('after_queue2.csv', index=True)
-	df_paper.to_csv('after_paper2.csv', index=True)
-	df_author.to_csv('after_author2.csv', index=True)
-	df_error.to_csv('after_error2.csv', index=True)
+	df_ner.to_csv('after_node3.csv', index=True)
+	df_links.to_csv('after_link3.csv', index=True)
+	df_queue.to_csv('after_queue3.csv', index=True)
+	df_paper.to_csv('after_paper3.csv', index=True)
+	df_author.to_csv('after_author3.csv', index=True)
+	df_error.to_csv('after_error3.csv', index=True)
 	print('/n close driver')
 	# driver.quit()
 	# driver2.quit()

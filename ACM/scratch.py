@@ -13,8 +13,8 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 from itertools import combinations
-
 from webdriver_manager.chrome import ChromeDriverManager
+from playwright.sync_api import sync_playwright, expect
 
 nodeType = {
   "paper": 1,
@@ -33,42 +33,59 @@ df_error = pd.DataFrame(columns=['id', 'url'])
 content_types = ['research-article', 'short-paper', 'demonstration', 'section', 'wip', 'column','poster']
 file = open("log.txt", "w", encoding="utf-8")
 
-# use to scratch author
-options2 = Options()
-options2.headless = True
-driver2 = webdriver.Chrome(options=options2)
-
-# use to scratch affiliation
-options3 = Options()
-options3.headless = True
-driver3 = webdriver.Chrome(options=options3)
+playwright = sync_playwright().start()
+browser = playwright.chromium.launch(headless=False)
+page = browser.new_page(no_viewport=True)
+browser2 = playwright.chromium.launch(headless=False)
+page2 = browser2.new_page(no_viewport=True)
+browser3 = playwright.chromium.launch(headless=False)
+page3 = browser3.new_page(no_viewport=True)
 
 def scratch_author_data(ner_id, url):
-	global df_author,df_error
+	global df_author,df_error, page2, page3
 	file.write(f"\nstart scratching {url}")
+	print(f"\nstart scratching {url}")
 	try:
-		driver2.get(base_url+url)
-		element = WebDriverWait(driver2, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "list-of-institutions")))
-		author_soup = BeautifulSoup(driver2.page_source,'lxml')
+		page2.goto(base_url+url, timeout=20000)
+		# element = WebDriverWait(driver2, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "list-of-institutions")))
+		try:
+			element = page2.wait_for_selector(".list-of-institutions", timeout=5000)
+		except Exception:
+		    print("\n not have instuitution")
+		author_soup = BeautifulSoup(page2.content(),'lxml')
 		author_profile = author_soup.find("div", class_="item-meta__info")
 		author_name = author_profile.find("h2").text
 		author_orcid = author_profile.find('a', attrs={"aria-label": "ORCID"}).get("href") if author_profile.find('a', attrs={"aria-label": "ORCID"}) else ''
 		author_email = author_profile.find('a', attrs={"aria-label": "Author’s Email"}).get("href") if author_profile.find('a', attrs={"aria-label": "Author’s Email"}) else ''
 		affiliation = []
-		for item in author_profile.find('ul', class_="list-of-institutions").find_all('a'):
-			# affiliation.insert(0, item.text)
-			driver3.get(base_url+item.get('href'))
-			addressSoup = BeautifulSoup(driver3.page_source,'lxml').find('div', class_='item-meta__info')
-			affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
+		if author_profile.find('ul', class_="list-of-institutions"):
+			for item in author_profile.find('ul', class_="list-of-institutions").find_all('a'):
+				# affiliation.insert(0, item.text)
+				try:
+					page3.goto(base_url+item.get('href'), timeout=10000)
+					element = page3.wait_for_selector(".institution-profile", timeout=10000)
+					addressSoup = BeautifulSoup(page3.content(),'lxml').find('div', class_='item-meta__info')
+					affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
+				except Exception:
+					element = page3.wait_for_selector(".institution-profile", timeout=10000)
+					addressSoup = BeautifulSoup(page3.content(),'lxml').find('div', class_='item-meta__info')
+					affiliation.insert(0,  item.text.rstrip() + ' - ' + ' '.join(addressSoup.find('span', class_='address').text.split()))
+					page3.close()
+					page3 = browser3.new_page(no_viewport=True)
+					print('\naffiliation timeout')
+					continue;
 		author_affiliation = '; '.join(affiliation)
-		print(author_name, author_orcid, author_affiliation, '=====\n')
+		print(ner_id, author_name, author_orcid, author_affiliation, '=====\n')
 		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'orcid': author_orcid, 'email': author_email, 'affiliation': author_affiliation}, ignore_index=True)
 		file.write(f"{ner_id}, {url}, {author_name}, {author_orcid}, {author_affiliation}, {author_email}")
 		file.write(f"\nsuccess scratching {url}")
 	except Exception as e:
 	    # Error handling and logging
-	    print(f"An error occurred: {str(e)}")
-	    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
+			print('\nauthor timeout')
+			page2.close()
+			page2 = browser2.new_page(no_viewport=True)
+			print(f"An error occurred: {str(e)}")
+			df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
 def insert_author_node(authors, node_ids):
 	global id, df_queue, df_ner, df_links
@@ -118,31 +135,36 @@ def insert_link(node_ids):
 		        df_links = df_links._append({'from': author_from, 'to': author_to, 'count': 1}, ignore_index=True)
 	return df_links
 
-def scratch_list_data(driver, url):
-	global id, df_queue, df_ner, df_links, df_error, cookie
+def scratch_list_data(url):
+	global id, df_queue, df_ner, df_links, df_error, cookie, page
 	file.write(f"\n\nstart scratching {url}")
 	print(f"\nstart scratching {url}")
-	page = 0
+	page_number = 10
 	has_next_page = False
 	retry = 1
-	entry_time = 2
+	entry_time = 15000
 	while True:
-		current_url = url + f"&startPage={page}"
+		current_url = url + f"&startPage={page_number}"
 		file.write(f"\n\nStart scratching page {current_url}")
 		print(f"\nStart scratching page {current_url}")
 		try:
-			driver.get(current_url)
-			time.sleep(entry_time) # Sleep for 6 seconds
-			element = WebDriverWait(driver, entry_time).until(EC.presence_of_element_located((By.ID, "pb-page-content")))
+			page.goto(current_url)
+			waitelement = page.wait_for_selector("#pb-page-content", timeout=entry_time)
 			if cookie == False: 
-				driver.find_element(By.CSS_SELECTOR, '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection').click()
+				# driver.find_element(By.CSS_SELECTOR, '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection').click()
+				page.click('#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection')
 				cookie = True;
 			try: 
-				for elements in driver.find_elements(By.CSS_SELECTOR, '.removed-items-count'):
-					elements.click()
+				page.wait_for_timeout(3000)
+				while(1):
+					if page.query_selector('.removed-items-count'):
+						for element in page.query_selector_all('.removed-items-count'):
+							element.click()
+					else:
+						break;
 			except Exception as e:
-				df_error = df_error._append({id: page, "url": url}, ignore_index=True)
-			soup = BeautifulSoup(driver.page_source,'lxml')
+				df_error = df_error._append({id: page_number, "url": url}, ignore_index=True)
+			soup = BeautifulSoup(page.content(),'lxml')
 			matches = soup.find_all("li", class_="search__item")
 			for match in matches:
 				node_ids = []
@@ -163,12 +185,12 @@ def scratch_list_data(driver, url):
 			if(matches and has_next_page is None):
 				break;
 			if(has_next_page): 
-				page += 1
+				page_number += 1
 				retry = 0
-				entry_time = 2
+				entry_time = 10000
 			else: 
 				retry +=1
-				entry_time += 3
+				entry_time += 3000
 			if(page == 40):
 				has_next_page = None
 				retry = 5
@@ -177,6 +199,9 @@ def scratch_list_data(driver, url):
 		    # Error handling and logging
 				file.write(f"\nAn error occurred: {str(e)}")
 				print(f"An error occurred: {str(e)}")
+				entry_time += 3000
+				page.close()
+				page = browser.new_page(no_viewport=True)
 				has_next_page = False
 				retry +=1
 				df_error = df_error._append({id: page, "url": url}, ignore_index=True)
@@ -184,21 +209,19 @@ def scratch_list_data(driver, url):
 			if( (has_next_page is None or not has_next_page) and retry > 3):
 				break;
 
-
-options = Options()
-options.headless = True
-driver = webdriver.Chrome(options=options) # Setting up the Chrome driver
-driver.implicitly_wait(10)
-
 # search_query = ['haha']
-search_query_string = '&field1=AllField&text1=Big+Data'
+df_links = pd.read_csv('new_link.csv', index_col=0)
+df_ner = pd.read_csv('new_node.csv', index_col=0)
+df_paper = pd.read_csv('new_paper.csv', index_col=0)
+df_author = pd.read_csv('new_author.csv', index_col=0)
 
+search_query_string = '&field1=AllField&text1=Big+Data'
 base_filter_url = "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AfterYear=2010&BeforeYear=2024&pageSize=50"
 current_url = base_filter_url + search_query_string
 # test_url = 'https://dl.acm.org/action/doSearch?AllField=IEEE%2FACM+Transactions+on+Audio%2C+Speech+and+Language+Processing&ContentItemType=research-article&startPage=&EpubDate=%5B20230609%20TO%20202406092359%5D&queryID=24/7034861620'
 try:
 	for content in content_types:
-		scratch_list_data(driver, current_url+'&ContentItemType='+content)
+		scratch_list_data(current_url+'&ContentItemType='+content)
 		# scratch_list_data(driver,test_url)
 except KeyboardInterrupt:
 	file.write('Stop from terminal')
@@ -219,9 +242,9 @@ finally:
 	df_author.to_csv('new_author.csv', index=True)
 	df_error.to_csv('error.csv', index=True)
 	print('/n close driver')
-	driver.quit()
-	driver2.quit()
-	driver3.quit()
+	browser.close()
+	browser2.close()
+	browser3.close()
 	print('/n close file')
 	file.close()
 
