@@ -17,6 +17,8 @@ df_paper = pd.read_csv('new_paper_test.csv', index_col=0)
 df_paper.set_index('ner_id', inplace = True)
 df_links = pd.read_csv('new_link_test.csv', index_col=0)
 
+df_affiliation = pd.read_csv('affiliation.csv', index_col='affiliation')
+
 name_matcher = NameMatcher()
 score = name_matcher.match_names('C. I. Ezeife', 'Christiana Ijeoma Ezeife')
 print(score) 
@@ -158,6 +160,33 @@ def author_match_blocking(author_block):
             author_block[block_id].update({id:name})
     return author_block
 
+def getAffiliation(affiliation):
+    global df_affiliation
+    result = ''
+    formatted_affiliation = affiliation.strip()
+    formatted_affiliation = ' '.join(formatted_affiliation.strip().split())
+    try:
+        result = df_affiliation.loc[formatted_affiliation,'result']
+        print('\nda co')
+    except KeyError:
+        print('\nchua co')
+        getGeocode = geocoder.geocode(formatted_affiliation)
+        if(len(getGeocode) == 0):
+            result = formatted_affiliation
+        else:
+            result = getGeocode[0]['formatted']
+        df_affiliation.loc[formatted_affiliation] = result
+    return result
+
+def caculate_affiliation_sim(author1, author2):
+    if(not isinstance(author1['affiliation'], str) or not isinstance(author2['affiliation'], str)):
+        print('\n==========================fuck', str(author1['affiliation']))
+        return 0
+    for author1_affiliation in str(author1['affiliation']).split(';'):
+        for author2_affiliation in str(author2['affiliation']).split(';'):
+            if(getAffiliation(author1_affiliation) == getAffiliation(author2_affiliation)):
+                return 1
+
 def caculate_author_matching_distance(id1, id2):
     print(id1, id2)
     author1 = df_author.loc[id1]
@@ -166,14 +195,16 @@ def caculate_author_matching_distance(id1, id2):
         return 1
     if(isinstance(author1['orcid'], str) and author1['orcid'] == author2['orcid']):
         return 1
-    affiliation_sim = 0
-    if(not isinstance(author1['affiliation'], str) or not isinstance(author2['affiliation'], str)):
-        print('\n==========================fuck', str(author1['affiliation']))
-        return 0
-    for author1_affiliation in str(author1['affiliation']).split(';'):
-        for author2_affiliation in str(author2['affiliation']).split(';'):
-            if(author2_affiliation == author2_affiliation):
-                return 1
+    affiliation_sim = caculate_affiliation_sim(author1, author2)
+    if(affiliation_sim):
+        return 1
+    # if(not isinstance(author1['affiliation'], str) or not isinstance(author2['affiliation'], str)):
+    #     print('\n==========================fuck', str(author1['affiliation']))
+    #     return 0
+    # for author1_affiliation in str(author1['affiliation']).split(';'):
+    #     for author2_affiliation in str(author2['affiliation']).split(';'):
+    #         if(author1_affiliation == author2_affiliation):
+    #             return 1
     return 0
 
 def author_match_matching(author_block):

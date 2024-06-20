@@ -39,19 +39,20 @@ def getAffiliation(affiliation):
 	global df_affiliation
 	result = ''
 	formatted_affiliation = affiliation.strip()
-	formatted_affiliation = ' '.join(formatted_affiliation.strip().split())
-	try:
-		result = df_affiliation.loc[formatted_affiliation]['result']
-	except KeyError:
-		getGeocode = geocoder.geocode(formatted_affiliation)
-		if(len(getGeocode) == 0):
-			result = formatted_affiliation
-		else:
-			result = getGeocode[0]['formatted']
-		print(result)
-		df_affiliation.loc[formatted_affiliation] = result
-		print(df_affiliation.loc[formatted_affiliation])
-	return result
+	formatted_affiliation = ' '.join(formatted_affiliation.split())
+	return formatted_affiliation
+	# try:
+	# 	result = df_affiliation.loc[formatted_affiliation]['result']
+	# except KeyError:
+	# 	getGeocode = geocoder.geocode(formatted_affiliation)
+	# 	if(len(getGeocode) == 0):
+	# 		result = formatted_affiliation
+	# 	else:
+	# 		result = getGeocode[0]['formatted']
+	# 	print(result)
+	# 	df_affiliation.loc[formatted_affiliation] = result
+	# 	print(df_affiliation.loc[formatted_affiliation])
+	# return result
 
 def prepareDocument(base_url, document):
 	document['title'] = document['title'].strip()
@@ -71,7 +72,10 @@ def prepareAuthor(base_url, author):
 	if isinstance(author['affiliation'], str):
 		results = []
 		for affiliation in author['affiliation'].split('; '):
-			results.append(getAffiliation(affiliation))
+			if(affiliation):
+				results.append(getAffiliation(affiliation))
+			else:
+				print('\nempty affiliation')
 		print(results)
 		author['affiliation'] = ';'.join(results)
 		print(author['affiliation'])

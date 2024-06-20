@@ -3,54 +3,70 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df_links = pd.read_csv('after_link1.csv')
-df_queue = pd.read_csv('after_queue1.csv')
-df_nodes = pd.read_csv('after_node1.csv')
-df_author = pd.read_csv('after_author1.csv')
-df_paper = pd.read_csv('after_paper1.csv')
+# df_links = pd.read_csv('new_link.csv')
+# df_queue = pd.read_csv('new_queue.csv', index_col='id')
+# df_nodes = pd.read_csv('new_node.csv', index_col='id')
+# df_author = pd.read_csv('new_author.csv', index_col='ner_id')
+# # df_author = df_author.astype({'orcid': 'str', 'email': 'str', 'affiliation': 'str'})
+# df_paper = pd.read_csv('new_paper.csv', index_col='ner_id')
+
+df_links = pd.read_csv('after_link3.csv')
+df_queue = pd.read_csv('after_queue3.csv', index_col='id')
+df_nodes = pd.read_csv('after_node3.csv', index_col='id')
+df_author = pd.read_csv('after_author3.csv', index_col='ner_id')
+# df_author = df_author.astype({'orcid': 'str', 'email': 'str', 'affiliation': 'str'})
+df_paper = pd.read_csv('after_paper3.csv', index_col='ner_id')
 
 G = nx.Graph()
-for index,node in df_queue.iterrows():
-  print(node['id'], '\n', node['type'])
+for index,node in df_nodes.iterrows():
   if node["type"] == 1:
-    document = df_paper.loc[df_paper['ner_id'] == node["id"]]
-    if len(document) > 0:
-      document = document.iloc[0]  # Access the first row of the document DataFrame
-      G.add_node(node["id"], link = node["link"], type = node["type"], title = document["title"], doi = document["doi"])
-    else:
-      G.add_node(node["id"], link = node["link"], type = node["type"])
-    print("\ninsert node", id, "type ", node["type"])
+    
+    try:
+      document = df_paper.loc[index]
+      if(not document['doi']):
+        print('==================fuck================\n')
+      G.add_node(index, link = node["link"], type = node["type"], title = document["title"], doi = document["doi"])
+    except KeyError:
+      G.add_node(index, link = node["link"], type = node["type"])
+    print("\ninsert node", index, "type ", node["type"])
   elif node["type"] == 2:
-    author = df_author.loc[df_author['ner_id'] == node["id"]]
-    if len(author) > 0:
-      author = author.iloc[0]  # Access the first row of the document DataFrame
-      G.add_node(node["id"], link = node["link"], type = node["type"], name = author["name"], orcid = author["orcid"], affiliation = author['affiliation'], email = author['email'])
-    else:
-      G.add_node(node["id"], link = node["link"], type = node["type"])
-    print("\ninsert node", id, "type ", node["type"])
+    try:
+      author = df_author.loc[index]
+      G.add_node(index, link = node["link"], type = node["type"], name = author["name"], orcid = author["orcid"] if isinstance(author["orcid"], str)  else '', affiliation = author['affiliation'] if isinstance(author['affiliation'], str) else '', email = author['email'] if isinstance(author['email'], str) else '')
+    except KeyError:
+      G.add_node(index, link = node["link"], type = node["type"])
+    print("\ninsert node", index, "type ", node["type"])
 
 grouped = df_queue.groupby(['type']).count()
-print(grouped)
+# print(grouped)
 for link in df_links.index:
-  G.add_edge(int(df_links.iloc[link]['from'])+1,int(df_links.iloc[link]['to'])+1,weight=df_links.iloc[link]['count'])
-  print('\n', df_links.iloc[link]['from'], df_links.iloc[link]['to'])
+  G.add_edge(int(df_links.iloc[link]['from']),int(df_links.iloc[link]['to']),weight=df_links.iloc[link]['count'])
+  # print('\n', df_links.iloc[link]['from'], df_links.iloc[link]['to'])
 
-connected_components = nx.connected_components(G)
+# get modularity
+communities = nx.community.louvain_communities(G)
+modularity = nx.algorithms.community.modularity(G, communities)
+print('\n====================modularity======================\n', modularity)
+
+avg_clustering = nx.average_clustering(G)
+print('\n====================Clustering Coefficient======================\n', nx.clustering(G),avg_clustering)
 
 # # # Find the largest connected component
-largest_component = max(connected_components, key=len)
-# print(largest_component)
-# # # Create a subgraph of the largest connected component
-largest_subgraph = G.subgraph(largest_component)
-nx.write_gexf(largest_subgraph, 'subgraph.gexf')
-# degree_centrality = nx.degree_centrality(G)
+# connected_components = nx.connected_components(G)
+# largest_component = max(connected_components, key=len)
+# largest_subgraph = G.subgraph(largest_component)
+# nx.write_gexf(largest_subgraph, 'subgraph.gexf')
 
-# # Sort nodes by degree centrality in descending order
-# sorted_nodes = sorted(degree_centrality, key=degree_centrality.get, reverse=True)
+
+# print(largest_component)
+# # Create a subgraph of the largest connected component
+degree_centrality = nx.degree_centrality(G)
+sorted_nodes = sorted(degree_centrality, key=degree_centrality.get, reverse=True)
+top_30_nodes = sorted_nodes[:30]
+# for node in top_30_nodes:
+#     print(f"\nNode {node} with degree {G.degree[node]}: {dict(G.nodes[node])}")
 
 # # Get the top 30 nodes with the highest degree centrality
-# top_30_nodes = sorted_nodes[:100]
-# print(top_30_nodes)
 # # Print the top 30 nodes and their degree centrality values
 # new_graph = nx.Graph()
 
