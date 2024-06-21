@@ -47,7 +47,7 @@ import json
 
 api_key = "5bf38ed7c2484256b6b739055b532a37"
 geocoder = OpenCageGeocode(api_key)
-result = geocoder.geocode("University of Bari Aldo Moro Bari, Italy")
+result = geocoder.geocode("SINTEF Foundation for Scientific and Industrial Research - Trondheim, Sor-Trondelag, Norway")
 print(result[0]["formatted"])
 
 # def find_place(query):    

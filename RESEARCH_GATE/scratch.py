@@ -157,7 +157,7 @@ def scratch_list_data(url):
 	page = 1
 	has_next_page = False
 	retry = 1
-	entry_time = 5
+	entry_time = 20000
 	while True:
 		if context1:
 			context1.close()
@@ -170,7 +170,7 @@ def scratch_list_data(url):
 		file.write(f"\n\nStart scratching page {current_url}")
 		print(f"\nStart scratching page {current_url}")
 		try:
-			page1.goto(current_url, timeout=80000)
+			page1.goto(current_url, timeout=entry_time)
 			soup = BeautifulSoup(page1.content(),'lxml')
 			matches = soup.find_all("div", class_="nova-legacy-v-publication-item")
 			for match in matches:

@@ -6,15 +6,19 @@ from selenium.webdriver.chrome.service import Service
 # from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from bs4 import BeautifulSoup
 import codecs
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 from itertools import combinations
-
+import threading
+import time
 from webdriver_manager.chrome import ChromeDriverManager
+import threading
+import sys, signal
+from playwright.sync_api import sync_playwright
 
 nodeType = {
   "paper": 1,
@@ -22,45 +26,72 @@ nodeType = {
   "source ": 3
 }
 id = 0
-df_ner = pd.DataFrame(columns=['id', 'type', 'name', 'link', 'count'])
-df_links = pd.DataFrame(columns=['from', 'to', 'count'])
-df_queue = pd.DataFrame(columns=['id', 'type', 'link']) #Để lưu trữ link tạm thời
-df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid']) 
-df_paper = pd.DataFrame(columns=['ner_id', 'link', 'title', 'doi'])
-base_url = 'https://ieeexplore.ieee.org'
+cookie = False;
+content_types = ['Article', 'Research', 'Chapter', 'Conference Paper']
+df_author = pd.DataFrame(columns=['ner_id', 'link', 'name', 'orcid', 'email', 'affiliation']) 
+df_links = pd.read_csv('new_link.csv')
+df_queue = pd.read_csv('new_queue.csv')
+df_ner = pd.read_csv('new_node.csv')
+df_paper = pd.read_csv('new_paper.csv')
+base_url = 'https://www.researchgate.net/'
 df_error = pd.DataFrame(columns=['id', 'url'])
+file = open("log_detail.txt", "w", encoding="utf-8")
+new_author_node_list = []
+playwright = sync_playwright().start()
+browser = playwright.chromium.launch(headless=False)
+browser2 = playwright.chromium.launch(headless=False)
+browser3 = playwright.chromium.launch(headless=False)
+context1 = None
+context2 = None
+context3 = None
 
-def insert_author_node(authors, node_ids):
-	global id, df_queue, df_ner, df_links
+def insert_author_node(paper_soup, paper, node_ids):
+	global id, df_queue, df_ner, df_links, new_author_node_list
+	title_container = paper.find('div', class_='nova-legacy-v-publication-item__title').find('a')
+	paper_link = title_container.get("href")
+	authors = paper_soup.find_all('div', class_='nova-legacy-v-person-list-item__title')
 	for author in authors:
-			author_link = author.get("href")
-			author_name = author.text
+		author_container = author.find('a')
+		if(author_container):
+			author_link = author_container.get("href")
+			author_name = author_container.text
+			if(author_link.startswith('scientific-contributions')):
+				continue
 			if author_link in df_ner['link'].values:
 				df_ner.loc[df_ner['link'] == author_link, 'count'] += 1
-				print("author", author_name, "existed")
+				file.write(f"\nauthor {author_name} existed")
 				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 			else:
-				node_ids.append(id)
 				id = id + 1
-				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
-				print("insert author", author_name)
+				node_ids.append(id)
+				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1},  ignore_index=True)
+				file.write(f"\ninsert author {author_name}")
 				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
 	return df_ner, node_ids
 
-def insert_paper_node(paper, node_ids):
-	global id, df_queue, df_ner, df_links
-	paper_link = paper.get("href")
-	paper_name = paper.text
+def insert_paper_node(paper_soup, match, node_ids):
+	global id, df_queue, df_ner, df_links, df_paper
+	title_container = match.find('div', class_='nova-legacy-v-publication-item__title').find('a')
+	paper_name = title_container.text
+	paper_link = title_container.get("href")
+	li_elements = paper_soup.find(class_='research-detail-header-section__metadata-after-square-logo').find_all('div', class_='nova-legacy-e-text')
+	doi = ''
+	for li in li_elements:
+		if li.span and li.text.startswith('DOI: '):
+			doi = li.span.text.split(':')[1]
+			break	
 	if paper_link in df_ner['link'].values:
 		df_ner.loc[df_ner['link'] == paper_link, 'count'] += 1
-		print("paper", paper_name, "existed")
+		file.write(f"\npaper {paper_name} existed")
 		node_ids.append(df_ner.loc[df_ner['link'] == paper_link]['id'].values[0])
 	else:
-		node_ids.append(id)
 		id = id + 1
+		node_ids.append(id)
+		new_author_node_list.append(id)
 		df_ner = df_ner._append({'id': id, 'name': paper_name,'type': 1, 'link': paper_link, 'count': 1}, ignore_index=True)
-		print("insert paper", paper_name)
+		file.write(f"\ninsert paper {paper_name}")
 		df_queue = df_queue._append({'id': id, 'type': 1, 'link': paper_link}, ignore_index=True)
+		df_paper = df_paper._append({'ner_id':id, 'link': paper_link, 'title': paper_name, 'doi': doi}, ignore_index=True)
 	return df_ner, node_ids
 
 def insert_link(node_ids):
@@ -74,157 +105,131 @@ def insert_link(node_ids):
 		        df_links = df_links._append({'from': author_from, 'to': author_to, 'count': 1}, ignore_index=True)
 	return df_links
 
-def scratch_author_data(ner_id, driver, url):
+def scratch_author_data(ner_id, page, browser2, url):
 	global df_author,df_error
-	print("\nstart scratching ", url)
+	file.write(f"\nstart scratching {url}")
 	try:
-		driver.get(base_url+url)
-		time.sleep(5) # Sleep for 6 seconds
-		author_soup = BeautifulSoup(driver.page_source,'lxml')
-		container = author_soup.find("div",class_="author-profile-container")
-		#get bio
-		author_profile = container.find("div", class_="author-bio")
-		author_name = author_profile.find("h1").find("span").text
-		author_orcid = author_profile.find("xpl-orcid").find("a").get("href") if author_profile.find("xpl-orcid") else ''
-		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'orcid': author_orcid}, ignore_index=True)
-		print(ner_id, url, author_name, author_orcid)
-		current_url = base_url + url + f"&returnType?history=no&returnType=SEARCH&sortType=newest"
-		scratch_list_data(driver, current_url)
-		print("\nsuccess scratching ", url)
+		page.goto(base_url+url, timeout=80000)
+		author_soup = BeautifulSoup(page.content(),'lxml')
+		print(author_soup)
+		author_profile = author_soup.find("div", class_="profile-header-details-wrapper")
+		author_name = author_profile.find("h1").text
+		affiliation = []
+		if author_profile.find('a', class_='gtm-institution-item'):
+			affiliation.insert(0, author_profile.find('a', class_='gtm-institution-item').find('span').text.strip())
+		if author_soup.find('div', class_="js-target-affiliations-list"):
+			for item in author_soup.find('div', class_="js-target-affiliations-list").find_all('div', class_='gtm-institution-item'):
+				metadata = '-' + item.find('ul', class_='nova-legacy-v-entity-item__meta-data').text.strip() if item.find('ul', class_='nova-legacy-v-entity-item__meta-data') else ''
+				affiliation.insert(0, item.find('div', class_='nova-legacy-v-entity-item__title').find('b').text + metadata)
+		author_affiliation = '; '.join(affiliation)
+		print(author_name, author_affiliation, '=====\n')
+		df_author = df_author._append({'ner_id': ner_id, 'link': url, 'name': author_name, 'affiliation': author_affiliation}, ignore_index=True)
+		file.write(f"{ner_id}, {url}, {author_name}, {author_affiliation}")
+		publications = author_soup.find('div', id='research-items').find('div', class_='profile-content-item')
+		scratch_list_data(publications, page, browser2, url, 1)
+		file.write(f"\nsuccess scratching {url}")
 	except Exception as e:
 	    # Error handling and logging
-	    print(f"An error occurred: {str(e)}")
-	    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
+			file.write(f"\nAn error occurred: {str(e)}")
+			print(f"An error occurred: {str(e)}")
+			df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
 
-def scratch_paper_data(ner_id, driver, url):
-	global id, df_queue, df_ner, df_links, df_paper, df_error
-	print("\nstart scratching ", url)
+def scratch_list_data(publications, page, browser2, url, current_page):
+	global id, df_queue, df_ner, df_links, df_error, cookie, new_author_node_list
+	file.write(f"\nstart scratching list of {url}")
+	print(f"\nstart scratching list of {url}")
+	has_next_page = False
 	try:
-		driver.get(base_url+url)
-		time.sleep(5) # Sleep for 6 seconds
-		paper_soup = BeautifulSoup(driver.page_source,'lxml')
-		title = paper_soup.find("h1",class_="document-title").find("span").text
-		doi = paper_soup.find("div", class_ = "stats-document-abstract-doi").find("a").text
-		df_paper = df_paper._append({'ner_id':ner_id, 'link': url, 'title': title, 'doi': doi}, ignore_index=True)
-		print(ner_id, url, title, doi)
+		matches = publications.find_all("div", class_="nova-legacy-v-publication-item")
+		print('fuck')
+		context = browser2.new_context()
+		new_page = context.new_page()
+		count = 0;
+		for match in matches:
+			print('fuckyou')
+			node_ids = []
+			#get paper
+			type = match.find("span", class_="nova-legacy-v-publication-item__badge").text
+			if type is None or type not in content_types:
+				continue;
+			count += 1
+			if(count > 10):
+				count = 0 
+				context.close()
+				context = browser2.new_context()
+				new_page = context.new_page()
+			title_container = match.find('div', class_='nova-legacy-v-publication-item__title').find('a')
+			paper_link = title_container.get("href")
+			new_page.goto(f"{paper_link}", timeout=80000)
+			has_show_more = new_page.query_selector_all('.js-show-more-authors')
+			if(has_show_more):
+				new_page.click('.js-show-more-authors')
+				new_page.wait_for_timeout(2000)
+			paper_soup = BeautifulSoup(new_page.content(),'lxml')
+			df_ner, node_ids = insert_paper_node(paper_soup, match, node_ids)
+			#get author list
+			df_ner, node_ids = insert_author_node(paper_soup, match, node_ids)
+			df_links = insert_link(node_ids)
+		pagination = publications.find(class_="nova-legacy-c-card__footer-content")
+		has_next_page = pagination.find("a", attrs={"rel": "next"})
+		if(has_next_page):
+			print('\nhave next page')
+			context.close()
+			current_page += 1
+			page.goto(f"{base_url}{url}/{current_page}", timeout=80000)
+			soup = BeautifulSoup(page.content(),'lxml')
+			author_soup = BeautifulSoup(page.content(),'lxml')
+			new_publications = author_soup.find('div', id='research-items').find('div', class_='profile-content-item')
+			scratch_list_data(new_publications, page, browser2, url, current_page)
+		else:
+			print('\n**************\n',new_author_node_list)
+			new_author_node_list_sample = new_author_node_list
+			new_author_node_list = []
+			for node in new_author_node_list:
+			new_node = df_ner.loc[df_ner['id'] == node, 'link'].values[2]
+			current_url = base_url + new_node + f"/publications?pageSize=50"
+			scratch_list_data(current_url)
 	except Exception as e:
-	    # Error handling and logging
-	    print(f"An error occurred: {str(e)}")
-	    df_error = df_error._append({id: ner_id, "url": url}, ignore_index=True)
+    # Error handling and logging
+		file.write(f"\nAn error occurred: {str(e)}")
+		has_next_page = False
+		print(f"An error occurred: {str(e)}")
+		df_error = df_error._append({id: page, "url": url}, ignore_index=True)
+	finally:	
+		context.close()
+		
 
-def scratch_list_data(driver, url):
-	global id, df_queue, df_ner, df_links, df_error
-	print("\nstart scratching ", url)
-	page = 1
-	has_next_page = True
-	retry = 1
-	entry_time = 5
-	while True:
-		current_url = url + f"&page={page}"
-		print("\nStart scratching page ", current_url)
-		try:
-			driver.get(current_url)
-			driver.execute_script("window.open({current_url}), '_blank');")  # Open a new tab
-			driver.switch_to.window(driver.window_handles[1])
-			time.sleep(entry_time) # Sleep for 6 seconds
-			element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "xplMainContentLandmark")))
-			soup = BeautifulSoup(driver.page_source,'lxml')
-			driver.close()
+base_url = 'https://www.researchgate.net/'
+try:
+	id = len(df_queue)
+	author_count = 0
+	for index, row in df_queue.iterrows():
+	    if row["type"] == 2:
+	    	scratch_author_data(row["id"], page, browser2, row["link"])    
+	    	author_count += 1
+	    	file.write(f"author count: {author_count}")
+	    if row["type"] == 1:
+	    	continue
+except KeyboardInterrupt:
+	file.write('Stop from terminal')
+finally:
+	file.write(df_ner.to_string())
+	file.write(df_links.to_string())
+	# file.write(matches.to_string)
+	# file.write(df_queue.to_string)
+	file.write(df_paper.to_string())
+	file.write(df_author.to_string())
+	file.write(df_error.to_string())
 
-			matches = soup.find_all("xpl-results-item")
-			for match in matches:
-				node_ids = []
-				#get paper
-				paper = match.find("h3").find("a")
-				df_ner, node_ids = insert_paper_node(paper, node_ids)
-
-				#get author list
-				authors_list = match.find("xpl-authors-name-list")
-				# print('\n', authors_list);
-				authors = authors_list.find_all("a")
-				# print('\n', authors);
-				df_ner, node_ids = insert_author_node( authors, node_ids)
-
-				df_links = insert_link(node_ids)
-
-			pagination = soup.find(class_="pagination-bar")
-			has_next_page = soup.find("li", class_="next-btn")
-			if(matches and has_next_page is None):
-				break;
-			if(has_next_page): 
-				page += 1
-				retry = 0
-				entry_time = 5
-			else: 
-				retry +=1
-				entry_time += 3
-			if(page == 120):
-				has_next_page = None
-				retry = 5
-			# has_next_page = False
-		except Exception as e:
-		    # Error handling and logging
-		    print(f"An error occurred: {str(e)}")
-		    df_error = df_error._append({id: id, "url": url}, ignore_index=True)
-		    df_ner.to_csv('new_node.csv', index=True)
-		    df_links.to_csv('new_link.csv', index=True)
-		    df_queue.to_csv('new_queue.csv', index=True)
-		if( (has_next_page is None or not has_next_page) and retry > 3):
-		 	break;
-
-options = Options()
-options.headless = True
-driver = webdriver.Chrome(options=options) # Setting up the Chrome driver
-driver.implicitly_wait(10)
-
-# search_query = ['haha']
-search_query = ['Big+Data']#,'("Full%20Text%20.AND.%20Metadata":Deep%20Learning)'
-search_query_string = '%20OR%20'.join(search_query)
-
-base_url = 'https://www.researchgate.net/search.Search.htm'
-current_url = base_url + f"?query={search_query_string}"
-driver.get("https://www.google.com")
-scratch_list_data(driver, current_url)
-
-# author_count = 0
-# for index, row in df_queue.iterrows():
-#     if row["type"] == 2:
-#     	author_count += 1
-#     	if author_count > 200:
-#     		continue
-#     	scratch_author_data(row["id"], driver, row["link"])    
-#     if row["type"] == 1:
-#       scratch_paper_data(row["id"], driver, row["link"])
-#     if row["id"] == 1000:
-#     	break
-
-# flag = 0
-# queue_size = len(df_queue)
-
-# while flag < queue_size:
-#     # if df_queue.iloc[flag]["type"] == 2:
-#         # scratch_author_data(df_queue.iloc[flag]["id"], driver, df_queue.iloc[flag]["link"])    
-#     if df_queue.iloc[flag]["type"] == 1:
-#         scratch_paper_data(df_queue.iloc[flag]["id"], driver, df_queue.iloc[flag]["link"])
-#     print(flag)
-#     flag += 1
-
-# scratch_author_data(id, driver, '/author/37277371500')
-# scratch_paper_data(id, driver, '/document/8949228')
+	df_ner.to_csv('after_node.csv', index=True)
+	df_links.to_csv('after_link.csv', index=True)
+	df_queue.to_csv('after_queue.csv', index=True)
+	df_paper.to_csv('after_paper.csv', index=True)
+	df_author.to_csv('after_author.csv', index=True)
+	df_error.to_csv('after_error.csv', index=True)
+	browser.close()
+	browser2.close()
+	browser3.close()
+	file.close()
 
 
-print(df_ner)
-print(df_links)
-# print(matches)
-# print(df_queue)
-# print(df_paper)
-# print(df_author)
-print(df_error)
-
-df_ner.to_csv('new_node_RG.csv', index=True)
-df_links.to_csv('new_link_RG.csv', index=True)
-df_queue.to_csv('new_queue_RG.csv', index=True)
-df_paper.to_csv('new_paper_RG.csv', index=True)
-df_author.to_csv('new_author_RG.csv', index=True)
-
-driver.quit()
