@@ -11,21 +11,29 @@ import copy
 api_key = "68020a7f39dd42fd9dc58971638403e6"
 geocoder = OpenCageGeocode(api_key)
 
-df_acm_links = pd.read_csv('../ACM/new_link.csv', index_col=0)
-df_acm_nodes = pd.read_csv('../ACM/new_node.csv', index_col=0)
-df_acm_author = pd.read_csv('../ACM/new_author.csv', index_col=0)
-df_acm_paper = pd.read_csv('../ACM/new_paper.csv', index_col=0)
+df_acm_links = pd.read_csv('../ACM/after_link3.csv', index_col=0)
+df_acm_nodes = pd.read_csv('../ACM/after_node3.csv', index_col=0)
+df_acm_author = pd.read_csv('../ACM/after_author3.csv', index_col=0)
+df_acm_paper = pd.read_csv('../ACM/after_paper3.csv', index_col=0)
 df_acm_paper = df_acm_paper.set_index('ner_id')
 df_acm_author = df_acm_author.set_index('ner_id')
 base_acm_url = 'https://dl.acm.org'
 
-df_ieee_links = pd.read_csv('../IEEE/new_link.csv', index_col=0)
-df_ieee_nodes = pd.read_csv('../IEEE/new_node.csv', index_col=0)
-df_ieee_author = pd.read_csv('../IEEE/new_author.csv', index_col=0)
-df_ieee_paper = pd.read_csv('../IEEE/new_paper.csv', index_col=0)
+df_ieee_links = pd.read_csv('../IEEE/after_link1.csv', index_col=0)
+df_ieee_nodes = pd.read_csv('../IEEE/after_node1.csv', index_col=0)
+df_ieee_author = pd.read_csv('../IEEE/after_author1.csv', index_col=0)
+df_ieee_paper = pd.read_csv('../IEEE/after_paper1.csv', index_col=0)
 df_ieee_paper = df_ieee_paper.set_index('ner_id')
 df_ieee_author = df_ieee_author.set_index('ner_id')
 base_ieee_url = 'https://ieeexplore.ieee.org'
+
+df_rg_links = pd.read_csv('../RESEARCH_GATE/after_link.csv', index_col=0)
+df_rg_nodes = pd.read_csv('../RESEARCH_GATE/after_node.csv', index_col=0)
+df_rg_author = pd.read_csv('../RESEARCH_GATE/after_author.csv', index_col=0)
+df_rg_paper = pd.read_csv('../RESEARCH_GATE/after_paper.csv', index_col=0)
+df_rg_paper = df_rg_paper.set_index('ner_id')
+df_rg_author = df_rg_author.set_index('ner_id')
+base_rg_url = 'https://www.researchgate.net/'
 
 df_affiliation = pd.DataFrame(columns=['affiliation', 'result'])
 df_affiliation.set_index('affiliation')
@@ -76,7 +84,6 @@ def prepareAuthor(base_url, author):
 				results.append(getAffiliation(affiliation))
 			else:
 				print('\nempty affiliation')
-		print(results)
 		author['affiliation'] = ';'.join(results)
 		print(author['affiliation'])
 	if 'orcid' in author:
@@ -99,11 +106,11 @@ def insertACM():
 				current_id += 1
 				document = df_acm_paper.loc[node["id"]].copy()
 				document_after = prepareDocument(base_acm_url, document)
-				print('\n======document=======\n', document_after)
+				# print('\n======document=======\n', document_after)
 				df_ner = df_ner._append({'id': current_id, 'name': document_after['title'], 'type': 1, 'link': document_after['link'], 'count': int(node['count'])}, ignore_index=True)
 				df_paper = df_paper._append({'ner_id': current_id, 'link': document_after['link'], 'title': document_after['title'], 'doi': document_after['doi']}, ignore_index=True)
 			except KeyError:
-		  		print('\n=====error======\n', node['name'], ' not claim yet!')
+		  		print('\n=====error======\n', current_id, ' not claim yet!')
 		  		df_links = df_links.loc[~((df_links['from'] == node["id"]) | (df_links['to'] == node["id"]))]
 
 		if node["type"] == 2:
@@ -111,11 +118,11 @@ def insertACM():
 				current_id += 1
 				author = df_acm_author.loc[node['id']].copy()
 				author_after = prepareAuthor(base_acm_url, author)
-				print('\n======author=======\n', author_after)
+				# print('\n======author=======\n', author_after)
 				df_ner = df_ner._append({'id': current_id, 'name': author_after['name'], 'type': 2, 'link': author_after['link'], 'count': int(node['count'])}, ignore_index=True)
 				df_author = df_author._append({'ner_id': current_id, 'link': author_after['link'], 'name': author_after['name'], 'affiliation': author_after['affiliation'],'email': author_after['email'], 'orcid': author_after['orcid']}, ignore_index=True)
 			except KeyError:
-				print('\n=====error======\n', node['name'], ' not claim yet!')
+				print('\n=====error======\n', current_id, ' not claim yet!')
 				df_links = df_links.loc[~((df_links['from'] == node["id"]) | (df_links['to'] == node["id"]))]
 				# break;
 
@@ -150,9 +157,41 @@ def insertIEEE():
 				df_links = df_links.loc[~((df_links['from'] == node["id"]) | (df_links['to'] == node["id"]))]
 				# break;
 
+def insertRG(): 
+	global current_id, df_ner, df_paper, df_author , df_links
+	for index, link in df_rg_links.iterrows():
+		df_links = df_links._append({'from': int(link['from']) + current_id , 'to': int(link['to']) + current_id , 'count': int(link['count'])}, ignore_index = True)
+		# print('\n=====', int(link['from']) + current_id, int(link['to']) + current_id)
+
+	for index,node in df_rg_nodes.iterrows():
+		if node["type"] == 1:
+			try:
+				current_id += 1
+				document = df_rg_paper.loc[node["id"]].copy()
+				document_after = prepareDocument(base_rg_url, document)
+				print('\n======document=======\n', document_after)
+				df_ner = df_ner._append({'id': current_id, 'name': document_after['title'], 'type': 1, 'link': document_after['link'], 'count': int(node['count'])}, ignore_index=True)
+				df_paper = df_paper._append({'ner_id': current_id, 'link': document_after['link'], 'title': document_after['title'], 'doi': document_after['doi']}, ignore_index=True)
+			except KeyError:
+		  		print('\n=====error======\n', node['name'], ' not claim yet!')
+		  		df_links = df_links.loc[~((df_links['from'] == node["id"]) | (df_links['to'] == node["id"]))]
+		if node["type"] == 2:
+			try:
+				current_id += 1
+				author = df_rg_author.loc[node['id']].copy()
+				author_after = prepareAuthor(base_rg_url, author)
+				print('\n======author=======\n', author_after)
+				df_ner = df_ner._append({'id': current_id, 'name': author_after['name'], 'type': 2, 'link': author_after['link'], 'count': int(node['count'])}, ignore_index=True)
+				df_author = df_author._append({'ner_id': current_id, 'link': author_after['link'], 'name': author_after['name'], 'affiliation': author_after['affiliation'], 'orcid': author_after['orcid']}, ignore_index=True)
+			except KeyError:
+				print('\n=====error======\n', node['name'], ' not claim yet!')
+				df_links = df_links.loc[~((df_links['from'] == node["id"]) | (df_links['to'] == node["id"]))]
+				# break;
+
 current_id = 0
 insertACM()
 insertIEEE()
+insertRG()
 
 df_ner.to_csv('new_node.csv', index=True)
 df_links.to_csv('new_link.csv', index=True)

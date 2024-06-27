@@ -160,64 +160,64 @@ def scratch_list_data(url):
 		current_url = url + f"/{current_page}"
 		file.write(f"\n\nStart scratching page {current_url}")
 		print(f"\nStart scratching page {current_url}")
-		# try:
-		soup = None
 		try:
-			page1.goto(current_url, timeout=entry_time)
-			soup = BeautifulSoup(page1.content(),'lxml')
-		except Exception:
-			soup = BeautifulSoup(page1.content(),'lxml')
-		publications = soup.find('div', id='research-items').find('div', class_='profile-content-item')
-		matches = publications.find_all("div", class_="nova-legacy-v-publication-item")
-		for match in matches:
-			type = match.find("span", class_="nova-legacy-v-publication-item__badge").text
-			if type is None or type not in content_types:
-				continue;
-			if context2:
-				context2.close()
-			context2 = browser2.new_context()
-			page2 = context2.new_page()
-			title_container = match.find('div', class_='nova-legacy-v-publication-item__title').find('a')
-			paper_link = title_container.get("href")
-			print('\nScratching ', paper_link)
+			soup = None
 			try:
-				node_ids = []
-				#get paper
-				paper_soup = None
-				try:
-					page2.goto(paper_link, timeout=5000)
-					has_show_more = page2.query_selector_all('.js-show-more-authors')
-					if(has_show_more):
-						page2.click('.js-show-more-authors')
-						page2.wait_for_timeout(2000)
-					paper_soup = BeautifulSoup(page2.content(),'lxml')
-				except:
-					paper_soup = BeautifulSoup(page2.content(),'lxml')
-				doi_container = paper_soup.find(class_='research-detail-header-section__metadata-after-square-logo').find('a')
-				if doi_container is None:
-					print('\n Not have doi')
-					continue
-				doi = doi_container.get('href')
-				df_ner, node_ids = insert_paper_node(match, node_ids, doi)
-				df_ner, node_ids = insert_author_node(paper_soup, node_ids)
-				df_links = insert_link(node_ids)
+				page1.goto(current_url, timeout=entry_time)
+				soup = BeautifulSoup(page1.content(),'lxml')
 			except Exception:
-				print('\n Cannot fetch paper', paper_link)
-		pagination = publications.find(class_="nova-legacy-c-card__footer-content")
-		if(pagination is None):
-			break
-		has_next_page = pagination.find("a", attrs={"rel": "next"})
-		if(has_next_page is None):
-			break;
-		else:
-			print('\nhave next page')
-			current_page += 1
-		# except Exception as e:
-		#     # Error handling and logging
-		# 		file.write(f"\nAn error occurred: {str(e)}")
-		# 		print(f"An error occurred: {str(e)}")
-		# 		has_next_page = False
-		# 		retry += 1
+				soup = BeautifulSoup(page1.content(),'lxml')
+			publications = soup.find('div', id='research-items').find('div', class_='profile-content-item')
+			matches = publications.find_all("div", class_="nova-legacy-v-publication-item")
+			for match in matches:
+				type = match.find("span", class_="nova-legacy-v-publication-item__badge").text
+				if type is None or type not in content_types:
+					continue;
+				if context2:
+					context2.close()
+				context2 = browser2.new_context()
+				page2 = context2.new_page()
+				title_container = match.find('div', class_='nova-legacy-v-publication-item__title').find('a')
+				paper_link = title_container.get("href")
+				print('\nScratching ', paper_link)
+				try:
+					node_ids = []
+					#get paper
+					paper_soup = None
+					try:
+						page2.goto(paper_link, timeout=5000)
+						has_show_more = page2.query_selector_all('.js-show-more-authors')
+						if(has_show_more):
+							page2.click('.js-show-more-authors')
+							page2.wait_for_timeout(2000)
+						paper_soup = BeautifulSoup(page2.content(),'lxml')
+					except:
+						paper_soup = BeautifulSoup(page2.content(),'lxml')
+					doi_container = paper_soup.find(class_='research-detail-header-section__metadata-after-square-logo').find('a')
+					if doi_container is None:
+						print('\n Not have doi')
+						continue
+					doi = doi_container.get('href')
+					df_ner, node_ids = insert_paper_node(match, node_ids, doi)
+					df_ner, node_ids = insert_author_node(paper_soup, node_ids)
+					df_links = insert_link(node_ids)
+				except Exception:
+					print('\n Cannot fetch paper', paper_link)
+			pagination = publications.find(class_="nova-legacy-c-card__footer-content")
+			if(pagination is None):
+				break
+			has_next_page = pagination.find("a", attrs={"rel": "next"})
+			if(has_next_page is None):
+				break;
+			else:
+				print('\nhave next page')
+				current_page += 1
+		except Exception as e:
+		    # Error handling and logging
+				file.write(f"\nAn error occurred: {str(e)}")
+				print(f"An error occurred: {str(e)}")
+				has_next_page = False
+				retry += 1
 		if(retry >= 3):
 			break
 	print('\n**************\n',new_author_node_list)
@@ -236,17 +236,17 @@ search_query_string = 'q=Big%2BData'
 base_url = 'https://www.researchgate.net/'
 base_filter_url = "https://www.researchgate.net/search/publication?"
 current_url = base_filter_url + search_query_string
-df_links = pd.read_csv('new_link.csv', index_col=0)
-df_ner = pd.read_csv('new_node.csv', index_col=0)
-df_paper = pd.read_csv('new_paper.csv', index_col=0)
-df_author = pd.read_csv('new_author.csv', index_col=0)
+df_links = pd.read_csv('after_link.csv', index_col=0)
+df_ner = pd.read_csv('after_node.csv', index_col=0)
+df_paper = pd.read_csv('after_paper.csv', index_col=0)
+df_author = pd.read_csv('after_author.csv', index_col=0)
 
 try:
-	df_queue = df_ner[df_ner['type'] == 2].nlargest(20, 'count')
+	df_queue = df_ner[df_ner['type'] == 2].nlargest(50, 'count')
 	print(df_queue)
 	id = len(df_ner)
 	author_count = 0
-	index = 6
+	index = 45
 	while True:
 		if(index == len(df_queue)):
 			break;

@@ -231,7 +231,7 @@ def scratch_list_data(url):
 				break;
 	print('\n**************\n',new_author_node_list)
 	for node in new_author_node_list:
-		new_node = df_ner.loc[df_ner['id'] == node, 'link'].values[2]
+		new_node = df_ner.loc[df_ner['id'] == node, 'link'].values[0]
 		current_url = base_url + new_node + f"/publications?pageSize=50"
 		scratch_list_data(current_url)
 
@@ -249,11 +249,11 @@ df_paper = pd.read_csv('after_paper2.csv', index_col=0)
 df_author = pd.read_csv('after_author2.csv', index_col=0)
 # scratch_author_data(1, '/profile/81442610028')
 try:
-	df_queue = df_ner[df_ner['type'] == 2].nlargest(80, 'count')
+	df_queue = df_ner[df_ner['type'] == 2].nlargest(20, 'count')
 	print(df_queue)
 	id = len(df_ner)
 	author_count = 0
-	index = 79
+	index = 0
 	while True:
 		if(index == len(df_queue)):
 			break;

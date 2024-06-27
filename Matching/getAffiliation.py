@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 from opencage.geocoder import OpenCageGeocode
 
-api_key = "5c39d7a78a4b48e0ababc3d0cfb1d3f3"
+api_key = "5432ddb77ffd4441a00e1be555b2eded"
 geocoder = OpenCageGeocode(api_key)
 
 df_affiliation = pd.read_csv('affiliation.csv')
@@ -12,7 +12,7 @@ df_affiliation.set_index('affiliation', inplace=True)
 print(df_affiliation)
 # df_affiliation = pd.DataFrame(columns=['affiliation', 'result'])
 # df_affiliation.set_index('affiliation')
-df_acm_author = pd.read_csv('../IEEE/after_author1.csv', index_col=0)
+df_acm_author = pd.read_csv('../RESEARCH_GATE/after_author.csv', index_col=0)
 
 def getAffiliation(affiliation):
 	global df_affiliation

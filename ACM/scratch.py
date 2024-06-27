@@ -92,15 +92,18 @@ def insert_author_node(authors, node_ids):
 	for author in authors:
 			author_link = author.find("a").get("href")
 			author_name = author.find("span").text
+			print(author_name)
 			if author_link in df_ner['link'].values:
 				df_ner.loc[df_ner['link'] == author_link, 'count'] += 1
 				file.write(f"\nauthor {author_name} existed")
+				print(f"\nauthor {author_name} existed", df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 				node_ids.append(df_ner.loc[df_ner['link'] == author_link]['id'].values[0])
 			else:
 				id = id + 1
 				node_ids.append(id)
 				df_ner = df_ner._append({'id': id, 'name': author_name,'type': 2, 'link': author_link, 'count': 1}, ignore_index=True)
 				file.write(f"\ninsert author {author_name}")
+				print(f"\ninsert author {author_name}")
 				df_queue = df_queue._append({'id': id, 'type': 2, 'link': author_link}, ignore_index=True)
 				scratch_author_data(id, author_link)
 	return df_ner, node_ids
@@ -139,7 +142,7 @@ def scratch_list_data(url):
 	global id, df_queue, df_ner, df_links, df_error, cookie, page
 	file.write(f"\n\nstart scratching {url}")
 	print(f"\nstart scratching {url}")
-	page_number = 10
+	page_number = 0
 	has_next_page = False
 	retry = 1
 	entry_time = 15000
@@ -177,7 +180,7 @@ def scratch_list_data(url):
 				#get author list
 				authors = match.find_all("span", class_="hlFld-ContribAuthor")
 				df_ner, node_ids = insert_author_node( authors, node_ids)
-
+				print(node_ids)
 				df_links = insert_link(node_ids)
 
 			pagination = soup.find(class_="pagination")
@@ -210,10 +213,10 @@ def scratch_list_data(url):
 				break;
 
 # search_query = ['haha']
-df_links = pd.read_csv('new_link.csv', index_col=0)
-df_ner = pd.read_csv('new_node.csv', index_col=0)
-df_paper = pd.read_csv('new_paper.csv', index_col=0)
-df_author = pd.read_csv('new_author.csv', index_col=0)
+# df_links = pd.read_csv('new_link.csv', index_col=0)
+# df_ner = pd.read_csv('new_node.csv', index_col=0)
+# df_paper = pd.read_csv('new_paper.csv', index_col=0)
+# df_author = pd.read_csv('new_author.csv', index_col=0)
 
 search_query_string = '&field1=AllField&text1=Big+Data'
 base_filter_url = "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AfterYear=2010&BeforeYear=2024&pageSize=50"
@@ -235,12 +238,12 @@ finally:
 	file.write(df_paper.to_string())
 	file.write(df_author.to_string())
 	file.write(df_error.to_string())
-	df_ner.to_csv('new_node.csv', index=True)
-	df_links.to_csv('new_link.csv', index=True)
-	df_queue.to_csv('new_queue.csv', index=True)
-	df_paper.to_csv('new_paper.csv', index=True)
-	df_author.to_csv('new_author.csv', index=True)
-	df_error.to_csv('error.csv', index=True)
+	df_ner.to_csv('new_node1.csv', index=True)
+	df_links.to_csv('new_link1.csv', index=True)
+	df_queue.to_csv('new_queue1.csv', index=True)
+	df_paper.to_csv('new_paper1.csv', index=True)
+	df_author.to_csv('new_author1.csv', index=True)
+	df_error.to_csv('error1.csv', index=True)
 	print('/n close driver')
 	browser.close()
 	browser2.close()

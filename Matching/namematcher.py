@@ -33,7 +33,7 @@ class NameMatcher:
 		# Users may wish to adjust and experiment with them on their own dataset.
 		# Detailed parameter explanations will be provided in the README file.
 		self.params = {'weights':[0.25, 0.7, 0.05],
-					  'disc_abbrev':0.2, 'disc_abbrev_notstart':0.2,
+					  'disc_abbrev':1, 'disc_abbrev_notstart':1,
 					  'disc_missing_fname':0.7, 'disc_missing_mname':0.95,
 					  'disc_missing_nickname':0.8, 'disc_initial':0.6,
 					  'disc_initial_mismatch':0.1, 'disc_acronym':0.1}
@@ -158,6 +158,8 @@ class NameMatcher:
 	def _max_substr_sim(self, str1, str2):
 		if len(str1)==0 or len(str2)==0: return 0
 		(shorter, longer) = sorted([str1, str2], key=lambda x:len(x))
+		if(shorter not in longer):
+			return 0
 		subsims = []
 		for i in range(len(longer) - len(shorter) + 1):
 			subsims.append(1 - self.distfun(shorter, longer[i:i+len(shorter)]))
@@ -221,3 +223,5 @@ class NameMatcher:
 		return (name_dict['last_name'] + ', ' \
 				+ ' '.join(name_dict['first_names']) + ' ' \
 				+ name_dict['suffix']).strip()
+
+# print(NameMatcher().match_names('Shaoling Sun', 'Chunling Sun'))
